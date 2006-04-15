@@ -15,6 +15,7 @@ if( defined( 'MEDIAWIKI' ) ) {
 
 	require_once( 'SpecialPage.php' );
 	$wgExtensionFunctions[] = 'efNewestPages';
+	$wgExtensionCredits['specialpage'][] = array( 'name' => 'Newest Pages', 'author' => 'Rob Church', 'url' => 'http://meta.wikimedia.org/wiki/Newest_Pages_%28extension%29' );
 	
 	function efNewestPages() {
 		global $wgMessageCache;
