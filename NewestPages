@@ -1,6 +1,6 @@
 NEWEST PAGES EXTENSION
 
-	Version 1.0
+	Version 1.1
 	© 2006 Rob Church
 
 This is free software licensed under the GNU General Public Licence. Please
@@ -75,3 +75,7 @@ Feedback welcomed at <robchur@gmail.com> as usual.
 15/04/2006
 Version 1.0
 	* Initial release
+	
+30/04/2006
+Version 1.1
+	* Fix issues when using a table prefix

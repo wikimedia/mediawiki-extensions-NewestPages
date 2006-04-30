@@ -47,7 +47,8 @@ if( defined( 'MEDIAWIKI' ) ) {
 			}
 
 			$dbr =& wfGetDB( DB_SLAVE );
-			$res = $dbr->query( "SELECT page_namespace, page_title FROM page WHERE page_namespace != 8 ORDER BY page_id DESC LIMIT 0,{$this->limit}" );
+			$page = $dbr->tableName( 'page' );
+			$res = $dbr->query( "SELECT page_namespace, page_title FROM $page WHERE page_namespace != 8 ORDER BY page_id DESC LIMIT 0,{$this->limit}" );
 			$count = $dbr->numRows( $res );
 			if( $count > 0 ) {
 				# Make list
