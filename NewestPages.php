@@ -14,17 +14,15 @@
 if( defined( 'MEDIAWIKI' ) ) {
 
 	require_once( 'SpecialPage.php' );
+	require_once( 'NewestPages.i18n.php' );
 	$wgExtensionFunctions[] = 'efNewestPages';
 	$wgExtensionCredits['specialpage'][] = array( 'name' => 'Newest Pages', 'author' => 'Rob Church', 'url' => 'http://meta.wikimedia.org/wiki/Newest_Pages_%28extension%29' );
+	$wgNewestPagesLimit = 50;
 	
 	function efNewestPages() {
-		global $wgMessageCache;
+		global $wgMessageCache, $wgNewestPagesMessages;
+		$wgMessageCache->addMessages( $wgNewestPagesMessages );
 		SpecialPage::addPage( new NewestPages() );
-		$wgMessageCache->addMessage( 'newestpages', 'Newest pages' );
-		$wgMessageCache->addMessage( 'newestpages-header', "'''This page lists the $1 newest pages on the wiki.'''" );
-		$wgMessageCache->addMessage( 'newestpages-limitlinks', 'Show up to $1 pages' );
-		$wgMessageCache->addMessage( 'newestpages-showing', 'Found $1 pages; listing newest first:' );
-		$wgMessageCache->addMessage( 'newestpages-none', 'No entries were found.' );
 	}
 	
 	class NewestPages extends IncludableSpecialPage {
@@ -63,7 +61,7 @@ if( defined( 'MEDIAWIKI' ) ) {
 			}
 			$dbr->freeResult( $res );			
 		}
-
+	
 		function setLimit( $par ) {
 			if( $par ) {
 				$this->limit = intval( $par );
@@ -75,6 +73,7 @@ if( defined( 'MEDIAWIKI' ) ) {
 					$this->limit = 50;
 				}
 			}
+			$this->limit = min( $this->limit, 5000 );
 		}
 		
 		function makeListItem( $row ) {
