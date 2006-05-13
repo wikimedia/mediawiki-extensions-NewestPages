@@ -14,6 +14,7 @@ $wgNewestPagesMessages = array(
 
 'newestpages' => 'Newest pages',
 'newestpages-header' => "'''This page lists the $1 newest pages on the wiki.'''",
+'newestpages-ns-header' => "'''This page lists the $1 newest pages in the $2 namespace.'''",
 'newestpages-limitlinks' => 'Show up to $1 pages',
 'newestpages-showing' => 'Found $1 pages; listing newest first:',
 'newestpages-none' => 'No entries were found.',

@@ -55,7 +55,17 @@ customise the limit here, use the following syntax:
 
 	{{Special:Newestpages/X}}
 
-where X is the desired limit.
+where X is the desired limit. To set the namespace to be used, pass this
+instead, e.g.
+
+	{{Special:Newestpages/User}}
+	
+would show the newest pages in the user namespace. Use - to select the main
+namespace. To select a namespace AND set a limit, use syntax similar to the
+following:
+
+	{{Special:Newestpages/User/5}}
+	{{Special:Newestpages/5/User}}
 
 == 5. Customising the interface text ==
 
@@ -98,3 +108,7 @@ Version 1.2
 	* Moved internationalisation into a separate file
 	* Add absolute limit of 5000 pages, for performance
 	* Allow the default limit to be customised
+
+13/05/2006
+Version 1.3
+	* Allow the namespace to be customised

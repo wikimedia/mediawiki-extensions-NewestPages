@@ -27,53 +27,87 @@ if( defined( 'MEDIAWIKI' ) ) {
 	
 	class NewestPages extends IncludableSpecialPage {
 	
-		var $limit = 50;
+		var $limit = 0;
+		var $namespace = -1;
 	
 		function NewestPages() {
+			global $wgNewestPagesLimit;
+			$this->limit = $wgNewestPagesLimit;
 			SpecialPage::SpecialPage( 'Newestpages', '', true, false, 'default', true );
 		}
 	
 		function execute( $par ) {
-			global $wgOut;
-			$this->setLimit( $par );
+			global $wgRequest, $wgNewestPagesLimit, $wgOut, $wgContLang;
+			
+			# Decipher input passed to the page
+			$this->decipherParams( $par );
+			$this->setOptions( $wgRequest );
+			
+			# Enforce an absolute limit for performance
+			$this->limit = min( $this->limit, $wgNewestPagesLimit );
 			
 			# Don't show the navigation if we're including the page		
 			if( !$this->mIncluding ) {
 				$this->setHeaders();
-				$wgOut->addWikiText( wfMsg( 'newestpages-header', $this->limit ) );
+				if( $this->namespace > 0 ) {
+					$wgOut->addWikiText( wfMsg( 'newestpages-ns-header', $this->limit, $wgContLang->getFormattedNsText( $this->namespace ) ) );
+				} else {
+					$wgOut->addWikiText( wfMsg( 'newestpages-header', $this->limit ) );
+				}
 				$wgOut->addHTML( $this->makeLimitLinks() );
 			}
 
 			$dbr =& wfGetDB( DB_SLAVE );
 			$page = $dbr->tableName( 'page' );
-			$res = $dbr->query( "SELECT page_namespace, page_title FROM $page WHERE page_namespace != 8 ORDER BY page_id DESC LIMIT 0,{$this->limit}" );
+			$nsf = $this->getNsFragment();
+			$res = $dbr->query( "SELECT page_namespace, page_title FROM $page WHERE {$nsf} ORDER BY page_id DESC LIMIT 0,{$this->limit}" );
 			$count = $dbr->numRows( $res );
 			if( $count > 0 ) {
 				# Make list
 				if( !$this->mIncluding )
 					$wgOut->addWikiText( wfMsg( 'newestpages-showing', $count ) );
-				$wgOut->addHTML( "<ol>\n" );
+				$wgOut->addHTML( "<ol>" );
 				while( $row = $dbr->fetchObject( $res ) )
 					$wgOut->addHTML( $this->makeListItem( $row ) );
-				$wgOut->addHTML( "</ol>\n" );
+				$wgOut->addHTML( "</ol>" );
 			} else {
 				$wgOut->addWikiText( wfMsg( 'newestpages-none' ) );
 			}
 			$dbr->freeResult( $res );			
 		}
 	
-		function setLimit( $par ) {
+		function setOptions( &$req ) {
+			if( $limit = $req->getIntOrNull( 'limit' ) )
+				$this->limit = $limit;
+			if( $ns = $req->getText( 'namespace', NULL ) )
+				$this->setNamespace( $ns );
+		}
+		
+		function decipherParams( $par ) {
 			if( $par ) {
-				$this->limit = intval( $par );
-			} else {
-				global $wgRequest;
-				if( $limit = $wgRequest->getIntOrNull( 'limit' ) ) {
-					$this->limit = $limit;
-				} else {
-					$this->limit = 50;
+				$bits = explode( '/', $par );
+				foreach( $bits as $bit ) {
+					if( is_numeric( $bit ) ) {
+						$this->limit = (int)$bit;
+					} else {
+						$this->setNamespace( $bit );
+					}
 				}
 			}
-			$this->limit = min( $this->limit, 5000 );
+		}
+		
+		function setNamespace( $nst ) {
+			global $wgContLang;
+			$nsi = $wgContLang->getNsIndex( $nst );
+			if( $nsi !== false )
+				$this->namespace = $nsi;
+			if( $nst == '-' )
+				$this->namespace = NS_MAIN;
+		}
+		
+		function getNsFragment() {
+			$this->namespace = (int)$this->namespace;
+			return $this->namespace > -1 ? "page_namespace = {$this->namespace}" : "page_namespace != 8";
 		}
 		
 		function makeListItem( $row ) {
@@ -102,7 +136,7 @@ if( defined( 'MEDIAWIKI' ) ) {
 			}
 			return( wfMsgHtml( 'newestpages-limitlinks', implode( ' | ', $links ) ) );
 		}
-	
+		
 	}
 
 } else {
