@@ -141,7 +141,7 @@ if( defined( 'MEDIAWIKI' ) ) {
 
 } else {
 	echo( "This is an extension to the MediaWiki package and cannot be run standalone.\n" );
-	die( -1 );
+	die( 1 );
 }
 
 ?>
