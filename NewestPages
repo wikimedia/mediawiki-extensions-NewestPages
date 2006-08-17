@@ -1,6 +1,6 @@
 NEWEST PAGES EXTENSION
 
-	Version 1.4
+	Version 1.5
 	© 2006 Rob Church
 
 This is free software licensed under the GNU General Public Licence. Please
@@ -81,7 +81,7 @@ interface messages in the wiki.
 The default page limit for the extension can be altered using the
 $wgNewestPagesLimit variable, e.g.
 
- $wgNewestPages = 500;
+ $wgNewestPagesLimit = 500;
  
 sets the default limit to be 500. This should be set after the call
 to include the extension file. The default remains at 50 pages, and there
@@ -120,3 +120,8 @@ Version 1.3
 Version 1.4
 	* Backwards-compatible support for class autoloading with 1.7.0+
 	* Expose namespace filtering when in normal view mode
+	
+17/08/2006
+Version 1.5
+	* Wrap links to redirect pages in <span class="allpagesredirect">
+	* Changes to default message text

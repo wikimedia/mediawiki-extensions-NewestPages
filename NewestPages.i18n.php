@@ -18,7 +18,7 @@ function efNewestPagesMessages() {
 'newestpages-namespace' => 'Namespace:',
 'newestpages-none' => 'No entries were found.',
 'newestpages-ns-header' => "'''This page lists the $1 newest pages in the $2 namespace.'''",
-'newestpages-showing' => 'Found $1 pages; listing newest first:',
+'newestpages-showing' => 'Listing $1 newest pages:',
 'newestpages-submit' => 'Go',
 
 	);

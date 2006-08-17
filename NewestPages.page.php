@@ -42,7 +42,7 @@ class NewestPages extends IncludableSpecialPage {
 		$dbr =& wfGetDB( DB_SLAVE );
 		$page = $dbr->tableName( 'page' );
 		$nsf = $this->getNsFragment();
-		$res = $dbr->query( "SELECT page_namespace, page_title FROM $page WHERE {$nsf} ORDER BY page_id DESC LIMIT 0,{$this->limit}" );
+		$res = $dbr->query( "SELECT page_namespace, page_title, page_is_redirect FROM $page WHERE {$nsf} ORDER BY page_id DESC LIMIT 0,{$this->limit}" );
 		$count = $dbr->numRows( $res );
 		if( $count > 0 ) {
 			# Make list
@@ -106,7 +106,9 @@ class NewestPages extends IncludableSpecialPage {
 		$title = Title::makeTitleSafe( $row->page_namespace, $row->page_title );
 		if( !is_null( $title ) ) {
 			$skin = $wgUser->getSkin();
-			$link = $skin->makeKnownLinkObj( $title );
+			$link = $row->page_is_redirect
+					? '<span class="allpagesredirect">' . $skin->makeKnownLinkObj( $title ) . '</span>'
+					: $skin->makeKnownLinkObj( $title );
 			return( "<li>{$link}</li>\n" );
 		} else {
 			return( "<!-- Invalid title " . htmlspecialchars( $row->page_title ) . " in namespace " . htmlspecialchars( $row->page_namespace ) . " -->\n" );
