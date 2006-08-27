@@ -13,7 +13,7 @@
  
 if( defined( 'MEDIAWIKI' ) ) {
 
-	$wgExtensionCredits['specialpage'][] = array( 'name' => 'Newest Pages', 'author' => 'Rob Church', 'url' => 'http://meta.wikimedia.org/wiki/Newest_Pages_%28extension%29' );
+	$wgExtensionCredits['specialpage'][] = array( 'name' => 'Newest Pages', 'author' => 'Rob Church', 'url' => 'http://www.mediawiki.org/wiki/Newest_Pages' );
 	require_once( 'NewestPages.i18n.php' );
 	$wgExtensionFunctions[] = 'efNewestPages';
 
