@@ -1,6 +1,6 @@
 NEWEST PAGES EXTENSION
 
-	Version 1.5
+	Version 1.6
 	© 2006 Rob Church
 
 This is free software licensed under the GNU General Public Licence. Please
@@ -45,6 +45,9 @@ supplied limit links, or with the 'limit' parameter in the page URL.
 
 To filter according to namespace, use the namespace selector and click Go, or
 alter the 'namespace' parameter in the page URL.
+
+You can opt to exclude redirect pages from the results using the "show/hide
+redirects" links at the top of the page.
 
 == 4. Including the special page ==
 
@@ -125,3 +128,8 @@ Version 1.4
 Version 1.5
 	* Wrap links to redirect pages in <span class="allpagesredirect">
 	* Changes to default message text
+	
+27/08/2006
+Version 1.6
+	* Allow user to exclude redirects from results
+	* Minor tweaks to HTML

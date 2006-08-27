@@ -15,6 +15,7 @@ class NewestPages extends IncludableSpecialPage {
 
 	var $limit = NULL;
 	var $namespace = NULL;
+	var $redirects = NULL;
 
 	function NewestPages() {
 		SpecialPage::SpecialPage( 'Newestpages', '', true, false, 'default', true );
@@ -36,13 +37,15 @@ class NewestPages extends IncludableSpecialPage {
 				$wgOut->addWikiText( wfMsg( 'newestpages-header', $this->limit ) );
 			}
 			$wgOut->addHtml( $this->makeNamespaceForm() );
-			$wgOut->addHtml( $this->makeLimitLinks() );
+			$wgOut->addHtml( '<p>' . $this->makeLimitLinks() );
+			$wgOut->addHtml( '<br />' . $this->makeRedirectToggle() . '</p>' );
 		}
 
 		$dbr =& wfGetDB( DB_SLAVE );
 		$page = $dbr->tableName( 'page' );
 		$nsf = $this->getNsFragment();
-		$res = $dbr->query( "SELECT page_namespace, page_title, page_is_redirect FROM $page WHERE {$nsf} ORDER BY page_id DESC LIMIT 0,{$this->limit}" );
+		$redir = $this->redirects ? '' : ' AND page_is_redirect = 0';
+		$res = $dbr->query( "SELECT page_namespace, page_title, page_is_redirect FROM $page WHERE {$nsf}{$redir} ORDER BY page_id DESC LIMIT 0,{$this->limit}" );
 		$count = $dbr->numRows( $res );
 		if( $count > 0 ) {
 			# Make list
@@ -64,6 +67,8 @@ class NewestPages extends IncludableSpecialPage {
 			$this->limit = $this->sanitiseLimit( $req->getInt( 'limit', $wgNewestPagesLimit ) );
 		if( !isset( $this->namespace ) )
 			$this->namespace = $this->extractNamespace( $req->getVal( 'namespace', -1 ) );
+		if( !isset( $this->redirects ) )
+			$this->redirects = (bool)$req->getInt( 'redirects', 1 );
 	}
 	
 	function sanitiseLimit( $limit ) {
@@ -116,9 +121,6 @@ class NewestPages extends IncludableSpecialPage {
 	}
 
 	function makeLimitLinks() {
-		global $wgUser;
-		$skin = $wgUser->getSkin();
-		$title = Title::makeTitle( NS_SPECIAL, 'Newestpages' );
 		$limits = array( 10, 20, 30, 50, 100, 150 );
 		foreach( $limits as $limit ) {
 			if( $limit != $this->limit ) {
@@ -130,12 +132,19 @@ class NewestPages extends IncludableSpecialPage {
 		return( wfMsgHtml( 'newestpages-limitlinks', implode( ' | ', $links ) ) );
 	}
 	
+	function makeRedirectToggle() {
+		$label = wfMsgHtml( $this->redirects ? 'newestpages-hideredir' : 'newestpages-showredir' );
+		return $this->makeSelfLink( $label, 'redirects', (int)!$this->redirects );
+	}
+	
 	function makeSelfLink( $label, $oname = false, $oval = false ) {
 		global $wgUser;
 		$skin =& $wgUser->getSkin();
 		$self = Title::makeTitle( NS_SPECIAL, $this->getName() );
 		$attr['limit'] = $this->limit;
 		$attr['namespace'] = $this->namespace;
+		if( !$this->redirects )
+			$attr['redirects'] = 0;
 		if( $oname )
 			$attr[$oname] = $oval;
 		foreach( $attr as $aname => $aval )
@@ -149,6 +158,7 @@ class NewestPages extends IncludableSpecialPage {
 		$form .= wfLabel( wfMsg( 'newestpages-namespace' ), 'namespace' ) . '&nbsp;';
 		$form .= htmlNamespaceSelector( $this->namespace, 'all' );
 		$form .= wfHidden( 'limit', $this->limit );
+		$form .= wfHidden( 'redirects', $this->redirects );
 		$form .= wfSubmitButton( wfMsg( 'newestpages-submit' ) ) . '</form>';
 		return $form;
 	}

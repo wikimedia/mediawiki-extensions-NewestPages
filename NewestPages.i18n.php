@@ -20,6 +20,8 @@ function efNewestPagesMessages() {
 'newestpages-ns-header' => "'''This page lists the $1 newest pages in the $2 namespace.'''",
 'newestpages-showing' => 'Listing $1 newest pages:',
 'newestpages-submit' => 'Go',
+'newestpages-showredir' => 'Show redirect pages',
+'newestpages-hideredir' => 'Hide redirect pages',
 
 	);
 }
