@@ -9,9 +9,10 @@
  * @licence GNU General Public Licence 2.0
  */
 
-function efNewestPagesMessages() {
-	return array(
+function efNewestPagesMessages( $single = false ) {
+	$messages = array(
 
+'en' => array(
 'newestpages' => 'Newest pages',
 'newestpages-header' => "'''This page lists the $1 newest pages on the wiki.'''",
 'newestpages-limitlinks' => 'Show up to $1 pages',
@@ -22,8 +23,10 @@ function efNewestPagesMessages() {
 'newestpages-submit' => 'Go',
 'newestpages-showredir' => 'Show redirect pages',
 'newestpages-hideredir' => 'Hide redirect pages',
+),
 
 	);
+	return $single ? $messages['en'] : $messages;
 }
 
 ?>

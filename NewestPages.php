@@ -29,7 +29,12 @@ if( defined( 'MEDIAWIKI' ) ) {
 	
 	function efNewestPages() {
 		global $wgMessageCache, $wgVersion;
-		$wgMessageCache->addMessages( efNewestPagesMessages() );
+		if( version_compare( $wgVersion, '1.8.0', '<' ) ) {
+			$wgMessageCache->addMessages( efNewestPagesMessages( true ) );
+		} else {
+			foreach( efNewestPagesMessages() as $lang => $messages )
+				$wgMessageCache->addMessages( $messages, $lang );
+		}
 		if( version_compare( $wgVersion, '1.7.0', '<' ) )
 			SpecialPage::addPage( new NewestPages() );
 	}
