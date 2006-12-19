@@ -12,6 +12,7 @@
 function efNewestPagesMessages( $single = false ) {
 	$messages = array(
 
+/* English (Rob Church) */
 'en' => array(
 'newestpages' => 'Newest pages',
 'newestpages-header' => "'''This page lists the $1 newest pages on the wiki.'''",
@@ -23,6 +24,20 @@ function efNewestPagesMessages( $single = false ) {
 'newestpages-submit' => 'Go',
 'newestpages-showredir' => 'Show redirect pages',
 'newestpages-hideredir' => 'Hide redirect pages',
+),
+
+/* Italian (BrokenArrow) */
+'it' => array(
+'newestpages' => 'Pagine più recenti',
+'newestpages-header' => "'''In questa pagina vengono elencate le $1 pagine create più di recente nel sito.'''",
+'newestpages-limitlinks' => 'Mostra fino a $1 pagine',
+'newestpages-namespace' => 'Namespace:',
+'newestpages-none' => 'Nessuna pagina trovata.',
+'newestpages-ns-header' => "'''In questa pagina vengono elencate le $1 pagine create più di recente nel namespace $2.'''",
+'newestpages-showing' => 'Elenco delle $1 pagine create più di recente:',
+'newestpages-submit' => 'Vai',
+'newestpages-showredir' => 'Mostra i redirect',
+'newestpages-hideredir' => 'Nascondi i redirect',
 ),
 
 	);
