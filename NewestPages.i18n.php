@@ -26,6 +26,20 @@ function efNewestPagesMessages( $single = false ) {
 'newestpages-hideredir' => 'Hide redirect pages',
 ),
 
+/* Finnish (Niklas Laxström) */
+'fi' => array(
+'newestpages' => 'Uusimmat sivut',
+'newestpages-header' => "'''Tällä sivulla on luettelo $1 uusimmasta sivusta tässä wikissä.'''",
+'newestpages-limitlinks' => 'Näytä enintään $1 sivua',
+'newestpages-namespace' => 'Nimiavaruus:',
+'newestpages-none' => 'Ei uusia sivuja.',
+'newestpages-ns-header' => "'''Tällä sivulla on luettelo $1 uusimmasta sivusta nimiavaruudessa $2.'''",
+'newestpages-showing' => 'Näytetään $1 uusinta sivua:',
+'newestpages-submit' => 'Hae',
+'newestpages-showredir' => 'Näytä uudelleenohjaukset',
+'newestpages-hideredir' => 'Piilota uudelleenohjaukset',
+),
+
 /* French (Bertrand GRONDIN) */
 'fr' => array(
 'newestpages' => 'Pages les plus récentes',
