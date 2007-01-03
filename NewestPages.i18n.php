@@ -54,6 +54,20 @@ function efNewestPagesMessages( $single = false ) {
 'newestpages-hideredir' => 'Cacher les pages de redirect.',
 ),
 
+/* Indonesian (Ivan Lanin) */
+'id' => array(
+'newestpages' => 'Halaman terbaru',
+'newestpages-header' => "'''Halaman ini memberikan daftar $1 halaman terbaru di wiki ini.'''",
+'newestpages-limitlinks' => 'Menampilkan sampai $1 halaman',
+'newestpages-namespace' => 'Ruang nama:',
+'newestpages-none' => 'Tidak ditemukan entri.',
+'newestpages-ns-header' => "'''Halaman ini memberikan daftar $1 halaman terbaru di ruang nama $2.'''",
+'newestpages-showing' => 'Menampilkan $1 halaman terbaru:',
+'newestpages-submit' => 'Cari',
+'newestpages-showredir' => 'Tampilkan halaman pengalihan',
+'newestpages-hideredir' => 'Sembunyikan halaman pengalihan',
+),
+
 /* Italian (BrokenArrow) */
 'it' => array(
 'newestpages' => 'Pagine più recenti',
