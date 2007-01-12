@@ -82,6 +82,20 @@ function efNewestPagesMessages( $single = false ) {
 'newestpages-hideredir' => 'Nascondi i redirect',
 ),
 
+/* Portuguese (Lugusto) */
+'pt' => array(
+'newestpages' => 'Páginas novas',
+'newestpages-header' => "'''Esta página lista as $1 páginas mais recentes deste wiki.'''",
+'newestpages-limitlinks' => 'Exibir até $1 páginas',
+'newestpages-namespace' => 'Espaço nominal:',
+'newestpages-none' => 'Não foram encontrados resultados.',
+'newestpages-ns-header' => "'''Esta página lista as $1 páginas mais recentes do espaço nominal $2.'''",
+'newestpages-showing' => 'Listando as $1 páginas mais recentes:',
+'newestpages-submit' => 'Ir',
+'newestpages-showredir' => 'Exibir redireccionamentos',
+'newestpages-hideredir' => 'Ocultar redireccionamentos',
+),
+
 	);
 	return $single ? $messages['en'] : $messages;
 }
