@@ -44,14 +44,14 @@ function efNewestPagesMessages( $single = false ) {
 'fr' => array(
 'newestpages' => 'Pages les plus récentes',
 'newestpages-header' => "'''Cette pages liste les $1 pages les plus récentes sur le wiki.'''",
-'newestpages-limitlinks' => 'Afficher jusqu\'à $1 pages',
-'newestpages-namespace' => 'Espace Wiki:',
-'newestpages-none' => 'Aucune page n\'a été trouvée',
-'newestpages-ns-header' => "'''Cette page liste les $1 pages les plus récente dans l'espace $2.'''",
-'newestpages-showing' => 'Affichage des $1 pages les plus récentes:',
+'newestpages-limitlinks' => 'Afficher jusqu’à $1 pages',
+'newestpages-namespace' => 'Espace Wiki :',
+'newestpages-none' => 'Aucune page n’a été trouvée',
+'newestpages-ns-header' => "'''Cette page liste les $1 pages les plus récente dans l’espace $2.'''",
+'newestpages-showing' => 'Affichage des $1 pages les plus récentes :',
 'newestpages-submit' => 'Lancer',
-'newestpages-showredir' => 'Afficher les pages de redirect.',
-'newestpages-hideredir' => 'Cacher les pages de redirect.',
+'newestpages-showredir' => 'Afficher les pages de redirection.',
+'newestpages-hideredir' => 'Cacher les pages de redirection.',
 ),
 
 /* Indonesian (Ivan Lanin) */
