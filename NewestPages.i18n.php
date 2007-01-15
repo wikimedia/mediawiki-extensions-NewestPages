@@ -26,6 +26,20 @@ function efNewestPagesMessages( $single = false ) {
 'newestpages-hideredir' => 'Hide redirect pages',
 ),
 
+/* German (Markus Klatt) */
+'de' => array(
+'newestpages' => 'Neueste Seiten',
+'newestpages-header' => "'''Diese Seite listet die $1 neuesten Seiten dieses Wikis auf.'''",
+'newestpages-limitlinks' => 'Zeige $1 Seiten',
+'newestpages-namespace' => 'Namensraum:',
+'newestpages-none' => 'Kein Eintrag gefunden.',
+'newestpages-ns-header' => "'''Diese Seite listet die $1 neuesten Seiten im Namensraum $2 auf.'''",
+'newestpages-showing' => 'Die $1 neuesten Seiten:',
+'newestpages-submit' => 'Suchen',
+'newestpages-showredir' => 'Weiterleitungsseiten anzeigen',
+'newestpages-hideredir' => 'Weiterleitungsseiten ausblenden',
+),
+
 /* Finnish (Niklas Laxström) */
 'fi' => array(
 'newestpages' => 'Uusimmat sivut',
