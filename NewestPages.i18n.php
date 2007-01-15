@@ -110,6 +110,48 @@ function efNewestPagesMessages( $single = false ) {
 'newestpages-hideredir' => 'Ocultar redireccionamentos',
 ),
 
+/* Serbian default (Sasa Stefanovic) */
+'sr' => array(
+'newestpages' => 'Најновије странице',
+'newestpages-header' => "'''Ова страница показује $1 најновијих страница на Вики.'''",
+'newestpages-limitlinks' => 'Прикажи $1 страница',
+'newestpages-namespace' => 'Именски простор:',
+'newestpages-none' => 'Није ништа пронађено.',
+'newestpages-ns-header' => "'''Ова страница показује $1 најновијих страница у $2 именском простору.'''",
+'newestpages-showing' => 'Приказ $1 најновијих страница:',
+'newestpages-submit' => 'Иди',
+'newestpages-showredir' => 'Прикажи странице преусмерења',
+'newestpages-hideredir' => 'Сакриј странице преусмерења',
+),
+
+/* Serbian cyrillic (Sasa Stefanovic) */
+'sr-ec' => array(
+'newestpages' => 'Најновије странице',
+'newestpages-header' => "'''Ова страница показује $1 најновијих страница на Вики.'''",
+'newestpages-limitlinks' => 'Прикажи $1 страница',
+'newestpages-namespace' => 'Именски простор:',
+'newestpages-none' => 'Није ништа пронађено.',
+'newestpages-ns-header' => "'''Ова страница показује $1 најновијих страница у $2 именском простору.'''",
+'newestpages-showing' => 'Приказ $1 најновијих страница:',
+'newestpages-submit' => 'Иди',
+'newestpages-showredir' => 'Прикажи странице преусмерења',
+'newestpages-hideredir' => 'Сакриј странице преусмерења',
+),
+
+/* Serbian latin (Sasa Stefanovic) */
+'sr-el' => array(
+'newestpages' => 'Najnovije stranice',
+'newestpages-header' => "'''Ova stranica pokazuje $1 najnovijih stranica na Viki.'''",
+'newestpages-limitlinks' => 'Prikaži $1 stranica',
+'newestpages-namespace' => 'Imenski prostor:',
+'newestpages-none' => 'Nije ništa pronađeno.',
+'newestpages-ns-header' => "'''Ova stranica pokazuje $1 najnovijih stranica u $2 imenskom prostoru.'''",
+'newestpages-showing' => 'Prikaz $1 najnovijih stranica:',
+'newestpages-submit' => 'Idi',
+'newestpages-showredir' => 'Prikaži stranice preusmerenja',
+'newestpages-hideredir' => 'Sakrij stranice preusmerenja',
+),
+
 	);
 	return $single ? $messages['en'] : $messages;
 }
