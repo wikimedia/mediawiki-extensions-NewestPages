@@ -4,8 +4,7 @@
  * Class definition file for the Newest Pages extension
  * This doesn't use recent changes so the items don't expire
  *
- * @package MediaWiki
- * @subpackage Extensions
+ * @addtogroup Extensions
  * @author Rob Church <robchur@gmail.com>
  * @copyright © 2006 Rob Church
  * @licence GNU General Public Licence 2.0
