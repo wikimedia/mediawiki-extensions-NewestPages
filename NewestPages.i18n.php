@@ -109,6 +109,20 @@ function efNewestPagesMessages( $single = false ) {
 'newestpages-hideredir' => 'Ocultar redireccionamentos',
 ),
 
+/* Slovak (helix84) */
+'sk' => array(
+'newestpages' => 'Najnovšie stránky',
+'newestpages-header' => "'''Toto je zoznam $1 najnovších stránok na wiki.'''",
+'newestpages-limitlinks' => 'Zobraziť najviac $1 stránok',
+'newestpages-namespace' => 'Menný priestor:',
+'newestpages-none' => 'Neboli nájdené žiadne záznamy.',
+'newestpages-ns-header' => "'''Toto je zoznam $1 najnovších stránok v mennom priestore $2.'''",
+'newestpages-showing' => 'Zoznam $1 najnovších stránok:',
+'newestpages-submit' => 'Choď',
+'newestpages-showredir' => 'Zobraziť presmerovacie stránky',
+'newestpages-hideredir' => 'Skryť presmerovacie stránky',
+),
+
 /* Serbian default (Sasa Stefanovic) */
 'sr' => array(
 'newestpages' => 'Најновије странице',
