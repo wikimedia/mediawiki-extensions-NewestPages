@@ -95,6 +95,20 @@ function efNewestPagesMessages( $single = false ) {
 'newestpages-hideredir' => 'Nascondi i redirect',
 ),
 
+/* nld / Dutch (Siebrand Mazeland) */
+'en' => array(
+'newestpages' => 'Nieuwe pagina\'s',
+'newestpages-header' => "'''Op deze pagina staan de $1 meest recent aangemaakte pagina\'s van deze wiki.'''",
+'newestpages-limitlinks' => 'Toon maximaal $1 pagina\'s',
+'newestpages-namespace' => 'Naamruimte:',
+'newestpages-none' => 'Geen resultaten.',
+'newestpages-ns-header' => "'''Deze pagina geeft de $1 meest recente aangemaakte pagina\'s weer in de naamruimte $2.'''",
+'newestpages-showing' => 'De $1 meest recente pagina\'s worden getoond:',
+'newestpages-submit' => 'OK',
+'newestpages-showredir' => 'Toon redirects',
+'newestpages-hideredir' => 'Verberg redirects',
+),
+
 /* Portuguese (Lugusto) */
 'pt' => array(
 'newestpages' => 'Páginas novas',
