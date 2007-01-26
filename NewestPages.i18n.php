@@ -96,7 +96,7 @@ function efNewestPagesMessages( $single = false ) {
 ),
 
 /* nld / Dutch (Siebrand Mazeland) */
-'en' => array(
+'nl' => array(
 'newestpages' => 'Nieuwe pagina\'s',
 'newestpages-header' => "'''Op deze pagina staan de $1 meest recent aangemaakte pagina\'s van deze wiki.'''",
 'newestpages-limitlinks' => 'Toon maximaal $1 pagina\'s',
