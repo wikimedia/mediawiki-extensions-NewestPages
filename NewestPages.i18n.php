@@ -179,7 +179,54 @@ function efNewestPagesMessages( $single = false ) {
 'newestpages-hideredir' => 'Sakrij stranice preusmerenja',
 ),
 
+/* Chinese (China) (下一次登录) */
+'zh-cn' => array(
+'newestpages' => '最新页面',
+'newestpages-header' => "'''本页面列举维基上第$1新的页面。'''",
+'newestpages-limitlinks' => '显示$1个页面',
+'newestpages-namespace' => '名字空间：',
+'newestpages-none' => '没找到页面。',
+'newestpages-ns-header' => "'''本页面列举$2名字空间中第$1新的页面。'''",
+'newestpages-showing' => '正在列举第$1新的页面：',
+'newestpages-submit' => '提交',
+'newestpages-showredir' => '显示重定向页面',
+'newestpages-hideredir' => '隐藏重定向页面',
+),
+
+/* Chinese (Taiwan) (KilluaZaoldyeck, Shinjiman) */
+'zh-tw' => array(
+'newestpages' => '最新頁面',
+'newestpages-header' => "'''本頁列出維基上第$1新的頁面。'''",
+'newestpages-limitlinks' => '顯示$1個頁面',
+'newestpages-namespace' => '名字空間：',
+'newestpages-none' => '沒找到頁面。',
+'newestpages-ns-header' => "'''本頁列出$2名字空間中第$1個新的頁面。'''",
+'newestpages-showing' => '正在列出第$1個新的頁面：',
+'newestpages-submit' => '提交',
+'newestpages-showredir' => '顯示重定向頁面',
+'newestpages-hideredir' => '隱藏重定向頁面',
+),
+
+/* Cantonese (Hillgentleman, Shinjiman) */
+'zh-yue' => array(
+'newestpages' => '新頁',
+'newestpages-header' => "'''呢度列舉成個維基入面最新 $1 頁。'''",
+'newestpages-limitlinks' => '攤開頂龍 $1 版',
+'newestpages-namespace' => '空間名:',
+'newestpages-none' => '乜都揾唔到。',
+'newestpages-ns-header' => "'''呢度列舉$2 空間名裏面最新 $1 篇文。'''",
+'newestpages-showing' => '攤開最新$1 篇文：',
+'newestpages-submit' => '去',
+'newestpages-showredir' => '攤開啲跳轉頁',
+'newestpages-hideredir' => '摺埋啲跳轉頁',
+),
+
 	);
+	/* Chinese (Hong Kong) (inherited from Chinese (Taiwan)) */
+	$messages['zh-hk'] = $messages['zh-tw'];
+	/* Chinese (Singapore) (inherited from Chinese (China)) */
+	$messages['zh-sg'] = $messages['zh-cn'];
+
 	return $single ? $messages['en'] : $messages;
 }
 
