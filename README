@@ -16,7 +16,6 @@ full text and terms of the licence.
 5. Customising the interface text
 6. Customising extension behaviour
 7. Notes
-8. Change log
 
 == 1. Introduction ==
 
@@ -98,38 +97,3 @@ page, I decided to clean up the code, give the page a more generalised function,
 and release it.
 
 Feedback welcomed at <robchur@gmail.com> as usual.
-
-== 8. Change log ==
-
-15/04/2006
-Version 1.0
-	* Initial release
-	
-30/04/2006
-Version 1.1
-	* Fix issues when using a table prefix
-	
-13/05/2006
-Version 1.2
-	* Moved internationalisation into a separate file
-	* Add absolute limit of 5000 pages, for performance
-	* Allow the default limit to be customised
-
-13/05/2006
-Version 1.3
-	* Allow the namespace to be customised
-	
-12/07/2006
-Version 1.4
-	* Backwards-compatible support for class autoloading with 1.7.0+
-	* Expose namespace filtering when in normal view mode
-	
-17/08/2006
-Version 1.5
-	* Wrap links to redirect pages in <span class="allpagesredirect">
-	* Changes to default message text
-	
-27/08/2006
-Version 1.6
-	* Allow user to exclude redirects from results
-	* Minor tweaks to HTML
