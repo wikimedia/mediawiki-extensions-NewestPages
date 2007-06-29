@@ -164,4 +164,3 @@ class NewestPages extends IncludableSpecialPage {
 	
 }
 
-?>

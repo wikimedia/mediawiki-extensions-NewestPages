@@ -230,4 +230,3 @@ function efNewestPagesMessages( $single = false ) {
 	return $single ? $messages['en'] : $messages;
 }
 
-?>
