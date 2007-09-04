@@ -39,6 +39,19 @@ function efNewestPagesMessages( $single = false ) {
 'newestpages-hideredir' => 'Weiterleitungsseiten ausblenden',
 ),
 
+'eo' => array(
+'newestpages' => 'Plej novaj paĝoj',
+'newestpages-header' => '\'\'\'Ĉi tiu paĝo listigas la $1 plej novajn paĝojn en la vikio.\'\'\'',
+'newestpages-limitlinks' => 'Montru ĝis $1 paĝojn',
+'newestpages-namespace' => 'Nomspaco:',
+'newestpages-none' => 'Ne estis trovitaj iuj enskribaĵoj',
+'newestpages-ns-header' => '\'\'\'Ĉi tiu paĝo listigas la $1 plej novajn paĝojn en la $2 nomspaco.\'\'\'',
+'newestpages-showing' => 'Listigas la $1 plej novajn paĝojn:',
+'newestpages-submit' => 'Ek',
+'newestpages-showredir' => 'Montru alidirektajn paĝojn',
+'newestpages-hideredir' => 'Kaŝu alidirektajn paĝojn',
+),
+
 /* Finnish (Niklas Laxström) */
 'fi' => array(
 'newestpages' => 'Uusimmat sivut',
@@ -65,6 +78,19 @@ function efNewestPagesMessages( $single = false ) {
 'newestpages-submit' => 'Lancer',
 'newestpages-showredir' => 'Afficher les pages de redirection.',
 'newestpages-hideredir' => 'Cacher les pages de redirection.',
+),
+
+'hsb' => array(
+'newestpages' => 'Najnowše strony',
+'newestpages-header' => '\'\'\'Tuta strona nalistuje $1 najnowšich stronow tutoho wikija.\'\'\'',
+'newestpages-limitlinks' => 'Do $1 stronow pokazać',
+'newestpages-namespace' => 'Mjenowy rum',
+'newestpages-none' => 'Žane zapiski namakane.',
+'newestpages-ns-header' => '\'\'\'Tuta strona nalistuje $1 najnowšich stronow z mjenoweho ruma $2.\'\'\'',
+'newestpages-showing' => '$1 najnowšich stronow:',
+'newestpages-submit' => 'Pytać',
+'newestpages-showredir' => 'Daleposrědkowanske strony pokazać',
+'newestpages-hideredir' => 'Dalesposrědkowanske strony schować',
 ),
 
 /* Indonesian (Ivan Lanin) */
