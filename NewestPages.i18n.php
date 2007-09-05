@@ -25,6 +25,19 @@ function efNewestPagesMessages( $single = false ) {
 'newestpages-hideredir' => 'Hide redirect pages',
 ),
 
+'ar' => array(
+'newestpages' => 'أجدد الصفحات',
+'newestpages-header' => '\'\'\'هذه الصفحة تعرض أجدد $1 صفحة في الويكي.\'\'\'',
+'newestpages-limitlinks' => 'اعرض حتى $1 صفحة',
+'newestpages-namespace' => 'النطاق:',
+'newestpages-none' => 'لم يتم العثور على مدخلات.',
+'newestpages-ns-header' => '\'\'\'هذه الصفحة تعرض أجدد $1 صفحة في نطاق $2.\'\'\'',
+'newestpages-showing' => 'عرض أجدد $1 صفحة:',
+'newestpages-submit' => 'اذهب',
+'newestpages-showredir' => 'عرض صفحات التحويل',
+'newestpages-hideredir' => 'إخفاء صفحات التحويل',
+),
+
 /* German (Markus Klatt) */
 'de' => array(
 'newestpages' => 'Neueste Seiten',
@@ -259,6 +272,7 @@ function efNewestPagesMessages( $single = false ) {
 
 	return $single ? $messages['en'] : $messages;
 }
+
 
 
 
