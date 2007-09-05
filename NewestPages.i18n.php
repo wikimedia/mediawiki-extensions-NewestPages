@@ -148,6 +148,19 @@ function efNewestPagesMessages( $single = false ) {
 'newestpages-hideredir' => 'Verberg redirects',
 ),
 
+'oc' => array(
+'newestpages' => 'Paginas mai recentas',
+'newestpages-header' => '\'\'\'Aquesta pagina lista las $1 paginas mai recentas sul wiki.\'\'\'',
+'newestpages-limitlinks' => 'Afichar fins a $1 paginas',
+'newestpages-namespace' => 'Espaci Wiki:',
+'newestpages-none' => 'Cap de pagina es pas estada trobada',
+'newestpages-ns-header' => '\'\'\'Aquesta pagina lista las $1 paginas mai recentas dins l’espaci $2.\'\'\'',
+'newestpages-showing' => 'Afichatge de las $1 paginas mai recentas :',
+'newestpages-submit' => 'Lançar',
+'newestpages-showredir' => 'Afichar las paginas de redireccion.',
+'newestpages-hideredir' => 'Amagar las paginas de redireccion.',
+),
+
 /* Portuguese (Lugusto) */
 'pt' => array(
 'newestpages' => 'Páginas novas',
