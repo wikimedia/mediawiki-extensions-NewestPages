@@ -38,6 +38,12 @@ function efNewestPagesMessages( $single = false ) {
 'newestpages-hideredir' => 'إخفاء صفحات التحويل',
 ),
 
+'bcl' => array(
+'newestpages' => 'Mga pinaka bâgong pahina',
+'newestpages-limitlinks' => 'Ipahiling hasta sa $1 pahina',
+'newestpages-submit' => 'Dumanán',
+),
+
 /* German (Markus Klatt) */
 'de' => array(
 'newestpages' => 'Neueste Seiten',
