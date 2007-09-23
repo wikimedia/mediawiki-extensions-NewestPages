@@ -140,6 +140,10 @@ function efNewestPagesMessages( $single = false ) {
 'newestpages-hideredir' => 'Nascondi i redirect',
 ),
 
+'la' => array(
+'newestpages-submit' => 'Ire',
+),
+
 /* Dutch (Siebrand Mazeland) */
 'nl' => array(
 'newestpages' => 'Nieuwe pagina\'s',
