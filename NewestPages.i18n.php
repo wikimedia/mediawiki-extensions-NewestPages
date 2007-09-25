@@ -141,6 +141,7 @@ function efNewestPagesMessages( $single = false ) {
 ),
 
 'la' => array(
+'newestpages-namespace' => 'Spatium nominale:',
 'newestpages-submit' => 'Ire',
 ),
 
