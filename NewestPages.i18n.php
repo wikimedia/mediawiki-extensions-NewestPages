@@ -145,6 +145,19 @@ function efNewestPagesMessages( $single = false ) {
 'newestpages-submit' => 'Ire',
 ),
 
+'nds' => array(
+'newestpages' => 'Ne’este Sieden',
+'newestpages-header' => '\'\'\'Disse Siet wiest de $1 ne’esten Sieden op dat Wiki.\'\'\'',
+'newestpages-limitlinks' => '$1 Sieden wiesen',
+'newestpages-namespace' => 'Naamruum:',
+'newestpages-none' => 'Nix funnen',
+'newestpages-ns-header' => '\'\'\'Disse Siet wiest de $1 ne’esten Sieden in’n Naamruum $2.\'\'\'',
+'newestpages-showing' => '$1 ne’este Sieden wiesen:',
+'newestpages-submit' => 'Los',
+'newestpages-showredir' => 'Wiederleiden wiesen',
+'newestpages-hideredir' => 'Wiederleiden nich wiesen',
+),
+
 /* Dutch (Siebrand Mazeland) */
 'nl' => array(
 'newestpages' => 'Nieuwe pagina\'s',
