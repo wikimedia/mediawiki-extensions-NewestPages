@@ -88,7 +88,7 @@ function efNewestPagesMessages( $single = false ) {
 /* French (Bertrand GRONDIN) */
 'fr' => array(
 'newestpages' => 'Pages les plus récentes',
-'newestpages-header' => "'''Cette pages liste les $1 pages les plus récentes sur le wiki.'''",
+'newestpages-header' => "'''Cette page liste les $1 pages les plus récentes sur le wiki.'''",
 'newestpages-limitlinks' => 'Afficher jusqu’à $1 pages',
 'newestpages-namespace' => 'Espace Wiki :',
 'newestpages-none' => 'Aucune page n’a été trouvée',
@@ -309,7 +309,3 @@ function efNewestPagesMessages( $single = false ) {
 
 	return $single ? $messages['en'] : $messages;
 }
-
-
-
-
