@@ -39,9 +39,11 @@ function efNewestPagesMessages( $single = false ) {
 ),
 
 'bcl' => array(
-'newestpages' => 'Mga pinaka bâgong pahina',
-'newestpages-limitlinks' => 'Ipahiling hasta sa $1 pahina',
+'newestpages' => 'Mga pinakabâgong páhina',
+'newestpages-limitlinks' => 'Ipahiling hasta sa $1 na mga páhina',
+'newestpages-none' => 'Mayong nakuâng entrada.',
 'newestpages-submit' => 'Dumanán',
+'newestpages-hideredir' => 'Tagôon an mga redirektang páhina',
 ),
 
 /* German (Markus Klatt) */
