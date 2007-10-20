@@ -174,6 +174,19 @@ function efNewestPagesMessages( $single = false ) {
 'newestpages-hideredir' => 'Verberg redirects',
 ),
 
+'no' => array(
+'newestpages' => 'Nyeste sider',
+'newestpages-header' => '\'\'\'Denne siden lister opp de $1 nyeste sidene på denne wikien.\'\'\'',
+'newestpages-limitlinks' => 'Vis opptil $1 sider',
+'newestpages-namespace' => 'Navnerom:',
+'newestpages-none' => 'Ingenting funnet.',
+'newestpages-ns-header' => '\'\'\'Denne siden lister opp de $1 nyeste sidene i navnerommet $2.\'\'\'',
+'newestpages-showing' => 'Lister opp de $1 nyeste sidene:s',
+'newestpages-submit' => 'Gå',
+'newestpages-showredir' => 'Vis omdirigeringer',
+'newestpages-hideredir' => 'Skjul omdirigeringer',
+),
+
 'oc' => array(
 'newestpages' => 'Paginas mai recentas',
 'newestpages-header' => '\'\'\'Aquesta pagina lista las $1 paginas mai recentas sul wiki.\'\'\'',
