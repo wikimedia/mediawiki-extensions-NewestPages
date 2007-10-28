@@ -200,6 +200,19 @@ function efNewestPagesMessages( $single = false ) {
 'newestpages-hideredir' => 'Amagar las paginas de redireccion.',
 ),
 
+'pms' => array(
+'newestpages' => 'Pàgine pì neuve',
+'newestpages-header' => '\'\'\'Ambelessì a-i é la lista dle $1 pàgine pì neuve dla wiki.\'\'\'',
+'newestpages-limitlinks' => 'Smon fin a $1 pàgine',
+'newestpages-namespace' => 'Spassi nominal:',
+'newestpages-none' => 'Gnun-a vos trovà.',
+'newestpages-ns-header' => '\'\'\'Ambelessì a-i é la lista dle $1 pàgine pì neuve dlë spassi nominal $2.\'\'\'',
+'newestpages-showing' => 'Lista dle $1 pàgine pì neuve:',
+'newestpages-submit' => 'Va',
+'newestpages-showredir' => 'Smon j\'ardiression',
+'newestpages-hideredir' => 'Stërma j\'ardiression',
+),
+
 /* Portuguese (Lugusto) */
 'pt' => array(
 'newestpages' => 'Páginas novas',
