@@ -200,6 +200,19 @@ function efNewestPagesMessages( $single = false ) {
 'newestpages-hideredir' => 'Amagar las paginas de redireccion.',
 ),
 
+'pl' => array(
+'newestpages' => 'Najnowsze strony',
+'newestpages-header' => '\'\'\'Ta strona pokazuje $1 najnowszych stron na tej wiki.\'\'\'',
+'newestpages-limitlinks' => 'Pokaż do $1 stron',
+'newestpages-namespace' => 'Przestrzeń nazw:',
+'newestpages-none' => 'Nie znaleziono żadnych wpisów.',
+'newestpages-ns-header' => '\'\'\'Ta strona pokazuje $1 najnowszych stron w przestrzeni nazw $2.\'\'\'',
+'newestpages-showing' => 'Prezentowanie $1 najnowszych stron:',
+'newestpages-submit' => 'Pokaż',
+'newestpages-showredir' => 'Pokaż strony przekierowujące',
+'newestpages-hideredir' => 'Ukryj strony przekierowujące',
+),
+
 'pms' => array(
 'newestpages' => 'Pàgine pì neuve',
 'newestpages-header' => '\'\'\'Ambelessì a-i é la lista dle $1 pàgine pì neuve dla wiki.\'\'\'',
