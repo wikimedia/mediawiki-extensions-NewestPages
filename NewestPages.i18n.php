@@ -114,6 +114,19 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-hideredir' => 'Cacher les pages de redirection.',
 ),
 
+'gl' => array(
+	'newestpages' => 'Páxinas máis novas',
+	'newestpages-header' => '\'\'\'Esta páxina lista as $1 páxinas novas no wiki.\'\'\'',
+	'newestpages-limitlinks' => 'Amosar $1 páxinas',
+	'newestpages-namespace' => 'Espazo de nomes:',
+	'newestpages-none' => 'Ningunhas entradas foron atopadas.',
+	'newestpages-ns-header' => '\'\'\'Esta páxina lista as $1 páxinas novas no espazo de nomes $2.\'\'\'',
+	'newestpages-showing' => 'Listando $1 páxinas novas:',
+	'newestpages-submit' => 'Ir',
+	'newestpages-showredir' => 'Amosar páxinas redirixidas',
+	'newestpages-hideredir' => 'Ocultar páxinas redirixidas',
+),
+
 'hsb' => array(
 	'newestpages' => 'Najnowše strony',
 	'newestpages-header' => '\'\'\'Tuta strona nalistuje $1 najnowšich stronow tutoho wikija.\'\'\'',
@@ -139,6 +152,18 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-submit' => 'Cari',
 	'newestpages-showredir' => 'Tampilkan halaman pengalihan',
 	'newestpages-hideredir' => 'Sembunyikan halaman pengalihan',
+),
+
+'is' => array(
+	'newestpages' => 'Nýjustu síður',
+	'newestpages-header' => '\'\'\'Þessi síða listar $1 nýjustu síðurnar á þessu wiki.\'\'\'',
+	'newestpages-limitlinks' => 'Sýna að hámarki $1 síður',
+	'newestpages-namespace' => 'Nafnrými:',
+	'newestpages-ns-header' => '\'\'\'Þessi síða listar $1 nýjustu síðurnar í $2 nafnrýminu.\'\'\'',
+	'newestpages-showing' => 'Lista $1 nýjustu síðurnar:',
+	'newestpages-submit' => 'Áfram',
+	'newestpages-showredir' => 'Sýna tilvísanir',
+	'newestpages-hideredir' => 'Fela tilvísanir',
 ),
 
 /* Italian (BrokenArrow) */
@@ -176,15 +201,15 @@ function efNewestPagesMessages( $single = false ) {
 /* Dutch (Siebrand Mazeland) */
 'nl' => array(
 	'newestpages' => 'Nieuwe pagina\'s',
-	'newestpages-header' => "'''Op deze pagina staan de $1 meest recent aangemaakte pagina's van deze wiki.'''",
+	'newestpages-header' => '\'\'\'Op deze pagina staan de $1 meest recent aangemaakte pagina\'s van deze wiki.\'\'\'',
 	'newestpages-limitlinks' => 'Toon maximaal $1 pagina\'s',
 	'newestpages-namespace' => 'Naamruimte:',
 	'newestpages-none' => 'Geen resultaten.',
-	'newestpages-ns-header' => "'''Deze pagina geeft de $1 meest recente aangemaakte pagina's weer in de naamruimte $2.'''",
+	'newestpages-ns-header' => '\'\'\'Deze pagina geeft de $1 meest recente aangemaakte pagina\'s weer in de naamruimte $2.\'\'\'',
 	'newestpages-showing' => 'De $1 meest recente pagina\'s worden getoond:',
 	'newestpages-submit' => 'OK',
-	'newestpages-showredir' => 'Toon redirects',
-	'newestpages-hideredir' => 'Verberg redirects',
+	'newestpages-showredir' => 'Doorverwijzingen tonen',
+	'newestpages-hideredir' => 'Doorverwijzingen verbergen',
 ),
 
 'no' => array(
