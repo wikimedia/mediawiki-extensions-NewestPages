@@ -25,6 +25,10 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-hideredir' => 'Hide redirect pages',
 ),
 
+'af' => array(
+	'newestpages-namespace' => 'Naamruimte:',
+),
+
 'ar' => array(
 	'newestpages' => 'أجدد الصفحات',
 	'newestpages-header' => '\'\'\'هذه الصفحة تعرض أجدد $1 صفحة في الويكي.\'\'\'',
