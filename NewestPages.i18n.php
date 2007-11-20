@@ -338,6 +338,10 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-hideredir' => 'Sakrij stranice preusmerenja',
 ),
 
+'ss' => array(
+	'newestpages-submit' => 'Kúhámba',
+),
+
 /* Cantonese (Hillgentleman, Shinjiman) */
 'yue' => array(
 	'newestpages' => '新頁',
