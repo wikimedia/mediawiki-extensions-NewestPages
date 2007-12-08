@@ -50,6 +50,18 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-hideredir' => 'Tagôon an mga redirektang páhina',
 ),
 
+'bg' => array(
+	'newestpages' => 'Най-нови страници',
+	'newestpages-header' => '\'\'\'Списък на най-новите $1 страници в уикито.\'\'\'',
+	'newestpages-limitlinks' => 'Показване най-много на $1 страници',
+	'newestpages-namespace' => 'Именно пространство:',
+	'newestpages-none' => 'Няма намерени записи.',
+	'newestpages-ns-header' => '\'\'\'Списък на най-новите $1 страници в именно пространство $2.\'\'\'',
+	'newestpages-showing' => 'Показване на $1 най-нови страници:',
+	'newestpages-showredir' => 'Показване на пренасочващите страници',
+	'newestpages-hideredir' => 'Скриване на пренасочващите страници',
+),
+
 /* German (Markus Klatt) */
 'de' => array(
 	'newestpages' => 'Neueste Seiten',
