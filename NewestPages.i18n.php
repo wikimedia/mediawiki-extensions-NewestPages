@@ -89,6 +89,10 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-hideredir' => 'Pśesměrowanja schowaś',
 ),
 
+'el' => array(
+	'newestpages-submit' => 'Πηγαίνετε',
+),
+
 'eo' => array(
 	'newestpages' => 'Plej novaj paĝoj',
 	'newestpages-header' => '\'\'\'Ĉi tiu paĝo listigas la $1 plej novajn paĝojn en la vikio.\'\'\'',
