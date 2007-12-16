@@ -89,7 +89,11 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-hideredir' => 'Pśesměrowanja schowaś',
 ),
 
+/** Greek (Ελληνικά)
+ * @author Consta
+ */
 'el' => array(
+	'newestpages'        => 'Νεώτερες σελίδες',
 	'newestpages-submit' => 'Πηγαίνετε',
 ),
 
@@ -245,17 +249,20 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-hideredir' => 'Skjul omdirigeringer',
 ),
 
+/** Occitan (Occitan)
+ * @author Cedric31
+ */
 'oc' => array(
-	'newestpages' => 'Paginas mai recentas',
-	'newestpages-header' => '\'\'\'Aquesta pagina lista las $1 paginas mai recentas sul wiki.\'\'\'',
+	'newestpages'            => 'Paginas mai recentas',
+	'newestpages-header'     => "'''Aquesta pagina lista las $1 paginas mai recentas sul wiki.'''",
 	'newestpages-limitlinks' => 'Afichar fins a $1 paginas',
-	'newestpages-namespace' => 'Espaci Wiki:',
-	'newestpages-none' => 'Cap de pagina es pas estada trobada',
-	'newestpages-ns-header' => '\'\'\'Aquesta pagina lista las $1 paginas mai recentas dins l’espaci $2.\'\'\'',
-	'newestpages-showing' => 'Afichatge de las $1 paginas mai recentas :',
-	'newestpages-submit' => 'Lançar',
-	'newestpages-showredir' => 'Afichar las paginas de redireccion.',
-	'newestpages-hideredir' => 'Amagar las paginas de redireccion.',
+	'newestpages-namespace'  => 'Espaci Wiki:',
+	'newestpages-none'       => 'Cap de pagina es pas estada trobada',
+	'newestpages-ns-header'  => "'''Aquesta pagina lista las $1 paginas mai recentas dins l’espaci $2.'''",
+	'newestpages-showing'    => 'Afichatge de las $1 paginas mai recentas :',
+	'newestpages-submit'     => 'Amodar',
+	'newestpages-showredir'  => 'Afichar las paginas de redireccion.',
+	'newestpages-hideredir'  => 'Amagar las paginas de redireccion.',
 ),
 
 'pl' => array(
