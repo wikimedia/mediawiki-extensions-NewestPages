@@ -14,7 +14,6 @@ if( defined( 'MEDIAWIKI' ) ) {
 
 	$wgExtensionCredits['specialpage'][] = array(
 		'name' => 'Newest Pages',
-		'version'     => '1.1',
 		'author' => 'Rob Church',
 		'url' => 'http://www.mediawiki.org/wiki/Extension:Newest_Pages',
 		'description' => 'Shows the [[Special:Newestpages|last X pages]] added to the wiki',
@@ -48,3 +47,4 @@ if( defined( 'MEDIAWIKI' ) ) {
 	echo( "This file is an extension to the MediaWiki software and cannot be used standalone.\n" );
 	die( 1 );
 }
+
