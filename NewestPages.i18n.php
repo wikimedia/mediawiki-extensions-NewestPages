@@ -50,16 +50,20 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-hideredir' => 'Tagôon an mga redirektang páhina',
 ),
 
+/** Bulgarian (Български)
+ * @author Spiritia
+ */
 'bg' => array(
-	'newestpages' => 'Най-нови страници',
-	'newestpages-header' => '\'\'\'Списък на най-новите $1 страници в уикито.\'\'\'',
-	'newestpages-limitlinks' => 'Показване най-много на $1 страници',
-	'newestpages-namespace' => 'Именно пространство:',
-	'newestpages-none' => 'Няма намерени записи.',
-	'newestpages-ns-header' => '\'\'\'Списък на най-новите $1 страници в именно пространство $2.\'\'\'',
-	'newestpages-showing' => 'Показване на $1 най-нови страници:',
-	'newestpages-showredir' => 'Показване на пренасочващите страници',
-	'newestpages-hideredir' => 'Скриване на пренасочващите страници',
+	'newestpages'            => 'Най-нови страници',
+	'newestpages-header'     => "'''{{PLURAL:$1|Най-новата $1 страница|Списък на най-новите $1 страници}} в уикито.'''",
+	'newestpages-limitlinks' => 'Показване най-много на $1 {{PLURAL:$1|страница|страници}}',
+	'newestpages-namespace'  => 'Именно пространство:',
+	'newestpages-none'       => 'Няма намерени записи.',
+	'newestpages-ns-header'  => "'''{{PLURAL:$1|Най-новата $1 страница|Списък на най-новите $1 страници}} в именно пространство $2.'''",
+	'newestpages-showing'    => 'Показване на $1 {{PLURAL:$1|най-нова страница|най-нови страници}}:',
+	'newestpages-submit'     => 'Показване',
+	'newestpages-showredir'  => 'Показване на пренасочващите страници',
+	'newestpages-hideredir'  => 'Скриване на пренасочващите страници',
 ),
 
 /* German (Markus Klatt) */
