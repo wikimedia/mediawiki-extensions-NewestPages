@@ -369,6 +369,34 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-submit' => 'Kúhámba',
 ),
 
+/** Seeltersk (Seeltersk)
+ * @author Pyt
+ */
+'stq' => array(
+	'newestpages-none'      => 'Naan Iendraach fuunen.',
+	'newestpages-ns-header' => "'''Disse Siede liestet do $1 näiste Sieden in dän Noomensruum $2 ap.'''",
+	'newestpages-showing'   => 'Do $1 näiste Sieden:',
+	'newestpages-submit'    => 'Säike',
+	'newestpages-showredir' => 'Wiederlaitengssieden anwiese',
+	'newestpages-hideredir' => 'Wiederlaitengssieden ferstopje.',
+),
+
+/** Tonga (faka-Tonga)
+ * @author Tauʻolunga
+ */
+'to' => array(
+	'newestpages'            => 'Ngaahi peesi foʻou taha',
+	'newestpages-header'     => "'''ʻOku lisi ʻi he pēsí ni ko e ngaahi peesi foʻou ʻe $1 ʻo e ''wiki'' ʻeni.'''",
+	'newestpages-limitlinks' => 'ʻAsi mai ha ngaahi peesi aʻu ki he $1',
+	'newestpages-namespace'  => 'Vā hingoa:',
+	'newestpages-none'       => 'Naʻe ʻikai ʻilo ha lēkoti',
+	'newestpages-ns-header'  => "'''ʻOku lisi ʻi he pēsí ni ko e ngaahi peesi foʻou ʻe $1 ʻi he vā hingoa $2.'''",
+	'newestpages-showing'    => 'ʻOku lisi ha peesi foʻou taha ʻe $1:',
+	'newestpages-submit'     => 'Fai ā',
+	'newestpages-showredir'  => 'ʻAsi ha ngaahi kupu fakaʻuhingakehe',
+	'newestpages-hideredir'  => 'Toi ha ngaahi kupu fakaʻuhingakehe',
+),
+
 /* Cantonese (Hillgentleman, Shinjiman) */
 'yue' => array(
 	'newestpages' => '新頁',
