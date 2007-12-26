@@ -373,12 +373,15 @@ function efNewestPagesMessages( $single = false ) {
  * @author Pyt
  */
 'stq' => array(
-	'newestpages-none'      => 'Naan Iendraach fuunen.',
-	'newestpages-ns-header' => "'''Disse Siede liestet do $1 näiste Sieden in dän Noomensruum $2 ap.'''",
-	'newestpages-showing'   => 'Do $1 näiste Sieden:',
-	'newestpages-submit'    => 'Säike',
-	'newestpages-showredir' => 'Wiederlaitengssieden anwiese',
-	'newestpages-hideredir' => 'Wiederlaitengssieden ferstopje.',
+	'newestpages-header'     => "'''Disse Siede liestet do $1 näiste Sieden fon dit Wiki ap.'''",
+	'newestpages-limitlinks' => 'Wies $1 Sieden',
+	'newestpages-namespace'  => 'Noomensruum:',
+	'newestpages-none'       => 'Naan Iendraach fuunen.',
+	'newestpages-ns-header'  => "'''Disse Siede liestet do $1 näiste Sieden in dän Noomensruum $2 ap.'''",
+	'newestpages-showing'    => 'Do $1 näiste Sieden:',
+	'newestpages-submit'     => 'Säike',
+	'newestpages-showredir'  => 'Wiederlaitengssieden anwiese',
+	'newestpages-hideredir'  => 'Wiederlaitengssieden ferstopje.',
 ),
 
 /** Tonga (faka-Tonga)
