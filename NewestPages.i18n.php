@@ -373,6 +373,7 @@ function efNewestPagesMessages( $single = false ) {
  * @author Pyt
  */
 'stq' => array(
+	'newestpages'            => 'Näiste Sieden',
 	'newestpages-header'     => "'''Disse Siede liestet do $1 näiste Sieden fon dit Wiki ap.'''",
 	'newestpages-limitlinks' => 'Wies $1 Sieden',
 	'newestpages-namespace'  => 'Noomensruum:',
