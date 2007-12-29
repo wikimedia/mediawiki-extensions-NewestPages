@@ -213,6 +213,13 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-submit' => 'Ire',
 ),
 
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+'lb' => array(
+	'newestpages-namespace' => 'Nummraum:',
+),
+
 'nds' => array(
 	'newestpages' => 'Ne’este Sieden',
 	'newestpages-header' => '\'\'\'Disse Siet wiest de $1 ne’esten Sieden op dat Wiki.\'\'\'',
