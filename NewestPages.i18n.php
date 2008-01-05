@@ -217,7 +217,16 @@ function efNewestPagesMessages( $single = false ) {
  * @author Robby
  */
 'lb' => array(
-	'newestpages-namespace' => 'Nummraum:',
+	'newestpages'            => 'Neitste Säiten',
+	'newestpages-header'     => "'''Op dëser Säit stinn déi $1 neitste Säite vun dëser Wiki.'''",
+	'newestpages-limitlinks' => 'Weis bis zu $1 Säiten',
+	'newestpages-namespace'  => 'Nummraum:',
+	'newestpages-none'       => 'Näischt fonnt.',
+	'newestpages-ns-header'  => "'''Op dëse Säite stinn déi $1 neitste Säiten aus dem Nummraum $2.'''",
+	'newestpages-showing'    => 'Déi $1 neitste Säiten:',
+	'newestpages-submit'     => 'Sichen',
+	'newestpages-showredir'  => 'Weis Redirect-Säiten',
+	'newestpages-hideredir'  => 'Verstopp Redirect-Säiten',
 ),
 
 'nds' => array(
