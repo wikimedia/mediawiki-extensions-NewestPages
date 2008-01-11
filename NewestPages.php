@@ -1,4 +1,6 @@
 <?php
+if ( ! defined( 'MEDIAWIKI' ) )
+    die();
 
 /**
  * Special page to show the last X pages added to the wiki
