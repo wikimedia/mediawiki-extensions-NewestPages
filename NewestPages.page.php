@@ -16,18 +16,20 @@ class NewestPages extends IncludableSpecialPage {
 	var $namespace = NULL;
 	var $redirects = NULL;
 
-	function NewestPages() {
-		SpecialPage::SpecialPage( 'Newestpages', '', true, false, 'default', true );
+	public function __construct() {
+		IncludableSpecialPage::SpecialPage( 'Newestpages', '', true, false, 'default', true );
 	}
 
-	function execute( $par ) {
+	public function execute( $par ) {
 		global $wgRequest, $wgOut, $wgContLang;
-		
+
+		wfLoadExtensionMessages( 'NewestPages' );
+
 		# Decipher input passed to the page
 		$this->decipherParams( $par );
 		$this->setOptions( $wgRequest );
-		
-		# Don't show the navigation if we're including the page		
+
+		# Don't show the navigation if we're including the page
 		if( !$this->mIncluding ) {
 			$this->setHeaders();
 			if( $this->namespace > 0 ) {
@@ -57,7 +59,7 @@ class NewestPages extends IncludableSpecialPage {
 		} else {
 			$wgOut->addWikiText( wfMsg( 'newestpages-none' ) );
 		}
-		$dbr->freeResult( $res );			
+		$dbr->freeResult( $res );
 	}
 
 	function setOptions( &$req ) {
@@ -69,11 +71,11 @@ class NewestPages extends IncludableSpecialPage {
 		if( !isset( $this->redirects ) )
 			$this->redirects = (bool)$req->getInt( 'redirects', 1 );
 	}
-	
+
 	function sanitiseLimit( $limit ) {
 		return min( (int)$limit, 5000 );
 	}
-	
+
 	function decipherParams( $par ) {
 		if( $par ) {
 			$bits = explode( '/', $par );
@@ -86,7 +88,7 @@ class NewestPages extends IncludableSpecialPage {
 			}
 		}
 	}
-	
+
 	function extractNamespace( $namespace ) {
 		global $wgContLang;
 		if( is_numeric( $namespace ) ) {
@@ -97,14 +99,14 @@ class NewestPages extends IncludableSpecialPage {
 			return NS_MAIN;
 		} else {
 			return -1;
-		}	
+		}
 	}
-	
+
 	function getNsFragment() {
 		$this->namespace = (int)$this->namespace;
 		return $this->namespace > -1 ? "page_namespace = {$this->namespace}" : "page_namespace != 8";
 	}
-	
+
 	function makeListItem( $row ) {
 		global $wgUser;
 		$title = Title::makeTitleSafe( $row->page_namespace, $row->page_title );
@@ -130,12 +132,12 @@ class NewestPages extends IncludableSpecialPage {
 		}
 		return( wfMsgHtml( 'newestpages-limitlinks', implode( ' | ', $links ) ) );
 	}
-	
+
 	function makeRedirectToggle() {
 		$label = wfMsgHtml( $this->redirects ? 'newestpages-hideredir' : 'newestpages-showredir' );
 		return $this->makeSelfLink( $label, 'redirects', (int)!$this->redirects );
 	}
-	
+
 	function makeSelfLink( $label, $oname = false, $oval = false ) {
 		global $wgUser;
 		$skin =& $wgUser->getSkin();
@@ -150,7 +152,7 @@ class NewestPages extends IncludableSpecialPage {
 			$attribs[] = "{$aname}={$aval}";
 		return $skin->makeKnownLinkObj( $self, $label, implode( '&', $attribs ) );
 	}
-	
+
 	function makeNamespaceForm() {
 		$self = Title::makeTitle( NS_SPECIAL, $this->getName() );
 		$form  = wfOpenElement( 'form', array( 'method' => 'post', 'action' => $self->getLocalUrl() ) );
@@ -161,6 +163,4 @@ class NewestPages extends IncludableSpecialPage {
 		$form .= wfSubmitButton( wfMsg( 'newestpages-submit' ) ) . '</form>';
 		return $form;
 	}
-	
 }
-

@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Internationalisation file for the NewestPages extension
  * @addtogroup Extensions
@@ -8,11 +7,12 @@
  * @licence GNU General Public Licence 2.0
  */
 
-function efNewestPagesMessages( $single = false ) {
-	$messages = array(
+$messages = array();
 
-/* English (Rob Church) */
-'en' => array(
+/* English
+ * @author Rob Church
+ */
+$messages['en'] = array(
 	'newestpages' => 'Newest pages',
 	'newestpages-header' => "'''This page lists the $1 newest pages on the wiki.'''",
 	'newestpages-limitlinks' => 'Show up to $1 pages',
@@ -23,13 +23,13 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-submit' => 'Go',
 	'newestpages-showredir' => 'Show redirect pages',
 	'newestpages-hideredir' => 'Hide redirect pages',
-),
+);
 
-'af' => array(
+$messages['af'] = array(
 	'newestpages-namespace' => 'Naamruimte:',
-),
+);
 
-'ar' => array(
+$messages['ar'] = array(
 	'newestpages' => 'أجدد الصفحات',
 	'newestpages-header' => '\'\'\'هذه الصفحة تعرض أجدد $1 صفحة في الويكي.\'\'\'',
 	'newestpages-limitlinks' => 'اعرض حتى $1 صفحة',
@@ -40,20 +40,20 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-submit' => 'اذهب',
 	'newestpages-showredir' => 'عرض صفحات التحويل',
 	'newestpages-hideredir' => 'إخفاء صفحات التحويل',
-),
+);
 
-'bcl' => array(
+$messages['bcl'] = array(
 	'newestpages' => 'Mga pinakabâgong páhina',
 	'newestpages-limitlinks' => 'Ipahiling hasta sa $1 na mga páhina',
 	'newestpages-none' => 'Mayong nakuâng entrada.',
 	'newestpages-submit' => 'Dumanán',
 	'newestpages-hideredir' => 'Tagôon an mga redirektang páhina',
-),
+);
 
 /** Bulgarian (Български)
  * @author Spiritia
  */
-'bg' => array(
+$messages['bg'] = array(
 	'newestpages'            => 'Най-нови страници',
 	'newestpages-header'     => "'''{{PLURAL:$1|Най-новата $1 страница|Списък на най-новите $1 страници}} в уикито.'''",
 	'newestpages-limitlinks' => 'Показване най-много на $1 {{PLURAL:$1|страница|страници}}',
@@ -64,10 +64,10 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-submit'     => 'Показване',
 	'newestpages-showredir'  => 'Показване на пренасочващите страници',
 	'newestpages-hideredir'  => 'Скриване на пренасочващите страници',
-),
+);
 
 /* German (Markus Klatt) */
-'de' => array(
+$messages['de'] = array(
 	'newestpages' => 'Neueste Seiten',
 	'newestpages-header' => "'''Diese Seite listet die $1 neuesten Seiten dieses Wikis auf.'''",
 	'newestpages-limitlinks' => 'Zeige $1 Seiten',
@@ -78,9 +78,9 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-submit' => 'Suchen',
 	'newestpages-showredir' => 'Weiterleitungsseiten anzeigen',
 	'newestpages-hideredir' => 'Weiterleitungsseiten ausblenden',
-),
+);
 
-'dsb' => array(
+$messages['dsb'] = array(
 	'newestpages' => 'Nejnowše boki',
 	'newestpages-header' => '\'\'\'Toś ten bok nalicujo $1 nejnowšych bokow na toś tom wikiju.\'\'\'',
 	'newestpages-limitlinks' => 'Pokaž {{Plural:$1|bok|boka|boki}}',
@@ -91,17 +91,17 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-submit' => 'Pytaś',
 	'newestpages-showredir' => 'Pśesměrowanja pokazaś',
 	'newestpages-hideredir' => 'Pśesměrowanja schowaś',
-),
+);
 
 /** Greek (Ελληνικά)
  * @author Consta
  */
-'el' => array(
+$messages['el'] = array(
 	'newestpages'        => 'Νεώτερες σελίδες',
 	'newestpages-submit' => 'Πηγαίνετε',
-),
+);
 
-'eo' => array(
+$messages['eo'] = array(
 	'newestpages' => 'Plej novaj paĝoj',
 	'newestpages-header' => '\'\'\'Ĉi tiu paĝo listigas la $1 plej novajn paĝojn en la vikio.\'\'\'',
 	'newestpages-limitlinks' => 'Montru ĝis $1 paĝojn',
@@ -112,10 +112,10 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-submit' => 'Ek',
 	'newestpages-showredir' => 'Montru alidirektajn paĝojn',
 	'newestpages-hideredir' => 'Kaŝu alidirektajn paĝojn',
-),
+);
 
 /* Finnish (Niklas Laxström) */
-'fi' => array(
+$messages['fi'] = array(
 	'newestpages' => 'Uusimmat sivut',
 	'newestpages-header' => "'''Tällä sivulla on luettelo $1 uusimmasta sivusta tässä wikissä.'''",
 	'newestpages-limitlinks' => 'Näytä enintään $1 sivua',
@@ -126,10 +126,10 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-submit' => 'Hae',
 	'newestpages-showredir' => 'Näytä uudelleenohjaukset',
 	'newestpages-hideredir' => 'Piilota uudelleenohjaukset',
-),
+);
 
 /* French (Bertrand GRONDIN) */
-'fr' => array(
+$messages['fr'] = array(
 	'newestpages' => 'Pages les plus récentes',
 	'newestpages-header' => "'''Cette page liste les $1 pages les plus récentes sur le wiki.'''",
 	'newestpages-limitlinks' => 'Afficher jusqu’à $1 pages',
@@ -140,9 +140,9 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-submit' => 'Lancer',
 	'newestpages-showredir' => 'Afficher les pages de redirection.',
 	'newestpages-hideredir' => 'Cacher les pages de redirection.',
-),
+);
 
-'gl' => array(
+$messages['gl'] = array(
 	'newestpages' => 'Páxinas máis novas',
 	'newestpages-header' => '\'\'\'Esta páxina lista as $1 páxinas novas no wiki.\'\'\'',
 	'newestpages-limitlinks' => 'Amosar $1 páxinas',
@@ -153,9 +153,9 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-submit' => 'Ir',
 	'newestpages-showredir' => 'Amosar páxinas redirixidas',
 	'newestpages-hideredir' => 'Ocultar páxinas redirixidas',
-),
+);
 
-'hsb' => array(
+$messages['hsb'] = array(
 	'newestpages' => 'Najnowše strony',
 	'newestpages-header' => '\'\'\'Tuta strona nalistuje $1 najnowšich stronow tutoho wikija.\'\'\'',
 	'newestpages-limitlinks' => 'Do $1 stronow pokazać',
@@ -166,10 +166,10 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-submit' => 'Pytać',
 	'newestpages-showredir' => 'Daleposrědkowanske strony pokazać',
 	'newestpages-hideredir' => 'Dalesposrědkowanske strony schować',
-),
+);
 
 /* Indonesian (Ivan Lanin) */
-'id' => array(
+$messages['id'] = array(
 	'newestpages' => 'Halaman terbaru',
 	'newestpages-header' => "'''Halaman ini memberikan daftar $1 halaman terbaru di wiki ini.'''",
 	'newestpages-limitlinks' => 'Menampilkan sampai $1 halaman',
@@ -180,9 +180,9 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-submit' => 'Cari',
 	'newestpages-showredir' => 'Tampilkan halaman pengalihan',
 	'newestpages-hideredir' => 'Sembunyikan halaman pengalihan',
-),
+);
 
-'is' => array(
+$messages['is'] = array(
 	'newestpages' => 'Nýjustu síður',
 	'newestpages-header' => '\'\'\'Þessi síða listar $1 nýjustu síðurnar á þessu wiki.\'\'\'',
 	'newestpages-limitlinks' => 'Sýna að hámarki $1 síður',
@@ -192,10 +192,10 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-submit' => 'Áfram',
 	'newestpages-showredir' => 'Sýna tilvísanir',
 	'newestpages-hideredir' => 'Fela tilvísanir',
-),
+);
 
 /* Italian (BrokenArrow) */
-'it' => array(
+$messages['it'] = array(
 	'newestpages' => 'Pagine più recenti',
 	'newestpages-header' => "'''In questa pagina vengono elencate le $1 pagine create più di recente nel sito.'''",
 	'newestpages-limitlinks' => 'Mostra fino a $1 pagine',
@@ -206,17 +206,17 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-submit' => 'Vai',
 	'newestpages-showredir' => 'Mostra i redirect',
 	'newestpages-hideredir' => 'Nascondi i redirect',
-),
+);
 
-'la' => array(
+$messages['la'] = array(
 	'newestpages-namespace' => 'Spatium nominale:',
 	'newestpages-submit' => 'Ire',
-),
+);
 
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
-'lb' => array(
+$messages['lb'] = array(
 	'newestpages'            => 'Neitste Säiten',
 	'newestpages-header'     => "'''Op dëser Säit stinn déi $1 neitste Säite vun dëser Wiki.'''",
 	'newestpages-limitlinks' => 'Weis bis zu $1 Säiten',
@@ -227,9 +227,9 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-submit'     => 'Sichen',
 	'newestpages-showredir'  => 'Weis Redirect-Säiten',
 	'newestpages-hideredir'  => 'Verstopp Redirect-Säiten',
-),
+);
 
-'nds' => array(
+$messages['nds'] = array(
 	'newestpages' => 'Ne’este Sieden',
 	'newestpages-header' => '\'\'\'Disse Siet wiest de $1 ne’esten Sieden op dat Wiki.\'\'\'',
 	'newestpages-limitlinks' => '$1 Sieden wiesen',
@@ -240,10 +240,10 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-submit' => 'Los',
 	'newestpages-showredir' => 'Wiederleiden wiesen',
 	'newestpages-hideredir' => 'Wiederleiden nich wiesen',
-),
+);
 
 /* Dutch (Siebrand Mazeland) */
-'nl' => array(
+$messages['nl'] = array(
 	'newestpages' => 'Nieuwe pagina\'s',
 	'newestpages-header' => '\'\'\'Op deze pagina staan de $1 meest recent aangemaakte pagina\'s van deze wiki.\'\'\'',
 	'newestpages-limitlinks' => 'Toon maximaal $1 pagina\'s',
@@ -254,9 +254,9 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-submit' => 'OK',
 	'newestpages-showredir' => 'Doorverwijzingen tonen',
 	'newestpages-hideredir' => 'Doorverwijzingen verbergen',
-),
+);
 
-'no' => array(
+$messages['no'] = array(
 	'newestpages' => 'Nyeste sider',
 	'newestpages-header' => '\'\'\'Denne siden lister opp de $1 nyeste sidene på denne wikien.\'\'\'',
 	'newestpages-limitlinks' => 'Vis opptil $1 sider',
@@ -267,12 +267,12 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-submit' => 'Gå',
 	'newestpages-showredir' => 'Vis omdirigeringer',
 	'newestpages-hideredir' => 'Skjul omdirigeringer',
-),
+);
 
 /** Occitan (Occitan)
  * @author Cedric31
  */
-'oc' => array(
+$messages['oc'] = array(
 	'newestpages'            => 'Paginas mai recentas',
 	'newestpages-header'     => "'''Aquesta pagina lista las $1 paginas mai recentas sul wiki.'''",
 	'newestpages-limitlinks' => 'Afichar fins a $1 paginas',
@@ -283,9 +283,9 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-submit'     => 'Amodar',
 	'newestpages-showredir'  => 'Afichar las paginas de redireccion.',
 	'newestpages-hideredir'  => 'Amagar las paginas de redireccion.',
-),
+);
 
-'pl' => array(
+$messages['pl'] = array(
 	'newestpages' => 'Najnowsze strony',
 	'newestpages-header' => '\'\'\'Ta strona pokazuje $1 najnowszych stron na tej wiki.\'\'\'',
 	'newestpages-limitlinks' => 'Pokaż do $1 stron',
@@ -296,9 +296,9 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-submit' => 'Pokaż',
 	'newestpages-showredir' => 'Pokaż strony przekierowujące',
 	'newestpages-hideredir' => 'Ukryj strony przekierowujące',
-),
+);
 
-'pms' => array(
+$messages['pms'] = array(
 	'newestpages' => 'Pàgine pì neuve',
 	'newestpages-header' => '\'\'\'Ambelessì a-i é la lista dle $1 pàgine pì neuve dla wiki.\'\'\'',
 	'newestpages-limitlinks' => 'Smon fin a $1 pàgine',
@@ -309,10 +309,10 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-submit' => 'Va',
 	'newestpages-showredir' => 'Smon j\'ardiression',
 	'newestpages-hideredir' => 'Stërma j\'ardiression',
-),
+);
 
 /* Portuguese (Lugusto) */
-'pt' => array(
+$messages['pt'] = array(
 	'newestpages' => 'Páginas novas',
 	'newestpages-header' => "'''Esta página lista as $1 páginas mais recentes deste wiki.'''",
 	'newestpages-limitlinks' => 'Exibir até $1 páginas',
@@ -323,10 +323,10 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-submit' => 'Ir',
 	'newestpages-showredir' => 'Exibir redireccionamentos',
 	'newestpages-hideredir' => 'Ocultar redireccionamentos',
-),
+);
 
 /* Slovak (helix84) */
-'sk' => array(
+$messages['sk'] = array(
 	'newestpages' => 'Najnovšie stránky',
 	'newestpages-header' => "'''Toto je zoznam $1 najnovších stránok na wiki.'''",
 	'newestpages-limitlinks' => 'Zobraziť najviac $1 stránok',
@@ -337,10 +337,10 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-submit' => 'Choď',
 	'newestpages-showredir' => 'Zobraziť presmerovacie stránky',
 	'newestpages-hideredir' => 'Skryť presmerovacie stránky',
-),
+);
 
 /* Serbian default (Sasa Stefanovic) */
-'sr' => array(
+$messages['sr'] = array(
 	'newestpages' => 'Најновије странице',
 	'newestpages-header' => "'''Ова страница показује $1 најновијих страница на Вики.'''",
 	'newestpages-limitlinks' => 'Прикажи $1 страница',
@@ -351,10 +351,10 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-submit' => 'Иди',
 	'newestpages-showredir' => 'Прикажи странице преусмерења',
 	'newestpages-hideredir' => 'Сакриј странице преусмерења',
-),
+);
 
 /* Serbian cyrillic (Sasa Stefanovic) */
-'sr-ec' => array(
+$messages['sr-ec'] = array(
 	'newestpages' => 'Најновије странице',
 	'newestpages-header' => "'''Ова страница показује $1 најновијих страница на Вики.'''",
 	'newestpages-limitlinks' => 'Прикажи $1 страница',
@@ -365,10 +365,10 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-submit' => 'Иди',
 	'newestpages-showredir' => 'Прикажи странице преусмерења',
 	'newestpages-hideredir' => 'Сакриј странице преусмерења',
-),
+);
 
 /* Serbian latin (Sasa Stefanovic) */
-'sr-el' => array(
+$messages['sr-el'] = array(
 	'newestpages' => 'Najnovije stranice',
 	'newestpages-header' => "'''Ova stranica pokazuje $1 najnovijih stranica na Viki.'''",
 	'newestpages-limitlinks' => 'Prikaži $1 stranica',
@@ -379,16 +379,16 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-submit' => 'Idi',
 	'newestpages-showredir' => 'Prikaži stranice preusmerenja',
 	'newestpages-hideredir' => 'Sakrij stranice preusmerenja',
-),
+);
 
-'ss' => array(
+$messages['ss'] = array(
 	'newestpages-submit' => 'Kúhámba',
-),
+);
 
 /** Seeltersk (Seeltersk)
  * @author Pyt
  */
-'stq' => array(
+$messages['stq'] = array(
 	'newestpages'            => 'Näiste Sieden',
 	'newestpages-header'     => "'''Disse Siede liestet do $1 näiste Sieden fon dit Wiki ap.'''",
 	'newestpages-limitlinks' => 'Wies $1 Sieden',
@@ -399,12 +399,12 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-submit'     => 'Säike',
 	'newestpages-showredir'  => 'Wiederlaitengssieden anwiese',
 	'newestpages-hideredir'  => 'Wiederlaitengssieden ferstopje.',
-),
+);
 
 /** Tonga (faka-Tonga)
  * @author Tauʻolunga
  */
-'to' => array(
+$messages['to'] = array(
 	'newestpages'            => 'Ngaahi peesi foʻou taha',
 	'newestpages-header'     => "'''ʻOku lisi ʻi he pēsí ni ko e ngaahi peesi foʻou ʻe $1 ʻo e ''wiki'' ʻeni.'''",
 	'newestpages-limitlinks' => 'ʻAsi mai ha ngaahi peesi aʻu ki he $1',
@@ -415,10 +415,10 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-submit'     => 'Fai ā',
 	'newestpages-showredir'  => 'ʻAsi ha ngaahi kupu fakaʻuhingakehe',
 	'newestpages-hideredir'  => 'Toi ha ngaahi kupu fakaʻuhingakehe',
-),
+);
 
 /* Cantonese (Hillgentleman, Shinjiman) */
-'yue' => array(
+$messages['yue'] = array(
 	'newestpages' => '新頁',
 	'newestpages-header' => "'''呢度列舉成個維基入面最新 $1 頁。'''",
 	'newestpages-limitlinks' => '攤開頂龍 $1 版',
@@ -429,10 +429,10 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-submit' => '去',
 	'newestpages-showredir' => '攤開啲跳轉頁',
 	'newestpages-hideredir' => '摺埋啲跳轉頁',
-),
+);
 
 /* Chinese (Simplified) (下一次登录) */
-'zh-hans' => array(
+$messages['zh-hans'] = array(
 	'newestpages' => '最新页面',
 	'newestpages-header' => "'''本页面列举维基上第$1新的页面。'''",
 	'newestpages-limitlinks' => '显示$1个页面',
@@ -443,10 +443,10 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-submit' => '提交',
 	'newestpages-showredir' => '显示重定向页面',
 	'newestpages-hideredir' => '隐藏重定向页面',
-),
+);
 
 /* Chinese (Traditional) (KilluaZaoldyeck, Shinjiman) */
-	'zh-hant' => array(
+$messages['zh-hant'] = array(
 	'newestpages' => '最新頁面',
 	'newestpages-header' => "'''本頁列出維基上第$1新的頁面。'''",
 	'newestpages-limitlinks' => '顯示$1個頁面',
@@ -457,17 +457,11 @@ function efNewestPagesMessages( $single = false ) {
 	'newestpages-submit' => '提交',
 	'newestpages-showredir' => '顯示重定向頁面',
 	'newestpages-hideredir' => '隱藏重定向頁面',
-),
+);
 
-	);
-	/* Chinese defaults, fallback to zh-hans or zh-hant */
-	$messages['zh'] = $messages['zh-hans'];
-	$messages['zh-cn'] = $messages['zh-hans'];
-	$messages['zh-hk'] = $messages['zh-hant'];
-	$messages['zh-sg'] = $messages['zh-hans'];
-	$messages['zh-tw'] = $messages['zh-hant'];
-	/* CAntonese default, fallback to yue */
-	$messages['zh-yue'] = $messages['yue'];
-
-	return $single ? $messages['en'] : $messages;
-}
+$messages['zh'] = $messages['zh-hans'];
+$messages['zh-cn'] = $messages['zh-hans'];
+$messages['zh-hk'] = $messages['zh-hant'];
+$messages['zh-sg'] = $messages['zh-hans'];
+$messages['zh-tw'] = $messages['zh-hant'];
+$messages['zh-yue'] = $messages['yue'];
