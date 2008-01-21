@@ -168,6 +168,21 @@ $messages['hsb'] = array(
 	'newestpages-hideredir' => 'Dalesposrědkowanske strony schować',
 );
 
+/** Hungarian (Magyar)
+ * @author Bdanee
+ */
+$messages['hu'] = array(
+	'newestpages'           => 'Legújabb lapok',
+	'newestpages-header'    => "'''Ezen az oldalon a wiki $1 legújabb lapja látható.'''",
+	'newestpages-namespace' => 'Névtér:',
+	'newestpages-none'      => 'Nincsenek találatok.',
+	'newestpages-ns-header' => "'''Ez az oldal a wiki $1 legújabb lapját listázza a(z) $2 névtérben.'''",
+	'newestpages-showing'   => '$1 legújabb lap listázása:',
+	'newestpages-submit'    => 'Megjelenítés',
+	'newestpages-showredir' => 'Átirányítások mutatása',
+	'newestpages-hideredir' => 'Átirányítások elrejtése',
+);
+
 /* Indonesian (Ivan Lanin) */
 $messages['id'] = array(
 	'newestpages' => 'Halaman terbaru',
@@ -415,6 +430,14 @@ $messages['to'] = array(
 	'newestpages-submit'     => 'Fai ā',
 	'newestpages-showredir'  => 'ʻAsi ha ngaahi kupu fakaʻuhingakehe',
 	'newestpages-hideredir'  => 'Toi ha ngaahi kupu fakaʻuhingakehe',
+);
+
+/** Turkish (Türkçe)
+ * @author Karduelis
+ */
+$messages['tr'] = array(
+	'newestpages'        => 'En yeni sayfalar',
+	'newestpages-submit' => 'Git',
 );
 
 /* Cantonese (Hillgentleman, Shinjiman) */
