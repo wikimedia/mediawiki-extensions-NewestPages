@@ -326,6 +326,13 @@ $messages['pms'] = array(
 	'newestpages-hideredir' => 'Stërma j\'ardiression',
 );
 
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'newestpages' => 'تر ټولو نوي مخونه',
+);
+
 /* Portuguese (Lugusto) */
 $messages['pt'] = array(
 	'newestpages' => 'Páginas novas',
@@ -438,6 +445,22 @@ $messages['to'] = array(
 $messages['tr'] = array(
 	'newestpages'        => 'En yeni sayfalar',
 	'newestpages-submit' => 'Git',
+);
+
+/** Vietnamese (Tiếng Việt)
+ * @author Vinhtantran
+ */
+$messages['vi'] = array(
+	'newestpages'            => 'Các trang mới nhất',
+	'newestpages-header'     => "'''Trang này liệt kê $1 trang mới nhất trên wiki.'''",
+	'newestpages-limitlinks' => 'Hiển thị tối đa $1 trang',
+	'newestpages-namespace'  => 'Không gian:',
+	'newestpages-none'       => 'Không tìm thấy mục nào.',
+	'newestpages-ns-header'  => "'''Trang nay liệt kê $1 trang mới nhất trong không gian tên $2.'''",
+	'newestpages-showing'    => 'Liệt kê $1 trang mới nhất:',
+	'newestpages-submit'     => 'Xem',
+	'newestpages-showredir'  => 'Hiện các trang đổi hướng',
+	'newestpages-hideredir'  => 'Ẩn các trang đổi hướng',
 );
 
 /* Cantonese (Hillgentleman, Shinjiman) */
