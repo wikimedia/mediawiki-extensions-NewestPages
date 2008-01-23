@@ -347,6 +347,22 @@ $messages['pt'] = array(
 	'newestpages-hideredir' => 'Ocultar redireccionamentos',
 );
 
+/** Russian (Русский)
+ * @author .:Ajvol:.
+ */
+$messages['ru'] = array(
+	'newestpages'            => 'Новые страницы',
+	'newestpages-header'     => "'''Эта страница в ходит в список $1 новых страниц этой вики.'''",
+	'newestpages-limitlinks' => 'Показывать до $1 страниц',
+	'newestpages-namespace'  => 'Пространство имён:',
+	'newestpages-none'       => 'Не найдено записей.',
+	'newestpages-ns-header'  => "'''Эта страница входит в список $1 новых страниц пространства имён $2.'''",
+	'newestpages-showing'    => 'Список $1 новых страниц:',
+	'newestpages-submit'     => 'Выполнить',
+	'newestpages-showredir'  => 'Показывать страницы-перенаправления',
+	'newestpages-hideredir'  => 'Скрыть страницы-перенаправления',
+);
+
 /* Slovak (helix84) */
 $messages['sk'] = array(
 	'newestpages' => 'Najnovšie stránky',
