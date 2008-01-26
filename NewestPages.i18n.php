@@ -80,17 +80,21 @@ $messages['de'] = array(
 	'newestpages-hideredir' => 'Weiterleitungsseiten ausblenden',
 );
 
+/** Lower Sorbian (Dolnoserbski)
+ * @author Nepl1
+ * @author Michawiki
+ */
 $messages['dsb'] = array(
-	'newestpages' => 'Nejnowše boki',
-	'newestpages-header' => '\'\'\'Toś ten bok nalicujo $1 nejnowšych bokow na toś tom wikiju.\'\'\'',
+	'newestpages'            => 'Nejnowše boki',
+	'newestpages-header'     => "'''Toś ten bok nalicujo $1 nejnowšych bokow na toś tom wikiju.'''",
 	'newestpages-limitlinks' => 'Pokaž {{Plural:$1|bok|boka|boki}}',
-	'newestpages-namespace' => 'mjenjowy rum',
-	'newestpages-none' => 'Žedne zapise njejsu se namakali.',
-	'newestpages-ns-header' => '\'\'\'Toś ten bok nalicujo $1 nejnowšych bokow w mjenjowem rumje $2.\'\'\'',
-	'newestpages-showing' => 'Nejnowše $1 boki:',
-	'newestpages-submit' => 'Pytaś',
-	'newestpages-showredir' => 'Pśesměrowanja pokazaś',
-	'newestpages-hideredir' => 'Pśesměrowanja schowaś',
+	'newestpages-namespace'  => 'Mjenjowy rum',
+	'newestpages-none'       => 'Žedne zapise njejsu se namakali.',
+	'newestpages-ns-header'  => "'''Toś ten bok nalicujo $1 nejnowšych bokow w mjenjowem rumje $2.'''",
+	'newestpages-showing'    => 'Nejnowše $1 boki:',
+	'newestpages-submit'     => 'Pytaś',
+	'newestpages-showredir'  => 'Pśesměrowanja pokazaś',
+	'newestpages-hideredir'  => 'Pśesměrowanja schowaś',
 );
 
 /** Greek (Ελληνικά)
