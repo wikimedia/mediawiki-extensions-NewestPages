@@ -42,6 +42,22 @@ $messages['ar'] = array(
 	'newestpages-hideredir' => 'إخفاء صفحات التحويل',
 );
 
+/** Kotava (Kotava)
+ * @author Wikimistusik
+ */
+$messages['avk'] = array(
+	'newestpages'            => 'Tel lowarzaf bueem',
+	'newestpages-header'     => "'''Batu bu va telu $1 lowarzafu bu ke wiki vexalar.'''",
+	'newestpages-limitlinks' => 'Kimara va $1 bu',
+	'newestpages-namespace'  => 'Yoltxo :',
+	'newestpages-none'       => 'Nedoy trasiks.',
+	'newestpages-ns-header'  => "'''Batu bu va telu $1 lowarzafu bu koe $2 yoltxo vexalar.'''",
+	'newestpages-showing'    => 'Vexalar va telu $1 lowarzafu bu :',
+	'newestpages-submit'     => 'Skú !',
+	'newestpages-showredir'  => 'Nedira va graskan bueem',
+	'newestpages-hideredir'  => 'Palsera va graskan bueem',
+);
+
 $messages['bcl'] = array(
 	'newestpages' => 'Mga pinakabâgong páhina',
 	'newestpages-limitlinks' => 'Ipahiling hasta sa $1 na mga páhina',
