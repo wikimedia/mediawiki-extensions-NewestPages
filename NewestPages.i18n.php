@@ -541,10 +541,3 @@ $messages['zh-hant'] = array(
 	'newestpages-showredir' => '顯示重定向頁面',
 	'newestpages-hideredir' => '隱藏重定向頁面',
 );
-
-$messages['zh'] = $messages['zh-hans'];
-$messages['zh-cn'] = $messages['zh-hans'];
-$messages['zh-hk'] = $messages['zh-hant'];
-$messages['zh-sg'] = $messages['zh-hans'];
-$messages['zh-tw'] = $messages['zh-hant'];
-$messages['zh-yue'] = $messages['yue'];
