@@ -460,6 +460,13 @@ $messages['stq'] = array(
 	'newestpages-hideredir'  => 'Wiederlaitengssieden ferstopje.',
 );
 
+/** Swedish (Svenska)
+ * @author Max sonnelid
+ */
+$messages['sv'] = array(
+	'newestpages-submit' => 'Gå',
+);
+
 /** Tonga (faka-Tonga)
  * @author Tauʻolunga
  */
@@ -541,3 +548,4 @@ $messages['zh-hant'] = array(
 	'newestpages-showredir' => '顯示重定向頁面',
 	'newestpages-hideredir' => '隱藏重定向頁面',
 );
+
