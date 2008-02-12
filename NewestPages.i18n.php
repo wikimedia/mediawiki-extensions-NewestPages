@@ -305,6 +305,13 @@ $messages['no'] = array(
 	'newestpages-hideredir' => 'Skjul omdirigeringer',
 );
 
+/** Northern Sotho (Sesotho sa Leboa)
+ * @author Mohau
+ */
+$messages['nso'] = array(
+	'newestpages-submit' => 'Sepela',
+);
+
 /** Occitan (Occitan)
  * @author Cedric31
  */
@@ -461,10 +468,16 @@ $messages['stq'] = array(
 );
 
 /** Swedish (Svenska)
+ * @author M.M.S.
  * @author Max sonnelid
  */
 $messages['sv'] = array(
-	'newestpages-submit' => 'Gå',
+	'newestpages'            => 'Nyaste sidor',
+	'newestpages-header'     => "'''Denna sida listar dom $1 nyaste sidorna på denna wiki.'''",
+	'newestpages-limitlinks' => 'Visa upp till $1 sidor',
+	'newestpages-namespace'  => 'Namnrymd:',
+	'newestpages-ns-header'  => "'''Denna sida listar dom $1 nyaste sidorna i $2 namnrymden.'''",
+	'newestpages-submit'     => 'Gå',
 );
 
 /** Tonga (faka-Tonga)
