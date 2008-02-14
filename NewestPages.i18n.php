@@ -87,7 +87,7 @@ $messages['bg'] = array(
  * @author Markus Klatt
  * @author Raimond Spekking
  */
-$$messages['de'] = array(
+$messages['de'] = array(
 	'newestpages'            => 'Neueste Seiten',
 	'newestpages-desc'       => 'Zeigt die [[Special:Newestpages|neuesten X Seiten]] des Wikis',
 	'newestpages-header'     => "'''Diese Seite listet die $1 neuesten Seiten dieses Wikis auf.'''",
