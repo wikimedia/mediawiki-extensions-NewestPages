@@ -181,17 +181,21 @@ $messages['gl'] = array(
 	'newestpages-hideredir' => 'Ocultar páxinas redirixidas',
 );
 
+/** Upper Sorbian (Hornjoserbsce)
+ * @author Michawiki
+ */
 $messages['hsb'] = array(
-	'newestpages' => 'Najnowše strony',
-	'newestpages-header' => '\'\'\'Tuta strona nalistuje $1 najnowšich stronow tutoho wikija.\'\'\'',
+	'newestpages'            => 'Najnowše strony',
+	'newestpages-desc'       => 'Pokazuje [[Special:Newestpages|poslednich X stronow]], kotrež je so wikiju přidało',
+	'newestpages-header'     => "'''Tuta strona nalistuje $1 najnowšich stronow tutoho wikija.'''",
 	'newestpages-limitlinks' => 'Do $1 stronow pokazać',
-	'newestpages-namespace' => 'Mjenowy rum',
-	'newestpages-none' => 'Žane zapiski namakane.',
-	'newestpages-ns-header' => '\'\'\'Tuta strona nalistuje $1 najnowšich stronow z mjenoweho ruma $2.\'\'\'',
-	'newestpages-showing' => '$1 najnowšich stronow:',
-	'newestpages-submit' => 'Pytać',
-	'newestpages-showredir' => 'Daleposrědkowanske strony pokazać',
-	'newestpages-hideredir' => 'Dalesposrědkowanske strony schować',
+	'newestpages-namespace'  => 'Mjenowy rum',
+	'newestpages-none'       => 'Žane zapiski namakane.',
+	'newestpages-ns-header'  => "'''Tuta strona nalistuje $1 najnowšich stronow z mjenoweho ruma $2.'''",
+	'newestpages-showing'    => '$1 najnowšich stronow:',
+	'newestpages-submit'     => 'Pytać',
+	'newestpages-showredir'  => 'Daleposrědkowanske strony pokazać',
+	'newestpages-hideredir'  => 'Dalesposrědkowanske strony schować',
 );
 
 /** Hungarian (Magyar)
@@ -284,18 +288,21 @@ $messages['nds'] = array(
 	'newestpages-hideredir' => 'Wiederleiden nich wiesen',
 );
 
-/* Dutch (Siebrand Mazeland) */
+/** Dutch (Nederlands)
+ * @author SPQRobin
+ */
 $messages['nl'] = array(
-	'newestpages' => 'Nieuwe pagina\'s',
-	'newestpages-header' => '\'\'\'Op deze pagina staan de $1 meest recent aangemaakte pagina\'s van deze wiki.\'\'\'',
-	'newestpages-limitlinks' => 'Toon maximaal $1 pagina\'s',
-	'newestpages-namespace' => 'Naamruimte:',
-	'newestpages-none' => 'Geen resultaten.',
-	'newestpages-ns-header' => '\'\'\'Deze pagina geeft de $1 meest recente aangemaakte pagina\'s weer in de naamruimte $2.\'\'\'',
-	'newestpages-showing' => 'De $1 meest recente pagina\'s worden getoond:',
-	'newestpages-submit' => 'OK',
-	'newestpages-showredir' => 'Doorverwijzingen tonen',
-	'newestpages-hideredir' => 'Doorverwijzingen verbergen',
+	'newestpages'            => "Nieuwe pagina's",
+	'newestpages-desc'       => "Toont de [[Special:Newestpages|laatste X pagina's]] die werden toegevoegd aan de wiki",
+	'newestpages-header'     => "'''Op deze pagina staan de $1 meest recent aangemaakte pagina's van deze wiki.'''",
+	'newestpages-limitlinks' => "Toon maximaal $1 pagina's",
+	'newestpages-namespace'  => 'Naamruimte:',
+	'newestpages-none'       => 'Geen resultaten.',
+	'newestpages-ns-header'  => "'''Deze pagina geeft de $1 meest recente aangemaakte pagina's weer in de naamruimte $2.'''",
+	'newestpages-showing'    => "De $1 meest recente pagina's worden getoond:",
+	'newestpages-submit'     => 'OK',
+	'newestpages-showredir'  => 'Doorverwijzingen tonen',
+	'newestpages-hideredir'  => 'Doorverwijzingen verbergen',
 );
 
 $messages['no'] = array(
