@@ -13,11 +13,12 @@ if ( ! defined( 'MEDIAWIKI' ) )
  */
 
 $wgExtensionCredits['specialpage'][] = array(
-	'name' => 'Newest Pages',
-	'version' => '1.7',
-	'author' => 'Rob Church',
-	'url' => 'http://www.mediawiki.org/wiki/Extension:Newest_Pages',
-	'description' => 'Shows the [[Special:Newestpages|last X pages]] added to the wiki',
+	'name'           => 'Newest Pages',
+	'version'        => '1.7',
+	'author'         => 'Rob Church',
+	'url'            => 'http://www.mediawiki.org/wiki/Extension:Newest_Pages',
+	'description'    => 'Shows the [[Special:Newestpages|last X pages]] added to the wiki',
+	'descriptionmsg' => 'newestpages-desc',
 );
 
 $wgNewestPagesLimit = 50;

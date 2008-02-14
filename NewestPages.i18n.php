@@ -13,16 +13,17 @@ $messages = array();
  * @author Rob Church
  */
 $messages['en'] = array(
-	'newestpages' => 'Newest pages',
-	'newestpages-header' => "'''This page lists the $1 newest pages on the wiki.'''",
+	'newestpages'            => 'Newest pages',
+	'newestpages-desc'       => 'Shows the [[Special:Newestpages|last X pages]] added to the wiki',
+	'newestpages-header'     => "'''This page lists the $1 newest pages on the wiki.'''",
 	'newestpages-limitlinks' => 'Show up to $1 pages',
-	'newestpages-namespace' => 'Namespace:',
-	'newestpages-none' => 'No entries were found.',
-	'newestpages-ns-header' => "'''This page lists the $1 newest pages in the $2 namespace.'''",
-	'newestpages-showing' => 'Listing $1 newest pages:',
-	'newestpages-submit' => 'Go',
-	'newestpages-showredir' => 'Show redirect pages',
-	'newestpages-hideredir' => 'Hide redirect pages',
+	'newestpages-namespace'  => 'Namespace:',
+	'newestpages-none'       => 'No entries were found.',
+	'newestpages-ns-header'  => "'''This page lists the $1 newest pages in the $2 namespace.'''",
+	'newestpages-showing'    => 'Listing $1 newest pages:',
+	'newestpages-submit'     => 'Go',
+	'newestpages-showredir'  => 'Show redirect pages',
+	'newestpages-hideredir'  => 'Hide redirect pages',
 );
 
 $messages['af'] = array(
@@ -150,16 +151,17 @@ $messages['fi'] = array(
 
 /* French (Bertrand GRONDIN) */
 $messages['fr'] = array(
-	'newestpages' => 'Pages les plus récentes',
-	'newestpages-header' => "'''Cette page liste les $1 pages les plus récentes sur le wiki.'''",
+	'newestpages'            => 'Pages les plus récentes',
+	'newestpages-desc'       => 'Affiche les [[Special:Newestpages|X dernières pages]] ajoutées au wiki.',
+	'newestpages-header'     => "'''Cette page liste les $1 pages les plus récentes sur le wiki.'''",
 	'newestpages-limitlinks' => 'Afficher jusqu’à $1 pages',
-	'newestpages-namespace' => 'Espace Wiki :',
-	'newestpages-none' => 'Aucune page n’a été trouvée',
-	'newestpages-ns-header' => "'''Cette page liste les $1 pages les plus récente dans l’espace $2.'''",
-	'newestpages-showing' => 'Affichage des $1 pages les plus récentes :',
-	'newestpages-submit' => 'Lancer',
-	'newestpages-showredir' => 'Afficher les pages de redirection.',
-	'newestpages-hideredir' => 'Cacher les pages de redirection.',
+	'newestpages-namespace'  => 'Espace Wiki :',
+	'newestpages-none'       => 'Aucune page n’a été trouvée',
+	'newestpages-ns-header'  => "'''Cette page liste les $1 pages les plus récente dans l’espace $2.'''",
+	'newestpages-showing'    => 'Affichage des $1 pages les plus récentes :',
+	'newestpages-submit'     => 'Lancer',
+	'newestpages-showredir'  => 'Afficher les pages de redirection.',
+	'newestpages-hideredir'  => 'Cacher les pages de redirection.',
 );
 
 $messages['gl'] = array(
