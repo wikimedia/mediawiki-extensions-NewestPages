@@ -9,7 +9,7 @@
 
 $messages = array();
 
-/* English
+/** English
  * @author Rob Church
  */
 $messages['en'] = array(
@@ -83,18 +83,22 @@ $messages['bg'] = array(
 	'newestpages-hideredir'  => 'Скриване на пренасочващите страници',
 );
 
-/* German (Markus Klatt) */
-$messages['de'] = array(
-	'newestpages' => 'Neueste Seiten',
-	'newestpages-header' => "'''Diese Seite listet die $1 neuesten Seiten dieses Wikis auf.'''",
+/** German (Deutsch)
+ * @author Markus Klatt
+ * @author Raimond Spekking
+ */
+$$messages['de'] = array(
+	'newestpages'            => 'Neueste Seiten',
+	'newestpages-desc'       => 'Zeigt die [[Special:Newestpages|neuesten X Seiten]] des Wikis',
+	'newestpages-header'     => "'''Diese Seite listet die $1 neuesten Seiten dieses Wikis auf.'''",
 	'newestpages-limitlinks' => 'Zeige $1 Seiten',
-	'newestpages-namespace' => 'Namensraum:',
-	'newestpages-none' => 'Kein Eintrag gefunden.',
-	'newestpages-ns-header' => "'''Diese Seite listet die $1 neuesten Seiten im Namensraum $2 auf.'''",
-	'newestpages-showing' => 'Die $1 neuesten Seiten:',
-	'newestpages-submit' => 'Suchen',
-	'newestpages-showredir' => 'Weiterleitungsseiten anzeigen',
-	'newestpages-hideredir' => 'Weiterleitungsseiten ausblenden',
+	'newestpages-namespace'  => 'Namensraum:',
+	'newestpages-none'       => 'Kein Eintrag gefunden.',
+	'newestpages-ns-header'  => "'''Diese Seite listet die $1 neuesten Seiten im Namensraum $2 auf.'''",
+	'newestpages-showing'    => 'Die $1 neuesten Seiten:',
+	'newestpages-submit'     => 'Suchen',
+	'newestpages-showredir'  => 'Weiterleitungsseiten anzeigen',
+	'newestpages-hideredir'  => 'Weiterleitungsseiten ausblenden',
 );
 
 /** Lower Sorbian (Dolnoserbski)
