@@ -111,6 +111,7 @@ $messages['de'] = array(
  */
 $messages['dsb'] = array(
 	'newestpages'            => 'Nejnowše boki',
+	'newestpages-desc'       => 'Pokazujo [[Special:Newestpages|nejnowšych X bokow]] wikija',
 	'newestpages-header'     => "'''Toś ten bok nalicujo $1 nejnowšych bokow na toś tom wikiju.'''",
 	'newestpages-limitlinks' => 'Pokaž {{Plural:$1|bok|boka|boki}}',
 	'newestpages-namespace'  => 'Mjenjowy rum',
@@ -408,18 +409,21 @@ $messages['ru'] = array(
 	'newestpages-hideredir'  => 'Скрыть страницы-перенаправления',
 );
 
-/* Slovak (helix84) */
+/** Slovak (Slovenčina)
+ * @author Helix84
+ */
 $messages['sk'] = array(
-	'newestpages' => 'Najnovšie stránky',
-	'newestpages-header' => "'''Toto je zoznam $1 najnovších stránok na wiki.'''",
+	'newestpages'            => 'Najnovšie stránky',
+	'newestpages-desc'       => 'Zobrazuje [[Special:Newestpages|posledných X stránok]] pridaných na wiki',
+	'newestpages-header'     => "'''Toto je zoznam $1 najnovších stránok na wiki.'''",
 	'newestpages-limitlinks' => 'Zobraziť najviac $1 stránok',
-	'newestpages-namespace' => 'Menný priestor:',
-	'newestpages-none' => 'Neboli nájdené žiadne záznamy.',
-	'newestpages-ns-header' => "'''Toto je zoznam $1 najnovších stránok v mennom priestore $2.'''",
-	'newestpages-showing' => 'Zoznam $1 najnovších stránok:',
-	'newestpages-submit' => 'Choď',
-	'newestpages-showredir' => 'Zobraziť presmerovacie stránky',
-	'newestpages-hideredir' => 'Skryť presmerovacie stránky',
+	'newestpages-namespace'  => 'Menný priestor:',
+	'newestpages-none'       => 'Neboli nájdené žiadne záznamy.',
+	'newestpages-ns-header'  => "'''Toto je zoznam $1 najnovších stránok v mennom priestore $2.'''",
+	'newestpages-showing'    => 'Zoznam $1 najnovších stránok:',
+	'newestpages-submit'     => 'Choď',
+	'newestpages-showredir'  => 'Zobraziť presmerovacie stránky',
+	'newestpages-hideredir'  => 'Skryť presmerovacie stránky',
 );
 
 /* Serbian default (Sasa Stefanovic) */
