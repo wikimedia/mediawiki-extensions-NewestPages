@@ -173,17 +173,22 @@ $messages['fr'] = array(
 	'newestpages-hideredir'  => 'Cacher les pages de redirection.',
 );
 
+/** Galician (Galego)
+ * @author Alma
+ * @author Xosé
+ */
 $messages['gl'] = array(
-	'newestpages' => 'Páxinas máis novas',
-	'newestpages-header' => '\'\'\'Esta páxina lista as $1 páxinas novas no wiki.\'\'\'',
+	'newestpages'            => 'Páxinas máis novas',
+	'newestpages-desc'       => 'Amosa [[Special:Newestpages|X últimas páxinas]] engadidas ao wiki',
+	'newestpages-header'     => "'''Esta páxina lista as $1 páxinas novas no wiki.'''",
 	'newestpages-limitlinks' => 'Amosar $1 páxinas',
-	'newestpages-namespace' => 'Espazo de nomes:',
-	'newestpages-none' => 'Ningunhas entradas foron atopadas.',
-	'newestpages-ns-header' => '\'\'\'Esta páxina lista as $1 páxinas novas no espazo de nomes $2.\'\'\'',
-	'newestpages-showing' => 'Listando $1 páxinas novas:',
-	'newestpages-submit' => 'Ir',
-	'newestpages-showredir' => 'Amosar páxinas redirixidas',
-	'newestpages-hideredir' => 'Ocultar páxinas redirixidas',
+	'newestpages-namespace'  => 'Espazo de nomes:',
+	'newestpages-none'       => 'Ningunhas entradas foron atopadas.',
+	'newestpages-ns-header'  => "'''Esta páxina lista as $1 páxinas novas no espazo de nomes $2.'''",
+	'newestpages-showing'    => 'Listando $1 páxinas novas:',
+	'newestpages-submit'     => 'Ir',
+	'newestpages-showredir'  => 'Amosar páxinas redirixidas',
+	'newestpages-hideredir'  => 'Ocultar páxinas redirixidas',
 );
 
 /** Upper Sorbian (Hornjoserbsce)
