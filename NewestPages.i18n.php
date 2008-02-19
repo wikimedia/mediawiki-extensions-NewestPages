@@ -510,6 +510,14 @@ $messages['sv'] = array(
 	'newestpages-submit'     => 'Gå',
 );
 
+/** Telugu (తెలుగు)
+ * @author Veeven
+ */
+$messages['te'] = array(
+	'newestpages'        => 'కొంగొత్త పేజీలు',
+	'newestpages-submit' => 'వెళ్ళు',
+);
+
 /** Tonga (faka-Tonga)
  * @author Tauʻolunga
  */
