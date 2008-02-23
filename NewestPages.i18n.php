@@ -519,8 +519,10 @@ $messages['sv'] = array(
  * @author Veeven
  */
 $messages['te'] = array(
-	'newestpages'        => 'కొంగొత్త పేజీలు',
-	'newestpages-submit' => 'వెళ్ళు',
+	'newestpages'            => 'కొంగొత్త పేజీలు',
+	'newestpages-limitlinks' => '$1 పేజీల వరకు చూపించు',
+	'newestpages-submit'     => 'వెళ్ళు',
+	'newestpages-showredir'  => 'దారిమార్పు పేజీలను చూపించు',
 );
 
 /** Tonga (faka-Tonga)
