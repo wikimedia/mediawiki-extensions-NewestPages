@@ -158,15 +158,18 @@ $messages['fi'] = array(
 	'newestpages-hideredir' => 'Piilota uudelleenohjaukset',
 );
 
-/* French (Bertrand GRONDIN) */
+/** French (Français)
+ * @author Grondin
+ * @author Urhixidur
+ */
 $messages['fr'] = array(
 	'newestpages'            => 'Pages les plus récentes',
-	'newestpages-desc'       => 'Affiche les [[Special:Newestpages|X dernières pages]] ajoutées au wiki.',
+	'newestpages-desc'       => 'Affiche les [[Special:Newestpages|dernières pages]] ajoutées au wiki.',
 	'newestpages-header'     => "'''Cette page liste les $1 pages les plus récentes sur le wiki.'''",
 	'newestpages-limitlinks' => 'Afficher jusqu’à $1 pages',
 	'newestpages-namespace'  => 'Espace Wiki :',
 	'newestpages-none'       => 'Aucune page n’a été trouvée',
-	'newestpages-ns-header'  => "'''Cette page liste les $1 pages les plus récente dans l’espace $2.'''",
+	'newestpages-ns-header'  => "'''Cette page liste les $1 pages les plus récentes dans l’espace $2.'''",
 	'newestpages-showing'    => 'Affichage des $1 pages les plus récentes :',
 	'newestpages-submit'     => 'Lancer',
 	'newestpages-showredir'  => 'Afficher les pages de redirection.',
