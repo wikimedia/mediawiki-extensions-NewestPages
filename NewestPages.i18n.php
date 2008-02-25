@@ -267,6 +267,13 @@ $messages['it'] = array(
 	'newestpages-hideredir' => 'Nascondi i redirect',
 );
 
+/** Khmer (ភាសាខ្មែរ)
+ * @author Chhorran
+ */
+$messages['km'] = array(
+	'newestpages-namespace' => 'វាលឈ្មោះ ៖',
+);
+
 $messages['la'] = array(
 	'newestpages-namespace' => 'Spatium nominale:',
 	'newestpages-submit' => 'Ire',
@@ -526,6 +533,7 @@ $messages['te'] = array(
 	'newestpages-limitlinks' => '$1 పేజీల వరకు చూపించు',
 	'newestpages-submit'     => 'వెళ్ళు',
 	'newestpages-showredir'  => 'దారిమార్పు పేజీలను చూపించు',
+	'newestpages-hideredir'  => 'దారిమార్పు పేజీలను దాచు',
 );
 
 /** Tonga (faka-Tonga)
