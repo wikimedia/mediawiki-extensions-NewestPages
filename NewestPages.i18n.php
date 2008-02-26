@@ -73,9 +73,11 @@ $messages['bcl'] = array(
 
 /** Bulgarian (Български)
  * @author Spiritia
+ * @author DCLXVI
  */
 $messages['bg'] = array(
 	'newestpages'            => 'Най-нови страници',
+	'newestpages-desc'       => 'Показва [[Special:Newestpages|последните Х страници]], създадени в уикито',
 	'newestpages-header'     => "'''{{PLURAL:$1|Най-новата $1 страница|Списък на най-новите $1 страници}} в уикито.'''",
 	'newestpages-limitlinks' => 'Показване най-много на $1 {{PLURAL:$1|страница|страници}}',
 	'newestpages-namespace'  => 'Именно пространство:',
