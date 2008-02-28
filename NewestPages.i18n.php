@@ -356,6 +356,7 @@ $messages['nso'] = array(
  */
 $messages['oc'] = array(
 	'newestpages'            => 'Paginas mai recentas',
+	'newestpages-desc'       => 'Aficha las [[Special:Newestpages|darrièras paginas]] ajustadas al wiki.',
 	'newestpages-header'     => "'''Aquesta pagina lista las $1 paginas mai recentas sul wiki.'''",
 	'newestpages-limitlinks' => 'Afichar fins a $1 paginas',
 	'newestpages-namespace'  => 'Espaci Wiki:',
