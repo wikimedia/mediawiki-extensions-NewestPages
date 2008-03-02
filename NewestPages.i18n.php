@@ -30,6 +30,15 @@ $messages['af'] = array(
 	'newestpages-namespace' => 'Naamruimte:',
 );
 
+/** Old English (Anglo Saxon)
+ * @author Wōdenhelm
+ */
+$messages['ang'] = array(
+	'newestpages'         => 'Nīwost trametas',
+	'newestpages-showing' => 'Ātellende $1 nīwoste trametas:',
+	'newestpages-submit'  => 'Gā',
+);
+
 /** Arabic (العربية)
  * @author Meno25
  */
@@ -273,7 +282,17 @@ $messages['it'] = array(
  * @author Chhorran
  */
 $messages['km'] = array(
-	'newestpages-namespace' => 'វាលឈ្មោះ ៖',
+	'newestpages'            => 'ទំព័រ ថ្មីបំផុត',
+	'newestpages-desc'       => 'បង្ហាញ [[Special:Newestpages|ទំព័រ ចុងក្រោយបំផុត]] ដែលបានបន្ថែម ទៅ វិគី',
+	'newestpages-header'     => "'''ទំព័រនេះ ​រាយ $1 ទំព័រ ថ្មីបំផុត លើ វិគី ។'''",
+	'newestpages-limitlinks' => 'បង្ហាញអតិបរិមា $1 ទំព័រ',
+	'newestpages-namespace'  => 'វាលឈ្មោះ ៖',
+	'newestpages-none'       => 'រកមិនឃើញ អត្ថបទ ។',
+	'newestpages-ns-header'  => "'''ទំព័រនេះ ​រាយ $1 ទំព័រ ថ្មីបំផុត ក្នុង វាលឈ្មោះ $2 ។'''",
+	'newestpages-showing'    => 'រាយ $1 ទំព័រ ថ្មីបំផុត ៖',
+	'newestpages-submit'     => 'ទៅ',
+	'newestpages-showredir'  => 'បង្ហាញ ទំព័រប្តូរទិស',
+	'newestpages-hideredir'  => 'បិទបាំង ទំព័រប្តូរទិស',
 );
 
 $messages['la'] = array(
@@ -534,6 +553,7 @@ $messages['sv'] = array(
 $messages['te'] = array(
 	'newestpages'            => 'కొంగొత్త పేజీలు',
 	'newestpages-limitlinks' => '$1 పేజీల వరకు చూపించు',
+	'newestpages-showing'    => '$1 కొంగొత్త పేజీలను చూపిస్తున్నాం:',
 	'newestpages-submit'     => 'వెళ్ళు',
 	'newestpages-showredir'  => 'దారిమార్పు పేజీలను చూపించు',
 	'newestpages-hideredir'  => 'దారిమార్పు పేజీలను దాచు',
