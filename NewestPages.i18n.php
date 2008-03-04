@@ -142,17 +142,22 @@ $messages['el'] = array(
 	'newestpages-submit' => 'Πηγαίνετε',
 );
 
+/** Esperanto (Esperanto)
+ * @author Tlustulimu
+ * @author Yekrats
+ */
 $messages['eo'] = array(
-	'newestpages' => 'Plej novaj paĝoj',
-	'newestpages-header' => '\'\'\'Ĉi tiu paĝo listigas la $1 plej novajn paĝojn en la vikio.\'\'\'',
+	'newestpages'            => 'Plej novaj paĝoj',
+	'newestpages-desc'       => 'Montras la [[Special:Newestpages|plej novajn X paĝojn]] aldonitajn al la vikio.',
+	'newestpages-header'     => "'''Ĉi tiu paĝo listigas la $1 plej novajn paĝojn en la vikio.'''",
 	'newestpages-limitlinks' => 'Montru ĝis $1 paĝojn',
-	'newestpages-namespace' => 'Nomspaco:',
-	'newestpages-none' => 'Ne estis trovitaj iuj enskribaĵoj',
-	'newestpages-ns-header' => '\'\'\'Ĉi tiu paĝo listigas la $1 plej novajn paĝojn en la $2 nomspaco.\'\'\'',
-	'newestpages-showing' => 'Listigas la $1 plej novajn paĝojn:',
-	'newestpages-submit' => 'Ek',
-	'newestpages-showredir' => 'Montru alidirektajn paĝojn',
-	'newestpages-hideredir' => 'Kaŝu alidirektajn paĝojn',
+	'newestpages-namespace'  => 'Nomspaco:',
+	'newestpages-none'       => 'Ne estis trovitaj iuj enskribaĵoj',
+	'newestpages-ns-header'  => "'''Ĉi tiu paĝo listigas la $1 plej novajn paĝojn en la $2 nomspaco.'''",
+	'newestpages-showing'    => 'Listigas la $1 plej novajn paĝojn:',
+	'newestpages-submit'     => 'Ek',
+	'newestpages-showredir'  => 'Montru alidirektajn paĝojn',
+	'newestpages-hideredir'  => 'Kaŝu alidirektajn paĝojn',
 );
 
 /* Finnish (Niklas Laxström) */
@@ -417,7 +422,10 @@ $messages['pms'] = array(
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
 $messages['ps'] = array(
-	'newestpages' => 'تر ټولو نوي مخونه',
+	'newestpages'            => 'تر ټولو نوي مخونه',
+	'newestpages-limitlinks' => 'تر $1 پورې مخونه ښکاره کړی',
+	'newestpages-namespace'  => 'نوم-تشيال:',
+	'newestpages-submit'     => 'ورځه',
 );
 
 /* Portuguese (Lugusto) */
