@@ -560,7 +560,9 @@ $messages['sv'] = array(
  */
 $messages['te'] = array(
 	'newestpages'            => 'కొంగొత్త పేజీలు',
+	'newestpages-header'     => "'''ఈ వికీలోని $1 కొంగొత్త పేజీలను ఈ పేజీ చూపిస్తుంది.'''",
 	'newestpages-limitlinks' => '$1 పేజీల వరకు చూపించు',
+	'newestpages-none'       => 'ఏమీ కనబడలేదు.',
 	'newestpages-showing'    => '$1 కొంగొత్త పేజీలను చూపిస్తున్నాం:',
 	'newestpages-submit'     => 'వెళ్ళు',
 	'newestpages-showredir'  => 'దారిమార్పు పేజీలను చూపించు',
