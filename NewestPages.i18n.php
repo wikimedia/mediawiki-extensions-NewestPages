@@ -285,13 +285,14 @@ $messages['it'] = array(
 
 /** Khmer (ភាសាខ្មែរ)
  * @author Chhorran
+ * @author Lovekhmer
  */
 $messages['km'] = array(
 	'newestpages'            => 'ទំព័រ ថ្មីបំផុត',
 	'newestpages-desc'       => 'បង្ហាញ [[Special:Newestpages|ទំព័រ ចុងក្រោយបំផុត]] ដែលបានបន្ថែម ទៅ វិគី',
 	'newestpages-header'     => "'''ទំព័រនេះ ​រាយ $1 ទំព័រ ថ្មីបំផុត លើ វិគី ។'''",
 	'newestpages-limitlinks' => 'បង្ហាញអតិបរិមា $1 ទំព័រ',
-	'newestpages-namespace'  => 'វាលឈ្មោះ ៖',
+	'newestpages-namespace'  => 'លំហឈ្មោះ៖',
 	'newestpages-none'       => 'រកមិនឃើញ អត្ថបទ ។',
 	'newestpages-ns-header'  => "'''ទំព័រនេះ ​រាយ $1 ទំព័រ ថ្មីបំផុត ក្នុង វាលឈ្មោះ $2 ។'''",
 	'newestpages-showing'    => 'រាយ $1 ទំព័រ ថ្មីបំផុត ៖',
@@ -335,19 +336,20 @@ $messages['nds'] = array(
 );
 
 /** Dutch (Nederlands)
+ * @author Siebrand
  * @author SPQRobin
  */
 $messages['nl'] = array(
 	'newestpages'            => "Nieuwe pagina's",
-	'newestpages-desc'       => "Toont de [[Special:Newestpages|laatste X pagina's]] die werden toegevoegd aan de wiki",
+	'newestpages-desc'       => "De [[Special:Newestpages|laatste X nieuwe pagina's]] in de wiki",
 	'newestpages-header'     => "'''Op deze pagina staan de $1 meest recent aangemaakte pagina's van deze wiki.'''",
-	'newestpages-limitlinks' => "Toon maximaal $1 pagina's",
+	'newestpages-limitlinks' => "Geeft maximaal $1 pagina's weer",
 	'newestpages-namespace'  => 'Naamruimte:',
 	'newestpages-none'       => 'Geen resultaten.',
 	'newestpages-ns-header'  => "'''Deze pagina geeft de $1 meest recente aangemaakte pagina's weer in de naamruimte $2.'''",
-	'newestpages-showing'    => "De $1 meest recente pagina's worden getoond:",
+	'newestpages-showing'    => "De $1 meest recente pagina's worden weergegeven:",
 	'newestpages-submit'     => 'OK',
-	'newestpages-showredir'  => 'Doorverwijzingen tonen',
+	'newestpages-showredir'  => 'Doorverwijzingen weergeven',
 	'newestpages-hideredir'  => 'Doorverwijzingen verbergen',
 );
 
@@ -539,7 +541,7 @@ $messages['stq'] = array(
 
 /** Swedish (Svenska)
  * @author M.M.S.
- * @author Max sonnelid
+ * @author M.M.S.
  */
 $messages['sv'] = array(
 	'newestpages'            => 'Nyaste sidor',
@@ -560,6 +562,7 @@ $messages['sv'] = array(
  */
 $messages['te'] = array(
 	'newestpages'            => 'కొంగొత్త పేజీలు',
+	'newestpages-desc'       => 'వికీలో చేర్చిన [[Special:Newestpages|చివరి X పేజీల]]ను చూపిస్తుంది',
 	'newestpages-header'     => "'''ఈ వికీలోని $1 కొంగొత్త పేజీలను ఈ పేజీ చూపిస్తుంది.'''",
 	'newestpages-limitlinks' => '$1 పేజీల వరకు చూపించు',
 	'newestpages-none'       => 'ఏమీ కనబడలేదు.',
