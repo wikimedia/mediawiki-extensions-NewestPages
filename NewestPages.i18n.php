@@ -288,7 +288,7 @@ $messages['it'] = array(
  * @author Lovekhmer
  */
 $messages['km'] = array(
-	'newestpages'            => 'ទំព័រ ថ្មីបំផុត',
+	'newestpages'            => 'ទំព័រថ្មីៗបំផុត',
 	'newestpages-desc'       => 'បង្ហាញ [[Special:Newestpages|ទំព័រ ចុងក្រោយបំផុត]] ដែលបានបន្ថែម ទៅ វិគី',
 	'newestpages-header'     => "'''ទំព័រនេះ ​រាយ $1 ទំព័រ ថ្មីបំផុត លើ វិគី ។'''",
 	'newestpages-limitlinks' => 'បង្ហាញអតិបរិមា $1 ទំព័រ',
@@ -297,7 +297,7 @@ $messages['km'] = array(
 	'newestpages-ns-header'  => "'''ទំព័រនេះ ​រាយ $1 ទំព័រ ថ្មីបំផុត ក្នុង វាលឈ្មោះ $2 ។'''",
 	'newestpages-showing'    => 'រាយ $1 ទំព័រ ថ្មីបំផុត ៖',
 	'newestpages-submit'     => 'ទៅ',
-	'newestpages-showredir'  => 'បង្ហាញ ទំព័រប្តូរទិស',
+	'newestpages-showredir'  => 'បង្ហាញទំព័របញ្ជូន',
 	'newestpages-hideredir'  => 'បិទបាំង ទំព័រប្តូរទិស',
 );
 
