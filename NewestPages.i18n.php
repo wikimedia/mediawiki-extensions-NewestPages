@@ -542,16 +542,17 @@ $messages['stq'] = array(
 /** Swedish (Svenska)
  * @author M.M.S.
  * @author M.M.S.
+ * @author Sannab
  */
 $messages['sv'] = array(
 	'newestpages'            => 'Nyaste sidor',
-	'newestpages-desc'       => 'Visar dom [[Special:Newestpages|sista X sidorna]] tillaggda till wikin',
-	'newestpages-header'     => "'''Denna sida listar dom $1 nyaste sidorna på denna wiki.'''",
+	'newestpages-desc'       => 'Visar de [[Special:Newestpages|senaste X sidorna]] som lagts till i wikin',
+	'newestpages-header'     => "'''Denna sida listar de $1 nyaste sidorna på denna wiki.'''",
 	'newestpages-limitlinks' => 'Visa upp till $1 sidor',
 	'newestpages-namespace'  => 'Namnrymd:',
 	'newestpages-none'       => 'Inga entréer hittades.',
-	'newestpages-ns-header'  => "'''Denna sida listar dom $1 nyaste sidorna i $2 namnrymden.'''",
-	'newestpages-showing'    => 'Listar dom $1 nyaste sidorna:',
+	'newestpages-ns-header'  => "'''Denna sida listar de $1 nyaste sidorna i $2 namnrymden.'''",
+	'newestpages-showing'    => 'Listar de $1 nyaste sidorna:',
 	'newestpages-submit'     => 'Gå',
 	'newestpages-showredir'  => 'Visa omdirigerings sidor',
 	'newestpages-hideredir'  => 'Dölj omdirigerings sidor',
