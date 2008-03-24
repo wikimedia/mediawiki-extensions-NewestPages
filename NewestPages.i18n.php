@@ -98,6 +98,13 @@ $messages['bg'] = array(
 	'newestpages-hideredir'  => 'Скриване на пренасочващите страници',
 );
 
+/** Danish (Dansk)
+ * @author Jon Harald Søby
+ */
+$messages['da'] = array(
+	'newestpages-namespace' => 'Navnerum:',
+);
+
 /** German (Deutsch)
  * @author Markus Klatt
  * @author Raimond Spekking
@@ -351,6 +358,13 @@ $messages['nl'] = array(
 	'newestpages-submit'     => 'OK',
 	'newestpages-showredir'  => 'Doorverwijzingen weergeven',
 	'newestpages-hideredir'  => 'Doorverwijzingen verbergen',
+);
+
+/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+ * @author Jon Harald Søby
+ */
+$messages['nn'] = array(
+	'newestpages-namespace' => 'Namnerom:',
 );
 
 /** Norwegian (‪Norsk (bokmål)‬)
