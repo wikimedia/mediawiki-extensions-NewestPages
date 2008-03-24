@@ -329,6 +329,17 @@ $messages['lb'] = array(
 	'newestpages-hideredir'  => 'Verstopp Redirect-Säiten',
 );
 
+/** Marathi (मराठी)
+ * @author Kaustubh
+ */
+$messages['mr'] = array(
+	'newestpages'           => 'नवीनतम पाने',
+	'newestpages-namespace' => 'नामविश्व:',
+	'newestpages-submit'    => 'जा',
+	'newestpages-showredir' => 'पुनर्निर्देशन पाने दाखवा',
+	'newestpages-hideredir' => 'पुनर्निर्देशन पाने लपवा',
+);
+
 $messages['nds'] = array(
 	'newestpages' => 'Ne’este Sieden',
 	'newestpages-header' => '\'\'\'Disse Siet wiest de $1 ne’esten Sieden op dat Wiki.\'\'\'',
