@@ -98,6 +98,13 @@ $messages['bg'] = array(
 	'newestpages-hideredir'  => 'Скриване на пренасочващите страници',
 );
 
+/** Catalan (Català)
+ * @author SMP
+ */
+$messages['ca'] = array(
+	'newestpages-submit' => 'Vés-hi',
+);
+
 /** Danish (Dansk)
  * @author Jon Harald Søby
  */
@@ -596,6 +603,13 @@ $messages['te'] = array(
 	'newestpages-submit'     => 'వెళ్ళు',
 	'newestpages-showredir'  => 'దారిమార్పు పేజీలను చూపించు',
 	'newestpages-hideredir'  => 'దారిమార్పు పేజీలను దాచు',
+);
+
+/** Tetum (Tetun)
+ * @author MF-Warburg
+ */
+$messages['tet'] = array(
+	'newestpages-submit' => 'Bá',
 );
 
 /** Tonga (faka-Tonga)
