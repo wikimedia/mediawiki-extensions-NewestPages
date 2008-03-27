@@ -336,15 +336,28 @@ $messages['lb'] = array(
 	'newestpages-hideredir'  => 'Verstopp Redirect-Säiten',
 );
 
+/** Malayalam (മലയാളം)
+ * @author Shijualex
+ */
+$messages['ml'] = array(
+	'newestpages-submit' => 'പോകൂ',
+);
+
 /** Marathi (मराठी)
  * @author Kaustubh
  */
 $messages['mr'] = array(
-	'newestpages'           => 'नवीनतम पाने',
-	'newestpages-namespace' => 'नामविश्व:',
-	'newestpages-submit'    => 'जा',
-	'newestpages-showredir' => 'पुनर्निर्देशन पाने दाखवा',
-	'newestpages-hideredir' => 'पुनर्निर्देशन पाने लपवा',
+	'newestpages'            => 'नवीनतम पाने',
+	'newestpages-desc'       => 'विकिवर वाढविण्यात आलेली [[Special:Newestpages|शेवटची X पाने]] दर्शवितो',
+	'newestpages-header'     => "'''हे पान विकिवर वाढविण्यात आलेल्या शेवटच्या $1 पानांची यादी देते.'''",
+	'newestpages-limitlinks' => '$1 पर्यंतची पाने दाखवा',
+	'newestpages-namespace'  => 'नामविश्व:',
+	'newestpages-none'       => 'नोंदी सापडल्या नाहीत.',
+	'newestpages-ns-header'  => "'''हे पान $2 नामविश्वातील $1 नवीनतम पानांची यादी देते.'''",
+	'newestpages-showing'    => '$1 नवीनतम पानांची यादी:',
+	'newestpages-submit'     => 'जा',
+	'newestpages-showredir'  => 'पुनर्निर्देशन पाने दाखवा',
+	'newestpages-hideredir'  => 'पुनर्निर्देशन पाने लपवा',
 );
 
 $messages['nds'] = array(
