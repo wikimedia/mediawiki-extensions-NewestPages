@@ -494,6 +494,7 @@ $messages['pt'] = array(
  */
 $messages['ru'] = array(
 	'newestpages'            => 'Новые страницы',
+	'newestpages-desc'       => 'Показывает [[Special:Newestpages|последние X страниц]] добавленных в вики',
 	'newestpages-header'     => "'''Эта страница в ходит в список $1 новых страниц этой вики.'''",
 	'newestpages-limitlinks' => 'Показывать до $1 страниц',
 	'newestpages-namespace'  => 'Пространство имён:',
