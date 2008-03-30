@@ -325,6 +325,7 @@ $messages['la'] = array(
  */
 $messages['lb'] = array(
 	'newestpages'            => 'Neitste Säiten',
+	'newestpages-desc'       => 'Weist déi [[Special:Newestpages|läscht X Säiten]] déi op enger Wiki opgemaach goufen',
 	'newestpages-header'     => "'''Op dëser Säit stinn déi $1 neitste Säite vun dëser Wiki.'''",
 	'newestpages-limitlinks' => 'Weis bis zu $1 Säiten',
 	'newestpages-namespace'  => 'Nummraum:',
