@@ -586,6 +586,23 @@ $messages['stq'] = array(
 	'newestpages-hideredir'  => 'Wiederlaitengssieden ferstopje.',
 );
 
+/** Sundanese (Basa Sunda)
+ * @author Kandar
+ */
+$messages['su'] = array(
+	'newestpages'            => 'Kaca-kaca panganyarna',
+	'newestpages-desc'       => 'Témbongkeun [[Special:Newestpages|X kaca panungtung]] nu dijieun di wiki',
+	'newestpages-header'     => "'''Ieu kaca ngabéréndélkeun $1 kaca panganyarna di wiki.'''",
+	'newestpages-limitlinks' => 'Témbongkeun nepi ka $1 kaca',
+	'newestpages-namespace'  => 'Spasi ngaran:',
+	'newestpages-none'       => 'Euweuh éntri nu kapanggih.',
+	'newestpages-ns-header'  => "'''Ieu kaca ngabéréndélkeun $1 kaca panganyarna dina ngaran spasi $2.'''",
+	'newestpages-showing'    => 'Ngabéréndélkeun $1 kaca panganyarna:',
+	'newestpages-submit'     => 'Jung',
+	'newestpages-showredir'  => 'Témbongkeun kaca alihan',
+	'newestpages-hideredir'  => 'Sumputkeun kaca alihan',
+);
+
 /** Swedish (Svenska)
  * @author M.M.S.
  * @author M.M.S.
