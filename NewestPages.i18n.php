@@ -644,10 +644,8 @@ $messages['tet'] = array(
 	'newestpages-submit' => 'Bá',
 );
 
-/** Tajik (Тоҷикӣ/tojikī)
- * @author Ibrahim
- */
-$messages['tg'] = array(
+/** Tajik (Тоҷикӣ/tojikī) */
+$messages['tg-cyrl'] = array(
 	'newestpages-namespace' => 'Фазоином:',
 );
 
