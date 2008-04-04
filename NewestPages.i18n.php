@@ -224,6 +224,13 @@ $messages['gl'] = array(
 	'newestpages-hideredir'  => 'Ocultar páxinas redirixidas',
 );
 
+/** Hindi (हिन्दी)
+ * @author Kaustubh
+ */
+$messages['hi'] = array(
+	'newestpages-submit' => 'जायें',
+);
+
 /** Upper Sorbian (Hornjoserbsce)
  * @author Michawiki
  */
@@ -644,16 +651,12 @@ $messages['tet'] = array(
 	'newestpages-submit' => 'Bá',
 );
 
-/** Tajik (Тоҷикӣ/tojikī) */
-$messages['tg-cyrl'] = array(
-	'newestpages-namespace' => 'Фазоином:',
-);
-
 /** Tajik (Cyrillic) (Тоҷикӣ/tojikī (Cyrillic))
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
-	'newestpages-submit' => 'Бирав',
+	'newestpages-submit'    => 'Бирав',
+	'newestpages-namespace' => 'Фазоином:',
 );
 
 /** Tonga (faka-Tonga)
