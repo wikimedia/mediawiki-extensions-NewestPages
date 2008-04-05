@@ -653,10 +653,15 @@ $messages['tet'] = array(
 
 /** Tajik (Cyrillic) (Тоҷикӣ/tojikī (Cyrillic))
  * @author Ibrahim
+ * @author Siebrand
  */
 $messages['tg-cyrl'] = array(
-	'newestpages-submit'    => 'Бирав',
+	'newestpages'           => 'Саҳифаҳои навтарин',
 	'newestpages-namespace' => 'Фазоином:',
+	'newestpages-ns-header' => "'''Ин саҳифа $1 навтарин саҳифаҳоро дар фазоиноми $2 феҳрист мекунад.'''",
+	'newestpages-submit'    => 'Бирав',
+	'newestpages-showredir' => 'Намоиши саҳифаҳои масир',
+	'newestpages-hideredir' => 'Пинҳон кардани саҳифаҳои масир',
 );
 
 /** Tonga (faka-Tonga)
