@@ -228,7 +228,8 @@ $messages['gl'] = array(
  * @author Kaustubh
  */
 $messages['hi'] = array(
-	'newestpages-submit' => 'जायें',
+	'newestpages-namespace' => 'नामस्थान:',
+	'newestpages-submit'    => 'जायें',
 );
 
 /** Upper Sorbian (Hornjoserbsce)
