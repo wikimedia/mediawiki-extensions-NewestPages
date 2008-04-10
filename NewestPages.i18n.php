@@ -228,8 +228,14 @@ $messages['gl'] = array(
  * @author Kaustubh
  */
 $messages['hi'] = array(
-	'newestpages-namespace' => 'नामस्थान:',
-	'newestpages-submit'    => 'जायें',
+	'newestpages'            => 'नवीनतम पन्ने',
+	'newestpages-limitlinks' => '$1 तक पन्ने दर्शायें',
+	'newestpages-namespace'  => 'नामस्थान:',
+	'newestpages-none'       => 'एन्ट्री मिली नहीं।',
+	'newestpages-showing'    => '$1 नवीनतम पन्नोंकी सूची:',
+	'newestpages-submit'     => 'जायें',
+	'newestpages-showredir'  => 'अनुप्रेषित पन्ने दर्शायें',
+	'newestpages-hideredir'  => 'अनुप्रेषित पन्ने छुपायें',
 );
 
 /** Upper Sorbian (Hornjoserbsce)
