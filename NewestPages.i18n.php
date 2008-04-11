@@ -229,9 +229,12 @@ $messages['gl'] = array(
  */
 $messages['hi'] = array(
 	'newestpages'            => 'नवीनतम पन्ने',
+	'newestpages-desc'       => 'विकिपर बनाये गये [[Special:Newestpages|आखिरी X पन्ने]] दर्शाता हैं',
+	'newestpages-header'     => "'''यह पृष्ठ विकिपर बनाये गये आखिरी $1 पन्नोंकी सूची दर्शाता हैं।'''",
 	'newestpages-limitlinks' => '$1 तक पन्ने दर्शायें',
 	'newestpages-namespace'  => 'नामस्थान:',
 	'newestpages-none'       => 'एन्ट्री मिली नहीं।',
+	'newestpages-ns-header'  => "'''यह पृष्ठ $2 नामस्थानमें बनायें $1 नवीनतम पन्नोंकी सूची दर्शाता हैं।'''",
 	'newestpages-showing'    => '$1 नवीनतम पन्नोंकी सूची:',
 	'newestpages-submit'     => 'जायें',
 	'newestpages-showredir'  => 'अनुप्रेषित पन्ने दर्शायें',
