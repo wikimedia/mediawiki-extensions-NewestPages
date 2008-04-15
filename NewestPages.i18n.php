@@ -224,6 +224,13 @@ $messages['gl'] = array(
 	'newestpages-hideredir'  => 'Ocultar páxinas redirixidas',
 );
 
+/** Manx (Gaelg)
+ * @author MacTire02
+ */
+$messages['gv'] = array(
+	'newestpages-submit' => 'Gow',
+);
+
 /** Hindi (हिन्दी)
  * @author Kaustubh
  */
