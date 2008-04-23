@@ -174,6 +174,13 @@ $messages['eo'] = array(
 	'newestpages-hideredir'  => 'Kaŝu alidirektajn paĝojn',
 );
 
+/** Spanish (Español)
+ * @author Jatrobat
+ */
+$messages['es'] = array(
+	'newestpages-submit' => 'Ir',
+);
+
 /* Finnish (Niklas Laxström) */
 $messages['fi'] = array(
 	'newestpages' => 'Uusimmat sivut',
