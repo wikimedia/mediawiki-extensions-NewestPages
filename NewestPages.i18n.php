@@ -105,6 +105,13 @@ $messages['ca'] = array(
 	'newestpages-submit' => 'Vés-hi',
 );
 
+/** Chamorro (Chamoru)
+ * @author Jatrobat
+ */
+$messages['ch'] = array(
+	'newestpages-submit' => 'Hånao',
+);
+
 /** Danish (Dansk)
  * @author Jon Harald Søby
  */
