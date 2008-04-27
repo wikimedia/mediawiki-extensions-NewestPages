@@ -262,6 +262,13 @@ $messages['hi'] = array(
 	'newestpages-hideredir'  => 'अनुप्रेषित पन्ने छुपायें',
 );
 
+/** Hiligaynon (Ilonggo)
+ * @author Jose77
+ */
+$messages['hil'] = array(
+	'newestpages-submit' => 'Lakat',
+);
+
 /** Upper Sorbian (Hornjoserbsce)
  * @author Michawiki
  */
