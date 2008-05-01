@@ -342,6 +342,14 @@ $messages['it'] = array(
 	'newestpages-hideredir' => 'Nascondi i redirect',
 );
 
+/** Javanese (Basa Jawa)
+ * @author Meursault2004
+ */
+$messages['jv'] = array(
+	'newestpages-namespace' => 'Bilik nama:',
+	'newestpages-submit'    => 'Golèk',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author Chhorran
  * @author Lovekhmer
@@ -386,7 +394,8 @@ $messages['lb'] = array(
  * @author Shijualex
  */
 $messages['ml'] = array(
-	'newestpages-submit' => 'പോകൂ',
+	'newestpages-namespace' => 'നേംസ്പേസ്:',
+	'newestpages-submit'    => 'പോകൂ',
 );
 
 /** Marathi (मराठी)
