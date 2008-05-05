@@ -347,6 +347,7 @@ $messages['it'] = array(
  */
 $messages['jv'] = array(
 	'newestpages-namespace' => 'Bilik nama:',
+	'newestpages-none'      => 'Ora ditemokaké èntri.',
 	'newestpages-submit'    => 'Golèk',
 );
 
@@ -394,8 +395,12 @@ $messages['lb'] = array(
  * @author Shijualex
  */
 $messages['ml'] = array(
-	'newestpages-namespace' => 'നേംസ്പേസ്:',
-	'newestpages-submit'    => 'പോകൂ',
+	'newestpages-limitlinks' => '$1 താളുകള്‍ വരെ പ്രദര്‍ശിപ്പിക്കുന്നു',
+	'newestpages-namespace'  => 'നേംസ്പേസ്:',
+	'newestpages-showing'    => 'ഏറ്റവും പുതിയ $1 താളുകള്‍ പ്രദര്‍ശിപ്പിക്കുന്നു:',
+	'newestpages-submit'     => 'പോകൂ',
+	'newestpages-showredir'  => 'തിരിച്ചുവിടല്‍ താളുകള്‍ പ്രദര്‍ശിപ്പിക്കുക',
+	'newestpages-hideredir'  => 'തിരിച്ചുവിടല്‍ താളുകള്‍ മറയ്ക്കുക',
 );
 
 /** Marathi (मराठी)
