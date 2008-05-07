@@ -346,6 +346,7 @@ $messages['it'] = array(
  * @author Meursault2004
  */
 $messages['jv'] = array(
+	'newestpages'           => 'Kaca-kaca anyar',
 	'newestpages-namespace' => 'Bilik nama:',
 	'newestpages-none'      => 'Ora ditemokaké èntri.',
 	'newestpages-submit'    => 'Golèk',
@@ -367,6 +368,13 @@ $messages['km'] = array(
 	'newestpages-submit'     => 'ទៅ',
 	'newestpages-showredir'  => 'បង្ហាញទំព័របញ្ជូន',
 	'newestpages-hideredir'  => 'បិទបាំង ទំព័រប្តូរទិស',
+);
+
+/** Kinaray-a (Kinaray-a)
+ * @author Jose77
+ */
+$messages['krj'] = array(
+	'newestpages-submit' => 'Agto',
 );
 
 $messages['la'] = array(
