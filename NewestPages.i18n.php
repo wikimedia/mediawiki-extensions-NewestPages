@@ -346,10 +346,13 @@ $messages['it'] = array(
  * @author Meursault2004
  */
 $messages['jv'] = array(
-	'newestpages'           => 'Kaca-kaca anyar',
-	'newestpages-namespace' => 'Bilik nama:',
-	'newestpages-none'      => 'Ora ditemokaké èntri.',
-	'newestpages-submit'    => 'Golèk',
+	'newestpages'            => 'Kaca-kaca anyar',
+	'newestpages-limitlinks' => 'Tuduhna nganti tekan $1 kaca-kaca',
+	'newestpages-namespace'  => 'Bilik nama:',
+	'newestpages-none'       => 'Ora ditemokaké èntri.',
+	'newestpages-submit'     => 'Golèk',
+	'newestpages-showredir'  => 'Tuduhna kaca-kaca pangalihan',
+	'newestpages-hideredir'  => 'Delikna kaca-kaca pangalihan',
 );
 
 /** Khmer (ភាសាខ្មែរ)
