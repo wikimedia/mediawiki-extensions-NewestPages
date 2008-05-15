@@ -406,6 +406,7 @@ $messages['lb'] = array(
  * @author Shijualex
  */
 $messages['ml'] = array(
+	'newestpages'            => 'ഏറ്റവും പുതിയ താളുകള്‍',
 	'newestpages-limitlinks' => '$1 താളുകള്‍ വരെ പ്രദര്‍ശിപ്പിക്കുന്നു',
 	'newestpages-namespace'  => 'നേംസ്പേസ്:',
 	'newestpages-showing'    => 'ഏറ്റവും പുതിയ $1 താളുകള്‍ പ്രദര്‍ശിപ്പിക്കുന്നു:',
@@ -749,6 +750,23 @@ $messages['to'] = array(
 $messages['tr'] = array(
 	'newestpages'        => 'En yeni sayfalar',
 	'newestpages-submit' => 'Git',
+);
+
+/** Vèneto (Vèneto)
+ * @author Candalua
+ */
+$messages['vec'] = array(
+	'newestpages'            => 'Pagine piassè nove',
+	'newestpages-desc'       => 'Mostra le [[Special:Newestpages|ultime X pagine]] zontà a la wiki',
+	'newestpages-header'     => "'''Sta pagina la elenca le $1 pagine piassè nove su la wiki.'''",
+	'newestpages-limitlinks' => 'Mostra fin a $1 pagine',
+	'newestpages-namespace'  => 'Namespace:',
+	'newestpages-none'       => 'No xe stà catà nissuna pagina.',
+	'newestpages-ns-header'  => "'''Sta pagina la elenca le $1 pagine piassè nove nel namespace $2.'''",
+	'newestpages-showing'    => 'Elenco de le $1 pagine piassè nove:',
+	'newestpages-submit'     => 'Và',
+	'newestpages-showredir'  => 'Mostra i redirect',
+	'newestpages-hideredir'  => 'Scondi i redirect',
 );
 
 /** Vietnamese (Tiếng Việt)
