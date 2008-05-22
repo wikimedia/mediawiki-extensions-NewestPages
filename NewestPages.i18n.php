@@ -407,6 +407,8 @@ $messages['lb'] = array(
  */
 $messages['ml'] = array(
 	'newestpages'            => 'ഏറ്റവും പുതിയ താളുകള്‍',
+	'newestpages-desc'       => 'വിക്കിയിലേക്കു [[Special:Newestpages|അവസാനമായി ചേര്‍ക്കപ്പെട്ട X താളുകള്‍]] പ്രദര്‍ശിപ്പിക്കുന്നു.',
+	'newestpages-header'     => "'''വിക്കിയിലെ ഏറ്റവും പുതിയ $1 താളുകള്‍ ഈ താളില്‍ പ്രദര്‍ശിപ്പിച്ചിരിക്കുന്നു.'''",
 	'newestpages-limitlinks' => '$1 താളുകള്‍ വരെ പ്രദര്‍ശിപ്പിക്കുന്നു',
 	'newestpages-namespace'  => 'നേംസ്പേസ്:',
 	'newestpages-none'       => 'എന്‍‌ട്രികള്‍ ഒന്നും കണ്ടില്ല.',
@@ -592,7 +594,7 @@ $messages['sk'] = array(
 	'newestpages-none'       => 'Neboli nájdené žiadne záznamy.',
 	'newestpages-ns-header'  => "'''Toto je zoznam $1 najnovších stránok v mennom priestore $2.'''",
 	'newestpages-showing'    => 'Zoznam $1 najnovších stránok:',
-	'newestpages-submit'     => 'Choď',
+	'newestpages-submit'     => 'Vykonať',
 	'newestpages-showredir'  => 'Zobraziť presmerovacie stránky',
 	'newestpages-hideredir'  => 'Skryť presmerovacie stránky',
 );
