@@ -380,6 +380,13 @@ $messages['krj'] = array(
 	'newestpages-submit' => 'Agto',
 );
 
+/** Ripoarisch (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'newestpages-submit' => 'Loß Jonn!',
+);
+
 $messages['la'] = array(
 	'newestpages-namespace' => 'Spatium nominale:',
 	'newestpages-submit' => 'Ire',
