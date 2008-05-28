@@ -112,6 +112,13 @@ $messages['ch'] = array(
 	'newestpages-submit' => 'Hånao',
 );
 
+/** Church Slavic (Словѣньскъ)
+ * @author ОйЛ
+ */
+$messages['cu'] = array(
+	'newestpages-submit' => 'прѣиди́',
+);
+
 /** Danish (Dansk)
  * @author Jon Harald Søby
  */
