@@ -792,6 +792,7 @@ $messages['vec'] = array(
  */
 $messages['vi'] = array(
 	'newestpages'            => 'Các trang mới nhất',
+	'newestpages-desc'       => 'Hiển thị [[Special:Newestpages|X trang cuối cùng]] được thêm vào wiki',
 	'newestpages-header'     => "'''Trang này liệt kê $1 trang mới nhất trên wiki.'''",
 	'newestpages-limitlinks' => 'Hiển thị tối đa $1 trang',
 	'newestpages-namespace'  => 'Không gian:',
