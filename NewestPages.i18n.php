@@ -26,6 +26,20 @@ $messages['en'] = array(
 	'newestpages-hideredir'  => 'Hide redirect pages',
 );
 
+/** Tarifit (Tarifit)
+ * @author Jose77
+ */
+$messages['rif'] = array(
+	'newestpages-submit' => 'Raḥ ɣa',
+);
+
+/** Niuean (native name missing)
+ * @author Jose77
+ */
+$messages['niu'] = array(
+	'newestpages-submit' => 'Fano',
+);
+
 $messages['af'] = array(
 	'newestpages-namespace' => 'Naamruimte:',
 );
@@ -230,10 +244,11 @@ $messages['fr'] = array(
 /** Galician (Galego)
  * @author Alma
  * @author Xosé
+ * @author Toliño
  */
 $messages['gl'] = array(
 	'newestpages'            => 'Páxinas máis novas',
-	'newestpages-desc'       => 'Amosa [[Special:Newestpages|X últimas páxinas]] engadidas ao wiki',
+	'newestpages-desc'       => 'Amosa as [[Special:Newestpages|últimas X páxinas]] engadidas ao wiki',
 	'newestpages-header'     => "'''Esta páxina lista as $1 páxinas novas no wiki.'''",
 	'newestpages-limitlinks' => 'Amosar $1 páxinas',
 	'newestpages-namespace'  => 'Espazo de nomes:',
@@ -719,7 +734,9 @@ $messages['te'] = array(
 	'newestpages-desc'       => 'వికీలో చేర్చిన [[Special:Newestpages|చివరి X పేజీల]]ను చూపిస్తుంది',
 	'newestpages-header'     => "'''ఈ వికీలోని $1 కొంగొత్త పేజీలను ఈ పేజీ చూపిస్తుంది.'''",
 	'newestpages-limitlinks' => '$1 పేజీల వరకు చూపించు',
+	'newestpages-namespace'  => 'పేరుబరి:',
 	'newestpages-none'       => 'ఏమీ కనబడలేదు.',
+	'newestpages-ns-header'  => "'''ఈ పేజీ $2 పేరుబరి లోని $1 కొత్త పేజీల జాబితాని చూపిస్తుంది.'''",
 	'newestpages-showing'    => '$1 కొంగొత్త పేజీలను చూపిస్తున్నాం:',
 	'newestpages-submit'     => 'వెళ్ళు',
 	'newestpages-showredir'  => 'దారిమార్పు పేజీలను చూపించు',
