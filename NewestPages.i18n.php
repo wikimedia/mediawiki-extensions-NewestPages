@@ -26,14 +26,7 @@ $messages['en'] = array(
 	'newestpages-hideredir'  => 'Hide redirect pages',
 );
 
-/** Tarifit (Tarifit)
- * @author Jose77
- */
-$messages['rif'] = array(
-	'newestpages-submit' => 'Raḥ ɣa',
-);
-
-/** Niuean (native name missing)
+/** Niuean (ko e vagahau Niuē)
  * @author Jose77
  */
 $messages['niu'] = array(
@@ -592,6 +585,13 @@ $messages['pt'] = array(
 	'newestpages-submit' => 'Ir',
 	'newestpages-showredir' => 'Exibir redireccionamentos',
 	'newestpages-hideredir' => 'Ocultar redireccionamentos',
+);
+
+/** Tarifit (Tarifit)
+ * @author Jose77
+ */
+$messages['rif'] = array(
+	'newestpages-submit' => 'Raḥ ɣa',
 );
 
 /** Russian (Русский)
