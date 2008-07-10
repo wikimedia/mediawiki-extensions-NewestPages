@@ -33,11 +33,14 @@ $messages['niu'] = array(
 	'newestpages-submit' => 'Fano',
 );
 
+/** Afrikaans (Afrikaans)
+ * @author SPQRobin
+ */
 $messages['af'] = array(
 	'newestpages-namespace' => 'Naamruimte:',
 );
 
-/** Old English (Anglo Saxon)
+/** Old English (Anglo-Saxon)
  * @author Wōdenhelm
  */
 $messages['ang'] = array(
@@ -79,12 +82,15 @@ $messages['avk'] = array(
 	'newestpages-hideredir'  => 'Palsera va graskan bueem',
 );
 
+/** Bikol Central (Bikol Central)
+ * @author Filipinayzd
+ */
 $messages['bcl'] = array(
-	'newestpages' => 'Mga pinakabâgong páhina',
+	'newestpages'            => 'Mga pinakabâgong páhina',
 	'newestpages-limitlinks' => 'Ipahiling hasta sa $1 na mga páhina',
-	'newestpages-none' => 'Mayong nakuâng entrada.',
-	'newestpages-submit' => 'Dumanán',
-	'newestpages-hideredir' => 'Tagôon an mga redirektang páhina',
+	'newestpages-none'       => 'Mayong nakuâng entrada.',
+	'newestpages-submit'     => 'Dumanán',
+	'newestpages-hideredir'  => 'Tagôon an mga redirektang páhina',
 );
 
 /** Bulgarian (Български)
@@ -202,18 +208,20 @@ $messages['es'] = array(
 	'newestpages-submit' => 'Ir',
 );
 
-/* Finnish (Niklas Laxström) */
+/** Finnish (Suomi)
+ * @author Niklas Laxström
+ */
 $messages['fi'] = array(
-	'newestpages' => 'Uusimmat sivut',
-	'newestpages-header' => "'''Tällä sivulla on luettelo $1 uusimmasta sivusta tässä wikissä.'''",
+	'newestpages'            => 'Uusimmat sivut',
+	'newestpages-header'     => "'''Tällä sivulla on luettelo $1 uusimmasta sivusta tässä wikissä.'''",
 	'newestpages-limitlinks' => 'Näytä enintään $1 sivua',
-	'newestpages-namespace' => 'Nimiavaruus:',
-	'newestpages-none' => 'Ei uusia sivuja.',
-	'newestpages-ns-header' => "'''Tällä sivulla on luettelo $1 uusimmasta sivusta nimiavaruudessa $2.'''",
-	'newestpages-showing' => 'Näytetään $1 uusinta sivua:',
-	'newestpages-submit' => 'Hae',
-	'newestpages-showredir' => 'Näytä uudelleenohjaukset',
-	'newestpages-hideredir' => 'Piilota uudelleenohjaukset',
+	'newestpages-namespace'  => 'Nimiavaruus:',
+	'newestpages-none'       => 'Ei uusia sivuja.',
+	'newestpages-ns-header'  => "'''Tällä sivulla on luettelo $1 uusimmasta sivusta nimiavaruudessa $2.'''",
+	'newestpages-showing'    => 'Näytetään $1 uusinta sivua:',
+	'newestpages-submit'     => 'Hae',
+	'newestpages-showredir'  => 'Näytä uudelleenohjaukset',
+	'newestpages-hideredir'  => 'Piilota uudelleenohjaukset',
 );
 
 /** French (Français)
@@ -317,44 +325,50 @@ $messages['hu'] = array(
 	'newestpages-hideredir'  => 'Átirányítások elrejtése',
 );
 
-/* Indonesian (Ivan Lanin) */
+/** Indonesian (Bahasa Indonesia)
+ * @author Ivan Lanin
+ */
 $messages['id'] = array(
-	'newestpages' => 'Halaman terbaru',
-	'newestpages-header' => "'''Halaman ini memberikan daftar $1 halaman terbaru di wiki ini.'''",
+	'newestpages'            => 'Halaman terbaru',
+	'newestpages-header'     => "'''Halaman ini memberikan daftar $1 halaman terbaru di wiki ini.'''",
 	'newestpages-limitlinks' => 'Menampilkan sampai $1 halaman',
-	'newestpages-namespace' => 'Ruang nama:',
-	'newestpages-none' => 'Tidak ditemukan entri.',
-	'newestpages-ns-header' => "'''Halaman ini memberikan daftar $1 halaman terbaru di ruang nama $2.'''",
-	'newestpages-showing' => 'Menampilkan $1 halaman terbaru:',
-	'newestpages-submit' => 'Cari',
-	'newestpages-showredir' => 'Tampilkan halaman pengalihan',
-	'newestpages-hideredir' => 'Sembunyikan halaman pengalihan',
+	'newestpages-namespace'  => 'Ruang nama:',
+	'newestpages-none'       => 'Tidak ditemukan entri.',
+	'newestpages-ns-header'  => "'''Halaman ini memberikan daftar $1 halaman terbaru di ruang nama $2.'''",
+	'newestpages-showing'    => 'Menampilkan $1 halaman terbaru:',
+	'newestpages-submit'     => 'Cari',
+	'newestpages-showredir'  => 'Tampilkan halaman pengalihan',
+	'newestpages-hideredir'  => 'Sembunyikan halaman pengalihan',
 );
 
+/** Icelandic (Íslenska)
+ * @author S.Örvarr.S
+ */
 $messages['is'] = array(
-	'newestpages' => 'Nýjustu síður',
-	'newestpages-header' => '\'\'\'Þessi síða listar $1 nýjustu síðurnar á þessu wiki.\'\'\'',
+	'newestpages'            => 'Nýjustu síður',
+	'newestpages-header'     => "'''Þessi síða listar $1 nýjustu síðurnar á þessu wiki.'''",
 	'newestpages-limitlinks' => 'Sýna að hámarki $1 síður',
-	'newestpages-namespace' => 'Nafnrými:',
-	'newestpages-ns-header' => '\'\'\'Þessi síða listar $1 nýjustu síðurnar í $2 nafnrýminu.\'\'\'',
-	'newestpages-showing' => 'Lista $1 nýjustu síðurnar:',
-	'newestpages-submit' => 'Áfram',
-	'newestpages-showredir' => 'Sýna tilvísanir',
-	'newestpages-hideredir' => 'Fela tilvísanir',
+	'newestpages-namespace'  => 'Nafnrými:',
+	'newestpages-ns-header'  => "'''Þessi síða listar $1 nýjustu síðurnar í $2 nafnrýminu.'''",
+	'newestpages-showing'    => 'Lista $1 nýjustu síðurnar:',
+	'newestpages-submit'     => 'Áfram',
+	'newestpages-showredir'  => 'Sýna tilvísanir',
+	'newestpages-hideredir'  => 'Fela tilvísanir',
 );
 
-/* Italian (BrokenArrow) */
+/** Italian (Italiano) */
+ * @author BrokenArrow
+ */
 $messages['it'] = array(
-	'newestpages' => 'Pagine più recenti',
-	'newestpages-header' => "'''In questa pagina vengono elencate le $1 pagine create più di recente nel sito.'''",
+	'newestpages'            => 'Pagine più recenti',
+	'newestpages-header'     => "'''In questa pagina vengono elencate le $1 pagine create più di recente nel sito.'''",
 	'newestpages-limitlinks' => 'Mostra fino a $1 pagine',
-	'newestpages-namespace' => 'Namespace:',
-	'newestpages-none' => 'Nessuna pagina trovata.',
-	'newestpages-ns-header' => "'''In questa pagina vengono elencate le $1 pagine create più di recente nel namespace $2.'''",
-	'newestpages-showing' => 'Elenco delle $1 pagine create più di recente:',
-	'newestpages-submit' => 'Vai',
-	'newestpages-showredir' => 'Mostra i redirect',
-	'newestpages-hideredir' => 'Nascondi i redirect',
+	'newestpages-none'       => 'Nessuna pagina trovata.',
+	'newestpages-ns-header'  => "'''In questa pagina vengono elencate le $1 pagine create più di recente nel namespace $2.'''",
+	'newestpages-showing'    => 'Elenco delle $1 pagine create più di recente:',
+	'newestpages-submit'     => 'Vai',
+	'newestpages-showredir'  => 'Mostra i redirect',
+	'newestpages-hideredir'  => 'Nascondi i redirect',
 );
 
 /** Javanese (Basa Jawa)
@@ -382,10 +396,10 @@ $messages['km'] = array(
 	'newestpages-namespace'  => 'លំហឈ្មោះ៖',
 	'newestpages-none'       => 'រកមិនឃើញ អត្ថបទ ។',
 	'newestpages-ns-header'  => "'''ទំព័រនេះ ​រាយ $1 ទំព័រ ថ្មីបំផុត ក្នុង វាលឈ្មោះ $2 ។'''",
-	'newestpages-showing'    => 'រាយ $1 ទំព័រ ថ្មីបំផុត ៖',
+	'newestpages-showing'    => 'រាយ $1 ថាជាទំព័រថ្មីបំផុត៖',
 	'newestpages-submit'     => 'ទៅ',
 	'newestpages-showredir'  => 'បង្ហាញទំព័របញ្ជូន',
-	'newestpages-hideredir'  => 'បិទបាំង ទំព័រប្តូរទិស',
+	'newestpages-hideredir'  => 'លាក់ទំព័របញ្ជូនបន្ត',
 );
 
 /** Kinaray-a (Kinaray-a)
@@ -402,9 +416,12 @@ $messages['ksh'] = array(
 	'newestpages-submit' => 'Loß Jonn!',
 );
 
+/** Latin (Latina)
+ * @author SPQRobin
+ */
 $messages['la'] = array(
 	'newestpages-namespace' => 'Spatium nominale:',
-	'newestpages-submit' => 'Ire',
+	'newestpages-submit'    => 'Ire',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
@@ -458,17 +475,20 @@ $messages['mr'] = array(
 	'newestpages-hideredir'  => 'पुनर्निर्देशन पाने लपवा',
 );
 
+/** Low German (Plattdüütsch)
+ * @author Slomox
+ */
 $messages['nds'] = array(
-	'newestpages' => 'Ne’este Sieden',
-	'newestpages-header' => '\'\'\'Disse Siet wiest de $1 ne’esten Sieden op dat Wiki.\'\'\'',
+	'newestpages'            => 'Ne’este Sieden',
+	'newestpages-header'     => "'''Disse Siet wiest de $1 ne’esten Sieden op dat Wiki.'''",
 	'newestpages-limitlinks' => '$1 Sieden wiesen',
-	'newestpages-namespace' => 'Naamruum:',
-	'newestpages-none' => 'Nix funnen',
-	'newestpages-ns-header' => '\'\'\'Disse Siet wiest de $1 ne’esten Sieden in’n Naamruum $2.\'\'\'',
-	'newestpages-showing' => '$1 ne’este Sieden wiesen:',
-	'newestpages-submit' => 'Los',
-	'newestpages-showredir' => 'Wiederleiden wiesen',
-	'newestpages-hideredir' => 'Wiederleiden nich wiesen',
+	'newestpages-namespace'  => 'Naamruum:',
+	'newestpages-none'       => 'Nix funnen',
+	'newestpages-ns-header'  => "'''Disse Siet wiest de $1 ne’esten Sieden in’n Naamruum $2.'''",
+	'newestpages-showing'    => '$1 ne’este Sieden wiesen:',
+	'newestpages-submit'     => 'Los',
+	'newestpages-showredir'  => 'Wiederleiden wiesen',
+	'newestpages-hideredir'  => 'Wiederleiden nich wiesen',
 );
 
 /** Dutch (Nederlands)
@@ -496,7 +516,7 @@ $messages['nn'] = array(
 	'newestpages-namespace' => 'Namnerom:',
 );
 
-/** Norwegian (‪Norsk (bokmål)‬)
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Jon Harald Søby
  */
 $messages['no'] = array(
@@ -537,30 +557,36 @@ $messages['oc'] = array(
 	'newestpages-hideredir'  => 'Amagar las paginas de redireccion.',
 );
 
+/** Polish (Polski)
+ * @author Derbeth
+ */
 $messages['pl'] = array(
-	'newestpages' => 'Najnowsze strony',
-	'newestpages-header' => '\'\'\'Ta strona pokazuje $1 najnowszych stron na tej wiki.\'\'\'',
+	'newestpages'            => 'Najnowsze strony',
+	'newestpages-header'     => "'''Ta strona pokazuje $1 najnowszych stron na tej wiki.'''",
 	'newestpages-limitlinks' => 'Pokaż do $1 stron',
-	'newestpages-namespace' => 'Przestrzeń nazw:',
-	'newestpages-none' => 'Nie znaleziono żadnych wpisów.',
-	'newestpages-ns-header' => '\'\'\'Ta strona pokazuje $1 najnowszych stron w przestrzeni nazw $2.\'\'\'',
-	'newestpages-showing' => 'Prezentowanie $1 najnowszych stron:',
-	'newestpages-submit' => 'Pokaż',
-	'newestpages-showredir' => 'Pokaż strony przekierowujące',
-	'newestpages-hideredir' => 'Ukryj strony przekierowujące',
+	'newestpages-namespace'  => 'Przestrzeń nazw:',
+	'newestpages-none'       => 'Nie znaleziono żadnych wpisów.',
+	'newestpages-ns-header'  => "'''Ta strona pokazuje $1 najnowszych stron w przestrzeni nazw $2.'''",
+	'newestpages-showing'    => 'Prezentowanie $1 najnowszych stron:',
+	'newestpages-submit'     => 'Pokaż',
+	'newestpages-showredir'  => 'Pokaż strony przekierowujące',
+	'newestpages-hideredir'  => 'Ukryj strony przekierowujące',
 );
 
+/** Piedmontese (Piemontèis)
+ * @author Bèrto 'd Sèra
+ */
 $messages['pms'] = array(
-	'newestpages' => 'Pàgine pì neuve',
-	'newestpages-header' => '\'\'\'Ambelessì a-i é la lista dle $1 pàgine pì neuve dla wiki.\'\'\'',
+	'newestpages'            => 'Pàgine pì neuve',
+	'newestpages-header'     => "'''Ambelessì a-i é la lista dle $1 pàgine pì neuve dla wiki.'''",
 	'newestpages-limitlinks' => 'Smon fin a $1 pàgine',
-	'newestpages-namespace' => 'Spassi nominal:',
-	'newestpages-none' => 'Gnun-a vos trovà.',
-	'newestpages-ns-header' => '\'\'\'Ambelessì a-i é la lista dle $1 pàgine pì neuve dlë spassi nominal $2.\'\'\'',
-	'newestpages-showing' => 'Lista dle $1 pàgine pì neuve:',
-	'newestpages-submit' => 'Va',
-	'newestpages-showredir' => 'Smon j\'ardiression',
-	'newestpages-hideredir' => 'Stërma j\'ardiression',
+	'newestpages-namespace'  => 'Spassi nominal:',
+	'newestpages-none'       => 'Gnun-a vos trovà.',
+	'newestpages-ns-header'  => "'''Ambelessì a-i é la lista dle $1 pàgine pì neuve dlë spassi nominal $2.'''",
+	'newestpages-showing'    => 'Lista dle $1 pàgine pì neuve:',
+	'newestpages-submit'     => 'Va',
+	'newestpages-showredir'  => "Smon j'ardiression",
+	'newestpages-hideredir'  => "Stërma j'ardiression",
 );
 
 /** Pashto (پښتو)
@@ -573,18 +599,20 @@ $messages['ps'] = array(
 	'newestpages-submit'     => 'ورځه',
 );
 
-/* Portuguese (Lugusto) */
+/** Portuguese (Português)
+ * @author Lugusto
+ */
 $messages['pt'] = array(
-	'newestpages' => 'Páginas novas',
-	'newestpages-header' => "'''Esta página lista as $1 páginas mais recentes deste wiki.'''",
+	'newestpages'            => 'Páginas novas',
+	'newestpages-header'     => "'''Esta página lista as $1 páginas mais recentes deste wiki.'''",
 	'newestpages-limitlinks' => 'Exibir até $1 páginas',
-	'newestpages-namespace' => 'Espaço nominal:',
-	'newestpages-none' => 'Não foram encontrados resultados.',
-	'newestpages-ns-header' => "'''Esta página lista as $1 páginas mais recentes do espaço nominal $2.'''",
-	'newestpages-showing' => 'Listando as $1 páginas mais recentes:',
-	'newestpages-submit' => 'Ir',
-	'newestpages-showredir' => 'Exibir redireccionamentos',
-	'newestpages-hideredir' => 'Ocultar redireccionamentos',
+	'newestpages-namespace'  => 'Espaço nominal:',
+	'newestpages-none'       => 'Não foram encontrados resultados.',
+	'newestpages-ns-header'  => "'''Esta página lista as $1 páginas mais recentes do espaço nominal $2.'''",
+	'newestpages-showing'    => 'Listando as $1 páginas mais recentes:',
+	'newestpages-submit'     => 'Ir',
+	'newestpages-showredir'  => 'Exibir redireccionamentos',
+	'newestpages-hideredir'  => 'Ocultar redireccionamentos',
 );
 
 /** Tarifit (Tarifit)
@@ -628,48 +656,57 @@ $messages['sk'] = array(
 	'newestpages-hideredir'  => 'Skryť presmerovacie stránky',
 );
 
-/* Serbian default (Sasa Stefanovic) */
+/** Serbian (Српски / Srpski) */
+ * @author Sasa Stefanovic
+ */
 $messages['sr'] = array(
-	'newestpages' => 'Најновије странице',
-	'newestpages-header' => "'''Ова страница показује $1 најновијих страница на Вики.'''",
+	'newestpages'            => 'Најновије странице',
+	'newestpages-header'     => "'''Ова страница показује $1 најновијих страница на Вики.'''",
 	'newestpages-limitlinks' => 'Прикажи $1 страница',
-	'newestpages-namespace' => 'Именски простор:',
-	'newestpages-none' => 'Није ништа пронађено.',
-	'newestpages-ns-header' => "'''Ова страница показује $1 најновијих страница у $2 именском простору.'''",
-	'newestpages-showing' => 'Приказ $1 најновијих страница:',
-	'newestpages-submit' => 'Иди',
-	'newestpages-showredir' => 'Прикажи странице преусмерења',
-	'newestpages-hideredir' => 'Сакриј странице преусмерења',
+	'newestpages-namespace'  => 'Именски простор:',
+	'newestpages-none'       => 'Није ништа пронађено.',
+	'newestpages-ns-header'  => "'''Ова страница показује $1 најновијих страница у $2 именском простору.'''",
+	'newestpages-showing'    => 'Приказ $1 најновијих страница:',
+	'newestpages-submit'     => 'Иди',
+	'newestpages-showredir'  => 'Прикажи странице преусмерења',
+	'newestpages-hideredir'  => 'Сакриј странице преусмерења',
 );
 
-/* Serbian cyrillic (Sasa Stefanovic) */
+/** Serbian Cyrillic ekavian (ћирилица)
+ * @author Sasa Stefanovic
+ */
 $messages['sr-ec'] = array(
-	'newestpages' => 'Најновије странице',
-	'newestpages-header' => "'''Ова страница показује $1 најновијих страница на Вики.'''",
+	'newestpages'            => 'Најновије странице',
+	'newestpages-header'     => "'''Ова страница показује $1 најновијих страница на Вики.'''",
 	'newestpages-limitlinks' => 'Прикажи $1 страница',
-	'newestpages-namespace' => 'Именски простор:',
-	'newestpages-none' => 'Није ништа пронађено.',
-	'newestpages-ns-header' => "'''Ова страница показује $1 најновијих страница у $2 именском простору.'''",
-	'newestpages-showing' => 'Приказ $1 најновијих страница:',
-	'newestpages-submit' => 'Иди',
-	'newestpages-showredir' => 'Прикажи странице преусмерења',
-	'newestpages-hideredir' => 'Сакриј странице преусмерења',
+	'newestpages-namespace'  => 'Именски простор:',
+	'newestpages-none'       => 'Није ништа пронађено.',
+	'newestpages-ns-header'  => "'''Ова страница показује $1 најновијих страница у $2 именском простору.'''",
+	'newestpages-showing'    => 'Приказ $1 најновијих страница:',
+	'newestpages-submit'     => 'Иди',
+	'newestpages-showredir'  => 'Прикажи странице преусмерења',
+	'newestpages-hideredir'  => 'Сакриј странице преусмерења',
 );
 
-/* Serbian latin (Sasa Stefanovic) */
+/** latinica (latinica)
+ * @author Sasa Stefanovic
+ */
 $messages['sr-el'] = array(
-	'newestpages' => 'Najnovije stranice',
-	'newestpages-header' => "'''Ova stranica pokazuje $1 najnovijih stranica na Viki.'''",
+	'newestpages'            => 'Najnovije stranice',
+	'newestpages-header'     => "'''Ova stranica pokazuje $1 najnovijih stranica na Viki.'''",
 	'newestpages-limitlinks' => 'Prikaži $1 stranica',
-	'newestpages-namespace' => 'Imenski prostor:',
-	'newestpages-none' => 'Nije ništa pronađeno.',
-	'newestpages-ns-header' => "'''Ova stranica pokazuje $1 najnovijih stranica u $2 imenskom prostoru.'''",
-	'newestpages-showing' => 'Prikaz $1 najnovijih stranica:',
-	'newestpages-submit' => 'Idi',
-	'newestpages-showredir' => 'Prikaži stranice preusmerenja',
-	'newestpages-hideredir' => 'Sakrij stranice preusmerenja',
+	'newestpages-namespace'  => 'Imenski prostor:',
+	'newestpages-none'       => 'Nije ništa pronađeno.',
+	'newestpages-ns-header'  => "'''Ova stranica pokazuje $1 najnovijih stranica u $2 imenskom prostoru.'''",
+	'newestpages-showing'    => 'Prikaz $1 najnovijih stranica:',
+	'newestpages-submit'     => 'Idi',
+	'newestpages-showredir'  => 'Prikaži stranice preusmerenja',
+	'newestpages-hideredir'  => 'Sakrij stranice preusmerenja',
 );
 
+/** Swati (SiSwati)
+ * @author Jatrobat
+ */
 $messages['ss'] = array(
 	'newestpages-submit' => 'Kúhámba',
 );
@@ -708,7 +745,6 @@ $messages['su'] = array(
 );
 
 /** Swedish (Svenska)
- * @author M.M.S.
  * @author M.M.S.
  * @author Sannab
  */
@@ -821,45 +857,51 @@ $messages['vi'] = array(
 	'newestpages-hideredir'  => 'Ẩn các trang đổi hướng',
 );
 
-/* Cantonese (Hillgentleman, Shinjiman) */
+/** Yue (粵語)
+ * @author Shinjiman
+ * @author Hillgentleman
+ */
 $messages['yue'] = array(
-	'newestpages' => '新頁',
-	'newestpages-header' => "'''呢度列舉成個維基入面最新 $1 頁。'''",
+	'newestpages'            => '新頁',
+	'newestpages-header'     => "'''呢度列舉成個維基入面最新 $1 頁。'''",
 	'newestpages-limitlinks' => '攤開頂龍 $1 版',
-	'newestpages-namespace' => '空間名:',
-	'newestpages-none' => '乜都揾唔到。',
-	'newestpages-ns-header' => "'''呢度列舉$2 空間名裏面最新 $1 篇文。'''",
-	'newestpages-showing' => '攤開最新$1 篇文：',
-	'newestpages-submit' => '去',
-	'newestpages-showredir' => '攤開啲跳轉頁',
-	'newestpages-hideredir' => '摺埋啲跳轉頁',
+	'newestpages-namespace'  => '空間名:',
+	'newestpages-none'       => '乜都揾唔到。',
+	'newestpages-ns-header'  => "'''呢度列舉$2 空間名裏面最新 $1 篇文。'''",
+	'newestpages-showing'    => '攤開最新$1 篇文：',
+	'newestpages-submit'     => '去',
+	'newestpages-showredir'  => '攤開啲跳轉頁',
+	'newestpages-hideredir'  => '摺埋啲跳轉頁',
 );
 
-/* Chinese (Simplified) (下一次登录) */
+/** Simplified Chinese (‪中文(简体)‬) */
 $messages['zh-hans'] = array(
-	'newestpages' => '最新页面',
-	'newestpages-header' => "'''本页面列举维基上第$1新的页面。'''",
+	'newestpages'            => '最新页面',
+	'newestpages-header'     => "'''本页面列举维基上第$1新的页面。'''",
 	'newestpages-limitlinks' => '显示$1个页面',
-	'newestpages-namespace' => '名字空间：',
-	'newestpages-none' => '没找到页面。',
-	'newestpages-ns-header' => "'''本页面列举$2名字空间中第$1新的页面。'''",
-	'newestpages-showing' => '正在列举第$1新的页面：',
-	'newestpages-submit' => '提交',
-	'newestpages-showredir' => '显示重定向页面',
-	'newestpages-hideredir' => '隐藏重定向页面',
+	'newestpages-namespace'  => '名字空间：',
+	'newestpages-none'       => '没找到页面。',
+	'newestpages-ns-header'  => "'''本页面列举$2名字空间中第$1新的页面。'''",
+	'newestpages-showing'    => '正在列举第$1新的页面：',
+	'newestpages-submit'     => '提交',
+	'newestpages-showredir'  => '显示重定向页面',
+	'newestpages-hideredir'  => '隐藏重定向页面',
 );
 
-/* Chinese (Traditional) (KilluaZaoldyeck, Shinjiman) */
+/** Traditional Chinese (‪中文(繁體)‬)
+ * @author Shinjiman
+ * @author KilluaZaoldyeck
+ */
 $messages['zh-hant'] = array(
-	'newestpages' => '最新頁面',
-	'newestpages-header' => "'''本頁列出維基上第$1新的頁面。'''",
+	'newestpages'            => '最新頁面',
+	'newestpages-header'     => "'''本頁列出維基上第$1新的頁面。'''",
 	'newestpages-limitlinks' => '顯示$1個頁面',
-	'newestpages-namespace' => '名字空間：',
-	'newestpages-none' => '沒找到頁面。',
-	'newestpages-ns-header' => "'''本頁列出$2名字空間中第$1個新的頁面。'''",
-	'newestpages-showing' => '正在列出第$1個新的頁面：',
-	'newestpages-submit' => '提交',
-	'newestpages-showredir' => '顯示重定向頁面',
-	'newestpages-hideredir' => '隱藏重定向頁面',
+	'newestpages-namespace'  => '名字空間：',
+	'newestpages-none'       => '沒找到頁面。',
+	'newestpages-ns-header'  => "'''本頁列出$2名字空間中第$1個新的頁面。'''",
+	'newestpages-showing'    => '正在列出第$1個新的頁面：',
+	'newestpages-submit'     => '提交',
+	'newestpages-showredir'  => '顯示重定向頁面',
+	'newestpages-hideredir'  => '隱藏重定向頁面',
 );
 
