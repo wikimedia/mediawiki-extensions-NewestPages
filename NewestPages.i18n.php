@@ -656,7 +656,7 @@ $messages['sk'] = array(
 	'newestpages-hideredir'  => 'Skryť presmerovacie stránky',
 );
 
-/** Serbian (Српски / Srpski) */
+/** Serbian (Српски / Srpski)
  * @author Sasa Stefanovic
  */
 $messages['sr'] = array(
