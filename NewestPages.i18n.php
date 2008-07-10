@@ -356,7 +356,7 @@ $messages['is'] = array(
 	'newestpages-hideredir'  => 'Fela tilvísanir',
 );
 
-/** Italian (Italiano) */
+/** Italian (Italiano)
  * @author BrokenArrow
  */
 $messages['it'] = array(
