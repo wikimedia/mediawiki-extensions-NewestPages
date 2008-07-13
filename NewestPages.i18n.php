@@ -35,9 +35,11 @@ $messages['niu'] = array(
 
 /** Afrikaans (Afrikaans)
  * @author SPQRobin
+ * @author Naudefj
  */
 $messages['af'] = array(
 	'newestpages-namespace' => 'Naamruimte:',
+	'newestpages-submit'    => 'Gaan',
 );
 
 /** Old English (Anglo-Saxon)
