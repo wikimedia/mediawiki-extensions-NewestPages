@@ -38,8 +38,12 @@ $messages['niu'] = array(
  * @author Naudefj
  */
 $messages['af'] = array(
+	'newestpages'           => 'Nuutste bladsye',
+	'newestpages-desc'      => 'Die [[Special:Newestpages|X nuutste bladsye]] in die wiki',
 	'newestpages-namespace' => 'Naamruimte:',
+	'newestpages-none'      => 'Geen resultate.',
 	'newestpages-submit'    => 'Gaan',
+	'newestpages-showredir' => 'Wys aanstuurbladsye',
 );
 
 /** Old English (Anglo-Saxon)
