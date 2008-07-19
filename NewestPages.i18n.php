@@ -481,6 +481,13 @@ $messages['mr'] = array(
 	'newestpages-hideredir'  => 'पुनर्निर्देशन पाने लपवा',
 );
 
+/** Nahuatl (Nahuatl)
+ * @author Fluence
+ */
+$messages['nah'] = array(
+	'newestpages-submit' => 'Yāuh',
+);
+
 /** Low German (Plattdüütsch)
  * @author Slomox
  */
