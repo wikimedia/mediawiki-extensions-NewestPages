@@ -635,6 +635,13 @@ $messages['rif'] = array(
 	'newestpages-submit' => 'Raḥ ɣa',
 );
 
+/** Romanian (Română)
+ * @author KlaudiuMihaila
+ */
+$messages['ro'] = array(
+	'newestpages-namespace' => 'Spaţiu de nume:',
+);
+
 /** Russian (Русский)
  * @author Александр Сигачёв
  */
