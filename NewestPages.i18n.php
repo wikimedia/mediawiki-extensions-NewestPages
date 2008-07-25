@@ -485,7 +485,16 @@ $messages['mr'] = array(
  * @author Fluence
  */
 $messages['nah'] = array(
-	'newestpages-submit' => 'Yāuh',
+	'newestpages'            => 'Yancuīc zāzaniltin',
+	'newestpages-desc'       => 'Tiquittāz in [[Special:Newestpages|xōcoyōc X zāzaniltin]] huiquipan',
+	'newestpages-header'     => "'''Nicān, in achi yancuīc $1 zāzaniltin huiquipan.'''",
+	'newestpages-limitlinks' => 'Xiquintta huehca ōmpa $1 zāzaniltin',
+	'newestpages-namespace'  => 'Tōcātzin:',
+	'newestpages-none'       => 'Ahtleh ōmonēxti.',
+	'newestpages-showing'    => 'Motta $1 achi yancuīc zāzaniltin:',
+	'newestpages-submit'     => 'Yāuh',
+	'newestpages-showredir'  => 'Tiquinttāz tlacuepaliztli zāzaniltin',
+	'newestpages-hideredir'  => 'Tiquintlātīz tlacuepaliztli zāzaniltin',
 );
 
 /** Low German (Plattdüütsch)
