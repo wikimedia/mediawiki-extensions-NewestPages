@@ -486,7 +486,7 @@ $messages['mr'] = array(
  */
 $messages['nah'] = array(
 	'newestpages'            => 'Yancuīc zāzaniltin',
-	'newestpages-desc'       => 'Tiquittāz in [[Special:Newestpages|xōcoyōc X zāzaniltin]] huiquipan',
+	'newestpages-desc'       => 'Tiquinttāz in [[Special:Newestpages|xōcoyōc X zāzaniltin]] huiquipan',
 	'newestpages-header'     => "'''Nicān, in achi yancuīc $1 zāzaniltin huiquipan.'''",
 	'newestpages-limitlinks' => 'Xiquintta huehca ōmpa $1 zāzaniltin',
 	'newestpages-namespace'  => 'Tōcātzin:',
