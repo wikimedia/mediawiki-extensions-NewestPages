@@ -491,6 +491,7 @@ $messages['nah'] = array(
 	'newestpages-limitlinks' => 'Xiquintta huehca ōmpa $1 zāzaniltin',
 	'newestpages-namespace'  => 'Tōcātzin:',
 	'newestpages-none'       => 'Ahtleh ōmonēxti.',
+	'newestpages-ns-header'  => "'''Nicān tiquintta in $1 achi yancuīc īpan $2 tōcātzin.'''",
 	'newestpages-showing'    => 'Motta $1 achi yancuīc zāzaniltin:',
 	'newestpages-submit'     => 'Yāuh',
 	'newestpages-showredir'  => 'Tiquinttāz tlacuepaliztli zāzaniltin',
@@ -577,6 +578,13 @@ $messages['oc'] = array(
 	'newestpages-submit'     => 'Amodar',
 	'newestpages-showredir'  => 'Afichar las paginas de redireccion.',
 	'newestpages-hideredir'  => 'Amagar las paginas de redireccion.',
+);
+
+/** Punjabi (ਪੰਜਾਬੀ)
+ * @author Gman124
+ */
+$messages['pa'] = array(
+	'newestpages' => 'ਨਵੇਂ ਲੇਖ',
 );
 
 /** Polish (Polski)
