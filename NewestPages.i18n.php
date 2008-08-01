@@ -364,11 +364,14 @@ $messages['is'] = array(
 
 /** Italian (Italiano)
  * @author BrokenArrow
+ * @author Darth Kule
  */
 $messages['it'] = array(
 	'newestpages'            => 'Pagine più recenti',
+	'newestpages-desc'       => 'Mostra le [[Special:Newestpages|ultime X pagine]] aggiunte alla wiki',
 	'newestpages-header'     => "'''In questa pagina vengono elencate le $1 pagine create più di recente nel sito.'''",
 	'newestpages-limitlinks' => 'Mostra fino a $1 pagine',
+	'newestpages-namespace'  => 'Namespace:',
 	'newestpages-none'       => 'Nessuna pagina trovata.',
 	'newestpages-ns-header'  => "'''In questa pagina vengono elencate le $1 pagine create più di recente nel namespace $2.'''",
 	'newestpages-showing'    => 'Elenco delle $1 pagine create più di recente:',
@@ -445,6 +448,23 @@ $messages['lb'] = array(
 	'newestpages-submit'     => 'Sichen',
 	'newestpages-showredir'  => 'Weis Redirect-Säiten',
 	'newestpages-hideredir'  => 'Verstopp Redirect-Säiten',
+);
+
+/** Lithuanian (Lietuvių)
+ * @author Hugo.arg
+ */
+$messages['lt'] = array(
+	'newestpages'            => 'Naujausi puslapiai',
+	'newestpages-desc'       => 'Rodo [[Special:Newestpages|paskutiniuosius X puslapius]], pridėtus į wiki',
+	'newestpages-header'     => "'''Šis puslapis rikiuoja $1 naujausius šios wiki puslapius.'''",
+	'newestpages-limitlinks' => 'Rodyti iki $1 puslapių',
+	'newestpages-namespace'  => 'Vardų sritis:',
+	'newestpages-none'       => 'Reikšmių nerasta.',
+	'newestpages-ns-header'  => "'''Šis puslapis rikiuoja $1 naujausius puslapius $2 vardų srityje.'''",
+	'newestpages-showing'    => 'Rikiuojami $1 naujausi puslapiai:',
+	'newestpages-submit'     => 'Eiti',
+	'newestpages-showredir'  => 'Rodyti peradresavimų puslapius',
+	'newestpages-hideredir'  => 'Slėpti peradresavimų puslapius',
 );
 
 /** Malayalam (മലയാളം)
@@ -568,7 +588,7 @@ $messages['nso'] = array(
  */
 $messages['oc'] = array(
 	'newestpages'            => 'Paginas mai recentas',
-	'newestpages-desc'       => 'Aficha las [[Special:Newestpages|darrièras paginas]] ajustadas al wiki.',
+	'newestpages-desc'       => 'Aficha las [[Special:Newestpages|darrièras paginas]] apondudas al wiki.',
 	'newestpages-header'     => "'''Aquesta pagina lista las $1 paginas mai recentas sul wiki.'''",
 	'newestpages-limitlinks' => 'Afichar fins a $1 paginas',
 	'newestpages-namespace'  => 'Espaci de nom :',
