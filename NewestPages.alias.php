@@ -24,6 +24,11 @@ $aliases['arz'] = array(
 	'NewestPages' => array( 'أجدد_الصفحات' ),
 );
 
+/** Low German (Plattdüütsch) */
+$aliases['nds'] = array(
+	'NewestPages' => array( 'Neeste Sieden' ),
+);
+
 /** Dutch (Nederlands) */
 $aliases['nl'] = array(
 	'NewestPages' => array( 'NieuwstePaginas', "NieuwstePagina's" ),
