@@ -14,12 +14,16 @@ $aliases['en'] = array(
 	'NewestPages'            => array('NewestPages')
 );
 
-/** Arabic (العربية) */
+/** Arabic (العربية)
+ * @author Meno25
+ */
 $aliases['ar'] = array(
 	'NewestPages' => array( 'أجدد_الصفحات' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Spoken Arabic (مصرى)
+ * @author Meno25
+ */
 $aliases['arz'] = array(
 	'NewestPages' => array( 'أجدد_الصفحات' ),
 );
