@@ -14,9 +14,25 @@ $aliases['en'] = array(
 	'NewestPages'            => array('NewestPages')
 );
 
-/** Norwegian (Norsk (bokmål))
+/** Arabic (العربية) */
+$aliases['ar'] = array(
+	'NewestPages' => array( 'أجدد_الصفحات' ),
+);
+
+/** Egyptian Spoken Arabic (مصرى) */
+$aliases['arz'] = array(
+	'NewestPages' => array( 'أجدد_الصفحات' ),
+);
+
+/** Dutch (Nederlands) */
+$aliases['nl'] = array(
+	'NewestPages' => array( 'NieuwstePaginas', "NieuwstePagina's" ),
+);
+
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Jon Harald Søby
  */
 $aliases['no'] = array(
-	'NewestPages'            => array('Siste_sider')
+	'NewestPages' => array( 'Siste_sider' ),
 );
+
