@@ -501,6 +501,22 @@ $messages['mr'] = array(
 	'newestpages-hideredir'  => 'पुनर्निर्देशन पाने लपवा',
 );
 
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'newestpages'            => 'Paġni l-aktar riċenti',
+	'newestpages-desc'       => 'Turi l-[[Special:Newestpages|aħħar X paġna]] miżjuda fuq il-wiki.',
+	'newestpages-header'     => "'''Din il-paġna turi l-$1 paġna ġdida fuq il-wiki.'''",
+	'newestpages-limitlinks' => 'Uri sa $1 paġna',
+	'newestpages-namespace'  => "Spazju ta' l-isem:",
+	'newestpages-none'       => 'Ma nstabet l-ebda paġna.',
+	'newestpages-ns-header'  => "'''Din il-paġna telenka l-$1 paġna ġodda fl-ispazju ta' l-isem $2.'''",
+	'newestpages-submit'     => 'Mur',
+	'newestpages-showredir'  => 'Uri r-rindirizzi',
+	'newestpages-hideredir'  => 'Aħbi r-rindirizzi',
+);
+
 /** Nahuatl (Nahuatl)
  * @author Fluence
  */
