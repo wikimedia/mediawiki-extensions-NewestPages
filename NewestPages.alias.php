@@ -42,6 +42,6 @@ $aliases['nl'] = array(
  * @author Jon Harald Søby
  */
 $aliases['no'] = array(
-	'NewestPages' => array( 'Siste_sider' ),
+	'NewestPages' => array( 'Siste sider', 'Nyeste sider' ),
 );
 
