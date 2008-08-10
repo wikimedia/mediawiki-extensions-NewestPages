@@ -26,7 +26,9 @@ $messages['en'] = array(
 	'newestpages-hideredir'  => 'Hide redirect pages',
 );
 
-/** Message documentation (Message documentation) */
+/** Message documentation (Message documentation)
+ * @author Jon Harald Søby
+ */
 $messages['qqq'] = array(
 	'newestpages-namespace' => '{{Identical|Namespace}}',
 	'newestpages-submit' => '{{Identical|Go}}',
