@@ -28,6 +28,11 @@ $aliases['arz'] = array(
 	'NewestPages' => array( 'أجدد_الصفحات' ),
 );
 
+/** German (Deutsch) */
+$aliases['de'] = array(
+	'NewestPages' => array( 'Neueste Seiten' ),
+);
+
 /** Low German (Plattdüütsch) */
 $aliases['nds'] = array(
 	'NewestPages' => array( 'Neeste Sieden' ),

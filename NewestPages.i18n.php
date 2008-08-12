@@ -306,6 +306,13 @@ $messages['hil'] = array(
 	'newestpages-submit' => 'Lakat',
 );
 
+/** Croatian (Hrvatski)
+ * @author Dalibor Bosits
+ */
+$messages['hr'] = array(
+	'newestpages-submit' => 'Kreni',
+);
+
 /** Upper Sorbian (Hornjoserbsce)
  * @author Michawiki
  */
