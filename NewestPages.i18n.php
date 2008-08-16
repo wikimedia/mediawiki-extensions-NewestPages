@@ -28,8 +28,10 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Jon Harald Søby
+ * @author Purodha
  */
 $messages['qqq'] = array(
+	'newestpages-desc' => 'Short description of this extension, shown on [[Special:Version]]. Do not translate or change links.',
 	'newestpages-namespace' => '{{Identical|Namespace}}',
 	'newestpages-submit' => '{{Identical|Go}}',
 );
@@ -437,7 +439,17 @@ $messages['krj'] = array(
  * @author Purodha
  */
 $messages['ksh'] = array(
+	'newestpages' => 'Neuste Sigge',
+	'newestpages-desc' => 'Zeich de [[Special:Newestpages|neuste X Sigge]] em Wiki.',
+	'newestpages-header' => "'''Di Sigg he list de $1 neuste Sigge em Wiki op.'''",
+	'newestpages-limitlinks' => 'Zeich bes op $1 Sigge',
+	'newestpages-namespace' => 'Appachtemang:',
+	'newestpages-none' => 'Keine Enndraach jefonge.',
+	'newestpages-ns-header' => "'''Di Sigg he list de $1 neuste Sigge em Appachtemang $2 em Wiki op.'''",
+	'newestpages-showing' => 'Zeich de $1 neuste Sigge:',
 	'newestpages-submit' => 'Loß Jonn!',
+	'newestpages-showredir' => 'Zeich Ömleidunge',
+	'newestpages-hideredir' => 'Lohß Ömleidunge fott',
 );
 
 /** Latin (Latina)

@@ -33,6 +33,11 @@ $aliases['de'] = array(
 	'NewestPages' => array( 'Neueste Seiten' ),
 );
 
+/** Luxembourgish (Lëtzebuergesch) */
+$aliases['lb'] = array(
+	'NewestPages' => array( 'Neiste Säiten' ),
+);
+
 /** Low German (Plattdüütsch) */
 $aliases['nds'] = array(
 	'NewestPages' => array( 'Neeste Sieden' ),
