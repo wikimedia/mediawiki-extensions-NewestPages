@@ -43,6 +43,11 @@ $aliases['nds'] = array(
 	'NewestPages' => array( 'Neeste Sieden' ),
 );
 
+/** Nedersaksisch (Nedersaksisch) */
+$aliases['nds-nl'] = array(
+	'NewestPages' => array( "Niejste_pagina's" ),
+);
+
 /** Dutch (Nederlands) */
 $aliases['nl'] = array(
 	'NewestPages' => array( 'NieuwstePaginas', "NieuwstePagina's" ),
