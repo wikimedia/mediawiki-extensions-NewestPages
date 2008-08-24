@@ -60,3 +60,8 @@ $aliases['no'] = array(
 	'NewestPages' => array( 'Siste sider', 'Nyeste sider' ),
 );
 
+/** Swedish (Svenska) */
+$aliases['sv'] = array(
+	'NewestPages' => array( 'Nyaste sidor' ),
+);
+
