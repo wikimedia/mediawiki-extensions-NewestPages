@@ -33,6 +33,11 @@ $aliases['de'] = array(
 	'NewestPages' => array( 'Neueste Seiten' ),
 );
 
+/** Finnish (Suomi) */
+$aliases['fi'] = array(
+	'NewestPages' => array( 'Uusimmat sivut' ),
+);
+
 /** Luxembourgish (Lëtzebuergesch) */
 $aliases['lb'] = array(
 	'NewestPages' => array( 'Neiste Säiten' ),
