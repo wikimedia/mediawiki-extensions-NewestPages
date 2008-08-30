@@ -277,6 +277,13 @@ $messages['gl'] = array(
 	'newestpages-hideredir' => 'Ocultar pÃ¡xinas redirixidas',
 );
 
+/** Gothic (í €í¼²í €í¼¿í €í½„í €í¼¹í €í½ƒí €í¼º)
+ * @author Jocke Pirat
+ */
+$messages['got'] = array(
+	'newestpages-namespace' => 'Seidofera:',
+);
+
 /** Manx (Gaelg)
  * @author MacTire02
  */
