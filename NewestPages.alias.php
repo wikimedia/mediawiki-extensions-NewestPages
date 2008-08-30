@@ -38,6 +38,16 @@ $aliases['fi'] = array(
 	'NewestPages' => array( 'Uusimmat sivut' ),
 );
 
+/** Indonesian (Bahasa Indonesia) */
+$aliases['id'] = array(
+	'NewestPages' => array( 'Halaman terbaru' ),
+);
+
+/** Khmer (ភាសាខ្មែរ) */
+$aliases['km'] = array(
+	'NewestPages' => array( 'ទំព័រថ្មីៗបំផុត' ),
+);
+
 /** Luxembourgish (Lëtzebuergesch) */
 $aliases['lb'] = array(
 	'NewestPages' => array( 'Neiste Säiten' ),

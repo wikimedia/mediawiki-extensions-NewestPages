@@ -410,6 +410,13 @@ $messages['jv'] = array(
 	'newestpages-hideredir' => 'Delikna kaca-kaca pangalihan',
 );
 
+/** Georgian (ქართული)
+ * @author Malafaya
+ */
+$messages['ka'] = array(
+	'newestpages-namespace' => 'სახელთა სივრცე:',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author Chhorran
  * @author Lovekhmer
