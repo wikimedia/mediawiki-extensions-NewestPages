@@ -277,7 +277,7 @@ $messages['gl'] = array(
 	'newestpages-hideredir' => 'Ocultar páxinas redirixidas',
 );
 
-/** Gothic (������������������������������������)
+/** Gothic
  * @author Jocke Pirat
  */
 $messages['got'] = array(
@@ -289,6 +289,22 @@ $messages['got'] = array(
  */
 $messages['gv'] = array(
 	'newestpages-submit' => 'Gow',
+);
+
+/** Hebrew (עברית)
+ * @author Agbad
+ * @author Rotemliss
+ */
+$messages['he'] = array(
+	'newestpages' => 'דפים אחרונים',
+	'newestpages-desc' => 'הצגת [[Special:Newestpage|X הדפים האחרונים]] שנוספו לאתר',
+	'newestpages-header' => "'''דף זה כולל רשימה של $1 הדפים האחרונים שנוספו לאתר.'''",
+	'newestpages-namespace' => 'מרחב שם:',
+	'newestpages-ns-header' => "'''דף זה כולל רשימה של $1 הדפים האחרונים שנוספו במרחב השם $2.'''",
+	'newestpages-showing' => 'רשימת ה־$1 דפים החדשים ביותר:',
+	'newestpages-submit' => 'הצגה',
+	'newestpages-showredir' => 'הצגת דפי הפניה',
+	'newestpages-hideredir' => 'הסתרת דפי הפניה',
 );
 
 /** Hindi (हिन्दी)
@@ -556,6 +572,13 @@ $messages['mt'] = array(
 	'newestpages-submit' => 'Mur',
 	'newestpages-showredir' => 'Uri r-rindirizzi',
 	'newestpages-hideredir' => 'Aħbi r-rindirizzi',
+);
+
+/** Erzya (Эрзянь)
+ * @author Botuzhaleny-sodamo
+ */
+$messages['myv'] = array(
+	'newestpages-namespace' => 'Лем потмось:',
 );
 
 /** Nahuatl (Nāhuatl)
@@ -912,6 +935,13 @@ $messages['tg-cyrl'] = array(
 	'newestpages-hideredir' => 'Пинҳон кардани саҳифаҳои масир',
 );
 
+/** Thai (ไทย)
+ * @author Octahedron80
+ */
+$messages['th'] = array(
+	'newestpages-namespace' => 'เนมสเปซ:',
+);
+
 /** Tonga (faka-Tonga)
  * @author Tauʻolunga
  */
@@ -968,6 +998,13 @@ $messages['vi'] = array(
 	'newestpages-submit' => 'Xem',
 	'newestpages-showredir' => 'Hiện các trang đổi hướng',
 	'newestpages-hideredir' => 'Ẩn các trang đổi hướng',
+);
+
+/** Volapük (Volapük)
+ * @author Malafaya
+ */
+$messages['vo'] = array(
+	'newestpages-namespace' => 'Nemaspad:',
 );
 
 /** Yue (粵語)
