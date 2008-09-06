@@ -82,6 +82,23 @@ $messages['ar'] = array(
 	'newestpages-hideredir' => 'إخفاء صفحات التحويل',
 );
 
+/** Egyptian Spoken Arabic (مصرى)
+ * @author Meno25
+ */
+$messages['arz'] = array(
+	'newestpages' => 'أجدد الصفحات',
+	'newestpages-desc' => 'يعرض [[Special:Newestpages|آخر صفحات]] تمت إضافتها إلى الويكي',
+	'newestpages-header' => "'''هذه الصفحة تعرض أجدد $1 صفحة فى الويكي.'''",
+	'newestpages-limitlinks' => 'اعرض حتى $1 صفحة',
+	'newestpages-namespace' => 'النطاق:',
+	'newestpages-none' => 'لم يتم العثور على مدخلات.',
+	'newestpages-ns-header' => "'''هذه الصفحة تعرض أجدد $1 صفحة فى نطاق $2.'''",
+	'newestpages-showing' => 'عرض أجدد $1 صفحة:',
+	'newestpages-submit' => 'اذهب',
+	'newestpages-showredir' => 'عرض صفحات التحويل',
+	'newestpages-hideredir' => 'إخفاء صفحات التحويل',
+);
+
 /** Kotava (Kotava)
  * @author Wikimistusik
  */
