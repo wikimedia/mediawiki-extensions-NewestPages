@@ -771,8 +771,10 @@ $messages['rif'] = array(
 
 /** Romanian (Română)
  * @author KlaudiuMihaila
+ * @author Mihai
  */
 $messages['ro'] = array(
+	'newestpages' => 'Cele mai noi pagini',
 	'newestpages-namespace' => 'Spaţiu de nume:',
 );
 
