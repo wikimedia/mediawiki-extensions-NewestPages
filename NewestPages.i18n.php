@@ -492,6 +492,13 @@ $messages['km'] = array(
 	'newestpages-hideredir' => 'លាក់ទំព័របញ្ជូនបន្ត',
 );
 
+/** Krio (Krio)
+ * @author Jose77
+ */
+$messages['kri'] = array(
+	'newestpages-submit' => 'Go to am',
+);
+
 /** Kinaray-a (Kinaray-a)
  * @author Jose77
  */
