@@ -388,6 +388,23 @@ $messages['hu'] = array(
 	'newestpages-hideredir' => 'Átirányítások elrejtése',
 );
 
+/** Interlingua (Interlingua)
+ * @author McDutchie
+ */
+$messages['ia'] = array(
+	'newestpages' => 'Le paginas le plus recente',
+	'newestpages-desc' => 'Monstra le [[Special:Newestpages|ultime X paginas]] addite al wiki',
+	'newestpages-header' => "'''Iste pagina lista le $1 paginas le plus recente in le wiki.'''",
+	'newestpages-limitlinks' => 'Monstrar ussque a $1 paginas',
+	'newestpages-namespace' => 'Spatio de nomines:',
+	'newestpages-none' => 'Nulle entratas esseva trovate.',
+	'newestpages-ns-header' => "'''Iste pagina lista le $1 paginas le plus nove in le spatio de nomines $2.'''",
+	'newestpages-showing' => 'Lista del $1 paginas le plus nove:',
+	'newestpages-submit' => 'Ir',
+	'newestpages-showredir' => 'Revelar paginas de redirection',
+	'newestpages-hideredir' => 'Celar paginas de redirection',
+);
+
 /** Indonesian (Bahasa Indonesia)
  * @author Ivan Lanin
  */
