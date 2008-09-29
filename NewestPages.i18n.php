@@ -352,6 +352,7 @@ $messages['hil'] = array(
  * @author Dalibor Bosits
  */
 $messages['hr'] = array(
+	'newestpages-namespace' => 'Imenski prostor:',
 	'newestpages-submit' => 'Kreni',
 );
 
