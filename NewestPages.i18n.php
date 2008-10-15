@@ -620,7 +620,7 @@ $messages['mt'] = array(
  * @author Botuzhaleny-sodamo
  */
 $messages['myv'] = array(
-	'newestpages-namespace' => 'Лем потмось:',
+	'newestpages-namespace' => 'Лем потмозо:',
 );
 
 /** Nahuatl (Nāhuatl)
