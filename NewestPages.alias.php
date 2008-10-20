@@ -33,9 +33,19 @@ $aliases['de'] = array(
 	'NewestPages' => array( 'Neueste Seiten' ),
 );
 
+/** Persian (فارسی) */
+$aliases['fa'] = array(
+	'NewestPages' => array( 'صفحه‌های_تازه' ),
+);
+
 /** Finnish (Suomi) */
 $aliases['fi'] = array(
 	'NewestPages' => array( 'Uusimmat sivut' ),
+);
+
+/** Croatian (Hrvatski) */
+$aliases['hr'] = array(
+	'NewestPages' => array( 'Najnovije_stranice' ),
 );
 
 /** Indonesian (Bahasa Indonesia) */
