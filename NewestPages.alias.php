@@ -35,7 +35,7 @@ $aliases['de'] = array(
 
 /** Persian (فارسی) */
 $aliases['fa'] = array(
-	'NewestPages' => array( 'صفحه‌های_تازه' ),
+	'NewestPages' => array( 'تازه‌ترین_صفحه‌ها' ),
 );
 
 /** Finnish (Suomi) */
