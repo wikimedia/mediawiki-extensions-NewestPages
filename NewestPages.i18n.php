@@ -126,6 +126,25 @@ $messages['bcl'] = array(
 	'newestpages-hideredir' => 'Tagôon an mga redirektang páhina',
 );
 
+/** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
+ * @author EugeneZelenko
+ * @author Jim-by
+ * @author Red Winged Duck
+ */
+$messages['be-tarask'] = array(
+	'newestpages' => 'Новыя старонкі',
+	'newestpages-desc' => 'Адлюстроўвае [[Special:Newestpages|апошнія X старонак]], дададзеных у {{GRAMMAR:месны|{{SITENAME}}}}',
+	'newestpages-header' => "'''Гэтая старонка паказвае $1 {{PLURAL:$1|новую старонку|новыя старонкі|новых старонак}} {{GRAMMAR:родны|{{SITENAME}}}}.'''",
+	'newestpages-limitlinks' => 'Паказваць да $1 {{PLURAL:$1|старонкі|старонак|старонак}}',
+	'newestpages-namespace' => 'Прастора назваў:',
+	'newestpages-none' => 'Запісаў ня знойдзена.',
+	'newestpages-ns-header' => "'''Гэтая старонка паказвае $1 {{PLURAL:$1|новую старонку ў|новыя старонкі ў|новых старонак у}} прасторы назваў $2.'''",
+	'newestpages-showing' => 'Сьпіс $1 {{PLURAL:$1|новай старонкі|новых старонак|новых старонак}}:',
+	'newestpages-submit' => 'Паказаць',
+	'newestpages-showredir' => 'Паказаць старонкі перанакіраваньняў',
+	'newestpages-hideredir' => 'Схаваць старонкі перанакіраваньняў',
+);
+
 /** Bulgarian (Български)
  * @author DCLXVI
  * @author Spiritia
@@ -513,12 +532,12 @@ $messages['krj'] = array(
 $messages['ksh'] = array(
 	'newestpages' => 'Neuste Sigge',
 	'newestpages-desc' => 'Zeich de [[Special:Newestpages|neuste X Sigge]] em Wiki.',
-	'newestpages-header' => "'''Di Sigg he list de $1 neuste Sigge em Wiki op.'''",
-	'newestpages-limitlinks' => 'Zeich bes op $1 Sigge',
+	'newestpages-header' => "'''Di Sigg he list {{PLURAL:de neuste Sigg|de $1 neuste Sigge|kein neu Sigge}} em Wiki op.'''",
+	'newestpages-limitlinks' => 'Zeich {{PLURAL:ein Sigg|bes op $1 Sigge|kein Sigg}}:',
 	'newestpages-namespace' => 'Appachtemang:',
 	'newestpages-none' => 'Keine Enndraach jefonge.',
-	'newestpages-ns-header' => "'''Di Sigg he list de $1 neuste Sigge em Appachtemang $2 em Wiki op.'''",
-	'newestpages-showing' => 'Zeich de $1 neuste Sigge:',
+	'newestpages-ns-header' => "'''Di Sigg he list {{PLURAL:de neuste Sigg|de $1 neuste Sigge|kein neu Sigge}} em Appachtemang $2 op.'''",
+	'newestpages-showing' => 'Zeich {{PLURAL:de neuste Sigg|de $1 neuste Sigge|kein neu Sigge}}:',
 	'newestpages-submit' => 'Loß Jonn!',
 	'newestpages-showredir' => 'Zeich Ömleidunge',
 	'newestpages-hideredir' => 'Lohß Ömleidunge fott',
