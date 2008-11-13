@@ -165,6 +165,13 @@ $messages['bg'] = array(
 	'newestpages-hideredir' => 'Скриване на пренасочващите страници',
 );
 
+/** Bosnian (Bosanski)
+ * @author CERminator
+ */
+$messages['bs'] = array(
+	'newestpages-submit' => 'Idi',
+);
+
 /** Catalan (Català)
  * @author SMP
  */
@@ -948,17 +955,18 @@ $messages['su'] = array(
 
 /** Swedish (Svenska)
  * @author M.M.S.
+ * @author Najami
  * @author Sannab
  */
 $messages['sv'] = array(
 	'newestpages' => 'Nyaste sidor',
 	'newestpages-desc' => 'Visar de [[Special:Newestpages|senaste X sidorna]] som lagts till i wikin',
-	'newestpages-header' => "'''Denna sida listar de $1 nyaste sidorna på denna wiki.'''",
+	'newestpages-header' => "'''Denna sida listar {{PLURAL:$1|den nyaste sidan|de $1 nyaste sidorna}} på wikin.'''",
 	'newestpages-limitlinks' => 'Visa upp till $1 sidor',
 	'newestpages-namespace' => 'Namnrymd:',
 	'newestpages-none' => 'Inga entréer hittades.',
-	'newestpages-ns-header' => "'''Denna sida listar de $1 nyaste sidorna i $2 namnrymden.'''",
-	'newestpages-showing' => 'Listar de $1 nyaste sidorna:',
+	'newestpages-ns-header' => "'''Denna sida listar {{PLURAL:$1|den nyaste sidan|de $1 nyaste sidorna}} i namnrymden $2.'''",
+	'newestpages-showing' => 'Listar {{PLURAL:$1|den nyaste sidan|de $1 nyaste sidorna}}:',
 	'newestpages-submit' => 'Gå',
 	'newestpages-showredir' => 'Visa omdirigerings sidor',
 	'newestpages-hideredir' => 'Dölj omdirigerings sidor',
