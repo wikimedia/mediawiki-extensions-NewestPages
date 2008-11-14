@@ -28,6 +28,11 @@ $aliases['arz'] = array(
 	'NewestPages' => array( 'أجدد_الصفحات' ),
 );
 
+/** Bosnian (Bosanski) */
+$aliases['bs'] = array(
+	'NewestPages' => array( 'NajnovijeStranice' ),
+);
+
 /** German (Deutsch) */
 $aliases['de'] = array(
 	'NewestPages' => array( 'Neueste Seiten' ),
