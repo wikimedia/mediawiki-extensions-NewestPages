@@ -329,6 +329,13 @@ $messages['got'] = array(
 	'newestpages-namespace' => 'Seidofera:',
 );
 
+/** Ancient Greek (Ἀρχαία ἑλληνικὴ)
+ * @author Crazymadlover
+ */
+$messages['grc'] = array(
+	'newestpages-submit' => 'Ἱέναι',
+);
+
 /** Manx (Gaelg)
  * @author MacTire02
  */
