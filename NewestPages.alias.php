@@ -58,6 +58,11 @@ $aliases['hr'] = array(
 	'NewestPages' => array( 'Najnovije_stranice' ),
 );
 
+/** Hungarian (Magyar) */
+$aliases['hu'] = array(
+	'NewestPages' => array( 'Legújabb lapok' ),
+);
+
 /** Indonesian (Bahasa Indonesia) */
 $aliases['id'] = array(
 	'NewestPages' => array( 'Halaman terbaru' ),
