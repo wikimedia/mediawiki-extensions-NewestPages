@@ -105,3 +105,8 @@ $aliases['sv'] = array(
 	'NewestPages' => array( 'Nyaste sidor' ),
 );
 
+/** Swahili (Kiswahili) */
+$aliases['sw'] = array(
+	'NewestPages' => array( 'KurasaMpya' ),
+);
+
