@@ -53,6 +53,11 @@ $aliases['gl'] = array(
 	'NewestPages' => array( 'Páxinas máis novas' ),
 );
 
+/** Swiss German (Alemannisch) */
+$aliases['gsw'] = array(
+	'NewestPages' => array( 'Neijeschti Syte' ),
+);
+
 /** Croatian (Hrvatski) */
 $aliases['hr'] = array(
 	'NewestPages' => array( 'Najnovije_stranice' ),
