@@ -343,6 +343,7 @@ $messages['got'] = array(
  * @author Crazymadlover
  */
 $messages['grc'] = array(
+	'newestpages-namespace' => 'Ὀνοματεῖον:',
 	'newestpages-submit' => 'Ἱέναι',
 );
 
