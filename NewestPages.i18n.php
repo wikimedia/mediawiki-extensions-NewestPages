@@ -313,6 +313,13 @@ $messages['fr'] = array(
 	'newestpages-hideredir' => 'Cacher les pages de redirection.',
 );
 
+/** Irish (Gaeilge)
+ * @author Alison
+ */
+$messages['ga'] = array(
+	'newestpages-namespace' => 'Ainmspás:',
+);
+
 /** Galician (Galego)
  * @author Alma
  * @author Toliño
@@ -524,12 +531,13 @@ $messages['ka'] = array(
 /** Khmer (ភាសាខ្មែរ)
  * @author Chhorran
  * @author Lovekhmer
+ * @author Thearith
  */
 $messages['km'] = array(
 	'newestpages' => 'ទំព័រថ្មីៗបំផុត',
-	'newestpages-desc' => 'បង្ហាញ [[Special:Newestpages|ទំព័រ ចុងក្រោយបំផុត]] ដែលបានបន្ថែម ទៅ វិគី',
+	'newestpages-desc' => 'បង្ហាញ [[Special:Newestpages|ទំព័រ​ចុងក្រោយបំផុត]] ដែលបានបន្ថែម​ទៅ​វិគី',
 	'newestpages-header' => "'''ទំព័រនេះ​រាយ$1ទំព័រថ្មីៗបំផុតលើវិគីនេះ។'''",
-	'newestpages-limitlinks' => 'បង្ហាញអតិបរិមា $1 ទំព័រ',
+	'newestpages-limitlinks' => 'បង្ហាញអតិបរមា $1 ទំព័រ',
 	'newestpages-namespace' => 'លំហឈ្មោះ៖',
 	'newestpages-none' => 'រកមិនឃើញអត្ថបទទេ។',
 	'newestpages-ns-header' => "'''ទំព័រនេះ​រាយ$1ទំព័រថ្មីបំផុតក្នុងលំហឈ្មោះ $2 ។'''",
