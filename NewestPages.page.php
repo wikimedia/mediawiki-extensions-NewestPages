@@ -156,12 +156,12 @@ class NewestPages extends IncludableSpecialPage {
 
 	function makeNamespaceForm() {
 		$self = Title::makeTitle( NS_SPECIAL, $this->getName() );
-		$form  = wfOpenElement( 'form', array( 'method' => 'post', 'action' => $self->getLocalUrl() ) );
-		$form .= wfLabel( wfMsg( 'newestpages-namespace' ), 'namespace' ) . '&nbsp;';
-		$form .= htmlNamespaceSelector( $this->namespace, 'all' );
-		$form .= wfHidden( 'limit', $this->limit );
-		$form .= wfHidden( 'redirects', $this->redirects );
-		$form .= wfSubmitButton( wfMsg( 'newestpages-submit' ) ) . '</form>';
+		$form  = Xml::openElement( 'form', array( 'method' => 'post', 'action' => $self->getLocalUrl() ) );
+		$form .= Xml::label( wfMsg( 'newestpages-namespace' ), 'namespace' ) . '&nbsp;';
+		$form .= Xml::namespaceSelector( $this->namespace, 'all' );
+		$form .= Xml::hidden( 'limit', $this->limit );
+		$form .= Xml::hidden( 'redirects', $this->redirects );
+		$form .= Xml::submitButton( wfMsg( 'newestpages-submit' ) ) . '</form>';
 		return $form;
 	}
 }
