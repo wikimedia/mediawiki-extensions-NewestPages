@@ -292,8 +292,8 @@ $messages['fi'] = array(
 	'newestpages-ns-header' => "'''Tällä sivulla on luettelo {{PLURAL:$1|uusimmasta sivusta|$1 uusimmasta sivusta}} nimiavaruudessa $2.'''",
 	'newestpages-showing' => 'Näytetään {{PLURAL:$1|uusin sivu|$1 uusinta sivua}}:',
 	'newestpages-submit' => 'Hae',
-	'newestpages-showredir' => 'Näytä uudelleenohjaukset',
-	'newestpages-hideredir' => 'Piilota uudelleenohjaukset',
+	'newestpages-showredir' => 'Näytä ohjaukset',
+	'newestpages-hideredir' => 'Piilota ohjaukset',
 );
 
 /** French (Français)
@@ -866,12 +866,12 @@ $messages['ro'] = array(
 $messages['ru'] = array(
 	'newestpages' => 'Новые страницы',
 	'newestpages-desc' => 'Показывает [[Special:Newestpages|последние X страниц]] добавленных в вики',
-	'newestpages-header' => "'''Эта страница в ходит в список $1 новых страниц этой вики.'''",
+	'newestpages-header' => "'''Эта страница {{PLURAL:$1|является новейшей|входит в список $1 новейших страниц}} этой вики.'''",
 	'newestpages-limitlinks' => 'Показывать до $1 страниц',
 	'newestpages-namespace' => 'Пространство имён:',
 	'newestpages-none' => 'Не найдено записей.',
-	'newestpages-ns-header' => "'''Эта страница входит в список $1 новых страниц пространства имён $2.'''",
-	'newestpages-showing' => 'Список $1 новых страниц:',
+	'newestpages-ns-header' => "'''Эта страница {{PLURAL:$1|является новейшей в пространстве имён|входит в список $1 новейших страниц пространства имён}} $2.'''",
+	'newestpages-showing' => 'Список {{PLURAL:$1|$1 новейшей страницы|$1 новейших страниц|$1 новейших страниц}}:',
 	'newestpages-submit' => 'Выполнить',
 	'newestpages-showredir' => 'Показывать страницы-перенаправления',
 	'newestpages-hideredir' => 'Скрыть страницы-перенаправления',
