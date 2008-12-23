@@ -83,6 +83,11 @@ $aliases['lb'] = array(
 	'NewestPages' => array( 'Neiste Säiten' ),
 );
 
+/** Macedonian (Македонски) */
+$aliases['mk'] = array(
+	'NewestPages' => array( 'НајновиСтраници' ),
+);
+
 /** Low German (Plattdüütsch) */
 $aliases['nds'] = array(
 	'NewestPages' => array( 'Neeste Sieden' ),

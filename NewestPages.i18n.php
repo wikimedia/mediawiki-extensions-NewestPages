@@ -537,12 +537,12 @@ $messages['ka'] = array(
 $messages['km'] = array(
 	'newestpages' => 'ទំព័រថ្មីៗបំផុត',
 	'newestpages-desc' => 'បង្ហាញ [[Special:Newestpages|ទំព័រ​ចុងក្រោយបំផុត]] ដែលបានបន្ថែម​ទៅ​វិគី',
-	'newestpages-header' => "'''ទំព័រនេះ​រាយ$1ទំព័រថ្មីៗបំផុតលើវិគីនេះ។'''",
+	'newestpages-header' => "'''ទំព័រនេះ​រាយ {{PLURAL:$1|newest page|$1 ទំព័រថ្មីៗបំផុត}} លើវិគីនេះ។'''",
 	'newestpages-limitlinks' => 'បង្ហាញអតិបរមា $1 ទំព័រ',
 	'newestpages-namespace' => 'លំហឈ្មោះ៖',
 	'newestpages-none' => 'រកមិនឃើញអត្ថបទទេ។',
-	'newestpages-ns-header' => "'''ទំព័រនេះ​រាយ$1ទំព័រថ្មីបំផុតក្នុងលំហឈ្មោះ $2 ។'''",
-	'newestpages-showing' => 'រាយ$1ទំព័រថ្មីបំផុត៖',
+	'newestpages-ns-header' => "'''ទំព័រនេះ​រាយ{{PLURAL:$1|newest page|$1 ទំព័រថ្មីៗបំផុត}}ក្នុងលំហឈ្មោះ $2 ។'''",
+	'newestpages-showing' => 'រាយ {{PLURAL:$1|newest page|$1 ទំព័រថ្មីបំផុត}}​៖',
 	'newestpages-submit' => 'ទៅ',
 	'newestpages-showredir' => 'បង្ហាញទំព័របញ្ជូន',
 	'newestpages-hideredir' => 'លាក់ទំព័របញ្ជូនបន្ត',
@@ -730,10 +730,21 @@ $messages['nl'] = array(
 );
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+ * @author Harald Khan
  * @author Jon Harald Søby
  */
 $messages['nn'] = array(
+	'newestpages' => 'Nyaste sider',
+	'newestpages-desc' => 'Viser dei [[Special:Newestpages|X siste sidene]] som er lagt til på wikien',
+	'newestpages-header' => "'''Denne sida listar opp {{PLURAL:$1|den nyaste sida|dei $1 nyaste sidene}} på denne wikien.'''",
+	'newestpages-limitlinks' => 'Vis opptil $1 sider',
 	'newestpages-namespace' => 'Namnerom:',
+	'newestpages-none' => 'Fann ingenting.',
+	'newestpages-ns-header' => "'''Denne sida listar opp {{PLURAL:$1|den nyaste sida|dei $1 nyaste sidene}} i namnerommet $2.'''",
+	'newestpages-showing' => 'Listar opp {{PLURAL:$1|den nyaste sida|dei $1 nyaste sidene}}:',
+	'newestpages-submit' => 'Gå',
+	'newestpages-showredir' => 'Vis omdirigeringar',
+	'newestpages-hideredir' => 'Gøym omdirigeringar',
 );
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
