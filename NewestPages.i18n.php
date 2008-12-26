@@ -69,16 +69,17 @@ $messages['ang'] = array(
 
 /** Arabic (العربية)
  * @author Meno25
+ * @author OsamaK
  */
 $messages['ar'] = array(
 	'newestpages' => 'أجدد الصفحات',
 	'newestpages-desc' => 'يعرض [[Special:Newestpages|آخر صفحات]] تمت إضافتها إلى الويكي',
-	'newestpages-header' => "'''هذه الصفحة تعرض أجدد $1 صفحة في الويكي.'''",
+	'newestpages-header' => "'''هذه الصفحة تعرض أجدد {{PLURAL:$1|صفحة|$1 صفحة}} في الويكي.'''",
 	'newestpages-limitlinks' => 'اعرض حتى $1 صفحة',
 	'newestpages-namespace' => 'النطاق:',
 	'newestpages-none' => 'لم يتم العثور على مدخلات.',
-	'newestpages-ns-header' => "'''هذه الصفحة تعرض أجدد $1 صفحة في نطاق $2.'''",
-	'newestpages-showing' => 'عرض أجدد $1 صفحة:',
+	'newestpages-ns-header' => "'''هذه الصفحة تعرض أجدد {{PLURAL:$1|صفحة|$1 صفحة}} في نطاق $2.'''",
+	'newestpages-showing' => 'عرض {{PLURAL:$1|الصفحة|الصفحات $1}} الأجدد:',
 	'newestpages-submit' => 'اذهب',
 	'newestpages-showredir' => 'عرض صفحات التحويل',
 	'newestpages-hideredir' => 'إخفاء صفحات التحويل',
@@ -566,6 +567,13 @@ $messages['km'] = array(
 	'newestpages-hideredir' => 'លាក់ទំព័របញ្ជូនបន្ត',
 );
 
+/** Korean (한국어)
+ * @author Kwj2772
+ */
+$messages['ko'] = array(
+	'newestpages-namespace' => '이름공간:',
+);
+
 /** Krio (Krio)
  * @author Jose77
  */
@@ -888,7 +896,14 @@ $messages['rif'] = array(
  */
 $messages['ro'] = array(
 	'newestpages' => 'Cele mai noi pagini',
+	'newestpages-desc' => 'Arată [[Special:Newestpages|ultimele X pagini]] adăugate în wiki',
+	'newestpages-header' => "'''Această pagină listează {{PLURAL:$1|pagina cea mai nouă|$1 cele mai noi pagini}} din wiki.'''",
+	'newestpages-limitlinks' => 'Arată până la $1 pagini',
 	'newestpages-namespace' => 'Spaţiu de nume:',
+	'newestpages-none' => 'Nu au fost găsite intrări.',
+	'newestpages-ns-header' => "'''Această pagină listează {{PLURAL:$1|pagina cea mai nouă|$1 cele mai noi pagini}} din spaţiul de nume $2.'''",
+	'newestpages-showredir' => 'Arată paginile de redirecţionare',
+	'newestpages-hideredir' => 'Ascunde paginile de redirecţionare',
 );
 
 /** Russian (Русский)
