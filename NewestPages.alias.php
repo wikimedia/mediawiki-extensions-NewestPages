@@ -110,6 +110,11 @@ $aliases['no'] = array(
 	'NewestPages' => array( 'Siste sider', 'Nyeste sider' ),
 );
 
+/** Brazilian Portuguese (Português do Brasil) */
+$aliases['pt-br'] = array(
+	'NewestPages' => array( 'Páginas mais novas' ),
+);
+
 /** Swedish (Svenska) */
 $aliases['sv'] = array(
 	'NewestPages' => array( 'Nyaste sidor' ),

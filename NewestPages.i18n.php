@@ -510,6 +510,23 @@ $messages['it'] = array(
 	'newestpages-hideredir' => 'Nascondi i redirect',
 );
 
+/** Japanese (日本語)
+ * @author Fryed-peach
+ */
+$messages['ja'] = array(
+	'newestpages' => '新規作成されたページ',
+	'newestpages-desc' => 'ウィキに追加された[[Special:Newestpages|最新のX件のページ]]を表示する',
+	'newestpages-header' => "'''このページにはウィキ内の{{PLURAL:$1|新規ページ|新規ページ$1件}}が載っています。'''",
+	'newestpages-limitlinks' => '$1 件分を表示する',
+	'newestpages-namespace' => '名前空間:',
+	'newestpages-none' => '該当するものはありませんでした。',
+	'newestpages-ns-header' => "'''このページには$2名前空間の{{PLURAL:$1|新規ページ|新規ページ$1件}}が載っています。'''",
+	'newestpages-showing' => '{{PLURAL:$1|新規ページ|新規ページ$1件}}一覧:',
+	'newestpages-submit' => '表示',
+	'newestpages-showredir' => 'リダイレクトページを表示',
+	'newestpages-hideredir' => 'リダイレクトページを非表示',
+);
+
 /** Javanese (Basa Jawa)
  * @author Meursault2004
  */
@@ -798,9 +815,11 @@ $messages['pa'] = array(
 
 /** Polish (Polski)
  * @author Derbeth
+ * @author Leinad
  */
 $messages['pl'] = array(
 	'newestpages' => 'Najnowsze strony',
+	'newestpages-desc' => 'Pokazuje [[Special:Newestpages|X stron]] ostatnio dodanych do wiki',
 	'newestpages-header' => "'''Ta strona pokazuje $1 najnowszych stron na tej wiki.'''",
 	'newestpages-limitlinks' => 'Pokaż do $1 stron',
 	'newestpages-namespace' => 'Przestrzeń nazw:',
