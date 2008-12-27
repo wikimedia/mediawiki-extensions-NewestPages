@@ -274,9 +274,11 @@ $messages['eo'] = array(
 );
 
 /** Spanish (Español)
+ * @author Imre
  * @author Jatrobat
  */
 $messages['es'] = array(
+	'newestpages-namespace' => 'Espacio de nombres:',
 	'newestpages-submit' => 'Ir',
 );
 
@@ -710,12 +712,12 @@ $messages['myv'] = array(
 $messages['nah'] = array(
 	'newestpages' => 'Yancuīc zāzaniltin',
 	'newestpages-desc' => 'Tiquinttāz in [[Special:Newestpages|xōcoyōc X zāzaniltin]] huiquipan',
-	'newestpages-header' => "'''Nicān, in achi yancuīc $1 zāzaniltin huiquipan.'''",
+	'newestpages-header' => "'''Nicān, in achi yancuīc ahmo {{PLURAL:$1|occē|occequīntīn $1}} zāzanilli huiquipan.'''",
 	'newestpages-limitlinks' => 'Xiquintta huehca ōmpa $1 zāzaniltin',
 	'newestpages-namespace' => 'Tōcātzin:',
 	'newestpages-none' => 'Ahtleh ōmonēxti.',
-	'newestpages-ns-header' => "'''Nicān tiquintta in $1 achi yancuīc īpan $2 tōcātzin.'''",
-	'newestpages-showing' => 'Motta $1 achi yancuīc zāzaniltin:',
+	'newestpages-ns-header' => "'''Nicān {{PLURAL:$1|tiquitta in achi yancuīc ahmo occē|tiquintta in achi yancuīc ahmo occequīntīn $1}} zāzanilli $2 tōcātzimpan.'''",
+	'newestpages-showing' => '{{PLURAL:$1|Motta achi yancuīc ahmo occē|Mottah achi yancuīc ahmo occequīntīn $1}} zāzanilli:',
 	'newestpages-submit' => 'Yāuh',
 	'newestpages-showredir' => 'Tiquinttāz tlacuepaliztli zāzaniltin',
 	'newestpages-hideredir' => 'Tiquintlātīz tlacuepaliztli zāzaniltin',
