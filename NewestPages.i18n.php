@@ -557,13 +557,13 @@ $messages['ka'] = array(
  */
 $messages['km'] = array(
 	'newestpages' => 'ទំព័រថ្មីៗបំផុត',
-	'newestpages-desc' => 'បង្ហាញ [[Special:Newestpages|ទំព័រ​ចុងក្រោយបំផុត]] ដែលបានបន្ថែម​ទៅ​វិគី',
+	'newestpages-desc' => 'បង្ហាញ [[Special:ទំព័រ​ចុងក្រោយបំផុត|ទំព័រ​ចុងក្រោយបំផុត]] ដែលបានបន្ថែម​ទៅ​វិគី',
 	'newestpages-header' => "'''ទំព័រនេះ​រាយ {{PLURAL:$1|newest page|$1 ទំព័រថ្មីៗបំផុត}} លើវិគីនេះ។'''",
 	'newestpages-limitlinks' => 'បង្ហាញអតិបរមា $1 ទំព័រ',
 	'newestpages-namespace' => 'លំហឈ្មោះ៖',
 	'newestpages-none' => 'រកមិនឃើញអត្ថបទទេ។',
 	'newestpages-ns-header' => "'''ទំព័រនេះ​រាយ{{PLURAL:$1|newest page|$1 ទំព័រថ្មីៗបំផុត}}ក្នុងលំហឈ្មោះ $2 ។'''",
-	'newestpages-showing' => 'រាយ {{PLURAL:$1|newest page|$1 ទំព័រថ្មីបំផុត}}​៖',
+	'newestpages-showing' => 'រាយ {{PLURAL:$1|ទំព័រថ្មីបំផុត|$1 ទំព័រថ្មីបំផុត}}​៖',
 	'newestpages-submit' => 'ទៅ',
 	'newestpages-showredir' => 'បង្ហាញទំព័របញ្ជូន',
 	'newestpages-hideredir' => 'លាក់ទំព័របញ្ជូនបន្ត',
@@ -908,6 +908,13 @@ $messages['ro'] = array(
 	'newestpages-hideredir' => 'Ascunde paginile de redirecţionare',
 );
 
+/** Tarandíne (Tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'newestpages-submit' => 'Veje',
+);
+
 /** Russian (Русский)
  * @author Александр Сигачёв
  */
@@ -1090,6 +1097,13 @@ $messages['tg-cyrl'] = array(
  */
 $messages['th'] = array(
 	'newestpages-namespace' => 'เนมสเปซ:',
+);
+
+/** Turkmen (Türkmen)
+ * @author Runningfridgesrule
+ */
+$messages['tk'] = array(
+	'newestpages' => 'Iň täze sahypalar',
 );
 
 /** Tonga (faka-Tonga)
