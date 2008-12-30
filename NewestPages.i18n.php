@@ -58,6 +58,13 @@ $messages['af'] = array(
 	'newestpages-showredir' => 'Wys aanstuurbladsye',
 );
 
+/** Amharic (አማርኛ)
+ * @author Codex Sinaiticus
+ */
+$messages['am'] = array(
+	'newestpages-namespace' => 'ክፍለ-ዊኪ፦',
+);
+
 /** Old English (Anglo-Saxon)
  * @author Wōdenhelm
  */
@@ -1077,6 +1084,7 @@ $messages['te'] = array(
  * @author MF-Warburg
  */
 $messages['tet'] = array(
+	'newestpages-namespace' => 'Espasu pájina nian:',
 	'newestpages-submit' => 'Bá',
 );
 
