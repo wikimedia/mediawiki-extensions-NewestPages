@@ -833,16 +833,17 @@ $messages['pa'] = array(
 /** Polish (Polski)
  * @author Derbeth
  * @author Leinad
+ * @author Sp5uhe
  */
 $messages['pl'] = array(
 	'newestpages' => 'Najnowsze strony',
 	'newestpages-desc' => 'Pokazuje [[Special:Newestpages|X stron]] ostatnio dodanych do wiki',
-	'newestpages-header' => "'''Ta strona pokazuje $1 najnowszych stron na tej wiki.'''",
+	'newestpages-header' => "'''Ta strona zawiera {{PLURAL:$1|nazwę najnowszej strony|listę z $1 najnowszymi stronami}} tej wiki.'''",
 	'newestpages-limitlinks' => 'Pokaż do $1 stron',
 	'newestpages-namespace' => 'Przestrzeń nazw:',
 	'newestpages-none' => 'Nie znaleziono żadnych wpisów.',
-	'newestpages-ns-header' => "'''Ta strona pokazuje $1 najnowszych stron w przestrzeni nazw $2.'''",
-	'newestpages-showing' => 'Prezentowanie $1 najnowszych stron:',
+	'newestpages-ns-header' => "'''Ta strona zawiera {{PLURAL:$1|nazwę najnowszej strony|listę z $1 najnowszymi stronami}} w przestrzeni nazw $2.'''",
+	'newestpages-showing' => '{{PLURAL:$1|Nazwa najnowszej strony|Lista z $1 najnowszymi stronami}}',
 	'newestpages-submit' => 'Pokaż',
 	'newestpages-showredir' => 'Pokaż strony przekierowujące',
 	'newestpages-hideredir' => 'Ukryj strony przekierowujące',
