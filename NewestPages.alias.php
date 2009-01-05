@@ -88,6 +88,11 @@ $aliases['mk'] = array(
 	'NewestPages' => array( 'НајновиСтраници' ),
 );
 
+/** Maltese (Malti) */
+$aliases['mt'] = array(
+	'NewestPages' => array( 'PaġniRiċenti' ),
+);
+
 /** Low German (Plattdüütsch) */
 $aliases['nds'] = array(
 	'NewestPages' => array( 'Neeste Sieden' ),

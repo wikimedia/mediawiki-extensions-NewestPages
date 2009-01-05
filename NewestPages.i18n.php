@@ -93,17 +93,18 @@ $messages['ar'] = array(
 );
 
 /** Egyptian Spoken Arabic (مصرى)
+ * @author Ghaly
  * @author Meno25
  */
 $messages['arz'] = array(
 	'newestpages' => 'أجدد الصفحات',
 	'newestpages-desc' => 'يعرض [[Special:Newestpages|آخر صفحات]] تمت إضافتها إلى الويكي',
-	'newestpages-header' => "'''هذه الصفحة تعرض أجدد $1 صفحة فى الويكي.'''",
+	'newestpages-header' => "'''الصفحة دى بتعرض أجدد $1 صفحة فى الويكى.'''",
 	'newestpages-limitlinks' => 'اعرض حتى $1 صفحة',
 	'newestpages-namespace' => 'النطاق:',
 	'newestpages-none' => 'لم يتم العثور على مدخلات.',
-	'newestpages-ns-header' => "'''هذه الصفحة تعرض أجدد $1 صفحة فى نطاق $2.'''",
-	'newestpages-showing' => 'عرض أجدد $1 صفحة:',
+	'newestpages-ns-header' => "'''الصفحة دى بتعرض أجدد $1 صفحة فى النيمسبيس $2.'''",
+	'newestpages-showing' => 'عرض {{PLURAL:$1|الصفحة|الصفحات $1}} الأجدد:',
 	'newestpages-submit' => 'اذهب',
 	'newestpages-showredir' => 'عرض صفحات التحويل',
 	'newestpages-hideredir' => 'إخفاء صفحات التحويل',
@@ -1064,6 +1065,13 @@ $messages['sv'] = array(
 	'newestpages-hideredir' => 'Dölj omdirigerings sidor',
 );
 
+/** Tamil (தமிழ்)
+ * @author Ulmo
+ */
+$messages['ta'] = array(
+	'newestpages-namespace' => 'பெயர்வெளி:',
+);
+
 /** Telugu (తెలుగు)
  * @author Veeven
  */
@@ -1175,9 +1183,20 @@ $messages['vi'] = array(
 
 /** Volapük (Volapük)
  * @author Malafaya
+ * @author Smeira
  */
 $messages['vo'] = array(
+	'newestpages' => 'Pads nulikün',
+	'newestpages-desc' => 'Jonön [[Special:Newestpages|padis lätik X]] vüke at peläükölis',
+	'newestpages-header' => "'''Su pad at {{PLURAL:$1|palisedon pad nulikün|palisedons pads nulikün $1}} vüka at.'''",
+	'newestpages-limitlinks' => 'Jonön padis jü $1',
 	'newestpages-namespace' => 'Nemaspad:',
+	'newestpages-none' => 'Pads nonik petuvons.',
+	'newestpages-ns-header' => "'''Su pad at {{PLURAL:$1|palisedon pad nulikün|palisedons pads nulikün $1}} nemaspada: $2.'''",
+	'newestpages-showing' => '{{PLURAL:$1|Pad nulikün palisedon|Pads nulikün $1 palisedons}}:',
+	'newestpages-submit' => 'Ledunolöd',
+	'newestpages-showredir' => 'Jonön lüodükömapadis',
+	'newestpages-hideredir' => 'Klänedön lüodükömapadis',
 );
 
 /** Yue (粵語)
