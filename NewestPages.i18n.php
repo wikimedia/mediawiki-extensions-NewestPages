@@ -290,6 +290,14 @@ $messages['es'] = array(
 	'newestpages-submit' => 'Ir',
 );
 
+/** Persian (فارسی)
+ * @author Vahid
+ */
+$messages['fa'] = array(
+	'newestpages' => 'جدیدترین صفحه‌ها',
+	'newestpages-desc' => 'نمایش [[Special:Newestpages|آخرین X صفحهٔ]] افزوده شده به ویکی',
+);
+
 /** Finnish (Suomi)
  * @author Crt
  * @author Niklas Laxström
