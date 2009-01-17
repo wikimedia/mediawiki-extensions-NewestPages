@@ -385,14 +385,16 @@ $messages['gv'] = array(
 /** Hebrew (עברית)
  * @author Agbad
  * @author Rotemliss
+ * @author YaronSh
  */
 $messages['he'] = array(
 	'newestpages' => 'דפים אחרונים',
 	'newestpages-desc' => 'הצגת [[Special:Newestpage|X הדפים האחרונים]] שנוספו לאתר',
 	'newestpages-header' => "'''דף זה כולל רשימה של $1 הדפים האחרונים שנוספו לאתר.'''",
 	'newestpages-namespace' => 'מרחב שם:',
+	'newestpages-none' => 'לא נמצאו רשומות.',
 	'newestpages-ns-header' => "'''דף זה כולל רשימה של $1 הדפים האחרונים שנוספו במרחב השם $2.'''",
-	'newestpages-showing' => 'רשימת ה־$1 דפים החדשים ביותר:',
+	'newestpages-showing' => 'הצגת {{PLURAL:$1|הדף החדש ביותר|$1 הדפים החדשים ביותר}}:',
 	'newestpages-submit' => 'הצגה',
 	'newestpages-showredir' => 'הצגת דפי הפניה',
 	'newestpages-hideredir' => 'הסתרת דפי הפניה',
@@ -744,6 +746,7 @@ $messages['nah'] = array(
  */
 $messages['nds'] = array(
 	'newestpages' => 'Ne’este Sieden',
+	'newestpages-desc' => 'Wiest de [[Special:Newestpages|lesten X ne’en Sieden]] op dat Wiki',
 	'newestpages-header' => "'''Disse Sied wiest de {{PLURAL:$1|ne’este Sied|$1 ne’esten Sieden}} op dat Wiki.'''",
 	'newestpages-limitlinks' => '$1 Sieden wiesen',
 	'newestpages-namespace' => 'Naamruum:',
@@ -1032,7 +1035,7 @@ $messages['stq'] = array(
 	'newestpages-none' => 'Naan Iendraach fuunen.',
 	'newestpages-ns-header' => "'''Disse Siede liestet do $1 näiste Sieden in dän Noomensruum $2 ap.'''",
 	'newestpages-showing' => 'Do $1 näiste Sieden:',
-	'newestpages-submit' => 'Säike',
+	'newestpages-submit' => 'Säike (1)',
 	'newestpages-showredir' => 'Wiederlaitengssieden anwiese',
 	'newestpages-hideredir' => 'Wiederlaitengssieden ferstopje.',
 );
@@ -1129,6 +1132,23 @@ $messages['th'] = array(
  */
 $messages['tk'] = array(
 	'newestpages' => 'Iň täze sahypalar',
+);
+
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'newestpages' => 'Pinakabagong mga pahina',
+	'newestpages-desc' => 'Nagpapakita ng [[Special:Newestpages|huling X mga pahina]]ng naidagdag sa wiki',
+	'newestpages-header' => "'''Nagtatala ang pahinang ito ng {{PLURAL:$1|pinakabagong pahina|$1 pinakabagong mga pahina}} sa ibabaw ng wiki.'''",
+	'newestpages-limitlinks' => 'Magpakita ng hanggang sa $1 mga pahina',
+	'newestpages-namespace' => 'Espasyo ng pangalan:',
+	'newestpages-none' => 'Walang natagpuang mga entrado/ipinasok.',
+	'newestpages-ns-header' => "'''Nagtatala ang pahinang ito ng {{PLURAL:$1|pinakabagong pahina|$1 pinakabagong mga pahina}} sa loob ng $2 espasyo ng pangalan.'''",
+	'newestpages-showing' => 'Itinatala ang {{PLURAL:$1|pinakabagong pahina|$1 pinakabagong mga pahina}}:',
+	'newestpages-submit' => 'Gawin na',
+	'newestpages-showredir' => 'Ipakita ang mga pahina ipinanuto/muling itinuro',
+	'newestpages-hideredir' => 'Itago ang mga pahinang ipinanuto/muling itinuro',
 );
 
 /** Tonga (faka-Tonga)
