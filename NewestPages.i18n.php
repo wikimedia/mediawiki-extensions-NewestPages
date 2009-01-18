@@ -360,7 +360,7 @@ $messages['gl'] = array(
 	'newestpages-hideredir' => 'Ocultar páxinas redirixidas',
 );
 
-/** Gothic (𐌲𐌿𐍄𐌹𐍃𐌺)
+/** Gothic
  * @author Jocke Pirat
  */
 $messages['got'] = array(

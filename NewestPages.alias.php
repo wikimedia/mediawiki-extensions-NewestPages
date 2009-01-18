@@ -73,6 +73,11 @@ $aliases['id'] = array(
 	'NewestPages' => array( 'Halaman terbaru' ),
 );
 
+/** Japanese (日本語) */
+$aliases['ja'] = array(
+	'NewestPages' => array( '新規作成されたページ' ),
+);
+
 /** Khmer (ភាសាខ្មែរ) */
 $aliases['km'] = array(
 	'NewestPages' => array( 'ទំព័រថ្មីៗបំផុត' ),
@@ -118,6 +123,11 @@ $aliases['no'] = array(
 /** Brazilian Portuguese (Português do Brasil) */
 $aliases['pt-br'] = array(
 	'NewestPages' => array( 'Páginas mais novas' ),
+);
+
+/** Sanskrit (संस्कृत) */
+$aliases['sa'] = array(
+	'NewestPages' => array( 'अतिनूतनपृष्ठ' ),
 );
 
 /** Swedish (Svenska) */
