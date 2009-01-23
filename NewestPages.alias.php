@@ -130,6 +130,11 @@ $aliases['sa'] = array(
 	'NewestPages' => array( 'अतिनूतनपृष्ठ' ),
 );
 
+/** Albanian (Shqip) */
+$aliases['sq'] = array(
+	'NewestPages' => array( 'FaqeteReja' ),
+);
+
 /** Swedish (Svenska) */
 $aliases['sv'] = array(
 	'NewestPages' => array( 'Nyaste sidor' ),
