@@ -38,6 +38,11 @@ $aliases['de'] = array(
 	'NewestPages' => array( 'Neueste Seiten' ),
 );
 
+/** Lower Sorbian (Dolnoserbski) */
+$aliases['dsb'] = array(
+	'NewestPages' => array( 'Nejnowše boki' ),
+);
+
 /** Persian (فارسی) */
 $aliases['fa'] = array(
 	'NewestPages' => array( 'تازه‌ترین_صفحه‌ها' ),
@@ -61,6 +66,11 @@ $aliases['gsw'] = array(
 /** Croatian (Hrvatski) */
 $aliases['hr'] = array(
 	'NewestPages' => array( 'Najnovije_stranice' ),
+);
+
+/** Upper Sorbian (Hornjoserbsce) */
+$aliases['hsb'] = array(
+	'NewestPages' => array( 'Najnowše strony' ),
 );
 
 /** Hungarian (Magyar) */
@@ -118,6 +128,11 @@ $aliases['nl'] = array(
  */
 $aliases['no'] = array(
 	'NewestPages' => array( 'Siste sider', 'Nyeste sider' ),
+);
+
+/** Pashto (پښتو) */
+$aliases['ps'] = array(
+	'NewestPages' => array( 'ترټولو نوي مخونه' ),
 );
 
 /** Brazilian Portuguese (Português do Brasil) */
