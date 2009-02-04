@@ -212,6 +212,23 @@ $messages['cu'] = array(
 	'newestpages-submit' => 'прѣиди́',
 );
 
+/** Welsh (Cymraeg)
+ * @author Lloffiwr
+ */
+$messages['cy'] = array(
+	'newestpages' => 'Tudalennau newydd diweddaraf',
+	'newestpages-desc' => "Yn dangos y [[Special:Newestpages|llwyth diweddaraf o dudalennau newydd]] 'u gosodwyd ar y wici",
+	'newestpages-header' => "'''Dyma restr o'r {{PLURAL:$1||dudalen|$1 dudalen|$1 tudalen|$1 thudalen|$1 tudalen}} newydd diweddaraf ar y wici.'''",
+	'newestpages-limitlinks' => 'Dangos hyd at $1 o dudalennau',
+	'newestpages-namespace' => 'Parth:',
+	'newestpages-none' => 'Ni chafwyd unrhyw dudalennau newydd.',
+	'newestpages-ns-header' => "'''Rhestrir yma y(r) {{PLURAL:$1||dudalen|$1 dudalen|$1 tudalen|$1 thudalen|$1 tudalen}} newydd diweddaraf yn y parth $2.'''",
+	'newestpages-showing' => "Yn rhestru'r {{PLURAL:$1||dudalen|$1 dudalen|$1 tudalen|$1 thudalen|$1 tudalen}} newydd diweddaraf:",
+	'newestpages-submit' => 'Eler',
+	'newestpages-showredir' => 'Dangos tudalennau ailgyfeirio',
+	'newestpages-hideredir' => 'Cuddio tudalennau ailgyfeirio',
+);
+
 /** Danish (Dansk)
  * @author Jon Harald Søby
  */
@@ -373,6 +390,23 @@ $messages['got'] = array(
 $messages['grc'] = array(
 	'newestpages-namespace' => 'Ὀνοματεῖον:',
 	'newestpages-submit' => 'Ἱέναι',
+);
+
+/** Swiss German (Alemannisch)
+ * @author Als-Holder
+ */
+$messages['gsw'] = array(
+	'newestpages' => 'Nejschti Syte',
+	'newestpages-desc' => 'Zeigt di [[Special:Newestpages|nejschte X Syte]] vum Wiki',
+	'newestpages-header' => "'''Die Syte lischtet di {{PLURAL:$1|nejscht Syte|$1 nejschte Syte}} vu däm Wiki uf.'''",
+	'newestpages-limitlinks' => 'Zeig $1 Syte',
+	'newestpages-namespace' => 'Namensruum:',
+	'newestpages-none' => 'Kei Yytrag gfunde.',
+	'newestpages-ns-header' => "'''Die Syte lischtet di {{PLURAL:$1|nejscht Syten|$1 nejschte Syten}} im Namensruum $2 uf.'''",
+	'newestpages-showing' => 'Di {{PLURAL:$1|nejscht Syte|$1 nejschte Syte}}:',
+	'newestpages-submit' => 'Sueche',
+	'newestpages-showredir' => 'Wyterleitigssyten aazeige',
+	'newestpages-hideredir' => 'Wyterleitigssyten uusblände',
 );
 
 /** Manx (Gaelg)
