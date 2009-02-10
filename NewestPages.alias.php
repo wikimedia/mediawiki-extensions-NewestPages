@@ -160,3 +160,8 @@ $aliases['sw'] = array(
 	'NewestPages' => array( 'KurasaMpya' ),
 );
 
+/** Turkish (Türkçe) */
+$aliases['tr'] = array(
+	'NewestPages' => array( 'YeniMaddeler' ),
+);
+

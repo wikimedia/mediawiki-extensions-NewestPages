@@ -299,10 +299,12 @@ $messages['eo'] = array(
 );
 
 /** Spanish (Español)
+ * @author Baiji
  * @author Imre
  * @author Jatrobat
  */
 $messages['es'] = array(
+	'newestpages' => 'Páginas más recientes',
 	'newestpages-namespace' => 'Espacio de nombres:',
 	'newestpages-submit' => 'Ir',
 );
@@ -1224,7 +1226,9 @@ $messages['to'] = array(
  */
 $messages['tr'] = array(
 	'newestpages' => 'En yeni sayfalar',
+	'newestpages-namespace' => 'İsim alanı',
 	'newestpages-submit' => 'Git',
+	'newestpages-showredir' => 'Yönlendirilmiş sayfaları gör',
 );
 
 /** Vèneto (Vèneto)
