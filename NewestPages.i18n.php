@@ -940,6 +940,23 @@ $messages['pt'] = array(
 	'newestpages-hideredir' => 'Ocultar redireccionamentos',
 );
 
+/** Brazilian Portuguese (Português do Brasil)
+ * @author Eduardo.mps
+ */
+$messages['pt-br'] = array(
+	'newestpages' => 'Páginas novas',
+	'newestpages-desc' => 'Mostra as [[Special:Newestpages|últimas X páginas]] adicionadas ao wiki',
+	'newestpages-header' => "'''Esta página lista {{PLURAL:$1|a página mais recente|as $1 páginas mais recentes}} deste wiki.'''",
+	'newestpages-limitlinks' => 'Exibir até $1 páginas',
+	'newestpages-namespace' => 'Espaço nominal:',
+	'newestpages-none' => 'Não foram encontrados resultados.',
+	'newestpages-ns-header' => "'''Esta página lista {{PLURAL:$1|a página mais recente|as $1 páginas mais recentes}} do espaço nominal $2.'''",
+	'newestpages-showing' => 'Listando {{PLURAL:$1|a página mais recente|as $1 páginas mais recentes}}:',
+	'newestpages-submit' => 'Ir',
+	'newestpages-showredir' => 'Exibir redirecionamentos',
+	'newestpages-hideredir' => 'Ocultar redirecionamentos',
+);
+
 /** Tarifit (Tarifit)
  * @author Jose77
  */
