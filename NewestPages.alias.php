@@ -78,6 +78,11 @@ $aliases['hu'] = array(
 	'NewestPages' => array( 'Legújabb lapok' ),
 );
 
+/** Interlingua (Interlingua) */
+$aliases['ia'] = array(
+	'NewestPages' => array( 'PaginasLePlusNove' ),
+);
+
 /** Indonesian (Bahasa Indonesia) */
 $aliases['id'] = array(
 	'NewestPages' => array( 'Halaman terbaru' ),
@@ -158,6 +163,11 @@ $aliases['sv'] = array(
 /** Swahili (Kiswahili) */
 $aliases['sw'] = array(
 	'NewestPages' => array( 'KurasaMpya' ),
+);
+
+/** Tagalog (Tagalog) */
+$aliases['tl'] = array(
+	'NewestPages' => array( 'Pinakabagong mga pahina' ),
 );
 
 /** Turkish (Türkçe) */
