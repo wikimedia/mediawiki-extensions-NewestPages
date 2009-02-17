@@ -80,7 +80,7 @@ $aliases['hu'] = array(
 
 /** Interlingua (Interlingua) */
 $aliases['ia'] = array(
-	'NewestPages' => array( 'PaginasLePlusNove' ),
+	'NewestPages' => array( 'Paginas le plus nove' ),
 );
 
 /** Indonesian (Bahasa Indonesia) */
