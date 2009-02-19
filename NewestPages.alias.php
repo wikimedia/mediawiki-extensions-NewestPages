@@ -43,6 +43,11 @@ $aliases['dsb'] = array(
 	'NewestPages' => array( 'Nejnowše boki' ),
 );
 
+/** Greek (Ελληνικά) */
+$aliases['el'] = array(
+	'NewestPages' => array( 'ΝεότερεςΣελίδες' ),
+);
+
 /** Persian (فارسی) */
 $aliases['fa'] = array(
 	'NewestPages' => array( 'تازه‌ترین_صفحه‌ها' ),

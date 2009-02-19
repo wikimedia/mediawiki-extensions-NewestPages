@@ -535,6 +535,14 @@ $messages['id'] = array(
 	'newestpages-hideredir' => 'Sembunyikan halaman pengalihan',
 );
 
+/** Ido (Ido)
+ * @author Malafaya
+ */
+$messages['io'] = array(
+	'newestpages-namespace' => 'Nomaro:',
+	'newestpages-submit' => 'Irez',
+);
+
 /** Icelandic (Íslenska)
  * @author S.Örvarr.S
  */
