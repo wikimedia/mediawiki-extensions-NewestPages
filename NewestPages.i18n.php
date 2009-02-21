@@ -1234,9 +1234,16 @@ $messages['to'] = array(
  */
 $messages['tr'] = array(
 	'newestpages' => 'En yeni sayfalar',
-	'newestpages-namespace' => 'İsim alanı',
+	'newestpages-namespace' => 'Alan adı',
 	'newestpages-submit' => 'Git',
 	'newestpages-showredir' => 'Yönlendirilmiş sayfaları gör',
+);
+
+/** Uighur (Latin) (Uyghurche‎ / ئۇيغۇرچە (Latin))
+ * @author Jose77
+ */
+$messages['ug-latn'] = array(
+	'newestpages-submit' => 'Köchüsh',
 );
 
 /** Vèneto (Vèneto)
