@@ -1237,6 +1237,7 @@ $messages['tr'] = array(
 	'newestpages-namespace' => 'Alan adı',
 	'newestpages-submit' => 'Git',
 	'newestpages-showredir' => 'Yönlendirilmiş sayfaları gör',
+	'newestpages-hideredir' => 'Gizli yönlendirme sayfaları',
 );
 
 /** Uighur (Latin) (Uyghurche‎ / ئۇيغۇرچە (Latin))
