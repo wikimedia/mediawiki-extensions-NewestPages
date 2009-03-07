@@ -712,6 +712,13 @@ $messages['lt'] = array(
 	'newestpages-hideredir' => 'Slėpti peradresavimų puslapius',
 );
 
+/** Eastern Mari (Олык Марий)
+ * @author Сай
+ */
+$messages['mhr'] = array(
+	'newestpages-namespace' => 'Лӱм-влакын кумдыкышт:',
+);
+
 /** Malayalam (മലയാളം)
  * @author Shijualex
  */
