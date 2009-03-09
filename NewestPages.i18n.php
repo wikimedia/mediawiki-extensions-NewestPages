@@ -300,13 +300,19 @@ $messages['eo'] = array(
 
 /** Spanish (Español)
  * @author Baiji
+ * @author Crazymadlover
  * @author Imre
  * @author Jatrobat
  */
 $messages['es'] = array(
 	'newestpages' => 'Páginas más recientes',
+	'newestpages-header' => "'''Esta página lista las {{PLURAL:$1|página más nueva|$1 páginas más nuevas}} en el wiki.'''",
 	'newestpages-namespace' => 'Espacio de nombres:',
+	'newestpages-none' => 'Ninguna entrada fue encontrada.',
+	'newestpages-showing' => 'Listando {{PLURAL:$1|la página más nueva|$1 Las páginas más nuevas}}:',
 	'newestpages-submit' => 'Ir',
+	'newestpages-showredir' => 'Mostrar página de redirección',
+	'newestpages-hideredir' => 'Esconder páginas de redirección',
 );
 
 /** Persian (فارسی)
