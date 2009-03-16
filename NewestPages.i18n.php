@@ -771,8 +771,8 @@ $messages['mt'] = array(
 	'newestpages-none' => 'Ma nstabet l-ebda paġna.',
 	'newestpages-ns-header' => "'''Din il-paġna telenka l-$1 paġna ġodda fl-ispazju ta' l-isem $2.'''",
 	'newestpages-submit' => 'Mur',
-	'newestpages-showredir' => 'Uri r-rindirizzi',
-	'newestpages-hideredir' => 'Aħbi r-rindirizzi',
+	'newestpages-showredir' => 'Uri r-riindirizzi',
+	'newestpages-hideredir' => 'Aħbi r-riindirizzi',
 );
 
 /** Erzya (Эрзянь)
