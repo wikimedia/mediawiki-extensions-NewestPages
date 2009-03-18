@@ -272,6 +272,16 @@ $messages['dsb'] = array(
 	'newestpages-hideredir' => 'Pśesměrowanja schowaś',
 );
 
+/** Ewe (Eʋegbe)
+ * @author Natsubee
+ */
+$messages['ee'] = array(
+	'newestpages' => 'Axa siwo le yeye wu',
+	'newestpages-desc' => 'Efia [[Special:Newestpages|axa X susuewo]] siwo woda ɖe wiki la dzi',
+	'newestpages-header' => "'''This page lists the {{PLURAL:$1|newest page|$1 newest pages}} on the wiki.'''<br />
+'''Axa sia fia {{PLURAL:$1|axa yeyeawu|axa $1 yeyeawu}} le wiki la dzi'''",
+);
+
 /** Greek (Ελληνικά)
  * @author Consta
  */
