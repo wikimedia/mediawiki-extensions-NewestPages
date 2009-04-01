@@ -316,9 +316,11 @@ $messages['eo'] = array(
  */
 $messages['es'] = array(
 	'newestpages' => 'Páginas más recientes',
+	'newestpages-desc' => 'Muestra las [[Special:Newestpages|últimas X páginas]] agregadas al wiki',
 	'newestpages-header' => "'''Esta página lista las {{PLURAL:$1|página más nueva|$1 páginas más nuevas}} en el wiki.'''",
 	'newestpages-namespace' => 'Espacio de nombres:',
 	'newestpages-none' => 'Ninguna entrada fue encontrada.',
+	'newestpages-ns-header' => "'''esta página lista las {{PLURAL:$1|página más nueva|$1 páginas más nuevas}} en el nombre de espacio $2.'''",
 	'newestpages-showing' => 'Listando {{PLURAL:$1|la página más nueva|$1 Las páginas más nuevas}}:',
 	'newestpages-submit' => 'Ir',
 	'newestpages-showredir' => 'Mostrar página de redirección',
@@ -1285,6 +1287,13 @@ $messages['vec'] = array(
 	'newestpages-submit' => 'Và',
 	'newestpages-showredir' => 'Mostra i redirect',
 	'newestpages-hideredir' => 'Scondi i redirect',
+);
+
+/** Veps (Vepsan kel')
+ * @author Игорь Бродский
+ */
+$messages['vep'] = array(
+	'newestpages-submit' => 'Mäne',
 );
 
 /** Vietnamese (Tiếng Việt)
