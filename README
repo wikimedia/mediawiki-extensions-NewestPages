@@ -30,7 +30,7 @@ To install the Newest Pages extension, first upload/copy the extension files
 NewestPages.php and NewestPages.i18n.php into your MediaWiki extensions directory.
 Then edit your LocalSettings.php file and add the following line:
 
-	require_once( 'extensions/NewestPages.php' );
+	require_once( 'extensions/NewestPages/NewestPages.php' );
 
 Save the file to complete the installation.
 
