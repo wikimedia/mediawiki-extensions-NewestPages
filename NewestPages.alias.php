@@ -170,6 +170,11 @@ $aliases['sw'] = array(
 	'NewestPages' => array( 'KurasaMpya' ),
 );
 
+/** Thai (ไทย) */
+$aliases['th'] = array(
+	'NewestPages' => array( 'หน้าใหม่' ),
+);
+
 /** Tagalog (Tagalog) */
 $aliases['tl'] = array(
 	'NewestPages' => array( 'Pinakabagong mga pahina' ),
