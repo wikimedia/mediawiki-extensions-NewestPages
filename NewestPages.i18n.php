@@ -1214,7 +1214,7 @@ $messages['th'] = array(
 	'newestpages-namespace' => 'เนมสเปซ:',
 );
 
-/** Turkmen (Türkmen)
+/** Turkmen (Türkmençe)
  * @author Runningfridgesrule
  */
 $messages['tk'] = array(
@@ -1238,7 +1238,7 @@ $messages['tl'] = array(
 	'newestpages-hideredir' => 'Itago ang mga pahinang ipinanuto/muling itinuro',
 );
 
-/** Tonga (faka-Tonga)
+/** Tonga (lea faka-Tonga)
  * @author Tauʻolunga
  */
 $messages['to'] = array(
@@ -1263,6 +1263,13 @@ $messages['tr'] = array(
 	'newestpages-submit' => 'Git',
 	'newestpages-showredir' => 'Yönlendirilmiş sayfaları gör',
 	'newestpages-hideredir' => 'Gizli yönlendirme sayfaları',
+);
+
+/** ئۇيغۇرچە (ئۇيغۇرچە)
+ * @author Alfredie
+ */
+$messages['ug-arab'] = array(
+	'newestpages-submit' => 'كۆچۈش',
 );
 
 /** Uighur (Latin) (Uyghurche‎ / ئۇيغۇرچە (Latin))
