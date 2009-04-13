@@ -93,6 +93,11 @@ $aliases['id'] = array(
 	'NewestPages' => array( 'Halaman terbaru' ),
 );
 
+/** Italian (Italiano) */
+$aliases['it'] = array(
+	'NewestPages' => array( 'PaginePiùNuove' ),
+);
+
 /** Japanese (日本語) */
 $aliases['ja'] = array(
 	'NewestPages' => array( '新規作成されたページ' ),
