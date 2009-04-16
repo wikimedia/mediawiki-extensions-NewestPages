@@ -539,15 +539,16 @@ $messages['ia'] = array(
 
 /** Indonesian (Bahasa Indonesia)
  * @author Ivan Lanin
+ * @author IvanLanin
  */
 $messages['id'] = array(
 	'newestpages' => 'Halaman terbaru',
-	'newestpages-header' => "'''Halaman ini memberikan daftar $1 halaman terbaru di wiki ini.'''",
+	'newestpages-header' => "'''Halaman ini memberikan daftar {{PLURAL:$1|halaman terbaru|$1 halaman terbaru}} di wiki ini.'''",
 	'newestpages-limitlinks' => 'Menampilkan sampai $1 halaman',
 	'newestpages-namespace' => 'Ruang nama:',
 	'newestpages-none' => 'Tidak ditemukan entri.',
-	'newestpages-ns-header' => "'''Halaman ini memberikan daftar $1 halaman terbaru di ruang nama $2.'''",
-	'newestpages-showing' => 'Menampilkan $1 halaman terbaru:',
+	'newestpages-ns-header' => "'''Halaman ini memberikan daftar {{PLURAL:$1|halaman terbaru|$1 halaman terbaru}}  di ruang nama $2.'''",
+	'newestpages-showing' => 'Menampilkan {PLURAL:$1|halaman terbaru|$1 halaman terbaru}}:',
 	'newestpages-submit' => 'Cari',
 	'newestpages-showredir' => 'Tampilkan halaman pengalihan',
 	'newestpages-hideredir' => 'Sembunyikan halaman pengalihan',
