@@ -13,6 +13,7 @@ if ( ! defined( 'MEDIAWIKI' ) )
  */
 
 $wgExtensionCredits['specialpage'][] = array(
+	'path'           => __FILE__,
 	'name'           => 'Newest Pages',
 	'version'        => '1.7',
 	'author'         => 'Rob Church',
