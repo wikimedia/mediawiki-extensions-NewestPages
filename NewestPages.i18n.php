@@ -1080,12 +1080,13 @@ $messages['sr'] = array(
  */
 $messages['sr-ec'] = array(
 	'newestpages' => 'Најновије странице',
+	'newestpages-desc' => 'Показује [[Special:Newestpages|задњих X чланака]] додатих Викију',
 	'newestpages-header' => "'''Ово је списак {{PLURAL:$1|са најновијом страном|$1 најновијих страна}} на овој Вики.'''",
 	'newestpages-limitlinks' => 'Прикажи $1 страница',
 	'newestpages-namespace' => 'Именски простор:',
 	'newestpages-none' => 'Није ништа пронађено.',
 	'newestpages-ns-header' => "'''Ово је списак {{PLURAL:$1|са најновијом страном|$1 најновијих страна}} на у именском простору $2.'''",
-	'newestpages-showing' => 'Листинг {{PLURAL:$1|најновије стране|$1 најновијих страна}}:',
+	'newestpages-showing' => 'Списак {{PLURAL:$1|најновије стране|$1 најновијих страна}}:',
 	'newestpages-submit' => 'Иди',
 	'newestpages-showredir' => 'Прикажи странице преусмерења',
 	'newestpages-hideredir' => 'Сакриј странице преусмерења',
