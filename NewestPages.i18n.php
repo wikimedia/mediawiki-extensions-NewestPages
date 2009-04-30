@@ -1348,6 +1348,7 @@ $messages['vo'] = array(
  */
 $messages['yue'] = array(
 	'newestpages' => '新頁',
+	'newestpages-desc' => '顯示[[Special:Newestpages|最近X版]]到個wiki度',
 	'newestpages-header' => "'''呢度列舉成個維基入面最新 $1 頁。'''",
 	'newestpages-limitlinks' => '攤開頂龍 $1 版',
 	'newestpages-namespace' => '空間名:',
@@ -1362,6 +1363,7 @@ $messages['yue'] = array(
 /** Simplified Chinese (‪中文(简体)‬) */
 $messages['zh-hans'] = array(
 	'newestpages' => '最新页面',
+	'newestpages-desc' => '显示[[Special:Newestpages|最近X个页面]]到wiki中',
 	'newestpages-header' => "'''本页面列举维基上第$1新的页面。'''",
 	'newestpages-limitlinks' => '显示$1个页面',
 	'newestpages-namespace' => '名字空间：',
@@ -1379,6 +1381,7 @@ $messages['zh-hans'] = array(
  */
 $messages['zh-hant'] = array(
 	'newestpages' => '最新頁面',
+	'newestpages-desc' => '顯示[[Special:Newestpages|最近X個頁面]]到wiki中',
 	'newestpages-header' => "'''本頁列出維基上第$1新的頁面。'''",
 	'newestpages-limitlinks' => '顯示$1個頁面',
 	'newestpages-namespace' => '名字空間：',
