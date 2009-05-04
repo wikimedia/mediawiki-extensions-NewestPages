@@ -318,6 +318,7 @@ $messages['es'] = array(
 	'newestpages' => 'Páginas más recientes',
 	'newestpages-desc' => 'Muestra las [[Special:Newestpages|últimas X páginas]] agregadas al wiki',
 	'newestpages-header' => "'''Esta página lista las {{PLURAL:$1|página más nueva|$1 páginas más nuevas}} en el wiki.'''",
+	'newestpages-limitlinks' => 'Mostrar hasta $1 páginas',
 	'newestpages-namespace' => 'Espacio de nombres:',
 	'newestpages-none' => 'Ninguna entrada fue encontrada.',
 	'newestpages-ns-header' => "'''esta página lista las {{PLURAL:$1|página más nueva|$1 páginas más nuevas}} en el nombre de espacio $2.'''",
