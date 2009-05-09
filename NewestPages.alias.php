@@ -108,6 +108,11 @@ $aliases['km'] = array(
 	'NewestPages' => array( 'ទំព័រថ្មីៗបំផុត' ),
 );
 
+/** Ripoarisch (Ripoarisch) */
+$aliases['ksh'] = array(
+	'NewestPages' => array( 'Neueste Sigge' ),
+);
+
 /** Luxembourgish (Lëtzebuergesch) */
 $aliases['lb'] = array(
 	'NewestPages' => array( 'Neiste Säiten' ),
