@@ -193,8 +193,10 @@ $messages['bs'] = array(
 
 /** Catalan (Català)
  * @author SMP
+ * @author Solde
  */
 $messages['ca'] = array(
+	'newestpages' => 'Pàgines més noves',
 	'newestpages-submit' => 'Vés-hi',
 );
 
