@@ -871,16 +871,17 @@ $messages['nn'] = array(
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Jon Harald Søby
+ * @author Nghtwlkr
  */
 $messages['no'] = array(
 	'newestpages' => 'Nyeste sider',
 	'newestpages-desc' => 'Viser de [[Special:Newestpages|siste X sidene]] som er lagt til på wikien',
-	'newestpages-header' => "'''Denne siden lister opp de $1 nyeste sidene på denne wikien.'''",
+	'newestpages-header' => "'''Denne siden lister opp {{PLURAL:$1|den nyeste siden|de $1 nyeste sidene}} på denne wikien.'''",
 	'newestpages-limitlinks' => 'Vis opptil $1 sider',
 	'newestpages-namespace' => 'Navnerom:',
 	'newestpages-none' => 'Ingenting funnet.',
-	'newestpages-ns-header' => "'''Denne siden lister opp de $1 nyeste sidene i navnerommet $2.'''",
-	'newestpages-showing' => 'Lister opp de $1 nyeste sidene:s',
+	'newestpages-ns-header' => "'''Denne siden lister opp {{PLURAL:$1|den nyeste siden|de $1 nyeste sidene}} i navnerommet $2.'''",
+	'newestpages-showing' => 'Lister opp {{PLURAL:$1|den nyeste siden|de $1 nyeste sidene}}:',
 	'newestpages-submit' => 'Gå',
 	'newestpages-showredir' => 'Vis omdirigeringer',
 	'newestpages-hideredir' => 'Skjul omdirigeringer',
