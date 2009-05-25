@@ -58,6 +58,11 @@ $aliases['fi'] = array(
 	'NewestPages' => array( 'Uusimmat sivut' ),
 );
 
+/** French (Français) */
+$aliases['fr'] = array(
+	'NewestPages' => array( 'PagesLesPlusRécentes', 'Pages les plus récentes' ),
+);
+
 /** Galician (Galego) */
 $aliases['gl'] = array(
 	'NewestPages' => array( 'Páxinas máis novas' ),
