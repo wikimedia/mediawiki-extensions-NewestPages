@@ -30,10 +30,23 @@ class NewestPages extends IncludableSpecialPage {
 		$this->setOptions( $wgRequest );
 
 		$dbr =& wfGetDB( DB_SLAVE );
-		$page = $dbr->tableName( 'page' );
 		$nsf = $this->getNsFragment();
 		$redir = $this->redirects ? '' : ' AND page_is_redirect = 0';
-		$res = $dbr->query( "SELECT page_namespace, page_title, page_is_redirect FROM $page WHERE {$nsf}{$redir} ORDER BY page_id DESC LIMIT 0,{$this->limit}" );
+		$res = $dbr->select(
+			$dbr->tableName( 'page' ),
+			array(
+				'page_namespace',
+				'page_title',
+				'page_is_redirect'
+			),
+			"{$nsf}{$redir}",
+			'Database::select',
+			array(
+				'ORDER BY' => 'page_id DESC',
+				'LIMIT' => "{$this->limit}",
+				'OFFSET' => '0',
+			)
+		);
 		$count = $dbr->numRows( $res );
 
 		# Don't show the navigation if we're including the page
