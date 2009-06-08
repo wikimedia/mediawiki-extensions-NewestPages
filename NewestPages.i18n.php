@@ -1012,11 +1012,13 @@ $messages['rif'] = array(
 $messages['ro'] = array(
 	'newestpages' => 'Cele mai noi pagini',
 	'newestpages-desc' => 'Arată [[Special:Newestpages|ultimele X pagini]] adăugate în wiki',
-	'newestpages-header' => "'''Această pagină listează {{PLURAL:$1|pagina cea mai nouă|$1 cele mai noi pagini}} din wiki.'''",
+	'newestpages-header' => "'''Această pagină afişează {{PLURAL:$1|pagina cea mai nouă|$1 cele mai noi pagini}} din wiki.'''",
 	'newestpages-limitlinks' => 'Arată până la $1 pagini',
 	'newestpages-namespace' => 'Spaţiu de nume:',
 	'newestpages-none' => 'Nu au fost găsite intrări.',
-	'newestpages-ns-header' => "'''Această pagină listează {{PLURAL:$1|pagina cea mai nouă|$1 cele mai noi pagini}} din spaţiul de nume $2.'''",
+	'newestpages-ns-header' => "'''Această pagină afişează {{PLURAL:$1|pagina cea mai nouă|$1 cele mai noi pagini}} din spaţiul de nume $2.'''",
+	'newestpages-showing' => 'Afişează {{PLURAL:$1|pagină nouă|$1 pagini noi}}:',
+	'newestpages-submit' => 'Du-te',
 	'newestpages-showredir' => 'Arată paginile de redirecţionare',
 	'newestpages-hideredir' => 'Ascunde paginile de redirecţionare',
 );
