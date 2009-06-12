@@ -28,4 +28,4 @@ $dir = dirname(__FILE__) . '/';
 $wgExtensionMessagesFiles['NewestPages'] = $dir . 'NewestPages.i18n.php';
 $wgExtensionAliasesFiles['NewestPages'] = $dir . 'NewestPages.alias.php';
 $wgAutoloadClasses['NewestPages'] = $dir . 'NewestPages.page.php';
-$wgSpecialPages['Newestpages'] = 'NewestPages';
+$wgSpecialPages['NewestPages'] = 'NewestPages';
