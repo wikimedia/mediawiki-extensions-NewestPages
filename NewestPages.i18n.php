@@ -922,6 +922,13 @@ $messages['pa'] = array(
 	'newestpages' => 'ਨਵੇਂ ਲੇਖ',
 );
 
+/** Deitsch (Deitsch)
+ * @author Xqt
+ */
+$messages['pdc'] = array(
+	'newestpages-namespace' => 'Blatznaame:',
+);
+
 /** Polish (Polski)
  * @author Derbeth
  * @author Leinad

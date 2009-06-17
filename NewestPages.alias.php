@@ -60,7 +60,7 @@ $aliases['fi'] = array(
 
 /** French (Français) */
 $aliases['fr'] = array(
-	'NewestPages' => array( 'PagesLesPlusRécentes', 'Pages les plus récentes' ),
+	'NewestPages' => array( 'Pages les plus récentes', 'PagesLesPlusRécentes' ),
 );
 
 /** Galician (Galego) */
