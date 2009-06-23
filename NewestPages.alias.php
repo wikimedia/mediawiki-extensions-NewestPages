@@ -105,7 +105,7 @@ $aliases['it'] = array(
 
 /** Japanese (日本語) */
 $aliases['ja'] = array(
-	'NewestPages' => array( '新規作成されたページ' ),
+	'NewestPages' => array( '最新のページ' ),
 );
 
 /** Khmer (ភាសាខ្មែរ) */
