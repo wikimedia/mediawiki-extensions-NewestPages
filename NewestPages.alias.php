@@ -155,6 +155,11 @@ $aliases['no'] = array(
 	'NewestPages' => array( 'Siste sider', 'Nyeste sider' ),
 );
 
+/** Occitan (Occitan) */
+$aliases['oc'] = array(
+	'NewestPages' => array( 'Paginas mai recentas', 'PaginasMaiRecentas' ),
+);
+
 /** Pashto (پښتو) */
 $aliases['ps'] = array(
 	'NewestPages' => array( 'ترټولو نوي مخونه' ),

@@ -81,12 +81,12 @@ $messages['ang'] = array(
 $messages['ar'] = array(
 	'newestpages' => 'أجدد الصفحات',
 	'newestpages-desc' => 'يعرض [[Special:Newestpages|آخر صفحات]] تمت إضافتها إلى الويكي',
-	'newestpages-header' => "'''هذه الصفحة تعرض أجدد {{PLURAL:$1|صفحة|$1 صفحة}} في الويكي.'''",
+	'newestpages-header' => "'''هذه الصفحة تعرض أحدث {{PLURAL:$1||صفحة|صفحتين|$1 صفحات|$1 صفحة}} في الويكي.'''",
 	'newestpages-limitlinks' => 'اعرض حتى $1 صفحة',
 	'newestpages-namespace' => 'النطاق:',
 	'newestpages-none' => 'لم يتم العثور على مدخلات.',
-	'newestpages-ns-header' => "'''هذه الصفحة تعرض أجدد {{PLURAL:$1|صفحة|$1 صفحة}} في نطاق $2.'''",
-	'newestpages-showing' => 'عرض {{PLURAL:$1|الصفحة|الصفحات $1}} الأجدد:',
+	'newestpages-ns-header' => "'''هذه الصفحة تعرض أحدث {{PLURAL:$1||صفحة|صفحتين|$1 صفحات|$1 صفحة}} في نطاق $2.'''",
+	'newestpages-showing' => 'سرد أحدث {{PLURAL:$1||صفحة|صفحتين|$1 صفحات|$1 صفحة}}:',
 	'newestpages-submit' => 'اذهب',
 	'newestpages-showredir' => 'عرض صفحات التحويل',
 	'newestpages-hideredir' => 'إخفاء صفحات التحويل',
@@ -545,17 +545,19 @@ $messages['ia'] = array(
 );
 
 /** Indonesian (Bahasa Indonesia)
+ * @author Bennylin
  * @author Ivan Lanin
  * @author IvanLanin
  */
 $messages['id'] = array(
 	'newestpages' => 'Halaman terbaru',
-	'newestpages-header' => "'''Halaman ini memberikan daftar {{PLURAL:$1|halaman terbaru|$1 halaman terbaru}} di wiki ini.'''",
+	'newestpages-desc' => 'Menampilkan [[Special:Newestpages|X halaman terakhir]] yang ditambahkan ke wiki',
+	'newestpages-header' => "'''Halaman ini menyajikan daftar {{PLURAL:$1|halaman|$1 halaman}} terbaru di wiki ini.'''",
 	'newestpages-limitlinks' => 'Menampilkan sampai $1 halaman',
 	'newestpages-namespace' => 'Ruang nama:',
 	'newestpages-none' => 'Tidak ditemukan entri.',
-	'newestpages-ns-header' => "'''Halaman ini memberikan daftar {{PLURAL:$1|halaman terbaru|$1 halaman terbaru}}  di ruang nama $2.'''",
-	'newestpages-showing' => 'Menampilkan {PLURAL:$1|halaman terbaru|$1 halaman terbaru}}:',
+	'newestpages-ns-header' => "'''Halaman ini menyajikan daftar {{PLURAL:$1|halaman|$1 halaman}} terbaru di ruang nama $2.'''",
+	'newestpages-showing' => 'Menampilkan {{PLURAL:$1|halaman|$1 halaman}} terbaru:',
 	'newestpages-submit' => 'Cari',
 	'newestpages-showredir' => 'Tampilkan halaman pengalihan',
 	'newestpages-hideredir' => 'Sembunyikan halaman pengalihan',
