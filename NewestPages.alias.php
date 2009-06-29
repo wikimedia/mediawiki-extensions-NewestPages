@@ -95,7 +95,7 @@ $aliases['ia'] = array(
 
 /** Indonesian (Bahasa Indonesia) */
 $aliases['id'] = array(
-	'NewestPages' => array( 'Halaman terbaru' ),
+	'NewestPages' => array( 'Halaman terbaru', 'HalamanTerbaru' ),
 );
 
 /** Italian (Italiano) */
