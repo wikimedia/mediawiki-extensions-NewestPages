@@ -128,6 +128,11 @@ $aliases['mk'] = array(
 	'NewestPages' => array( 'НајновиСтраници' ),
 );
 
+/** Malayalam (മലയാളം) */
+$aliases['ml'] = array(
+	'NewestPages' => array( 'പുതുപുത്തന്‍‌താളുകള്‍' ),
+);
+
 /** Maltese (Malti) */
 $aliases['mt'] = array(
 	'NewestPages' => array( 'PaġniRiċenti' ),
