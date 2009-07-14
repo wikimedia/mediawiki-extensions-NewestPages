@@ -290,9 +290,11 @@ $messages['ee'] = array(
 
 /** Greek (Ελληνικά)
  * @author Consta
+ * @author Crazymadlover
  */
 $messages['el'] = array(
 	'newestpages' => 'Νεώτερες σελίδες',
+	'newestpages-namespace' => 'Περιοχή ονομάτων:',
 	'newestpages-submit' => 'Πηγαίνετε',
 );
 
@@ -332,6 +334,16 @@ $messages['es'] = array(
 	'newestpages-submit' => 'Ir',
 	'newestpages-showredir' => 'Mostrar página de redirección',
 	'newestpages-hideredir' => 'Esconder páginas de redirección',
+);
+
+/** Basque (Euskara)
+ * @author An13sa
+ */
+$messages['eu'] = array(
+	'newestpages' => 'Orrialde berrienak',
+	'newestpages-submit' => 'Joan',
+	'newestpages-showredir' => 'Erakutsi birzuzenketa orrialdeak',
+	'newestpages-hideredir' => 'Ezkutatu birzuzenketa orrialdeak',
 );
 
 /** Persian (فارسی)
