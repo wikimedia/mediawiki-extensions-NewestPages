@@ -180,6 +180,11 @@ $aliases['sa'] = array(
 	'NewestPages' => array( 'अतिनूतनपृष्ठ' ),
 );
 
+/** Slovak (Slovenčina) */
+$aliases['sk'] = array(
+	'NewestPages' => array( 'NajnovšieStránky' ),
+);
+
 /** Albanian (Shqip) */
 $aliases['sq'] = array(
 	'NewestPages' => array( 'FaqeteReja' ),
