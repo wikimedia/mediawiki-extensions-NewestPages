@@ -570,7 +570,7 @@ $messages['id'] = array(
 	'newestpages-none' => 'Tidak ditemukan entri.',
 	'newestpages-ns-header' => "'''Halaman ini menyajikan daftar {{PLURAL:$1|halaman|$1 halaman}} terbaru di ruang nama $2.'''",
 	'newestpages-showing' => 'Menampilkan {{PLURAL:$1|halaman|$1 halaman}} terbaru:',
-	'newestpages-submit' => 'Cari',
+	'newestpages-submit' => 'Tuju ke',
 	'newestpages-showredir' => 'Tampilkan halaman pengalihan',
 	'newestpages-hideredir' => 'Sembunyikan halaman pengalihan',
 );
