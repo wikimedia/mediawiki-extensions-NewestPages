@@ -719,17 +719,18 @@ $messages['la'] = array(
 );
 
 /** Luxembourgish (Lëtzebuergesch)
+ * @author Les Meloures
  * @author Robby
  */
 $messages['lb'] = array(
-	'newestpages' => 'Neitste Säiten',
+	'newestpages' => 'Neiste Säiten',
 	'newestpages-desc' => 'Weist déi [[Special:Newestpages|läscht X Säiten]] déi op enger Wiki opgemaach goufen',
-	'newestpages-header' => "'''Op dëser Säit {{Plural:$1|steet déi neitste Säit|stinn déi $1 neitste Säite}} vun dëser Wiki.'''",
+	'newestpages-header' => "'''Op dëser Säit {{Plural:$1|steet déi neiste Säit|stinn déi $1 neiste Säite}} vun dëser Wiki.'''",
 	'newestpages-limitlinks' => 'Weis bis zu $1 Säiten',
 	'newestpages-namespace' => 'Nummraum:',
 	'newestpages-none' => 'Näischt fonnt.',
-	'newestpages-ns-header' => "'''Op dëser Säit {{PLURAL:$1|steet déi neitste Säit|stinn déi $1 neitste Säiten}} aus dem Nummraum $2.'''",
-	'newestpages-showing' => 'Weis déi {{PLURAL:$1|neitste Säit|$1 neitste Säiten}}:',
+	'newestpages-ns-header' => "'''Op dëser Säit {{PLURAL:$1|steet déi neiste Säit|stinn déi $1 neiste Säiten}} aus dem Nummraum $2.'''",
+	'newestpages-showing' => 'Weis déi {{PLURAL:$1|neiste Säit|$1 neiste Säiten}}:',
 	'newestpages-submit' => 'Sichen',
 	'newestpages-showredir' => 'Weis Redirect-Säiten',
 	'newestpages-hideredir' => 'Verstopp Redirect-Säiten',
