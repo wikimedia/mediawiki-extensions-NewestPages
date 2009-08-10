@@ -1125,10 +1125,12 @@ $messages['sr-ec'] = array(
 );
 
 /** latinica (latinica)
+ * @author Michaello
  * @author Sasa Stefanovic
  */
 $messages['sr-el'] = array(
 	'newestpages' => 'Najnovije stranice',
+	'newestpages-desc' => 'Pokazuje [[Special:Newestpages|zadnjih X članaka]] dodatih Vikiju',
 	'newestpages-header' => "'''Ova stranica pokazuje $1 najnovijih stranica na Viki.'''",
 	'newestpages-limitlinks' => 'Prikaži $1 stranica',
 	'newestpages-namespace' => 'Imenski prostor:',
