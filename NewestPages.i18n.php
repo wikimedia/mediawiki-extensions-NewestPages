@@ -777,6 +777,13 @@ $messages['ml'] = array(
 	'newestpages-hideredir' => 'തിരിച്ചുവിടല്‍ താളുകള്‍ മറയ്ക്കുക',
 );
 
+/** Mongolian (Монгол)
+ * @author Chinneeb
+ */
+$messages['mn'] = array(
+	'newestpages-namespace' => 'Нэрний зай:',
+);
+
 /** Marathi (मराठी)
  * @author Kaustubh
  */
