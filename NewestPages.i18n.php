@@ -291,11 +291,16 @@ $messages['ee'] = array(
 /** Greek (Ελληνικά)
  * @author Consta
  * @author Crazymadlover
+ * @author ZaDiak
  */
 $messages['el'] = array(
 	'newestpages' => 'Νεώτερες σελίδες',
+	'newestpages-limitlinks' => 'Εμφάνιση μέχρι και $1 σελίδες',
 	'newestpages-namespace' => 'Περιοχή ονομάτων:',
+	'newestpages-none' => 'Δεν βρέθηκαν καθόλου καταχωρήσεις.',
 	'newestpages-submit' => 'Πηγαίνετε',
+	'newestpages-showredir' => 'Εμφάνιση σελίδων ανακατεύθυνσης',
+	'newestpages-hideredir' => 'Απόκρυψη σελίδων ανακατεύθυνσης',
 );
 
 /** Esperanto (Esperanto)
