@@ -677,6 +677,13 @@ $messages['km'] = array(
 	'newestpages-hideredir' => 'លាក់ទំព័របញ្ជូនបន្ត',
 );
 
+/** Kannada (ಕನ್ನಡ)
+ * @author Nayvik
+ */
+$messages['kn'] = array(
+	'newestpages-submit' => 'ಹೋಗು',
+);
+
 /** Korean (한국어)
  * @author Kwj2772
  */
