@@ -298,6 +298,7 @@ $messages['el'] = array(
 	'newestpages-limitlinks' => 'Εμφάνιση μέχρι και $1 σελίδες',
 	'newestpages-namespace' => 'Περιοχή ονομάτων:',
 	'newestpages-none' => 'Δεν βρέθηκαν καθόλου καταχωρήσεις.',
+	'newestpages-showing' => 'Καταγραφή {{PLURAL:$1|νεότερης σελίδας|$1 νεότερων σελίδων}}:',
 	'newestpages-submit' => 'Πηγαίνετε',
 	'newestpages-showredir' => 'Εμφάνιση σελίδων ανακατεύθυνσης',
 	'newestpages-hideredir' => 'Απόκρυψη σελίδων ανακατεύθυνσης',
