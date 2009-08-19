@@ -1229,16 +1229,17 @@ $messages['ta'] = array(
 );
 
 /** Telugu (తెలుగు)
+ * @author Kiranmayee
  * @author Veeven
  */
 $messages['te'] = array(
 	'newestpages' => 'కొంగొత్త పేజీలు',
 	'newestpages-desc' => 'వికీలో చేర్చిన [[Special:Newestpages|చివరి X పేజీల]]ను చూపిస్తుంది',
-	'newestpages-header' => "'''ఈ వికీలోని $1 కొంగొత్త పేజీలను ఈ పేజీ చూపిస్తుంది.'''",
+	'newestpages-header' => "'''ఈ వికీలోని {{PLURAL:$1|క్రొత్త పేజిని|$1 క్రొత్త పేజిలను}} ఈ పేజీ చూపిస్తుంది.'''",
 	'newestpages-limitlinks' => '$1 పేజీల వరకు చూపించు',
 	'newestpages-namespace' => 'పేరుబరి:',
 	'newestpages-none' => 'ఏమీ కనబడలేదు.',
-	'newestpages-ns-header' => "'''ఈ పేజీ $2 పేరుబరి లోని $1 కొత్త పేజీల జాబితాని చూపిస్తుంది.'''",
+	'newestpages-ns-header' => "'''ఈ పేజీ $2 పేరుబరి లోని {{PLURAL:$1|క్రొత్త పేజిని|$1 క్రొత్త పేజిలను}} ఈ పేజీ చూపిస్తుంది.'''",
 	'newestpages-showing' => '{{PLURAL:$1|ఒక కొంగొత్త పేజీని|$1 కొంగొత్త పేజీలను}} చూపిస్తున్నాం:',
 	'newestpages-submit' => 'వెళ్ళు',
 	'newestpages-showredir' => 'దారిమార్పు పేజీలను చూపించు',
