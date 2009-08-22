@@ -985,15 +985,17 @@ $messages['pl'] = array(
 
 /** Piedmontese (Piemontèis)
  * @author Bèrto 'd Sèra
+ * @author Dragonòt
  */
 $messages['pms'] = array(
 	'newestpages' => 'Pàgine pì neuve',
-	'newestpages-header' => "'''Ambelessì a-i é la lista dle $1 pàgine pì neuve dla wiki.'''",
+	'newestpages-desc' => "A mosta j'[[Special:Newestpages|ùltime X pàgine]] giontà a la wiki",
+	'newestpages-header' => "'''Sta pàgina-sì a lista {{PLURAL:$1|la pàgina pì neuva|le $1 pàgine pì neuve}} an sla wiki.'''",
 	'newestpages-limitlinks' => 'Smon fin a $1 pàgine',
 	'newestpages-namespace' => 'Spassi nominal:',
 	'newestpages-none' => 'Gnun-a vos trovà.',
-	'newestpages-ns-header' => "'''Ambelessì a-i é la lista dle $1 pàgine pì neuve dlë spassi nominal $2.'''",
-	'newestpages-showing' => 'Lista dle $1 pàgine pì neuve:',
+	'newestpages-ns-header' => "'''Sta pàgina-sì a lista {{PLURAL:$1|la pàgina pì neuva|le $1 pàgine pì neuve}} an slë spassi nominal $2.'''",
+	'newestpages-showing' => 'Lista {{PLURAL:$1|dla pàgina pì neuva|dle $1 pagine pì neuve}}:',
 	'newestpages-submit' => 'Va',
 	'newestpages-showredir' => "Smon j'ardiression",
 	'newestpages-hideredir' => "Stërma j'ardiression",
