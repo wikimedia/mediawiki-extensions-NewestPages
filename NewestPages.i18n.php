@@ -422,7 +422,7 @@ $messages['gl'] = array(
 	'newestpages-hideredir' => 'Ocultar páxinas redirixidas',
 );
 
-/** Gothic
+/** Gothic (Gothic)
  * @author Jocke Pirat
  */
 $messages['got'] = array(
@@ -1128,7 +1128,7 @@ $messages['sr'] = array(
 	'newestpages-hideredir' => 'Сакриј странице преусмерења',
 );
 
-/** Serbian Cyrillic ekavian (ћирилица)
+/** Serbian Cyrillic ekavian (Српски (ћирилица))
  * @author Sasa Stefanovic
  * @author Михајло Анђелковић
  */
@@ -1146,7 +1146,7 @@ $messages['sr-ec'] = array(
 	'newestpages-hideredir' => 'Сакриј странице преусмерења',
 );
 
-/** latinica (latinica)
+/** Serbian Latin ekavian (Srpski (latinica))
  * @author Michaello
  * @author Sasa Stefanovic
  */
