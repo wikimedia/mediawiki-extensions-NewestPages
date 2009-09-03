@@ -54,7 +54,7 @@ $messages['af'] = array(
 	'newestpages-desc' => 'Die [[Special:Newestpages|X nuutste bladsye]] in die wiki',
 	'newestpages-namespace' => 'Naamruimte:',
 	'newestpages-none' => 'Geen resultate.',
-	'newestpages-submit' => 'Gaan',
+	'newestpages-submit' => 'Laat waai',
 	'newestpages-showredir' => 'Wys aanstuurbladsye',
 );
 
