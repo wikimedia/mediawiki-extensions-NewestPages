@@ -531,15 +531,17 @@ $messages['hsb'] = array(
 
 /** Hungarian (Magyar)
  * @author Dani
+ * @author Glanthor Reviol
  */
 $messages['hu'] = array(
 	'newestpages' => 'Legújabb lapok',
-	'newestpages-header' => "'''Ezen az oldalon a wiki $1 legújabb lapja látható.'''",
+	'newestpages-desc' => 'Megmutatja az [[Special:Newestpages|utolsó X lapot]] a wikin',
+	'newestpages-header' => "'''Ezen az oldalon a wiki {{PLURAL:$1||$1}} legújabb lapja látható.'''",
 	'newestpages-limitlinks' => '$1 oldal megjelenítése',
 	'newestpages-namespace' => 'Névtér:',
 	'newestpages-none' => 'Nincsenek találatok.',
-	'newestpages-ns-header' => "'''Ez az oldal a wiki $1 legújabb lapját listázza a(z) $2 névtérben.'''",
-	'newestpages-showing' => '$1 legújabb lap listázása:',
+	'newestpages-ns-header' => "'''Ez az oldal a wiki {{PLURAL:$1||$1}} legújabb lapját listázza a(z) $2 névtérben.'''",
+	'newestpages-showing' => '{{PLURAL:$1|Legújabb|$1 legújabb}} lap listázása:',
 	'newestpages-submit' => 'Megjelenítés',
 	'newestpages-showredir' => 'Átirányítások mutatása',
 	'newestpages-hideredir' => 'Átirányítások elrejtése',
