@@ -1363,6 +1363,8 @@ $messages['vec'] = array(
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
+	'newestpages' => 'Kaikiš udembad lehtpoled',
+	'newestpages-namespace' => 'Nimiavaruz:',
 	'newestpages-submit' => 'Mäne',
 );
 
