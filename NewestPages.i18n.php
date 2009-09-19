@@ -1366,6 +1366,8 @@ $messages['vep'] = array(
 	'newestpages' => 'Kaikiš udembad lehtpoled',
 	'newestpages-namespace' => 'Nimiavaruz:',
 	'newestpages-submit' => 'Mäne',
+	'newestpages-showredir' => 'Ozutada läbikosketusiden lehtpoled',
+	'newestpages-hideredir' => 'Peitta läbikosketusiden lehtpoled',
 );
 
 /** Vietnamese (Tiếng Việt)
