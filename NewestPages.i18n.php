@@ -1019,7 +1019,7 @@ $messages['ps'] = array(
  * @author Waldir
  */
 $messages['pt'] = array(
-	'newestpages' => 'Páginas novas',
+	'newestpages' => 'Páginas mais recentes',
 	'newestpages-desc' => 'Mostra as [[Special:Newestpages|últimas X páginas]] adicionadas ao wiki',
 	'newestpages-header' => "'''Esta página lista {{PLURAL:$1|a página mais recente|as $1 páginas mais recentes}} deste wiki.'''",
 	'newestpages-limitlinks' => 'Exibir até $1 páginas',
@@ -1034,9 +1034,10 @@ $messages['pt'] = array(
 
 /** Brazilian Portuguese (Português do Brasil)
  * @author Eduardo.mps
+ * @author Waldir
  */
 $messages['pt-br'] = array(
-	'newestpages' => 'Páginas novas',
+	'newestpages' => 'Páginas mais recentes',
 	'newestpages-desc' => 'Mostra as [[Special:Newestpages|últimas X páginas]] adicionadas ao wiki',
 	'newestpages-header' => "'''Esta página lista {{PLURAL:$1|a página mais recente|as $1 páginas mais recentes}} deste wiki.'''",
 	'newestpages-limitlinks' => 'Exibir até $1 páginas',
