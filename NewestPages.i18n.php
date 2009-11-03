@@ -174,6 +174,13 @@ $messages['bg'] = array(
 	'newestpages-hideredir' => 'Скриване на пренасочващите страници',
 );
 
+/** Breton (Brezhoneg)
+ * @author Fohanno
+ */
+$messages['br'] = array(
+	'newestpages' => 'Pajennoù nevesañ',
+);
+
 /** Bosnian (Bosanski)
  * @author CERminator
  */
