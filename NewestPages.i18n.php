@@ -179,6 +179,7 @@ $messages['bg'] = array(
  */
 $messages['br'] = array(
 	'newestpages' => 'Pajennoù nevesañ',
+	'newestpages-limitlinks' => 'Diskouez betek $1 pajenn',
 );
 
 /** Bosnian (Bosanski)
