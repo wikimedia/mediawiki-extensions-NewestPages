@@ -783,6 +783,23 @@ $messages['mhr'] = array(
 	'newestpages-namespace' => 'Лӱм-влакын кумдыкышт:',
 );
 
+/** Macedonian (Македонски)
+ * @author Bjankuloski06
+ */
+$messages['mk'] = array(
+	'newestpages' => 'Најнови страници',
+	'newestpages-desc' => 'Ги прикажува [[Special:Newestpages|последните X страници]] додадени на викито',
+	'newestpages-header' => "'''На оваа страница {{PLURAL:$1|е наведена најновата страница|се наведени $1-те најнови страници}} на викито.'''",
+	'newestpages-limitlinks' => 'Прикажи највеќе $1 страници',
+	'newestpages-namespace' => 'Именски простор:',
+	'newestpages-none' => 'Нема пронајдено записи.',
+	'newestpages-ns-header' => "'''На оваа страница {{PLURAL:$1|е прикажана најновата страница|се прикажани $1-те најнови страници}} во именскиот простор $2.'''",
+	'newestpages-showing' => 'Приказ на {{PLURAL:$1|најновата страница|$1-те најнови страници}}:',
+	'newestpages-submit' => 'Прикажи',
+	'newestpages-showredir' => 'Прикажи пренасочувања',
+	'newestpages-hideredir' => 'Сокриј пренасочувања',
+);
+
 /** Malayalam (മലയാളം)
  * @author Shijualex
  */
