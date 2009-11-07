@@ -313,6 +313,7 @@ $messages['el'] = array(
 );
 
 /** Esperanto (Esperanto)
+ * @author Michawiki
  * @author Tlustulimu
  * @author Yekrats
  */
@@ -324,7 +325,7 @@ $messages['eo'] = array(
 	'newestpages-namespace' => 'Nomspaco:',
 	'newestpages-none' => 'Ne estis trovitaj iuj enskribaĵoj',
 	'newestpages-ns-header' => "'''Ĉi tiu paĝo montras la {{PLURAL:$1:plej novan paĝon|$1 plej novajn paĝojn}} en la nomspaco $2.'''",
-	'newestpages-showing' => 'Listigas la $1 plej novajn paĝojn:',
+	'newestpages-showing' => 'Listigas la {{PLURAL:$1|plej novan paĝon|$1 plej novajn paĝojn}}:',
 	'newestpages-submit' => 'Ek',
 	'newestpages-showredir' => 'Montru alidirektajn paĝojn',
 	'newestpages-hideredir' => 'Kaŝu alidirektajn paĝojn',
