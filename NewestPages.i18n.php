@@ -1047,8 +1047,8 @@ $messages['ps'] = array(
  */
 $messages['pt'] = array(
 	'newestpages' => 'Páginas mais recentes',
-	'newestpages-desc' => 'Mostra as [[Special:Newestpages|últimas X páginas]] adicionadas ao wiki',
-	'newestpages-header' => "'''Esta página lista {{PLURAL:$1|a página mais recente|as $1 páginas mais recentes}} deste wiki.'''",
+	'newestpages-desc' => 'Mostra as [[Special:Newestpages|últimas X páginas]] adicionadas à wiki',
+	'newestpages-header' => "'''Esta página lista {{PLURAL:$1|a página mais recente|as $1 páginas mais recentes}} desta wiki.'''",
 	'newestpages-limitlinks' => 'Mostrar até $1 páginas',
 	'newestpages-namespace' => 'Espaço nominal:',
 	'newestpages-none' => 'Não foram encontrados resultados.',
