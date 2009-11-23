@@ -176,13 +176,14 @@ $messages['bg'] = array(
 
 /** Breton (Brezhoneg)
  * @author Fohanno
+ * @author Fulup
  * @author Y-M D
  */
 $messages['br'] = array(
 	'newestpages' => 'Pajennoù nevesañ',
 	'newestpages-limitlinks' => 'Diskouez betek $1 pajenn',
-	'newestpages-showredir' => 'Diskouez ar pajennoù adkasoù',
-	'newestpages-hideredir' => 'Kuzhat ar pajennoù adkasoù',
+	'newestpages-showredir' => 'Diskouez ar pajennoù adkas',
+	'newestpages-hideredir' => 'Kuzhat ar pajennoù adkas',
 );
 
 /** Bosnian (Bosanski)
