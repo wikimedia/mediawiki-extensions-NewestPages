@@ -182,6 +182,9 @@ $messages['bg'] = array(
 $messages['br'] = array(
 	'newestpages' => 'Pajennoù nevesañ',
 	'newestpages-limitlinks' => 'Diskouez betek $1 pajenn',
+	'newestpages-none' => "N'eo bet kavet pajenn ebet",
+	'newestpages-showing' => 'Diskouezadeg {{PLURAL:$1|ar bajenn neveshañ|ar $1 pajenn neveshañ}}:',
+	'newestpages-submit' => 'Mont',
 	'newestpages-showredir' => 'Diskouez ar pajennoù adkas',
 	'newestpages-hideredir' => 'Kuzhat ar pajennoù adkas',
 );
