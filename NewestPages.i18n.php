@@ -1355,9 +1355,11 @@ $messages['to'] = array(
 
 /** Turkish (Türkçe)
  * @author Karduelis
+ * @author Vito Genovese
  */
 $messages['tr'] = array(
 	'newestpages' => 'En yeni sayfalar',
+	'newestpages-limitlinks' => '$1 sayfaya kadar göster',
 	'newestpages-namespace' => 'Alan adı',
 	'newestpages-submit' => 'Git',
 	'newestpages-showredir' => 'Yönlendirilmiş sayfaları gör',
