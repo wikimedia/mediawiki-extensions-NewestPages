@@ -181,8 +181,12 @@ $messages['bg'] = array(
  */
 $messages['br'] = array(
 	'newestpages' => 'Pajennoù nevesañ',
+	'newestpages-desc' => 'Diskouez a ra an [[Special:Newestpages|X pajenn ziwezhañ]] bet ouzhpennet war ar wiki.',
+	'newestpages-header' => "'''Ar bajenn-mañ a zo ur roll eus ar {{PLURAL:$1|bajenn neveshañ|$1 pajenn neveshañ}} war ar wiki.'''",
 	'newestpages-limitlinks' => 'Diskouez betek $1 pajenn',
+	'newestpages-namespace' => 'Spasi anvioù :',
 	'newestpages-none' => "N'eo bet kavet pajenn ebet",
+	'newestpages-ns-header' => "'''Ar bajenn-mañ a zo ur roll eus ar {{PLURAL:$1|bajenn neveshañ|$1 pajenn neveshañ}} er spas $2 .'''",
 	'newestpages-showing' => 'Diskouezadeg {{PLURAL:$1|ar bajenn neveshañ|ar $1 pajenn neveshañ}}:',
 	'newestpages-submit' => 'Mont',
 	'newestpages-showredir' => 'Diskouez ar pajennoù adkas',
