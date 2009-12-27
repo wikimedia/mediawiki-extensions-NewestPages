@@ -1189,18 +1189,19 @@ $messages['sr-ec'] = array(
 );
 
 /** Serbian Latin ekavian (Srpski (latinica))
+ * @author Liangent
  * @author Michaello
  * @author Sasa Stefanovic
  */
 $messages['sr-el'] = array(
 	'newestpages' => 'Najnovije stranice',
 	'newestpages-desc' => 'Pokazuje [[Special:Newestpages|zadnjih X članaka]] dodatih Vikiju',
-	'newestpages-header' => "'''Ova stranica pokazuje $1 najnovijih stranica na Viki.'''",
+	'newestpages-header' => "'''Ovo je spisak {{PLURAL:$1|sa najnovijom stranom|$1 najnovijih strana}} na ovoj Viki.'''",
 	'newestpages-limitlinks' => 'Prikaži $1 stranica',
 	'newestpages-namespace' => 'Imenski prostor:',
 	'newestpages-none' => 'Nije ništa pronađeno.',
-	'newestpages-ns-header' => "'''Ova stranica pokazuje $1 najnovijih stranica u $2 imenskom prostoru.'''",
-	'newestpages-showing' => 'Prikaz $1 najnovijih stranica:',
+	'newestpages-ns-header' => "'''Ovo je spisak {{PLURAL:$1|sa najnovijom stranom|$1 najnovijih strana}} na u imenskom prostoru $2.'''",
+	'newestpages-showing' => 'Spisak {{PLURAL:$1|najnovije strane|$1 najnovijih strana}}:',
 	'newestpages-submit' => 'Idi',
 	'newestpages-showredir' => 'Prikaži stranice preusmerenja',
 	'newestpages-hideredir' => 'Sakrij stranice preusmerenja',
@@ -1308,6 +1309,17 @@ $messages['tg-cyrl'] = array(
 	'newestpages-submit' => 'Бирав',
 	'newestpages-showredir' => 'Намоиши саҳифаҳои масир',
 	'newestpages-hideredir' => 'Пинҳон кардани саҳифаҳои масир',
+);
+
+/** Tajik (Latin) (Тоҷикӣ (Latin))
+ * @author Liangent
+ */
+$messages['tg-latn'] = array(
+	'newestpages' => 'Sahifahoi navtarin',
+	'newestpages-namespace' => 'Fazoinom:',
+	'newestpages-submit' => 'Birav',
+	'newestpages-showredir' => 'Namoişi sahifahoi masir',
+	'newestpages-hideredir' => 'Pinhon kardani sahifahoi masir',
 );
 
 /** Thai (ไทย)
