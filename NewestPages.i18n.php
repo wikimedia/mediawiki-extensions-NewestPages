@@ -362,6 +362,18 @@ $messages['es'] = array(
 	'newestpages-hideredir' => 'Esconder páginas de redirección',
 );
 
+/** Estonian (Eesti)
+ * @author Avjoska
+ * @author Pikne
+ */
+$messages['et'] = array(
+	'newestpages' => 'Uuemad leheküljed',
+	'newestpages-limitlinks' => 'Näita kuni §1 lehekülge',
+	'newestpages-namespace' => 'Nimeruum:',
+	'newestpages-showredir' => 'Näita ümbersuunamislehekülgi',
+	'newestpages-hideredir' => 'Peida ümbersuunamisleheküljed',
+);
+
 /** Basque (Euskara)
  * @author An13sa
  */
@@ -1330,10 +1342,12 @@ $messages['th'] = array(
 );
 
 /** Turkmen (Türkmençe)
+ * @author Hanberke
  * @author Runningfridgesrule
  */
 $messages['tk'] = array(
 	'newestpages' => 'Iň täze sahypalar',
+	'newestpages-submit' => 'Git',
 );
 
 /** Tagalog (Tagalog)
