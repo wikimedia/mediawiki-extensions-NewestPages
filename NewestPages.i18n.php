@@ -1389,8 +1389,13 @@ $messages['to'] = array(
  */
 $messages['tr'] = array(
 	'newestpages' => 'En yeni sayfalar',
+	'newestpages-desc' => 'Vikiye eklenen [[Special:Newestpages|son X sayfayı]] gösterir',
+	'newestpages-header' => "'''Bu sayfa, vikideki {{PLURAL:$1|en yeni sayfayı|en yeni $1 sayfayı}} listelemektedir.'''",
 	'newestpages-limitlinks' => '$1 sayfaya kadar göster',
 	'newestpages-namespace' => 'Alan adı',
+	'newestpages-none' => 'Girdi bulunamadı.',
+	'newestpages-ns-header' => "'''Bu sayfa, $2 isim alanındaki {{PLURAL:$1|en yeni sayfayı|en yeni $1 sayfayı}} listelemektedir.'''",
+	'newestpages-showing' => '{{PLURAL:$1|En yeni sayfa|En yeni $1 sayfa}} listeleniyor:',
 	'newestpages-submit' => 'Git',
 	'newestpages-showredir' => 'Yönlendirilmiş sayfaları gör',
 	'newestpages-hideredir' => 'Gizli yönlendirme sayfaları',
