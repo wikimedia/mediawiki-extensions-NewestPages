@@ -825,6 +825,7 @@ $messages['mk'] = array(
 );
 
 /** Malayalam (മലയാളം)
+ * @author Praveenp
  * @author Shijualex
  */
 $messages['ml'] = array(
@@ -835,7 +836,7 @@ $messages['ml'] = array(
 	'newestpages-namespace' => 'നേംസ്പേസ്:',
 	'newestpages-none' => 'എന്‍‌ട്രികള്‍ ഒന്നും കണ്ടില്ല.',
 	'newestpages-ns-header' => "ഈ താള്‍ $2 നേംസ്പേസില്‍ പുതുതായി സൃഷ്ടിക്കപ്പെട്ട {{PLURAL:$1|ഒരു താള്‍|$1 താളുകള്‍}} പ്രദര്‍ശിപ്പിക്കുന്നു.'''",
-	'newestpages-showing' => 'ഏറ്റവും പുതിയ $1 താളുകള്‍ പ്രദര്‍ശിപ്പിക്കുന്നു:',
+	'newestpages-showing' => 'ഏറ്റവും പുതിയ {{PLURAL:$1|താൾ|$1 താളുകള്‍}} പ്രദര്‍ശിപ്പിക്കുന്നു:',
 	'newestpages-submit' => 'പോകൂ',
 	'newestpages-showredir' => 'തിരിച്ചുവിടല്‍ താളുകള്‍ പ്രദര്‍ശിപ്പിക്കുക',
 	'newestpages-hideredir' => 'തിരിച്ചുവിടല്‍ താളുകള്‍ മറയ്ക്കുക',
