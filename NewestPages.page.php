@@ -12,9 +12,9 @@
 
 class NewestPages extends IncludableSpecialPage {
 
-	var $limit = NULL;
-	var $namespace = NULL;
-	var $redirects = NULL;
+	var $limit = null;
+	var $namespace = null;
+	var $redirects = null;
 
 	public function __construct() {
 		IncludableSpecialPage::SpecialPage( 'Newestpages', '', true, false, 'default', true );
