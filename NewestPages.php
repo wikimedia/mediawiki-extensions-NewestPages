@@ -18,7 +18,6 @@ $wgExtensionCredits['specialpage'][] = array(
 	'version'        => '1.9',
 	'author'         => 'Rob Church',
 	'url'            => 'http://www.mediawiki.org/wiki/Extension:Newest_Pages',
-	'description'    => 'Shows the [[Special:Newestpages|last X pages]] added to the wiki',
 	'descriptionmsg' => 'newestpages-desc',
 );
 
