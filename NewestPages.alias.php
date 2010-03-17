@@ -129,7 +129,7 @@ $aliases['ko'] = array(
 	'NewestPages' => array( '새 페이지' ),
 );
 
-/** Ripoarisch (Ripoarisch) */
+/** Colognian (Ripoarisch) */
 $aliases['ksh'] = array(
 	'NewestPages' => array( 'Neueste Sigge' ),
 );
