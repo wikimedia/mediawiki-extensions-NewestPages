@@ -169,7 +169,7 @@ $messages['bg'] = array(
 	'newestpages-none' => 'Няма намерени записи.',
 	'newestpages-ns-header' => "'''Тази страница съдържа списък на {{PLURAL:$1|най-новата страница|най-новите $1 страници}} в именно пространство $2.'''",
 	'newestpages-showing' => 'Показване на {{PLURAL:$1|най-новата страница|най-новите $1 страници}}:',
-	'newestpages-submit' => 'Показване',
+	'newestpages-submit' => 'Отваряне',
 	'newestpages-showredir' => 'Показване на пренасочващите страници',
 	'newestpages-hideredir' => 'Скриване на пренасочващите страници',
 );
