@@ -784,6 +784,13 @@ $messages['lb'] = array(
 	'newestpages-hideredir' => 'Verstopp Redirect-Säiten',
 );
 
+/** Ganda (Luganda)
+ * @author Kizito
+ */
+$messages['lg'] = array(
+	'newestpages-namespace' => 'Kuŋaanyizo:',
+);
+
 /** Lithuanian (Lietuvių)
  * @author Hugo.arg
  */
