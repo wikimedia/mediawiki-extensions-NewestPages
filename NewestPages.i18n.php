@@ -65,7 +65,7 @@ $messages['am'] = array(
 	'newestpages-namespace' => 'ክፍለ-ዊኪ፦',
 );
 
-/** Old English (Anglo-Saxon)
+/** Old English (Ænglisc)
  * @author Wōdenhelm
  */
 $messages['ang'] = array(
@@ -741,7 +741,7 @@ $messages['krj'] = array(
 	'newestpages-submit' => 'Agto',
 );
 
-/** Ripoarisch (Ripoarisch)
+/** Colognian (Ripoarisch)
  * @author Purodha
  */
 $messages['ksh'] = array(
@@ -1487,7 +1487,7 @@ $messages['vo'] = array(
 	'newestpages-hideredir' => 'Klänedön lüodükömapadis',
 );
 
-/** Yue (粵語)
+/** Cantonese (粵語)
  * @author Hillgentleman
  * @author Shinjiman
  */
