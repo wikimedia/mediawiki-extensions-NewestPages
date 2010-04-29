@@ -364,11 +364,12 @@ $messages['es'] = array(
 
 /** Estonian (Eesti)
  * @author Avjoska
+ * @author Hendrik
  * @author Pikne
  */
 $messages['et'] = array(
 	'newestpages' => 'Uuemad leheküljed',
-	'newestpages-limitlinks' => 'Näita kuni §1 lehekülge',
+	'newestpages-limitlinks' => 'Näita kuni $1 lehekülge',
 	'newestpages-namespace' => 'Nimeruum:',
 	'newestpages-showredir' => 'Näita ümbersuunamislehekülgi',
 	'newestpages-hideredir' => 'Peida ümbersuunamisleheküljed',
