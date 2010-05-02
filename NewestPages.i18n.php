@@ -65,6 +65,13 @@ $messages['am'] = array(
 	'newestpages-namespace' => 'ክፍለ-ዊኪ፦',
 );
 
+/** Aragonese (Aragonés)
+ * @author Juanpabl
+ */
+$messages['an'] = array(
+	'newestpages-namespace' => 'Espacio de nombres:',
+);
+
 /** Old English (Ænglisc)
  * @author Wōdenhelm
  */
