@@ -1031,6 +1031,7 @@ $messages['pa'] = array(
  */
 $messages['pdc'] = array(
 	'newestpages-namespace' => 'Blatznaame:',
+	'newestpages-submit' => 'Uffgucke',
 );
 
 /** Polish (Polski)
