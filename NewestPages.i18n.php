@@ -725,7 +725,10 @@ $messages['km'] = array(
  * @author Nayvik
  */
 $messages['kn'] = array(
+	'newestpages' => 'ಹೊಚ್ಚಹೊಸ ಪುಟಗಳು',
 	'newestpages-submit' => 'ಹೋಗು',
+	'newestpages-showredir' => 'ಪುನರ್ನಿರ್ದೇಶನ ಪುಟಗಳನ್ನು ತೋರಿಸು',
+	'newestpages-hideredir' => 'ಪುನರ್ನಿರ್ದೇಶನ ಪುಟಗಳನ್ನು ಅಡಗಿಸು',
 );
 
 /** Korean (한국어)
