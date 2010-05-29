@@ -571,6 +571,7 @@ $messages['hsb'] = array(
 
 /** Hungarian (Magyar)
  * @author Dani
+ * @author Enbéká
  * @author Glanthor Reviol
  */
 $messages['hu'] = array(
