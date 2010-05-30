@@ -176,7 +176,7 @@ class NewestPages extends IncludableSpecialPage {
 	function makeNamespaceForm() {
 		$self = $this->getTitle();
 		$form  = Xml::openElement( 'form', array( 'method' => 'post', 'action' => $self->getLocalUrl() ) );
-		$form .= Xml::label( wfMsg( 'newestpages-namespace' ), 'namespace' ) . '&nbsp;';
+		$form .= Xml::label( wfMsg( 'newestpages-namespace' ), 'namespace' ) . '&#160;';
 		$form .= Xml::namespaceSelector( $this->namespace, 'all' );
 		$form .= Xml::hidden( 'limit', $this->limit );
 		$form .= Xml::hidden( 'redirects', $this->redirects );
