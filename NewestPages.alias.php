@@ -2,7 +2,8 @@
 /**
  * Aliases for Special:NewestPages
  *
- * @addtogroup Extensions
+ * @file
+ * @ingroup Extensions
  */
 
 $aliases = array();

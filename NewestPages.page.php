@@ -4,7 +4,8 @@
  * Class definition file for the Newest Pages extension
  * This doesn't use recent changes so the items don't expire
  *
- * @addtogroup Extensions
+ * @file
+ * @ingroup Extensions
  * @author Rob Church <robchur@gmail.com>
  * @copyright © 2006 Rob Church
  * @licence GNU General Public Licence 2.0
