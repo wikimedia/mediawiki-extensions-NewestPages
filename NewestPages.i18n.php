@@ -698,10 +698,13 @@ $messages['jv'] = array(
 );
 
 /** Georgian (ქართული)
+ * @author BRUTE
  * @author Malafaya
  */
 $messages['ka'] = array(
+	'newestpages' => 'უახლესი გვერდები',
 	'newestpages-namespace' => 'სახელთა სივრცე:',
+	'newestpages-submit' => 'სტატია',
 );
 
 /** Khmer (ភាសាខ្មែរ)
