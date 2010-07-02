@@ -1412,6 +1412,7 @@ $messages['to'] = array(
 
 /** Turkish (Türkçe)
  * @author Karduelis
+ * @author Srhat
  * @author Vito Genovese
  */
 $messages['tr'] = array(
@@ -1419,7 +1420,7 @@ $messages['tr'] = array(
 	'newestpages-desc' => 'Vikiye eklenen [[Special:Newestpages|son X sayfayı]] gösterir',
 	'newestpages-header' => "'''Bu sayfa, vikideki {{PLURAL:$1|en yeni sayfayı|en yeni $1 sayfayı}} listelemektedir.'''",
 	'newestpages-limitlinks' => '$1 sayfaya kadar göster',
-	'newestpages-namespace' => 'Alan adı',
+	'newestpages-namespace' => 'Ad boşluğu:',
 	'newestpages-none' => 'Girdi bulunamadı.',
 	'newestpages-ns-header' => "'''Bu sayfa, $2 isim alanındaki {{PLURAL:$1|en yeni sayfayı|en yeni $1 sayfayı}} listelemektedir.'''",
 	'newestpages-showing' => '{{PLURAL:$1|En yeni sayfa|En yeni $1 sayfa}} listeleniyor:',
