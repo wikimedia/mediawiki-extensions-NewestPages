@@ -308,8 +308,7 @@ $messages['dsb'] = array(
 $messages['ee'] = array(
 	'newestpages' => 'Axa siwo le yeye wu',
 	'newestpages-desc' => 'Efia [[Special:Newestpages|axa X susuewo]] siwo woda ɖe wiki la dzi',
-	'newestpages-header' => "'''This page lists the {{PLURAL:$1|newest page|$1 newest pages}} on the wiki.'''<br />
-'''Axa sia fia {{PLURAL:$1|axa yeyeawu|axa $1 yeyeawu}} le wiki la dzi'''",
+	'newestpages-header' => "'''Axa sia fia {{PLURAL:$1|axa yeyeawu|axa $1 yeyeawowu}} le wiki la dzi'''",
 	'newestpages-limitlinks' => 'Fia axawo ƒe xexlẽme vaseɖe $1',
 	'newestpages-none' => 'Womekpɔ nuŋɔ̃ŋlɔ̃wo aɖeke o.',
 	'newestpages-showing' => 'Wofia {{PLURAL: $1|axa yeyetɔwu|axa $1 yeyewutɔwo}}:',
