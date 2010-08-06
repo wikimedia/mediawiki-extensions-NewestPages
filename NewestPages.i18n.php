@@ -502,6 +502,11 @@ $messages['gv'] = array(
 	'newestpages-submit' => 'Gow',
 );
 
+/** Hausa (هَوُسَ) */
+$messages['ha'] = array(
+	'newestpages-namespace' => 'Sararin suna:',
+);
+
 /** Hebrew (עברית)
  * @author Agbad
  * @author Rotemliss
