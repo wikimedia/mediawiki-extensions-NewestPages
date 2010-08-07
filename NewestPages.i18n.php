@@ -235,6 +235,11 @@ $messages['ch'] = array(
 	'newestpages-submit' => 'Hånao',
 );
 
+/** Sorani (کوردی) */
+$messages['ckb'] = array(
+	'newestpages-submit' => 'بڕۆ',
+);
+
 /** Church Slavic (Словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */
