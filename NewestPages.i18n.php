@@ -32,9 +32,10 @@ $messages['en'] = array(
  * @author Jon Harald Søby
  * @author Purodha
  * @author Siebrand
+ * @author The Evil IP address
  */
 $messages['qqq'] = array(
-	'newestpages-desc' => 'Short description of this extension, shown on [[Special:Version]]. Do not translate or change links.',
+	'newestpages-desc' => '{{desc}}',
 	'newestpages-limitlinks' => '* $1 is a list like "10 | 20 | 30 | 50 |100 | 150"',
 	'newestpages-namespace' => '{{Identical|Namespace}}',
 	'newestpages-submit' => '{{Identical|Go}}',
