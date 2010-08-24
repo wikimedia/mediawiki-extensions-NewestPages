@@ -1316,10 +1316,13 @@ $messages['sv'] = array(
 );
 
 /** Tamil (தமிழ்)
+ * @author TRYPPN
  * @author Ulmo
  */
 $messages['ta'] = array(
+	'newestpages' => 'புத்தம்புதிய பக்கங்கள்',
 	'newestpages-namespace' => 'பெயர்வெளி:',
+	'newestpages-submit' => 'செல்',
 );
 
 /** Telugu (తెలుగు)
