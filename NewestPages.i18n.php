@@ -1321,8 +1321,12 @@ $messages['sv'] = array(
  */
 $messages['ta'] = array(
 	'newestpages' => 'புத்தம்புதிய பக்கங்கள்',
+	'newestpages-limitlinks' => '$1 பக்கம் வரை காட்டவும்',
 	'newestpages-namespace' => 'பெயர்வெளி:',
+	'newestpages-none' => 'எந்தவித உள்ளடக்கமும் காணப்படவில்லை',
 	'newestpages-submit' => 'செல்',
+	'newestpages-showredir' => 'வழிமாற்றுப் பக்கங்களைக் காண்பிக்கவும்',
+	'newestpages-hideredir' => 'வழிமாற்றுப் பக்கங்களை மறைக்கவும்',
 );
 
 /** Telugu (తెలుగు)
