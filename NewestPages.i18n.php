@@ -564,10 +564,14 @@ $messages['hil'] = array(
 
 /** Croatian (Hrvatski)
  * @author Dalibor Bosits
+ * @author Herr Mlinka
  */
 $messages['hr'] = array(
+	'newestpages' => 'Najnovije stranice',
 	'newestpages-namespace' => 'Imenski prostor:',
 	'newestpages-submit' => 'Kreni',
+	'newestpages-showredir' => 'Prikaži preusmjerene stranice',
+	'newestpages-hideredir' => 'Sakrij preusmjerene stranice',
 );
 
 /** Upper Sorbian (Hornjoserbsce)
