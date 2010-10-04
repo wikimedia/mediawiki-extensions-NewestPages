@@ -1331,6 +1331,7 @@ $messages['sv'] = array(
  */
 $messages['ta'] = array(
 	'newestpages' => 'புத்தம்புதிய பக்கங்கள்',
+	'newestpages-desc' => 'விக்கியில் சேர்க்கப்பட்ட [[Special:Newestpages| கடைசி 10 பக்கங்களைக்]]  காட்டுகிறது',
 	'newestpages-limitlinks' => '$1 பக்கம் வரை காட்டவும்',
 	'newestpages-namespace' => 'பெயர்வெளி:',
 	'newestpages-none' => 'எந்தவித உள்ளடக்கமும் காணப்படவில்லை',
