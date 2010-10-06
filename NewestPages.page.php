@@ -18,7 +18,7 @@ class NewestPages extends IncludableSpecialPage {
 	var $redirects = null;
 
 	public function __construct() {
-		parent::__construct( 'Newestpages', '', true, false, 'default', true );
+		parent::__construct( 'NewestPages', '', true, false, 'default', true );
 	}
 
 	public function execute( $par ) {
@@ -161,7 +161,7 @@ class NewestPages extends IncludableSpecialPage {
 
 	function makeSelfLink( $label, $oname = false, $oval = false ) {
 		global $wgUser;
-		$skin =& $wgUser->getSkin();
+		$skin = $wgUser->getSkin();
 		$self = $this->getTitle();
 		$attr['limit'] = $this->limit;
 		$attr['namespace'] = $this->namespace;
