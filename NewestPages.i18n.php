@@ -1474,6 +1474,13 @@ $messages['ug-latn'] = array(
 	'newestpages-submit' => 'Köchüsh',
 );
 
+/** Ukrainian (Українська)
+ * @author Тест
+ */
+$messages['uk'] = array(
+	'newestpages-namespace' => 'Простір назв:',
+);
+
 /** Vèneto (Vèneto)
  * @author Candalua
  */
