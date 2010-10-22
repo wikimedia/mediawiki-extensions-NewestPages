@@ -892,6 +892,7 @@ $messages['ml'] = array(
  */
 $messages['mn'] = array(
 	'newestpages-namespace' => 'Нэрний зай:',
+	'newestpages-submit' => 'Явах',
 );
 
 /** Marathi (मराठी)
