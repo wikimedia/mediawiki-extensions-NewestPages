@@ -132,7 +132,7 @@ $specialPageAliases['km'] = array(
 
 /** Korean (한국어) */
 $specialPageAliases['ko'] = array(
-	'NewestPages' => array( '새 페이지' ),
+	'NewestPages' => array( '새_페이지' ),
 );
 
 /** Colognian (Ripoarisch) */
