@@ -179,8 +179,8 @@ class NewestPages extends IncludableSpecialPage {
 		$form  = Xml::openElement( 'form', array( 'method' => 'post', 'action' => $self->getLocalUrl() ) );
 		$form .= Xml::label( wfMsg( 'newestpages-namespace' ), 'namespace' ) . '&#160;';
 		$form .= Xml::namespaceSelector( $this->namespace, 'all' );
-		$form .= Html::hidden( 'limit', $this->limit );
-		$form .= Html::hidden( 'redirects', $this->redirects );
+		$form .= Xml::hidden( 'limit', $this->limit );
+		$form .= Xml::hidden( 'redirects', $this->redirects );
 		$form .= Xml::submitButton( wfMsg( 'newestpages-submit' ) ) . '</form>';
 		return $form;
 	}
