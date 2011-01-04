@@ -1242,6 +1242,7 @@ $messages['sr'] = array(
 );
 
 /** Serbian Cyrillic ekavian (Српски (ћирилица))
+ * @author Rancher
  * @author Sasa Stefanovic
  * @author Михајло Анђелковић
  */
@@ -1254,7 +1255,7 @@ $messages['sr-ec'] = array(
 	'newestpages-none' => 'Није ништа пронађено.',
 	'newestpages-ns-header' => "'''Ово је списак {{PLURAL:$1|са најновијом страном|$1 најновијих страна}} на у именском простору $2.'''",
 	'newestpages-showing' => 'Списак {{PLURAL:$1|најновије стране|$1 најновијих страна}}:',
-	'newestpages-submit' => 'Иди',
+	'newestpages-submit' => 'Пређи',
 	'newestpages-showredir' => 'Прикажи странице преусмерења',
 	'newestpages-hideredir' => 'Сакриј странице преусмерења',
 );
