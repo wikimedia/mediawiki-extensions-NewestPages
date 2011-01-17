@@ -1592,13 +1592,14 @@ $messages['zh-hans'] = array(
 
 /** Traditional Chinese (‪中文(繁體)‬)
  * @author KilluaZaoldyeck
+ * @author Mark85296341
  * @author Shinjiman
  */
 $messages['zh-hant'] = array(
 	'newestpages' => '最新頁面',
-	'newestpages-desc' => '顯示[[Special:NewestPages|最近X個頁面]]到wiki中',
+	'newestpages-desc' => '顯示[[Special:NewestPages|最近 X 個頁面]]到 wiki 中',
 	'newestpages-header' => "'''本頁列出維基上第$1新的頁面。'''",
-	'newestpages-limitlinks' => '顯示$1個頁面',
+	'newestpages-limitlinks' => '顯示 $1 個頁面',
 	'newestpages-namespace' => '名字空間：',
 	'newestpages-none' => '沒找到頁面。',
 	'newestpages-ns-header' => "'''本頁列出$2名字空間中第$1個新的頁面。'''",
