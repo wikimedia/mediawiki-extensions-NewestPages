@@ -877,7 +877,7 @@ $messages['mk'] = array(
 	'newestpages-showing' => 'Приказ на {{PLURAL:$1|најновата страница|$1-те најнови страници}}:',
 	'newestpages-submit' => 'Прикажи',
 	'newestpages-showredir' => 'Прикажи пренасочувања',
-	'newestpages-hideredir' => 'Сокриј пренасочувања',
+	'newestpages-hideredir' => 'Скриј пренасочувања',
 );
 
 /** Malayalam (മലയാളം)
