@@ -1575,16 +1575,18 @@ $messages['yue'] = array(
 	'newestpages-hideredir' => '摺埋啲跳轉頁',
 );
 
-/** Simplified Chinese (‪中文(简体)‬) */
+/** Simplified Chinese (‪中文(简体)‬)
+ * @author Hydra
+ */
 $messages['zh-hans'] = array(
 	'newestpages' => '最新页面',
 	'newestpages-desc' => '显示[[Special:NewestPages|最近X个页面]]到wiki中',
-	'newestpages-header' => "'''本页面列举维基上第$1新的页面。'''",
+	'newestpages-header' => "'''本页面列出了本维基$1最新的页面。'''",
 	'newestpages-limitlinks' => '显示$1个页面',
 	'newestpages-namespace' => '名字空间：',
 	'newestpages-none' => '没找到页面。',
-	'newestpages-ns-header' => "'''本页面列举$2名字空间中第$1新的页面。'''",
-	'newestpages-showing' => '正在列举第$1新的页面：',
+	'newestpages-ns-header' => "'''本页面列出了$2名字空间中$1最新的页面。'''",
+	'newestpages-showing' => '正列出$1最新的页面：',
 	'newestpages-submit' => '提交',
 	'newestpages-showredir' => '显示重定向页面',
 	'newestpages-hideredir' => '隐藏重定向页面',
