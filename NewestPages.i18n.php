@@ -806,6 +806,17 @@ $messages['ksh'] = array(
 	'newestpages-hideredir' => 'Lohß Ömleidunge fott',
 );
 
+/** Kurdish (Latin) (Kurdî (Latin))
+ * @author George Animal
+ */
+$messages['ku-latn'] = array(
+	'newestpages' => 'Rûpelên herî nû',
+	'newestpages-none' => 'Ti gorat nehate dîtin.',
+	'newestpages-submit' => 'Biçe',
+	'newestpages-showredir' => 'Rûpelên redirect nîşan bide',
+	'newestpages-hideredir' => 'Rûpelên redirect veşêre',
+);
+
 /** Latin (Latina)
  * @author SPQRobin
  */
