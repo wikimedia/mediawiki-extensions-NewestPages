@@ -811,6 +811,7 @@ $messages['ksh'] = array(
  */
 $messages['ku-latn'] = array(
 	'newestpages' => 'Rûpelên herî nû',
+	'newestpages-namespace' => 'Boşahîya nav:',
 	'newestpages-none' => 'Ti gorat nehate dîtin.',
 	'newestpages-submit' => 'Biçe',
 	'newestpages-showredir' => 'Rûpelên redirect nîşan bide',
