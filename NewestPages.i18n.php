@@ -801,7 +801,7 @@ $messages['ksh'] = array(
 	'newestpages-none' => 'Keine Enndraach jefonge.',
 	'newestpages-ns-header' => "'''Di Sigg he list {{PLURAL:de neuste Sigg|de $1 neuste Sigge|kein neu Sigge}} em Appachtemang $2 op.'''",
 	'newestpages-showing' => 'Zeich {{PLURAL:de neuste Sigg|de $1 neuste Sigge|kein neu Sigge}}:',
-	'newestpages-submit' => 'Loß Jonn!',
+	'newestpages-submit' => 'Lohß Jonn!',
 	'newestpages-showredir' => 'Zeich Ömleidunge',
 	'newestpages-hideredir' => 'Lohß Ömleidunge fott',
 );
