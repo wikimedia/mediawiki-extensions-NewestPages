@@ -24,7 +24,7 @@ class NewestPages extends IncludableSpecialPage {
 	public function execute( $par ) {
 		global $wgRequest, $wgOut, $wgContLang, $wgLang;
 
-		wfLoadExtensionMessages( 'NewestPages' );
+		
 
 		# Decipher input passed to the page
 		$this->decipherParams( $par );
