@@ -868,6 +868,13 @@ $messages['lt'] = array(
 	'newestpages-hideredir' => 'Slėpti peradresavimų puslapius',
 );
 
+/** Latgalian (Latgaļu)
+ * @author Dark Eagle
+ */
+$messages['ltg'] = array(
+	'newestpages-namespace' => 'Vuordu pluots:',
+);
+
 /** Eastern Mari (Олык Марий)
  * @author Сай
  */
