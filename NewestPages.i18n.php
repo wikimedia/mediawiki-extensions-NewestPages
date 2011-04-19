@@ -1261,6 +1261,7 @@ $messages['sr'] = array(
 );
 
 /** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+ * @author Nikola Smolenski
  * @author Rancher
  * @author Sasa Stefanovic
  * @author Жељко Тодоровић
@@ -1268,7 +1269,7 @@ $messages['sr'] = array(
  */
 $messages['sr-ec'] = array(
 	'newestpages' => 'Најновије странице',
-	'newestpages-desc' => 'Показује [[Special:NewestPages|задњих X чланака]] додатих Викију',
+	'newestpages-desc' => 'Показује [[Special:NewestPages|последњих X страница]] додатих викију',
 	'newestpages-header' => "'''Ово је списак {{PLURAL:$1|са најновијом страном|$1 најновијих страна}} на овој Вики.'''",
 	'newestpages-limitlinks' => 'Прикажи $1 страница',
 	'newestpages-namespace' => 'Именски простор:',
