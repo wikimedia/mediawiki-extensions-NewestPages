@@ -194,6 +194,19 @@ $messages['bg'] = array(
 	'newestpages-hideredir' => 'Скриване на пренасочващите страници',
 );
 
+/** Bengali (বাংলা)
+ * @author Wikitanvir
+ */
+$messages['bn'] = array(
+	'newestpages' => 'নতুনতম পাতাসমূহ',
+	'newestpages-limitlinks' => '$1টি পর্যন্ত পাতা দেখাও',
+	'newestpages-namespace' => 'নামস্থান:',
+	'newestpages-none' => 'কোনো সংযোজন খুঁজে পাওয়া যায়নি।',
+	'newestpages-submit' => 'চলো',
+	'newestpages-showredir' => 'পুনর্নির্দেশ পাতাগুলো দেখাও',
+	'newestpages-hideredir' => 'পুনর্নির্দেশ পাতাগুলো লুকাও',
+);
+
 /** Breton (Brezhoneg)
  * @author Fohanno
  * @author Fulup
@@ -1094,6 +1107,13 @@ $messages['oc'] = array(
 	'newestpages-submit' => 'Amodar',
 	'newestpages-showredir' => 'Afichar las paginas de redireccion.',
 	'newestpages-hideredir' => 'Amagar las paginas de redireccion.',
+);
+
+/** Oriya (ଓଡ଼ିଆ)
+ * @author Psubhashish
+ */
+$messages['or'] = array(
+	'newestpages-showing' => '{{PLURAL:$1|newest page|$1 ନଗଦ ପୃଷ୍ଠାସବୁର}} ତାଲିକା ତିଆରି କରୁଛି:',
 );
 
 /** Punjabi (ਪੰਜਾਬੀ)
