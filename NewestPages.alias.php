@@ -8,9 +8,7 @@
 
 $specialPageAliases = array();
 
-/** English
- * @author Jon Harald Søby
- */
+/** English (English) */
 $specialPageAliases['en'] = array(
 	'NewestPages' => array( 'NewestPages' ),
 );
@@ -82,7 +80,7 @@ $specialPageAliases['frp'] = array(
 
 /** Galician (Galego) */
 $specialPageAliases['gl'] = array(
-	'NewestPages' => array( 'Páxinas máis novas' ),
+	'NewestPages' => array( 'Páxinas_máis_novas' ),
 );
 
 /** Swiss German (Alemannisch) */
@@ -98,6 +96,11 @@ $specialPageAliases['hr'] = array(
 /** Upper Sorbian (Hornjoserbsce) */
 $specialPageAliases['hsb'] = array(
 	'NewestPages' => array( 'Najnowše_strony' ),
+);
+
+/** Haitian (Kreyòl ayisyen) */
+$specialPageAliases['ht'] = array(
+	'NewestPages' => array( 'PajKiPiNouvo' ),
 );
 
 /** Hungarian (Magyar) */
@@ -138,6 +141,11 @@ $specialPageAliases['ko'] = array(
 /** Colognian (Ripoarisch) */
 $specialPageAliases['ksh'] = array(
 	'NewestPages' => array( 'Neueste_Sigge' ),
+);
+
+/** Kurdish (Kurdî) */
+$specialPageAliases['ku'] = array(
+	'NewestPages' => array( 'Rûpelên_nû' ),
 );
 
 /** Ladino (Ladino) */
@@ -232,7 +240,7 @@ $specialPageAliases['sk'] = array(
 
 /** Albanian (Shqip) */
 $specialPageAliases['sq'] = array(
-	'NewestPages' => array( 'FaqeteReja' ),
+	'NewestPages' => array( 'FaqetMëTëReja' ),
 );
 
 /** Swedish (Svenska) */
@@ -268,6 +276,11 @@ $specialPageAliases['tr'] = array(
 /** Vèneto (Vèneto) */
 $specialPageAliases['vec'] = array(
 	'NewestPages' => array( 'PaginePiNove' ),
+);
+
+/** Simplified Chinese (‪中文(简体)‬) */
+$specialPageAliases['zh-hans'] = array(
+	'NewestPages' => array( '新的页面' ),
 );
 
 /**
