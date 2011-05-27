@@ -472,6 +472,20 @@ $messages['fr'] = array(
 	'newestpages-hideredir' => 'Cacher les pages de redirection.',
 );
 
+/** Franco-Provençal (Arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'newestpages' => 'Pâges les ples novèles',
+	'newestpages-limitlinks' => 'Fâre vêre tant qu’a $1 pâges',
+	'newestpages-namespace' => 'Èspâço de noms :',
+	'newestpages-none' => 'Gins d’entrâ trovâ.',
+	'newestpages-showing' => 'Visualisacion de l{{PLURAL:$1|a pâge la ples novèla|es $1 pâges les ples novèles}} :',
+	'newestpages-submit' => 'Lanciér',
+	'newestpages-showredir' => 'Fâre vêre les pâges de redirèccion',
+	'newestpages-hideredir' => 'Cachiér les pâges de redirèccion',
+);
+
 /** Irish (Gaeilge)
  * @author Alison
  */
