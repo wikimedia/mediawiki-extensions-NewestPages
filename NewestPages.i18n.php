@@ -986,6 +986,13 @@ $messages['mr'] = array(
 	'newestpages-hideredir' => 'पुनर्निर्देशन पाने लपवा',
 );
 
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'newestpages-submit' => 'Pergi',
+);
+
 /** Maltese (Malti)
  * @author Chrisportelli
  */
