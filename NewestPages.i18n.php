@@ -302,12 +302,13 @@ $messages['da'] = array(
 );
 
 /** German (Deutsch)
+ * @author Kghbln
  * @author Markus Klatt
  * @author Raimond Spekking
  */
 $messages['de'] = array(
 	'newestpages' => 'Neueste Seiten',
-	'newestpages-desc' => 'Zeigt die [[Special:NewestPages|neuesten X Seiten]] des Wikis',
+	'newestpages-desc' => 'Ergänzt eine [[Special:NewestPages|Spezialseite]] zur Anzeige einer festzulegenden Anzahl neuer Seiten',
 	'newestpages-header' => "'''Diese Seite listet die {{PLURAL:$1|neueste Seite|$1 neuesten Seiten}} dieses Wikis auf.'''",
 	'newestpages-limitlinks' => 'Zeige $1 Seiten',
 	'newestpages-namespace' => 'Namensraum:',
