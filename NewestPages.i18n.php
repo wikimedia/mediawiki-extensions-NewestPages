@@ -1303,22 +1303,6 @@ $messages['sk'] = array(
 	'newestpages-hideredir' => 'Skryť presmerovacie stránky',
 );
 
-/** Serbian (Српски / Srpski)
- * @author Sasa Stefanovic
- */
-$messages['sr'] = array(
-	'newestpages' => 'Најновије странице',
-	'newestpages-header' => "'''Ова страница показује $1 најновијих страница на Вики.'''",
-	'newestpages-limitlinks' => 'Прикажи $1 страница',
-	'newestpages-namespace' => 'Именски простор:',
-	'newestpages-none' => 'Није ништа пронађено.',
-	'newestpages-ns-header' => "'''Ова страница показује $1 најновијих страница у $2 именском простору.'''",
-	'newestpages-showing' => 'Приказ $1 најновијих страница:',
-	'newestpages-submit' => 'Иди',
-	'newestpages-showredir' => 'Прикажи странице преусмерења',
-	'newestpages-hideredir' => 'Сакриј странице преусмерења',
-);
-
 /** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
  * @author Nikola Smolenski
  * @author Rancher
