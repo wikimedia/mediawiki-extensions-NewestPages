@@ -1641,6 +1641,7 @@ $messages['yue'] = array(
 
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Hydra
+ * @author PhiLiP
  * @author Xiaomingyan
  */
 $messages['zh-hans'] = array(
@@ -1648,7 +1649,7 @@ $messages['zh-hans'] = array(
 	'newestpages-desc' => '显示[[Special:NewestPages|最近X个页面]]到wiki中',
 	'newestpages-header' => "'''本页面列出了本维基$1最新的页面。'''",
 	'newestpages-limitlinks' => '显示$1个页面',
-	'newestpages-namespace' => '名称空间：',
+	'newestpages-namespace' => '名字空间：',
 	'newestpages-none' => '没找到页面。',
 	'newestpages-ns-header' => "'''本页面列出了$2名字空间中$1最新的页面。'''",
 	'newestpages-showing' => '正列出$1最新的页面：',
