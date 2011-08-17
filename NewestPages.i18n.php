@@ -1502,7 +1502,7 @@ $messages['tl'] = array(
 	'newestpages-hideredir' => 'Itago ang mga pahinang ipinanuto/muling itinuro',
 );
 
-/** Tonga (lea faka-Tonga)
+/** Tongan (lea faka-Tonga)
  * @author Tauʻolunga
  */
 $messages['to'] = array(
