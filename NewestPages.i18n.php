@@ -146,6 +146,13 @@ $messages['avk'] = array(
 	'newestpages-hideredir' => 'Palsera va graskan bueem',
 );
 
+/** Azerbaijani (Azərbaycanca)
+ * @author Cekli829
+ */
+$messages['az'] = array(
+	'newestpages-namespace' => 'Adlar fəzası:',
+);
+
 /** Bikol Central (Bikol Central)
  * @author Filipinayzd
  */
