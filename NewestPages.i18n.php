@@ -130,6 +130,23 @@ $messages['arz'] = array(
 	'newestpages-hideredir' => 'إخفاء صفحات التحويل',
 );
 
+/** Asturian (Asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'newestpages' => 'Páxines más nueves',
+	'newestpages-desc' => 'Amuesa les [[Special:NewestPages|caberes X páxines]] amestaes a la wiki',
+	'newestpages-header' => "'''Esta páxina llista {{PLURAL:$1|la páxina más nueva|les $1 páxines más nueves}} de la wiki.'''",
+	'newestpages-limitlinks' => 'Amosar fasta $1 páxines',
+	'newestpages-namespace' => 'Espaciu de nomes:',
+	'newestpages-none' => "Nun s'alcontró entrada denguna.",
+	'newestpages-ns-header' => "'''Esta páxina llista {{PLURAL:$1|la páxina más nueva|les $1 páxines más nueves}} del espaciu de nomes $2.'''",
+	'newestpages-showing' => 'Llistando {{PLURAL:$1|la páxina más nueva|les $1 páxines más nueves}}:',
+	'newestpages-submit' => 'Dir',
+	'newestpages-showredir' => 'Amosar páxines de redireición',
+	'newestpages-hideredir' => 'Anubrir páxines de redireición',
+);
+
 /** Kotava (Kotava)
  * @author Wikimistusik
  */
