@@ -684,7 +684,7 @@ $messages['ia'] = array(
 	'newestpages-none' => 'Nulle entratas esseva trovate.',
 	'newestpages-ns-header' => "'''Iste pagina lista le {{PLURAL:$1|pagina|$1 paginas}} le plus nove in le spatio de nomines $2.'''",
 	'newestpages-showing' => 'Lista del {{PLURAL:$1|pagina|$1 paginas}} le plus nove:',
-	'newestpages-submit' => 'Ir',
+	'newestpages-submit' => 'Va',
 	'newestpages-showredir' => 'Revelar paginas de redirection',
 	'newestpages-hideredir' => 'Celar paginas de redirection',
 );
