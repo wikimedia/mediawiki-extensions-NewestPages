@@ -795,13 +795,14 @@ $messages['ka'] = array(
  * @author Lovekhmer
  * @author Thearith
  * @author គីមស៊្រុន
+ * @author វ័ណថារិទ្ធ
  */
 $messages['km'] = array(
 	'newestpages' => 'ទំព័រថ្មីៗបំផុត',
 	'newestpages-desc' => 'បង្ហាញ [[Special:ទំព័រ​ចុងក្រោយបំផុត|ទំព័រ​ចុងក្រោយបំផុត]] ដែលបានបន្ថែម​ទៅ​វិគី',
 	'newestpages-header' => "'''ទំព័រនេះ​រាយ {{PLURAL:$1|newest page|$1 ទំព័រថ្មីៗបំផុត}} លើវិគីនេះ។'''",
 	'newestpages-limitlinks' => 'បង្ហាញអតិបរមា $1 ទំព័រ',
-	'newestpages-namespace' => 'ប្រភេទ៖',
+	'newestpages-namespace' => 'លំហឈ្មោះ៖',
 	'newestpages-none' => 'រកមិនឃើញអត្ថបទទេ។',
 	'newestpages-ns-header' => "'''ទំព័រនេះ​រាយ{{PLURAL:$1|newest page|$1 ទំព័រថ្មីៗបំផុត}}ក្នុងលំហឈ្មោះ $2 ។'''",
 	'newestpages-showing' => 'រាយ {{PLURAL:$1|ទំព័រថ្មីបំផុត|$1 ទំព័រថ្មីបំផុត}}​៖',
