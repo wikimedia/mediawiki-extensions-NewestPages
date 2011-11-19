@@ -527,13 +527,13 @@ $messages['gl'] = array(
 	'newestpages' => 'Páxinas máis novas',
 	'newestpages-desc' => 'Amosa as [[Special:NewestPages|últimas X páxinas]] engadidas ao wiki',
 	'newestpages-header' => "'''Esta páxina lista {{PLURAL:$1|a páxina máis nova|as $1 páxinas máis novas}} do wiki.'''",
-	'newestpages-limitlinks' => 'Amosar $1 páxinas',
+	'newestpages-limitlinks' => 'Mostrar $1 páxinas',
 	'newestpages-namespace' => 'Espazo de nomes:',
 	'newestpages-none' => 'Ningunhas entradas foron atopadas.',
 	'newestpages-ns-header' => "'''Esta páxina lista {{PLURAL:$1|a páxina máis nova|as $1 páxinas máis novas}} no espazo de nomes $2.'''",
 	'newestpages-showing' => 'Listando {{PLURAL:$1|a páxina máis nova|as $1 páxinas máis novas}}:',
 	'newestpages-submit' => 'Ir',
-	'newestpages-showredir' => 'Amosar páxinas redirixidas',
+	'newestpages-showredir' => 'Mostrar páxinas redirixidas',
 	'newestpages-hideredir' => 'Ocultar páxinas redirixidas',
 );
 
