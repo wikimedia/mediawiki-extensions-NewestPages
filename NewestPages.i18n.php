@@ -859,7 +859,7 @@ $messages['ksh'] = array(
 	'newestpages-hideredir' => 'Lohß Ömleidunge fott',
 );
 
-/** Kurdish (Latin) (Kurdî (Latin))
+/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -1328,7 +1328,7 @@ $messages['sk'] = array(
 	'newestpages-hideredir' => 'Skryť presmerovacie stránky',
 );
 
-/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
  * @author Nikola Smolenski
  * @author Rancher
  * @author Sasa Stefanovic
@@ -1349,7 +1349,7 @@ $messages['sr-ec'] = array(
 	'newestpages-hideredir' => 'Сакриј странице преусмерења',
 );
 
-/** Serbian Latin ekavian (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪Srpski (latinica)‬)
  * @author Liangent
  * @author Michaello
  * @author Sasa Stefanovic
@@ -1471,7 +1471,7 @@ $messages['tet'] = array(
 	'newestpages-submit' => 'Bá',
 );
 
-/** Tajik (Cyrillic) (Тоҷикӣ (Cyrillic))
+/** Tajik (Cyrillic script) (Тоҷикӣ)
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
@@ -1483,7 +1483,7 @@ $messages['tg-cyrl'] = array(
 	'newestpages-hideredir' => 'Пинҳон кардани саҳифаҳои масир',
 );
 
-/** Tajik (Latin) (Тоҷикӣ (Latin))
+/** Tajik (Latin script) (tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -1562,14 +1562,14 @@ $messages['tr'] = array(
 	'newestpages-hideredir' => 'Gizli yönlendirme sayfaları',
 );
 
-/** ئۇيغۇرچە (ئۇيغۇرچە)
+/** Uyghur (Arabic script) (ئۇيغۇرچە)
  * @author Alfredie
  */
 $messages['ug-arab'] = array(
 	'newestpages-submit' => 'كۆچۈش',
 );
 
-/** Uighur (Latin) (ئۇيغۇرچە / Uyghurche‎ (Latin))
+/** Uyghur (Latin script) (Uyghurche‎)
  * @author Jose77
  */
 $messages['ug-latn'] = array(
