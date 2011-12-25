@@ -1061,6 +1061,24 @@ $messages['nah'] = array(
 	'newestpages-hideredir' => 'Tiquintlātīz tlacuepaliztli zāzaniltin',
 );
 
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Jon Harald Søby
+ * @author Nghtwlkr
+ */
+$messages['nb'] = array(
+	'newestpages' => 'Nyeste sider',
+	'newestpages-desc' => 'Viser de [[Special:NewestPages|siste X sidene]] som er lagt til på wikien',
+	'newestpages-header' => "'''Denne siden lister opp {{PLURAL:$1|den nyeste siden|de $1 nyeste sidene}} på denne wikien.'''",
+	'newestpages-limitlinks' => 'Vis opptil $1 sider',
+	'newestpages-namespace' => 'Navnerom:',
+	'newestpages-none' => 'Ingenting funnet.',
+	'newestpages-ns-header' => "'''Denne siden lister opp {{PLURAL:$1|den nyeste siden|de $1 nyeste sidene}} i navnerommet $2.'''",
+	'newestpages-showing' => 'Lister opp {{PLURAL:$1|den nyeste siden|de $1 nyeste sidene}}:',
+	'newestpages-submit' => 'Gå',
+	'newestpages-showredir' => 'Vis omdirigeringer',
+	'newestpages-hideredir' => 'Skjul omdirigeringer',
+);
+
 /** Low German (Plattdüütsch)
  * @author Slomox
  */
@@ -1112,24 +1130,6 @@ $messages['nn'] = array(
 	'newestpages-submit' => 'Gå',
 	'newestpages-showredir' => 'Vis omdirigeringar',
 	'newestpages-hideredir' => 'Gøym omdirigeringar',
-);
-
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
- * @author Nghtwlkr
- */
-$messages['nb'] = array(
-	'newestpages' => 'Nyeste sider',
-	'newestpages-desc' => 'Viser de [[Special:NewestPages|siste X sidene]] som er lagt til på wikien',
-	'newestpages-header' => "'''Denne siden lister opp {{PLURAL:$1|den nyeste siden|de $1 nyeste sidene}} på denne wikien.'''",
-	'newestpages-limitlinks' => 'Vis opptil $1 sider',
-	'newestpages-namespace' => 'Navnerom:',
-	'newestpages-none' => 'Ingenting funnet.',
-	'newestpages-ns-header' => "'''Denne siden lister opp {{PLURAL:$1|den nyeste siden|de $1 nyeste sidene}} i navnerommet $2.'''",
-	'newestpages-showing' => 'Lister opp {{PLURAL:$1|den nyeste siden|de $1 nyeste sidene}}:',
-	'newestpages-submit' => 'Gå',
-	'newestpages-showredir' => 'Vis omdirigeringer',
-	'newestpages-hideredir' => 'Skjul omdirigeringer',
 );
 
 /** Northern Sotho (Sesotho sa Leboa)
