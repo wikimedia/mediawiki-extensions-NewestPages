@@ -183,6 +183,11 @@ $specialPageAliases['mt'] = array(
 	'NewestPages' => array( 'PaġniRiċenti' ),
 );
 
+/** Norwegian Bokmål (‪Norsk (bokmål)‬) */
+$specialPageAliases['nb'] = array(
+	'NewestPages' => array( 'Siste_sider', 'Nyeste_sider' ),
+);
+
 /** Low German (Plattdüütsch) */
 $specialPageAliases['nds'] = array(
 	'NewestPages' => array( 'Neeste Sieden' ),
@@ -196,11 +201,6 @@ $specialPageAliases['nds-nl'] = array(
 /** Dutch (Nederlands) */
 $specialPageAliases['nl'] = array(
 	'NewestPages' => array( 'NieuwstePaginas', 'NieuwstePagina\'s' ),
-);
-
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬) */
-$specialPageAliases['nb'] = array(
-	'NewestPages' => array( 'Siste_sider', 'Nyeste_sider' ),
 );
 
 /** Occitan (Occitan) */
@@ -228,7 +228,7 @@ $specialPageAliases['pt-br'] = array(
 	'NewestPages' => array( 'Páginas_mais_novas' ),
 );
 
-/** Sanskrit (संस्कृत) */
+/** Sanskrit (संस्कृतम्) */
 $specialPageAliases['sa'] = array(
 	'NewestPages' => array( 'अतिनूतनपृष्ठ' ),
 );
@@ -292,8 +292,3 @@ $specialPageAliases['zh-hans'] = array(
 $specialPageAliases['zh-hant'] = array(
 	'NewestPages' => array( '最新頁面' ),
 );
-
-/**
- * For backwards compatibility with MediaWiki 1.15 and earlier.
- */
-$aliases =& $specialPageAliases;
