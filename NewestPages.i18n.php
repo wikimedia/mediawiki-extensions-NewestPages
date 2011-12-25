@@ -1118,7 +1118,7 @@ $messages['nn'] = array(
  * @author Jon Harald Søby
  * @author Nghtwlkr
  */
-$messages['no'] = array(
+$messages['nb'] = array(
 	'newestpages' => 'Nyeste sider',
 	'newestpages-desc' => 'Viser de [[Special:NewestPages|siste X sidene]] som er lagt til på wikien',
 	'newestpages-header' => "'''Denne siden lister opp {{PLURAL:$1|den nyeste siden|de $1 nyeste sidene}} på denne wikien.'''",
