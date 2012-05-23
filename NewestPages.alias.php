@@ -33,6 +33,11 @@ $specialPageAliases['bg'] = array(
 	'NewestPages' => array( 'Най-нови_страници' ),
 );
 
+/** Banjar (Bahasa Banjar) */
+$specialPageAliases['bjn'] = array(
+	'NewestPages' => array( 'Tungkaran_tahanyar' ),
+);
+
 /** Breton (Brezhoneg) */
 $specialPageAliases['br'] = array(
 	'NewestPages' => array( 'Pajennoù^Nevesañ' ),
@@ -90,7 +95,7 @@ $specialPageAliases['gl'] = array(
 
 /** Swiss German (Alemannisch) */
 $specialPageAliases['gsw'] = array(
-	'NewestPages' => array( 'Neijeschti Syte' ),
+	'NewestPages' => array( 'Neijeschti_Syte' ),
 );
 
 /** Croatian (Hrvatski) */
@@ -151,6 +156,11 @@ $specialPageAliases['ksh'] = array(
 /** Kurdish (Kurdî) */
 $specialPageAliases['ku'] = array(
 	'NewestPages' => array( 'Rûpelên_nû' ),
+);
+
+/** Cornish (Kernowek) */
+$specialPageAliases['kw'] = array(
+	'NewestPages' => array( 'FolednowNowyttha' ),
 );
 
 /** Ladino (Ladino) */
