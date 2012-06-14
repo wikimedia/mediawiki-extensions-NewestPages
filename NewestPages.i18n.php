@@ -130,7 +130,7 @@ $messages['arz'] = array(
 	'newestpages-hideredir' => 'إخفاء صفحات التحويل',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -163,7 +163,7 @@ $messages['avk'] = array(
 	'newestpages-hideredir' => 'Palsera va graskan bueem',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Cekli829
  */
 $messages['az'] = array(
@@ -200,7 +200,7 @@ $messages['be-tarask'] = array(
 	'newestpages-hideredir' => 'Схаваць старонкі перанакіраваньняў',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  * @author Spiritia
  */
@@ -231,7 +231,7 @@ $messages['bn'] = array(
 	'newestpages-hideredir' => 'পুনর্নির্দেশ পাতাগুলো লুকাও',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fohanno
  * @author Fulup
  * @author Y-M D
@@ -250,7 +250,7 @@ $messages['br'] = array(
 	'newestpages-hideredir' => 'Kuzhat ar pajennoù adkas',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -267,7 +267,7 @@ $messages['bs'] = array(
 	'newestpages-hideredir' => 'Sakrij stranice preusmjerenja',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author SMP
  * @author Solde
  */
@@ -283,12 +283,12 @@ $messages['ch'] = array(
 	'newestpages-submit' => 'Hånao',
 );
 
-/** Sorani (کوردی) */
+/** Sorani Kurdish (کوردی) */
 $messages['ckb'] = array(
 	'newestpages-submit' => 'بڕۆ',
 );
 
-/** Czech (Česky) */
+/** Czech (česky) */
 $messages['cs'] = array(
 	'newestpages-namespace' => 'Jmenný prostor:',
 	'newestpages-submit' => 'Jít na',
@@ -318,7 +318,7 @@ $messages['cy'] = array(
 	'newestpages-hideredir' => 'Cuddio tudalennau ailgyfeirio',
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Jon Harald Søby
  */
 $messages['da'] = array(
@@ -362,7 +362,7 @@ $messages['dsb'] = array(
 	'newestpages-hideredir' => 'Pśesměrowanja schowaś',
 );
 
-/** Ewe (Eʋegbe)
+/** Ewe (eʋegbe)
  * @author Natsubee
  */
 $messages['ee'] = array(
@@ -410,7 +410,7 @@ $messages['eo'] = array(
 	'newestpages-hideredir' => 'Kaŝu alidirektajn paĝojn',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Baiji
  * @author Crazymadlover
  * @author Imre
@@ -430,7 +430,7 @@ $messages['es'] = array(
 	'newestpages-hideredir' => 'Esconder páginas de redirección',
 );
 
-/** Estonian (Eesti)
+/** Estonian (eesti)
  * @author Avjoska
  * @author Hendrik
  * @author Pikne
@@ -443,7 +443,7 @@ $messages['et'] = array(
 	'newestpages-hideredir' => 'Peida ümbersuunamisleheküljed',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  */
 $messages['eu'] = array(
@@ -461,7 +461,7 @@ $messages['fa'] = array(
 	'newestpages-desc' => 'نمایش [[Special:NewestPages|آخرین X صفحهٔ]] افزوده شده به ویکی',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Crt
  * @author Niklas Laxström
  */
@@ -479,7 +479,7 @@ $messages['fi'] = array(
 	'newestpages-hideredir' => 'Piilota ohjaukset',
 );
 
-/** French (Français)
+/** French (français)
  * @author Grondin
  * @author Urhixidur
  */
@@ -497,7 +497,7 @@ $messages['fr'] = array(
 	'newestpages-hideredir' => 'Cacher les pages de redirection.',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -624,7 +624,7 @@ $messages['hil'] = array(
 	'newestpages-submit' => 'Lakat',
 );
 
-/** Croatian (Hrvatski)
+/** Croatian (hrvatski)
  * @author Dalibor Bosits
  * @author Herr Mlinka
  */
@@ -653,7 +653,7 @@ $messages['hsb'] = array(
 	'newestpages-hideredir' => 'Dalesposrědkowanske strony schować',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  * @author Enbéká
  * @author Glanthor Reviol
@@ -672,7 +672,7 @@ $messages['hu'] = array(
 	'newestpages-hideredir' => 'Átirányítások elrejtése',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -716,7 +716,7 @@ $messages['io'] = array(
 	'newestpages-submit' => 'Irez',
 );
 
-/** Icelandic (Íslenska)
+/** Icelandic (íslenska)
  * @author S.Örvarr.S
  */
 $messages['is'] = array(
@@ -731,7 +731,7 @@ $messages['is'] = array(
 	'newestpages-hideredir' => 'Fela tilvísanir',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author BrokenArrow
  * @author Darth Kule
  */
@@ -904,7 +904,7 @@ $messages['lg'] = array(
 	'newestpages-namespace' => 'Kuŋaanyizo:',
 );
 
-/** Lithuanian (Lietuvių)
+/** Lithuanian (lietuvių)
  * @author Hugo.arg
  */
 $messages['lt'] = array(
@@ -921,14 +921,14 @@ $messages['lt'] = array(
 	'newestpages-hideredir' => 'Slėpti peradresavimų puslapius',
 );
 
-/** Latgalian (Latgaļu)
+/** Latgalian (latgaļu)
  * @author Dark Eagle
  */
 $messages['ltg'] = array(
 	'newestpages-namespace' => 'Vuordu pluots:',
 );
 
-/** Latvian (Latviešu)
+/** Latvian (latviešu)
  * @author GreenZeb
  */
 $messages['lv'] = array(
@@ -952,7 +952,7 @@ $messages['mhr'] = array(
 	'newestpages-namespace' => 'Лӱм-влакын кумдыкышт:',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -987,7 +987,7 @@ $messages['ml'] = array(
 	'newestpages-hideredir' => 'തിരിച്ചുവിടൽ താളുകൾ മറയ്ക്കുക',
 );
 
-/** Mongolian (Монгол)
+/** Mongolian (монгол)
  * @author Chinneeb
  */
 $messages['mn'] = array(
@@ -1127,7 +1127,7 @@ $messages['nl'] = array(
 	'newestpages-hideredir' => 'Doorverwijzingen verbergen',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Harald Khan
  * @author Jon Harald Søby
  * @author Njardarlogar
@@ -1153,7 +1153,7 @@ $messages['nso'] = array(
 	'newestpages-submit' => 'Sepela',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
@@ -1192,7 +1192,7 @@ $messages['pdc'] = array(
 	'newestpages-submit' => 'Uffgucke',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Derbeth
  * @author Leinad
  * @author Sp5uhe
@@ -1239,7 +1239,7 @@ $messages['ps'] = array(
 	'newestpages-submit' => 'ورځه',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  * @author Lugusto
  * @author Waldir
@@ -1258,7 +1258,7 @@ $messages['pt'] = array(
 	'newestpages-hideredir' => 'Ocultar redireccionamentos',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Eduardo.mps
  * @author Waldir
  */
@@ -1283,7 +1283,7 @@ $messages['rif'] = array(
 	'newestpages-submit' => 'Raḥ ɣa',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author KlaudiuMihaila
  * @author Mihai
  */
@@ -1301,14 +1301,14 @@ $messages['ro'] = array(
 	'newestpages-hideredir' => 'Ascunde paginile de redirecționare',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
 	'newestpages-submit' => 'Veje',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
@@ -1325,7 +1325,7 @@ $messages['ru'] = array(
 	'newestpages-hideredir' => 'Скрыть страницы-перенаправления',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
@@ -1342,7 +1342,7 @@ $messages['sk'] = array(
 	'newestpages-hideredir' => 'Skryť presmerovacie stránky',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Nikola Smolenski
  * @author Rancher
  * @author Sasa Stefanovic
@@ -1363,7 +1363,7 @@ $messages['sr-ec'] = array(
 	'newestpages-hideredir' => 'Сакриј странице преусмерења',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Liangent
  * @author Michaello
  * @author Sasa Stefanovic
@@ -1422,7 +1422,7 @@ $messages['su'] = array(
 	'newestpages-hideredir' => 'Sumputkeun kaca alihan',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author M.M.S.
  * @author Najami
  * @author Sannab
@@ -1477,7 +1477,7 @@ $messages['te'] = array(
 	'newestpages-hideredir' => 'దారిమార్పు పేజీలను దాచు',
 );
 
-/** Tetum (Tetun)
+/** Tetum (tetun)
  * @author MF-Warburg
  */
 $messages['tet'] = array(
@@ -1485,7 +1485,7 @@ $messages['tet'] = array(
 	'newestpages-submit' => 'Bá',
 );
 
-/** Tajik (Cyrillic script) (Тоҷикӣ)
+/** Tajik (Cyrillic script) (тоҷикӣ)
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
@@ -1497,7 +1497,7 @@ $messages['tg-cyrl'] = array(
 	'newestpages-hideredir' => 'Пинҳон кардани саҳифаҳои масир',
 );
 
-/** Tajik (Latin script) (Tojikī)
+/** Tajik (Latin script) (tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -1590,14 +1590,14 @@ $messages['ug-latn'] = array(
 	'newestpages-submit' => 'Köchüsh',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Тест
  */
 $messages['uk'] = array(
 	'newestpages-namespace' => 'Простір назв:',
 );
 
-/** Vèneto (Vèneto)
+/** vèneto (vèneto)
  * @author Candalua
  */
 $messages['vec'] = array(
@@ -1678,7 +1678,7 @@ $messages['yue'] = array(
 	'newestpages-hideredir' => '摺埋啲跳轉頁',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Hydra
  * @author PhiLiP
  * @author Xiaomingyan
@@ -1697,7 +1697,7 @@ $messages['zh-hans'] = array(
 	'newestpages-hideredir' => '隐藏重定向页面',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author KilluaZaoldyeck
  * @author Mark85296341
  * @author Shinjiman
