@@ -1591,10 +1591,16 @@ $messages['ug-latn'] = array(
 );
 
 /** Ukrainian (українська)
+ * @author A1
  * @author Тест
  */
 $messages['uk'] = array(
+	'newestpages' => 'Нові сторінки',
+	'newestpages-desc' => 'Показує [[Special:NewestPages|останні X сторінок]] доданих у вікі',
 	'newestpages-namespace' => 'Простір назв:',
+	'newestpages-submit' => 'Перейти',
+	'newestpages-showredir' => 'Показати перенаправлення сторінок',
+	'newestpages-hideredir' => 'Приховати перенаправлення сторінок',
 );
 
 /** vèneto (vèneto)
