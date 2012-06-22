@@ -108,8 +108,8 @@ $messages['ar'] = array(
 $messages['arc'] = array(
 	'newestpages-namespace' => 'ܚܩܠܐ:',
 	'newestpages-submit' => 'ܙܠ',
-	'newestpages-showredir' => 'ܚܘܝ ܕ̈ܦܐ ܕܨܘܝܒܐ',
-	'newestpages-hideredir' => 'ܛܫܝ ܕ̈ܦܐ ܕܨܘܝܒܐ',
+	'newestpages-showredir' => 'ܚܘܝ ܦܐܬܬ̈ܐ ܕܨܘܝܒܐ',
+	'newestpages-hideredir' => 'ܛܫܝ ܦܐܬܬ̈ܐ ܕܨܘܝܒܐ',
 );
 
 /** Egyptian Spoken Arabic (مصرى)
