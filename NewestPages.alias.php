@@ -63,7 +63,7 @@ $specialPageAliases['diq'] = array(
 	'NewestPages' => array( 'PeleyêTewrNewey' ),
 );
 
-/** Lower Sorbian (Dolnoserbski) */
+/** Lower Sorbian (dolnoserbski) */
 $specialPageAliases['dsb'] = array(
 	'NewestPages' => array( 'Nejnowše_boki' ),
 );
@@ -93,7 +93,7 @@ $specialPageAliases['frp'] = array(
 	'NewestPages' => array( 'Pâges_les_ples_novèles', 'PâgesLesPlesNovèles' ),
 );
 
-/** Galician (Galego) */
+/** Galician (galego) */
 $specialPageAliases['gl'] = array(
 	'NewestPages' => array( 'Páxinas_máis_novas' ),
 );
@@ -108,7 +108,7 @@ $specialPageAliases['hr'] = array(
 	'NewestPages' => array( 'Najnovije_stranice' ),
 );
 
-/** Upper Sorbian (Hornjoserbsce) */
+/** Upper Sorbian (hornjoserbsce) */
 $specialPageAliases['hsb'] = array(
 	'NewestPages' => array( 'Najnowše_strony' ),
 );
