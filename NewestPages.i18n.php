@@ -68,7 +68,7 @@ $messages['am'] = array(
 	'newestpages-namespace' => 'ክፍለ-ዊኪ፦',
 );
 
-/** Aragonese (Aragonés)
+/** Aragonese (aragonés)
  * @author Juanpabl
  */
 $messages['an'] = array(
@@ -181,7 +181,7 @@ $messages['bcl'] = array(
 	'newestpages-hideredir' => 'Tagôon an mga redirektang páhina',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Red Winged Duck
@@ -294,7 +294,7 @@ $messages['cs'] = array(
 	'newestpages-submit' => 'Jít na',
 );
 
-/** Church Slavic (Словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
+/** Church Slavic (словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */
 $messages['cu'] = array(
@@ -344,7 +344,7 @@ $messages['de'] = array(
 	'newestpages-hideredir' => 'Weiterleitungsseiten ausblenden',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  * @author Nepl1
  */
@@ -518,7 +518,7 @@ $messages['ga'] = array(
 	'newestpages-namespace' => 'Ainmspás:',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Alma
  * @author Toliño
  * @author Xosé
@@ -636,7 +636,7 @@ $messages['hr'] = array(
 	'newestpages-hideredir' => 'Sakrij preusmjerene stranice',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
