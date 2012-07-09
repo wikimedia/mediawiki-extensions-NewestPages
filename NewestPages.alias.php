@@ -285,7 +285,7 @@ $specialPageAliases['th'] = array(
 
 /** Tagalog (Tagalog) */
 $specialPageAliases['tl'] = array(
-	'NewestPages' => array( 'Pinakabagong mga pahina' ),
+	'NewestPages' => array( 'Pinakabagong_mga_pahina' ),
 );
 
 /** Turkish (Türkçe) */
