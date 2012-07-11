@@ -945,7 +945,7 @@ $messages['lv'] = array(
 	'newestpages-hideredir' => 'Paslēpt pāradresācijas',
 );
 
-/** Eastern Mari (Олык Марий)
+/** Eastern Mari (олык марий)
  * @author Сай
  */
 $messages['mhr'] = array(
@@ -1036,7 +1036,7 @@ $messages['mt'] = array(
 	'newestpages-hideredir' => 'Aħbi r-riindirizzi',
 );
 
-/** Erzya (Эрзянь)
+/** Erzya (эрзянь)
  * @author Botuzhaleny-sodamo
  */
 $messages['myv'] = array(
@@ -1061,8 +1061,7 @@ $messages['nah'] = array(
 	'newestpages-hideredir' => 'Tiquintlātīz tlacuepaliztli zāzaniltin',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -1620,7 +1619,7 @@ $messages['vec'] = array(
 	'newestpages-hideredir' => 'Scondi i redirect',
 );
 
-/** Veps (Vepsän kel’)
+/** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
