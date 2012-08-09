@@ -454,11 +454,14 @@ $messages['eu'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Mjbmr
  * @author Vahid
  */
 $messages['fa'] = array(
 	'newestpages' => 'جدیدترین صفحه‌ها',
 	'newestpages-desc' => 'نمایش [[Special:NewestPages|آخرین X صفحهٔ]] افزوده شده به ویکی',
+	'newestpages-namespace' => 'فضای نام:',
+	'newestpages-submit' => 'برو',
 );
 
 /** Finnish (suomi)
@@ -1322,6 +1325,14 @@ $messages['ru'] = array(
 	'newestpages-submit' => 'Выполнить',
 	'newestpages-showredir' => 'Показывать страницы-перенаправления',
 	'newestpages-hideredir' => 'Скрыть страницы-перенаправления',
+);
+
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'newestpages-namespace' => 'නාමඅවකාශය:',
+	'newestpages-submit' => 'යන්න',
 );
 
 /** Slovak (slovenčina)
