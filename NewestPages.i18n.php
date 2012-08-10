@@ -785,12 +785,14 @@ $messages['jv'] = array(
 
 /** Georgian (ქართული)
  * @author BRUTE
+ * @author David1010
  * @author Malafaya
  */
 $messages['ka'] = array(
 	'newestpages' => 'უახლესი გვერდები',
 	'newestpages-namespace' => 'სახელთა სივრცე:',
 	'newestpages-submit' => 'სტატია',
+	'newestpages-showredir' => 'გადამისამართების გვერდების ჩვენება',
 );
 
 /** Khmer (ភាសាខ្មែរ)
