@@ -1333,6 +1333,7 @@ $messages['ru'] = array(
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
+	'newestpages' => 'නවතම පිටු',
 	'newestpages-namespace' => 'නාමඅවකාශය:',
 	'newestpages-submit' => 'යන්න',
 );
