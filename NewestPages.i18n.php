@@ -439,6 +439,7 @@ $messages['et'] = array(
 	'newestpages' => 'Uuemad leheküljed',
 	'newestpages-limitlinks' => 'Näita kuni $1 lehekülge',
 	'newestpages-namespace' => 'Nimeruum:',
+	'newestpages-submit' => 'Mine',
 	'newestpages-showredir' => 'Näita ümbersuunamislehekülgi',
 	'newestpages-hideredir' => 'Peida ümbersuunamisleheküljed',
 );
@@ -791,8 +792,12 @@ $messages['jv'] = array(
 $messages['ka'] = array(
 	'newestpages' => 'უახლესი გვერდები',
 	'newestpages-namespace' => 'სახელთა სივრცე:',
+	'newestpages-none' => 'ჩანაწერები ვერ მოიძებნა.',
+	'newestpages-ns-header' => "'''ეს გვერდი {{PLURAL:$1|უახლესია სახელთა სივრცეში|$1 უახლესია სახელთა სივრცეში}} $2.'''",
+	'newestpages-showing' => '{{PLURAL:$1|უახლესი გვერდის|$1 უახლესი გვერდის}} სია:',
 	'newestpages-submit' => 'სტატია',
 	'newestpages-showredir' => 'გადამისამართების გვერდების ჩვენება',
+	'newestpages-hideredir' => 'გადამისამართებული გვერდების დამალვა',
 );
 
 /** Khmer (ភាសាខ្មែរ)
