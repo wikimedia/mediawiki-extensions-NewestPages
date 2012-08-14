@@ -1315,6 +1315,7 @@ $messages['ro'] = array(
  */
 $messages['roa-tara'] = array(
 	'newestpages-submit' => 'Veje',
+	'newestpages-hideredir' => 'Scunne le pàggene de le redirezionaminde',
 );
 
 /** Russian (русский)
