@@ -446,9 +446,11 @@ $messages['et'] = array(
 
 /** Basque (euskara)
  * @author An13sa
+ * @author පසිඳු කාවින්ද
  */
 $messages['eu'] = array(
 	'newestpages' => 'Orrialde berrienak',
+	'newestpages-namespace' => 'Izen-tartea:',
 	'newestpages-submit' => 'Joan',
 	'newestpages-showredir' => 'Erakutsi birzuzenketa orrialdeak',
 	'newestpages-hideredir' => 'Ezkutatu birzuzenketa orrialdeak',
@@ -1683,6 +1685,13 @@ $messages['vo'] = array(
 	'newestpages-submit' => 'Ledunolöd',
 	'newestpages-showredir' => 'Jonön lüodükömapadis',
 	'newestpages-hideredir' => 'Klänedön lüodükömapadis',
+);
+
+/** Yiddish (ייִדיש)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['yi'] = array(
+	'newestpages-submit' => 'גיין',
 );
 
 /** Cantonese (粵語)
