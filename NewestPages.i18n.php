@@ -1624,6 +1624,15 @@ $messages['uk'] = array(
 	'newestpages-hideredir' => 'Приховати перенаправлення сторінок',
 );
 
+/** Urdu (اردو)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ur'] = array(
+	'newestpages-namespace' => 'نیم سپیس:',
+	'newestpages-none' => 'میں لکھے گئے مراسلے نہیں پائے گئے.',
+	'newestpages-submit' => 'جانا',
+);
+
 /** vèneto (vèneto)
  * @author Candalua
  */
