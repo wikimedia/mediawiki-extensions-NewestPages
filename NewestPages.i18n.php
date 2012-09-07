@@ -344,6 +344,13 @@ $messages['de'] = array(
 	'newestpages-hideredir' => 'Weiterleitungsseiten ausblenden',
 );
 
+/** Zazaki (Zazaki)
+ * @author Mirzali
+ */
+$messages['diq'] = array(
+	'newestpages-submit' => 'Şo',
+);
+
 /** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  * @author Nepl1
