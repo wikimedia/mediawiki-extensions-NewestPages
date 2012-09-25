@@ -198,7 +198,7 @@ $specialPageAliases['mt'] = array(
 	'NewestPages' => array( 'PaġniRiċenti' ),
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬) */
+/** Norwegian Bokmål (norsk (bokmål)‎) */
 $specialPageAliases['nb'] = array(
 	'NewestPages' => array( 'Siste_sider', 'Nyeste_sider' ),
 );
@@ -298,12 +298,12 @@ $specialPageAliases['vec'] = array(
 	'NewestPages' => array( 'PaginePiNove' ),
 );
 
-/** Simplified Chinese (‪中文（简体）‬) */
+/** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'NewestPages' => array( '最新页面' ),
 );
 
-/** Traditional Chinese (‪中文（繁體）‬) */
+/** Traditional Chinese (中文（繁體）‎) */
 $specialPageAliases['zh-hant'] = array(
 	'NewestPages' => array( '最新頁面' ),
 );
