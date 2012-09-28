@@ -764,20 +764,21 @@ $messages['it'] = array(
 
 /** Japanese (日本語)
  * @author Fryed-peach
+ * @author Shirayuki
  * @author 青子守歌
  */
 $messages['ja'] = array(
 	'newestpages' => '新規作成されたページ',
-	'newestpages-desc' => 'ウィキに追加された[[Special:NewestPages|最新のX件のページ]]を表示する',
-	'newestpages-header' => "'''このページにはウィキ内の{{PLURAL:$1|新規ページ|新規ページ$1件}}が載っています。'''",
-	'newestpages-limitlinks' => '$1 件分を表示する',
-	'newestpages-namespace' => '名前空間：',
+	'newestpages-desc' => 'ウィキに追加された[[Special:NewestPages|最新の X 件のページ]]を表示する',
+	'newestpages-header' => "'''このページでは、ウィキ内の{{PLURAL:$1|最新のページを表示|最新の $1 件のページ}}を列挙しています。'''",
+	'newestpages-limitlinks' => '$1 件のページを表示する',
+	'newestpages-namespace' => '名前空間:',
 	'newestpages-none' => '該当するものはありませんでした。',
-	'newestpages-ns-header' => "'''このページには$2名前空間の{{PLURAL:$1|新規ページ|新規ページ$1件}}が載っています。'''",
-	'newestpages-showing' => '{{PLURAL:$1|新規ページ|新規ページ$1件}}一覧:',
+	'newestpages-ns-header' => "'''このページでは、$2名前空間内の{{PLURAL:$1|最新のページを表示|最新の $1 件のページを列挙}}しています。'''",
+	'newestpages-showing' => '{{PLURAL:$1|最新のページ|最新の $1 件のページ}}:',
 	'newestpages-submit' => '表示',
-	'newestpages-showredir' => 'リダイレクトページを表示',
-	'newestpages-hideredir' => 'リダイレクトページを非表示',
+	'newestpages-showredir' => '転送ページを表示',
+	'newestpages-hideredir' => '転送ページを非表示',
 );
 
 /** Javanese (Basa Jawa)
