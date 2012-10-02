@@ -181,7 +181,7 @@ $messages['bcl'] = array(
 	'newestpages-hideredir' => 'Tagôon an mga redirektang páhina',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Red Winged Duck
@@ -589,7 +589,7 @@ $messages['gv'] = array(
 	'newestpages-submit' => 'Gow',
 );
 
-/** Hausa (هَوُسَ) */
+/** Hausa (Hausa) */
 $messages['ha'] = array(
 	'newestpages-namespace' => 'Sararin suna:',
 );
@@ -879,7 +879,7 @@ $messages['ksh'] = array(
 	'newestpages-hideredir' => 'Lohß Ömleidunge fott',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -1081,7 +1081,7 @@ $messages['nah'] = array(
 	'newestpages-hideredir' => 'Tiquintlātīz tlacuepaliztli zāzaniltin',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -1146,7 +1146,7 @@ $messages['nl'] = array(
 	'newestpages-hideredir' => 'Doorverwijzingen verbergen',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Harald Khan
  * @author Jon Harald Søby
  * @author Njardarlogar
@@ -1371,7 +1371,7 @@ $messages['sk'] = array(
 	'newestpages-hideredir' => 'Skryť presmerovacie stránky',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Nikola Smolenski
  * @author Rancher
  * @author Sasa Stefanovic
@@ -1392,7 +1392,7 @@ $messages['sr-ec'] = array(
 	'newestpages-hideredir' => 'Сакриј странице преусмерења',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Liangent
  * @author Michaello
  * @author Sasa Stefanovic
@@ -1729,7 +1729,7 @@ $messages['yue'] = array(
 	'newestpages-hideredir' => '摺埋啲跳轉頁',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Hydra
  * @author PhiLiP
  * @author Xiaomingyan
@@ -1748,7 +1748,7 @@ $messages['zh-hans'] = array(
 	'newestpages-hideredir' => '隐藏重定向页面',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author KilluaZaoldyeck
  * @author Mark85296341
  * @author Shinjiman
