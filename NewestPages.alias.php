@@ -208,7 +208,7 @@ $specialPageAliases['nds'] = array(
 	'NewestPages' => array( 'Neeste Sieden' ),
 );
 
-/** Nedersaksisch (Nedersaksisch) */
+/** Nedersaksies (Nedersaksies) */
 $specialPageAliases['nds-nl'] = array(
 	'NewestPages' => array( 'Niejste_pagina\'s' ),
 );
