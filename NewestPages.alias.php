@@ -165,7 +165,7 @@ $specialPageAliases['ku'] = array(
 
 /** Cornish (kernowek) */
 $specialPageAliases['kw'] = array(
-	'NewestPages' => array( 'FolednowNowyttha' ),
+	'NewestPages' => array( 'FolennowNowyttha' ),
 );
 
 /** Ladino (Ladino) */
