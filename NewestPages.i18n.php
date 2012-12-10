@@ -41,13 +41,6 @@ $messages['qqq'] = array(
 	'newestpages-submit' => '{{Identical|Go}}',
 );
 
-/** Niuean (ko e vagahau Niuē)
- * @author Jose77
- */
-$messages['niu'] = array(
-	'newestpages-submit' => 'Fano',
-);
-
 /** Afrikaans (Afrikaans)
  * @author Naudefj
  * @author SPQRobin
@@ -1128,6 +1121,13 @@ $messages['ne'] = array(
 	'newestpages-hideredir' => 'रिडाइरेक्ट पृष्ठहरू लुकाउ',
 );
 
+/** Niuean (ko e vagahau Niuē)
+ * @author Jose77
+ */
+$messages['niu'] = array(
+	'newestpages-submit' => 'Fano',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  * @author Siebrand
@@ -1766,4 +1766,3 @@ $messages['zh-hant'] = array(
 	'newestpages-showredir' => '顯示重定向頁面',
 	'newestpages-hideredir' => '隱藏重定向頁面',
 );
-
