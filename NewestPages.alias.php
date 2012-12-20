@@ -298,6 +298,11 @@ $specialPageAliases['vec'] = array(
 	'NewestPages' => array( 'PaginePiNove' ),
 );
 
+/** Vietnamese (Tiếng Việt) */
+$specialPageAliases['vi'] = array(
+	'NewestPages' => array( 'Trang_mới_nhất' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'NewestPages' => array( '最新页面' ),
