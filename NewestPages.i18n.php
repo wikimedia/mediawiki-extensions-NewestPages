@@ -1341,6 +1341,7 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'newestpages-namespace' => 'Namespace:',
 	'newestpages-submit' => 'Veje',
 	'newestpages-hideredir' => 'Scunne le pàggene de le redirezionaminde',
 );
