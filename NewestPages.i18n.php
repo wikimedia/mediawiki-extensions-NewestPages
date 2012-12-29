@@ -1369,7 +1369,10 @@ $messages['ru'] = array(
 $messages['si'] = array(
 	'newestpages' => 'නවතම පිටු',
 	'newestpages-namespace' => 'නාමඅවකාශය:',
+	'newestpages-none' => 'ඇතුලත් කිරීම් හමු නොවුණි.',
 	'newestpages-submit' => 'යන්න',
+	'newestpages-showredir' => 'යළියොමු පිටු පෙන්වන්න',
+	'newestpages-hideredir' => 'යළියොමු පිටු සඟවන්න',
 );
 
 /** Slovak (slovenčina)
