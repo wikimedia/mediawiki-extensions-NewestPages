@@ -1368,6 +1368,7 @@ $messages['ru'] = array(
  */
 $messages['si'] = array(
 	'newestpages' => 'නවතම පිටු',
+	'newestpages-limitlinks' => 'පිටු $1 දක්වා පෙන්වන්න',
 	'newestpages-namespace' => 'නාමඅවකාශය:',
 	'newestpages-none' => 'ඇතුලත් කිරීම් හමු නොවුණි.',
 	'newestpages-submit' => 'යන්න',
