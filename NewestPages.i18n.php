@@ -525,11 +525,14 @@ $messages['fr'] = array(
  */
 $messages['frp'] = array(
 	'newestpages' => 'Pâges les ples novèles',
+	'newestpages-desc' => 'Montre les [[Special:NewestPages|dèrriéres X pâges]] apondues u vouiqui',
+	'newestpages-header' => "'''Ceta pâge liste {{PLURAL:$1|la pâge la ples novèla|les $1 pâges les ples novèles}} sur lo vouiqui.'''",
 	'newestpages-limitlinks' => 'Fâre vêre tant qu’a $1 pâges',
 	'newestpages-namespace' => 'Èspâço de noms :',
 	'newestpages-none' => 'Gins d’entrâ trovâ.',
+	'newestpages-ns-header' => "'''Ceta pâge liste {{PLURAL:$1|la pâge la ples novèla|les $1 pâges les ples novèles}} dedens l’èspâço de noms $2.'''",
 	'newestpages-showing' => 'Visualisacion de l{{PLURAL:$1|a pâge la ples novèla|es $1 pâges les ples novèles}} :',
-	'newestpages-submit' => 'Lanciér',
+	'newestpages-submit' => 'Emmodar',
 	'newestpages-showredir' => 'Fâre vêre les pâges de redirèccion',
 	'newestpages-hideredir' => 'Cachiér les pâges de redirèccion',
 );
