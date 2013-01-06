@@ -31,11 +31,12 @@ $messages['en'] = array(
 /** Message documentation (Message documentation)
  * @author Jon Harald Søby
  * @author Purodha
+ * @author Shirayuki
  * @author Siebrand
  * @author The Evil IP address
  */
 $messages['qqq'] = array(
-	'newestpages-desc' => '{{desc}}',
+	'newestpages-desc' => '{{desc|name=Newest Pages|url=http://www.mediawiki.org/wiki/Extension:Newest_Pages}}',
 	'newestpages-limitlinks' => '* $1 is a list like "10 | 20 | 30 | 50 |100 | 150"',
 	'newestpages-namespace' => '{{Identical|Namespace}}',
 	'newestpages-submit' => '{{Identical|Go}}',
