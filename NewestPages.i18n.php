@@ -1357,6 +1357,7 @@ $messages['ro'] = array(
  */
 $messages['roa-tara'] = array(
 	'newestpages-namespace' => 'Namespace:',
+	'newestpages-none' => 'Nisciuna vôsce acchiate.',
 	'newestpages-submit' => 'Veje',
 	'newestpages-hideredir' => 'Scunne le pàggene de le redirezionaminde',
 );
