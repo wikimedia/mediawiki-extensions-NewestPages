@@ -74,7 +74,7 @@ $messages['an'] = array(
  */
 $messages['ang'] = array(
 	'newestpages' => 'Nīwost trametas',
-	'newestpages-showing' => 'Ātellende $1 nīwoste trametas:',
+	'newestpages-showing' => 'Ātellende $1 nīwoste trametas:', # Fuzzy
 	'newestpages-submit' => 'Gā',
 );
 
@@ -146,12 +146,12 @@ $messages['ast'] = array(
  */
 $messages['avk'] = array(
 	'newestpages' => 'Tel lowarzaf bueem',
-	'newestpages-header' => "'''Batu bu va telu $1 lowarzafu bu ke wiki vexalar.'''",
+	'newestpages-header' => "'''Batu bu va telu $1 lowarzafu bu ke wiki vexalar.'''", # Fuzzy
 	'newestpages-limitlinks' => 'Kimara va $1 bu',
 	'newestpages-namespace' => 'Yoltxo :',
 	'newestpages-none' => 'Nedoy trasiks.',
-	'newestpages-ns-header' => "'''Batu bu va telu $1 lowarzafu bu koe $2 yoltxo vexalar.'''",
-	'newestpages-showing' => 'Vexalar va telu $1 lowarzafu bu :',
+	'newestpages-ns-header' => "'''Batu bu va telu $1 lowarzafu bu koe $2 yoltxo vexalar.'''", # Fuzzy
+	'newestpages-showing' => 'Vexalar va telu $1 lowarzafu bu :', # Fuzzy
 	'newestpages-submit' => 'Skú !',
 	'newestpages-showredir' => 'Nedira va graskan bueem',
 	'newestpages-hideredir' => 'Palsera va graskan bueem',
@@ -294,12 +294,14 @@ $messages['ch'] = array(
 	'newestpages-submit' => 'Hånao',
 );
 
-/** Sorani Kurdish (کوردی) */
+/** Sorani Kurdish (کوردی)
+ */
 $messages['ckb'] = array(
 	'newestpages-submit' => 'بڕۆ',
 );
 
-/** Czech (česky) */
+/** Czech (česky)
+ */
 $messages['cs'] = array(
 	'newestpages-namespace' => 'Jmenný prostor:',
 	'newestpages-submit' => 'Jít na',
@@ -603,7 +605,8 @@ $messages['gv'] = array(
 	'newestpages-submit' => 'Gow',
 );
 
-/** Hausa (Hausa) */
+/** Hausa (Hausa)
+ */
 $messages['ha'] = array(
 	'newestpages-namespace' => 'Sararin suna:',
 );
@@ -633,12 +636,12 @@ $messages['he'] = array(
 $messages['hi'] = array(
 	'newestpages' => 'नवीनतम पन्ने',
 	'newestpages-desc' => 'विकिपर बनाये गये [[Special:NewestPages|आखिरी X पन्ने]] दर्शाता हैं',
-	'newestpages-header' => "'''यह पृष्ठ विकिपर बनाये गये आखिरी $1 पन्नोंकी सूची दर्शाता हैं।'''",
+	'newestpages-header' => "'''यह पृष्ठ विकिपर बनाये गये आखिरी $1 पन्नोंकी सूची दर्शाता हैं।'''", # Fuzzy
 	'newestpages-limitlinks' => '$1 तक पन्ने दर्शायें',
 	'newestpages-namespace' => 'नामस्थान:',
 	'newestpages-none' => 'एन्ट्री मिली नहीं।',
-	'newestpages-ns-header' => "'''यह पृष्ठ $2 नामस्थानमें बनायें $1 नवीनतम पन्नोंकी सूची दर्शाता हैं।'''",
-	'newestpages-showing' => '$1 नवीनतम पन्नोंकी सूची:',
+	'newestpages-ns-header' => "'''यह पृष्ठ $2 नामस्थानमें बनायें $1 नवीनतम पन्नोंकी सूची दर्शाता हैं।'''", # Fuzzy
+	'newestpages-showing' => '$1 नवीनतम पन्नोंकी सूची:', # Fuzzy
 	'newestpages-submit' => 'जायें',
 	'newestpages-showredir' => 'अनुप्रेषित पन्ने दर्शायें',
 	'newestpages-hideredir' => 'अनुप्रेषित पन्ने छुपायें',
@@ -748,11 +751,11 @@ $messages['io'] = array(
  */
 $messages['is'] = array(
 	'newestpages' => 'Nýjustu síður',
-	'newestpages-header' => "'''Þessi síða listar $1 nýjustu síðurnar á þessu wiki.'''",
+	'newestpages-header' => "'''Þessi síða listar $1 nýjustu síðurnar á þessu wiki.'''", # Fuzzy
 	'newestpages-limitlinks' => 'Sýna að hámarki $1 síður',
 	'newestpages-namespace' => 'Nafnrými:',
-	'newestpages-ns-header' => "'''Þessi síða listar $1 nýjustu síðurnar í $2 nafnrýminu.'''",
-	'newestpages-showing' => 'Lista $1 nýjustu síðurnar:',
+	'newestpages-ns-header' => "'''Þessi síða listar $1 nýjustu síðurnar í $2 nafnrýminu.'''", # Fuzzy
+	'newestpages-showing' => 'Lista $1 nýjustu síðurnar:', # Fuzzy
 	'newestpages-submit' => 'Áfram',
 	'newestpages-showredir' => 'Sýna tilvísanir',
 	'newestpages-hideredir' => 'Fela tilvísanir',
@@ -955,12 +958,12 @@ $messages['lg'] = array(
 $messages['lt'] = array(
 	'newestpages' => 'Naujausi puslapiai',
 	'newestpages-desc' => 'Rodo [[Special:NewestPages|paskutiniuosius X puslapius]], pridėtus į wiki',
-	'newestpages-header' => "'''Šis puslapis rikiuoja $1 naujausius šios wiki puslapius.'''",
+	'newestpages-header' => "'''Šis puslapis rikiuoja $1 naujausius šios wiki puslapius.'''", # Fuzzy
 	'newestpages-limitlinks' => 'Rodyti iki $1 puslapių',
 	'newestpages-namespace' => 'Vardų sritis:',
 	'newestpages-none' => 'Reikšmių nerasta.',
-	'newestpages-ns-header' => "'''Šis puslapis rikiuoja $1 naujausius puslapius $2 vardų srityje.'''",
-	'newestpages-showing' => 'Rikiuojami $1 naujausi puslapiai:',
+	'newestpages-ns-header' => "'''Šis puslapis rikiuoja $1 naujausius puslapius $2 vardų srityje.'''", # Fuzzy
+	'newestpages-showing' => 'Rikiuojami $1 naujausi puslapiai:', # Fuzzy
 	'newestpages-submit' => 'Eiti',
 	'newestpages-showredir' => 'Rodyti peradresavimų puslapius',
 	'newestpages-hideredir' => 'Slėpti peradresavimų puslapius',
@@ -1046,12 +1049,12 @@ $messages['mn'] = array(
 $messages['mr'] = array(
 	'newestpages' => 'नवीनतम पाने',
 	'newestpages-desc' => 'विकिवर वाढविण्यात आलेली [[Special:NewestPages|शेवटची X पाने]] दर्शवितो',
-	'newestpages-header' => "'''हे पान विकिवर वाढविण्यात आलेल्या शेवटच्या $1 पानांची यादी देते.'''",
+	'newestpages-header' => "'''हे पान विकिवर वाढविण्यात आलेल्या शेवटच्या $1 पानांची यादी देते.'''", # Fuzzy
 	'newestpages-limitlinks' => '$1 पर्यंतची पाने दाखवा',
 	'newestpages-namespace' => 'नामविश्व:',
 	'newestpages-none' => 'नोंदी सापडल्या नाहीत.',
-	'newestpages-ns-header' => "'''हे पान $2 नामविश्वातील $1 नवीनतम पानांची यादी देते.'''",
-	'newestpages-showing' => '$1 नवीनतम पानांची यादी:',
+	'newestpages-ns-header' => "'''हे पान $2 नामविश्वातील $1 नवीनतम पानांची यादी देते.'''", # Fuzzy
+	'newestpages-showing' => '$1 नवीनतम पानांची यादी:', # Fuzzy
 	'newestpages-submit' => 'जा',
 	'newestpages-showredir' => 'पुनर्निर्देशन पाने दाखवा',
 	'newestpages-hideredir' => 'पुनर्निर्देशन पाने लपवा',
@@ -1478,12 +1481,12 @@ $messages['stq'] = array(
 $messages['su'] = array(
 	'newestpages' => 'Kaca-kaca panganyarna',
 	'newestpages-desc' => 'Témbongkeun [[Special:NewestPages|X kaca panungtung]] nu dijieun di wiki',
-	'newestpages-header' => "'''Ieu kaca ngabéréndélkeun $1 kaca panganyarna di wiki.'''",
+	'newestpages-header' => "'''Ieu kaca ngabéréndélkeun $1 kaca panganyarna di wiki.'''", # Fuzzy
 	'newestpages-limitlinks' => 'Témbongkeun nepi ka $1 kaca',
 	'newestpages-namespace' => 'Spasi ngaran:',
 	'newestpages-none' => 'Euweuh éntri nu kapanggih.',
-	'newestpages-ns-header' => "'''Ieu kaca ngabéréndélkeun $1 kaca panganyarna dina ngaran spasi $2.'''",
-	'newestpages-showing' => 'Ngabéréndélkeun $1 kaca panganyarna:',
+	'newestpages-ns-header' => "'''Ieu kaca ngabéréndélkeun $1 kaca panganyarna dina ngaran spasi $2.'''", # Fuzzy
+	'newestpages-showing' => 'Ngabéréndélkeun $1 kaca panganyarna:', # Fuzzy
 	'newestpages-submit' => 'Jung',
 	'newestpages-showredir' => 'Témbongkeun kaca alihan',
 	'newestpages-hideredir' => 'Sumputkeun kaca alihan',
@@ -1558,7 +1561,7 @@ $messages['tet'] = array(
 $messages['tg-cyrl'] = array(
 	'newestpages' => 'Саҳифаҳои навтарин',
 	'newestpages-namespace' => 'Фазоином:',
-	'newestpages-ns-header' => "'''Ин саҳифа $1 навтарин саҳифаҳоро дар фазоиноми $2 феҳрист мекунад.'''",
+	'newestpages-ns-header' => "'''Ин саҳифа $1 навтарин саҳифаҳоро дар фазоиноми $2 феҳрист мекунад.'''", # Fuzzy
 	'newestpages-submit' => 'Бирав',
 	'newestpages-showredir' => 'Намоиши саҳифаҳои масир',
 	'newestpages-hideredir' => 'Пинҳон кардани саҳифаҳои масир',
@@ -1613,12 +1616,12 @@ $messages['tl'] = array(
  */
 $messages['to'] = array(
 	'newestpages' => 'Ngaahi peesi foʻou taha',
-	'newestpages-header' => "'''ʻOku lisi ʻi he pēsí ni ko e ngaahi peesi foʻou ʻe $1 ʻo e ''wiki'' ʻeni.'''",
+	'newestpages-header' => "'''ʻOku lisi ʻi he pēsí ni ko e ngaahi peesi foʻou ʻe $1 ʻo e ''wiki'' ʻeni.'''", # Fuzzy
 	'newestpages-limitlinks' => 'ʻAsi mai ha ngaahi peesi aʻu ki he $1',
 	'newestpages-namespace' => 'Vā hingoa:',
 	'newestpages-none' => 'Naʻe ʻikai ʻilo ha lēkoti',
-	'newestpages-ns-header' => "'''ʻOku lisi ʻi he pēsí ni ko e ngaahi peesi foʻou ʻe $1 ʻi he vā hingoa $2.'''",
-	'newestpages-showing' => 'ʻOku lisi ha peesi foʻou taha ʻe $1:',
+	'newestpages-ns-header' => "'''ʻOku lisi ʻi he pēsí ni ko e ngaahi peesi foʻou ʻe $1 ʻi he vā hingoa $2.'''", # Fuzzy
+	'newestpages-showing' => 'ʻOku lisi ha peesi foʻou taha ʻe $1:', # Fuzzy
 	'newestpages-submit' => 'Fai ā',
 	'newestpages-showredir' => 'ʻAsi ha ngaahi kupu fakaʻuhingakehe',
 	'newestpages-hideredir' => 'Toi ha ngaahi kupu fakaʻuhingakehe',
@@ -1759,12 +1762,12 @@ $messages['yi'] = array(
 $messages['yue'] = array(
 	'newestpages' => '新頁',
 	'newestpages-desc' => '顯示[[Special:NewestPages|最近X版]]到個wiki度',
-	'newestpages-header' => "'''呢度列舉成個維基入面最新 $1 頁。'''",
+	'newestpages-header' => "'''呢度列舉成個維基入面最新 $1 頁。'''", # Fuzzy
 	'newestpages-limitlinks' => '攤開頂龍 $1 版',
 	'newestpages-namespace' => '空間名:',
 	'newestpages-none' => '乜都揾唔到。',
-	'newestpages-ns-header' => "'''呢度列舉$2 空間名裏面最新 $1 篇文。'''",
-	'newestpages-showing' => '攤開最新$1 篇文：',
+	'newestpages-ns-header' => "'''呢度列舉$2 空間名裏面最新 $1 篇文。'''", # Fuzzy
+	'newestpages-showing' => '攤開最新$1 篇文：', # Fuzzy
 	'newestpages-submit' => '去',
 	'newestpages-showredir' => '攤開啲跳轉頁',
 	'newestpages-hideredir' => '摺埋啲跳轉頁',
