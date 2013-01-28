@@ -208,7 +208,7 @@ $specialPageAliases['nds'] = array(
 	'NewestPages' => array( 'Neeste Sieden' ),
 );
 
-/** Nedersaksies (Nedersaksies) */
+/** Low Saxon (Netherlands) (Nedersaksies) */
 $specialPageAliases['nds-nl'] = array(
 	'NewestPages' => array( 'Niejste_pagina\'s' ),
 );
