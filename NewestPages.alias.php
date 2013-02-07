@@ -198,7 +198,7 @@ $specialPageAliases['mt'] = array(
 	'NewestPages' => array( 'PaġniRiċenti' ),
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎) */
+/** Norwegian Bokmål (norsk bokmål) */
 $specialPageAliases['nb'] = array(
 	'NewestPages' => array( 'Siste_sider', 'Nyeste_sider' ),
 );
