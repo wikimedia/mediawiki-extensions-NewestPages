@@ -398,12 +398,13 @@ $messages['ee'] = array(
 /** Greek (Ελληνικά)
  * @author Consta
  * @author Crazymadlover
+ * @author Glavkos
  * @author ZaDiak
  */
 $messages['el'] = array(
 	'newestpages' => 'Νεώτερες σελίδες',
 	'newestpages-limitlinks' => 'Εμφάνιση μέχρι και $1 σελίδες',
-	'newestpages-namespace' => 'Περιοχή ονομάτων:',
+	'newestpages-namespace' => 'Ονοματοχώρος:',
 	'newestpages-none' => 'Δεν βρέθηκαν καθόλου καταχωρήσεις.',
 	'newestpages-showing' => 'Καταγραφή {{PLURAL:$1|νεότερης σελίδας|$1 νεότερων σελίδων}}:',
 	'newestpages-submit' => 'Πηγαίνετε',
