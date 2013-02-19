@@ -748,15 +748,18 @@ $messages['io'] = array(
 );
 
 /** Icelandic (íslenska)
+ * @author Bjarki S
  * @author S.Örvarr.S
  */
 $messages['is'] = array(
 	'newestpages' => 'Nýjustu síður',
-	'newestpages-header' => "'''Þessi síða listar $1 nýjustu síðurnar á þessu wiki.'''", # Fuzzy
+	'newestpages-desc' => 'Sýnir [[Special:NewestPages|síðustu X síðurnar]] sem bætt var við þennan wiki',
+	'newestpages-header' => "'''Þessi síða listar {{PLURAL:$1|nýjustu síðuna|$1 nýjustu síðurnar}} á þessu wiki.'''",
 	'newestpages-limitlinks' => 'Sýna að hámarki $1 síður',
 	'newestpages-namespace' => 'Nafnrými:',
-	'newestpages-ns-header' => "'''Þessi síða listar $1 nýjustu síðurnar í $2 nafnrýminu.'''", # Fuzzy
-	'newestpages-showing' => 'Lista $1 nýjustu síðurnar:', # Fuzzy
+	'newestpages-none' => 'Engin færsla fannst.',
+	'newestpages-ns-header' => "'''Þessi síða listar {{PLURAL:$1|nýjustu síðuna|$1 nýjustu síðurnar}} í $2 nafnarýminu.'''",
+	'newestpages-showing' => 'Lista {{PLURAL:$1|nýjustu síðuna|$1 nýjustu síðurnar}}:',
 	'newestpages-submit' => 'Áfram',
 	'newestpages-showredir' => 'Sýna tilvísanir',
 	'newestpages-hideredir' => 'Fela tilvísanir',
