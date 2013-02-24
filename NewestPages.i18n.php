@@ -1667,14 +1667,18 @@ $messages['ug-latn'] = array(
 /** Ukrainian (українська)
  * @author A1
  * @author Steve.rusyn
+ * @author Ата
  * @author Тест
  */
 $messages['uk'] = array(
 	'newestpages' => 'Нові сторінки',
 	'newestpages-desc' => 'Показує [[Special:NewestPages|останні X сторінок]] доданих у вікі',
+	'newestpages-header' => "'''На цій сторінці показується {{PLURAL:$1|найновіша сторінка|список із $1 найновіших сторінок}} у вікі.'''",
 	'newestpages-limitlinks' => 'Показати до $1 сторінок',
 	'newestpages-namespace' => 'Простір назв:',
 	'newestpages-none' => 'Записів не знайдено.',
+	'newestpages-ns-header' => "'''На цій сторінці показується {{PLURAL:$1|найновіша сторінка|список із $1 найновіших сторінок}} у просторі $2.'''",
+	'newestpages-showing' => '{{PLURAL:$1|Найновіша сторінка|Список із $1 найновіших сторінок}}:',
 	'newestpages-submit' => 'Перейти',
 	'newestpages-showredir' => 'Показати перенаправлення сторінок',
 	'newestpages-hideredir' => 'Приховати перенаправлення сторінок',
