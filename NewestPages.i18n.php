@@ -1722,10 +1722,11 @@ $messages['vep'] = array(
 );
 
 /** Vietnamese (Tiếng Việt)
+ * @author Minh Nguyen
  * @author Vinhtantran
  */
 $messages['vi'] = array(
-	'newestpages' => 'Các trang mới nhất',
+	'newestpages' => 'Trang mới nhất',
 	'newestpages-desc' => 'Hiển thị [[Special:NewestPages|X trang cuối cùng]] được thêm vào wiki',
 	'newestpages-header' => "'''Trang này liệt kê {{PLURAL:$1|trang mới nhất|$1 trang mới nhất}} trên wiki.'''",
 	'newestpages-limitlinks' => 'Hiển thị tối đa $1 trang',
