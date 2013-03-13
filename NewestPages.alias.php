@@ -103,6 +103,11 @@ $specialPageAliases['gsw'] = array(
 	'NewestPages' => array( 'Neijeschti_Syte' ),
 );
 
+/** Hebrew (עברית) */
+$specialPageAliases['he'] = array(
+	'NewestPages' => array( 'דפים_חדשים_ביותר' ),
+);
+
 /** Croatian (hrvatski) */
 $specialPageAliases['hr'] = array(
 	'NewestPages' => array( 'Najnovije_stranice' ),
