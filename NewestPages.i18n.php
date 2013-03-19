@@ -37,8 +37,19 @@ $messages['en'] = array(
  */
 $messages['qqq'] = array(
 	'newestpages-desc' => '{{desc|name=Newest Pages|url=http://www.mediawiki.org/wiki/Extension:Newest_Pages}}',
+	'newestpages-header' => 'Parameters
+* $1 - limit of number of pages (value of <code>$wgNewestPagesLimit</code>)
+See also:
+* {{msg-mw|Newestpages-ns-header}}',
 	'newestpages-limitlinks' => '* $1 is a list like "10 | 20 | 30 | 50 |100 | 150"',
 	'newestpages-namespace' => '{{Identical|Namespace}}',
+	'newestpages-ns-header' => 'Parameters
+* $1 - limit of number of pages (value of <code>$wgNewestPagesLimit</code>)
+* $2 - namespace name
+See also:
+* {{msg-mw|Newestpages-header}}',
+	'newestpages-showing' => 'This message is followed by the list of newest pages. Parameters:
+* $1 - number of pages',
 	'newestpages-submit' => '{{Identical|Go}}',
 );
 
