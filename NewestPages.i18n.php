@@ -36,6 +36,7 @@ $messages['en'] = array(
  * @author The Evil IP address
  */
 $messages['qqq'] = array(
+	'newestpages' => '{{doc-special|NewestPages|unlisted=1}}',
 	'newestpages-desc' => '{{desc|name=Newest Pages|url=http://www.mediawiki.org/wiki/Extension:Newest_Pages}}',
 	'newestpages-header' => 'Parameters
 * $1 - limit of number of pages (value of <code>$wgNewestPagesLimit</code>)
@@ -43,6 +44,7 @@ See also:
 * {{msg-mw|Newestpages-ns-header}}',
 	'newestpages-limitlinks' => '* $1 is a list like "10 | 20 | 30 | 50 |100 | 150"',
 	'newestpages-namespace' => '{{Identical|Namespace}}',
+	'newestpages-none' => 'Used if the query result is empty.',
 	'newestpages-ns-header' => 'Parameters
 * $1 - limit of number of pages (value of <code>$wgNewestPagesLimit</code>)
 * $2 - namespace name
@@ -51,6 +53,14 @@ See also:
 	'newestpages-showing' => 'This message is followed by the list of newest pages. Parameters:
 * $1 - number of pages',
 	'newestpages-submit' => '{{Identical|Go}}',
+	'newestpages-showredir' => 'Used as link text.
+
+See also:
+* {{msg-mw|Newestpages-hideredir}}',
+	'newestpages-hideredir' => 'Used as link text.
+
+See also:
+* {{msg-mw|Newestpages-showredir}}',
 );
 
 /** Afrikaans (Afrikaans)
