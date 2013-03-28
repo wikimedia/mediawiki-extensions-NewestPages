@@ -1384,6 +1384,7 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'newestpages' => 'Pàggene cchiù nuève',
 	'newestpages-namespace' => 'Namespace:',
 	'newestpages-none' => 'Nisciuna vôsce acchiate.',
 	'newestpages-submit' => 'Veje',
