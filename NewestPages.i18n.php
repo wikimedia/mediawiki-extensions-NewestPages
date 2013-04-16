@@ -1385,6 +1385,7 @@ $messages['ro'] = array(
  */
 $messages['roa-tara'] = array(
 	'newestpages' => 'Pàggene cchiù nuève',
+	'newestpages-limitlinks' => "Fà vedè 'nzigne a $1 pàggene",
 	'newestpages-namespace' => 'Namespace:',
 	'newestpages-none' => 'Nisciuna vôsce acchiate.',
 	'newestpages-submit' => 'Veje',
