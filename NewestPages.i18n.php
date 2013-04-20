@@ -382,6 +382,7 @@ $messages['de'] = array(
  * @author Mirzali
  */
 $messages['diq'] = array(
+	'newestpages-namespace' => 'Cayê namey:',
 	'newestpages-submit' => 'Şo',
 );
 
