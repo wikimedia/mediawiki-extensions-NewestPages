@@ -1026,6 +1026,13 @@ $messages['mhr'] = array(
 	'newestpages-namespace' => 'Лӱм-влакын кумдыкышт:',
 );
 
+/** Minangkabau (Baso Minangkabau)
+ * @author Iwan Novirion
+ */
+$messages['min'] = array(
+	'newestpages-submit' => 'Tuju',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
