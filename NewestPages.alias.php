@@ -313,6 +313,11 @@ $specialPageAliases['vi'] = array(
 	'NewestPages' => array( 'Trang_mới_nhất' ),
 );
 
+/** Yiddish (ייִדיש) */
+$specialPageAliases['yi'] = array(
+	'NewestPages' => array( 'נייעסטע_בלעטער' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'NewestPages' => array( '最新页面' ),

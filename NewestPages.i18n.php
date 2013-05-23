@@ -308,6 +308,13 @@ $messages['ca'] = array(
 	'newestpages-submit' => 'Vés-hi',
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'newestpages' => 'Керла агӀонаш',
+);
+
 /** Chamorro (Chamoru)
  * @author Jatrobat
  */
