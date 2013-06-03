@@ -1149,7 +1149,7 @@ $messages['nah'] = array(
 	'newestpages-hideredir' => 'Tiquintlātīz tlacuepaliztli zāzaniltin',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -1221,7 +1221,7 @@ $messages['nl'] = array(
 	'newestpages-hideredir' => 'Doorverwijzingen verbergen',
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  * @author Harald Khan
  * @author Jon Harald Søby
  * @author Njardarlogar
@@ -1264,7 +1264,7 @@ $messages['oc'] = array(
 	'newestpages-hideredir' => 'Amagar las paginas de redireccion.',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Psubhashish
  */
 $messages['or'] = array(
