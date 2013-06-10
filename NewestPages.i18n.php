@@ -904,7 +904,7 @@ $messages['ko'] = array(
 	'newestpages-none' => '항목을 찾을 수 없습니다',
 	'newestpages-ns-header' => "'''이 문서는 $2 이름공간에서 {{PLURAL:$1|최근 문서 $1개}}를 나타냅니다.'''",
 	'newestpages-showing' => '{{PLURAL:$1|최근 문서|최근 문서 $1}} 나타내기:',
-	'newestpages-submit' => '가기',
+	'newestpages-submit' => '보기',
 	'newestpages-showredir' => '넘겨주기 문서 보기',
 	'newestpages-hideredir' => '넘겨주기 문서 숨기기',
 );
