@@ -91,12 +91,13 @@ $messages['an'] = array(
 );
 
 /** Old English (Ænglisc)
+ * @author Gott wisst
  * @author Wōdenhelm
  */
 $messages['ang'] = array(
-	'newestpages' => 'Nīwost trametas',
+	'newestpages' => 'Nīwoste trametas',
 	'newestpages-showing' => 'Ātellende $1 nīwoste trametas:', # Fuzzy
-	'newestpages-submit' => 'Gā',
+	'newestpages-submit' => 'Gān',
 );
 
 /** Arabic (العربية)
