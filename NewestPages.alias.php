@@ -60,7 +60,7 @@ $specialPageAliases['de'] = array(
 
 /** Zazaki (Zazaki) */
 $specialPageAliases['diq'] = array(
-	'NewestPages' => array( 'PeleyêTewrNewey' ),
+	'NewestPages' => array( 'PeréTewrNewey' ),
 );
 
 /** Lower Sorbian (dolnoserbski) */
