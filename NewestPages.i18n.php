@@ -861,6 +861,23 @@ $messages['ka'] = array(
 	'newestpages-hideredir' => 'გადამისამართებული გვერდების დამალვა',
 );
 
+/** Kazakh (Cyrillic script) (қазақша (кирил)‎)
+ * @author Arystanbek
+ */
+$messages['kk-cyrl'] = array(
+	'newestpages' => 'Ең жаңа беттер',
+	'newestpages-desc' => 'Уикиге қосылған [[Special:NewestPages|соңғы X беттерді]] көрсету',
+	'newestpages-header' => "'''Бұл бет уикидегі {{PLURAL:$1|ең жаңа|$1 ең жаңа беттер}} тізімі.'''",
+	'newestpages-limitlinks' => '$1 бетке дейін көрсету',
+	'newestpages-namespace' => 'Есім кеңістігі:',
+	'newestpages-none' => 'Жазбалар табылмады.',
+	'newestpages-ns-header' => "'''Бұл бет $2 есім кеңістігіндегі {{PLURAL:$1|ең жаңа бет|$1 ең жаңа беттер}} тізімі.'''",
+	'newestpages-showing' => '{{PLURAL:$1|ең жаңа бет|$1 ең жаңа беттер}} тізімделген :',
+	'newestpages-submit' => 'Өту',
+	'newestpages-showredir' => 'Айдатқыш беттерді көрсету',
+	'newestpages-hideredir' => 'Айдатқыш беттерді жасыру',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author Chhorran
  * @author Lovekhmer
