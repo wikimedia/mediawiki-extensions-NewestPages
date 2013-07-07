@@ -220,7 +220,7 @@ $specialPageAliases['nds'] = array(
 
 /** Low Saxon (Netherlands) (Nedersaksies) */
 $specialPageAliases['nds-nl'] = array(
-	'NewestPages' => array( 'Niejste_pagina\'s' ),
+	'NewestPages' => array( 'Niejste_ziejen' ),
 );
 
 /** Dutch (Nederlands) */
