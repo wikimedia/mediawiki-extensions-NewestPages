@@ -314,6 +314,7 @@ $messages['ca'] = array(
  */
 $messages['ce'] = array(
 	'newestpages' => 'Керла агӀонаш',
+	'newestpages-submit' => 'Кхочушдé',
 );
 
 /** Chamorro (Chamoru)
