@@ -1364,6 +1364,7 @@ $messages['ps'] = array(
 
 /** Portuguese (português)
  * @author Hamilton Abreu
+ * @author Luckas
  * @author Lugusto
  * @author Waldir
  */
@@ -1377,8 +1378,8 @@ $messages['pt'] = array(
 	'newestpages-ns-header' => "'''Esta página lista {{PLURAL:$1|a página mais recente|as $1 páginas mais recentes}} do espaço nominal $2.'''",
 	'newestpages-showing' => 'A listar {{PLURAL:$1|a página mais recente|as $1 páginas mais recentes}}:',
 	'newestpages-submit' => 'Ir',
-	'newestpages-showredir' => 'Mostrar redireccionamentos',
-	'newestpages-hideredir' => 'Ocultar redireccionamentos',
+	'newestpages-showredir' => 'Mostrar páginas de redirecionamento',
+	'newestpages-hideredir' => 'Ocultar páginas de redirecionamento',
 );
 
 /** Brazilian Portuguese (português do Brasil)
