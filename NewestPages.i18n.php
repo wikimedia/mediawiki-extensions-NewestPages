@@ -537,6 +537,18 @@ $messages['fi'] = array(
 	'newestpages-hideredir' => 'Piilota ohjaukset',
 );
 
+/** Faroese (føroyskt)
+ * @author EileenSanda
+ */
+$messages['fo'] = array(
+	'newestpages' => 'Nýggjastu síður',
+	'newestpages-desc' => 'Vísir tær [[Special:NewestPages|seinastu X síðurnar]] sum vóru lagdar til wikiina',
+	'newestpages-header' => "'''Henda síðan hevur yvirlit yvir {{PLURAL:$1|nýggjastu síðu|$1 nýggjastu síður}} á wikiini.'''",
+	'newestpages-limitlinks' => 'Vís upp til $1 síður',
+	'newestpages-namespace' => 'Navnarúm:',
+	'newestpages-submit' => 'Far',
+);
+
 /** French (français)
  * @author Grondin
  * @author Urhixidur
