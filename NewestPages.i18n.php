@@ -42,7 +42,8 @@ $messages['qqq'] = array(
 * $1 - limit of number of pages (value of <code>$wgNewestPagesLimit</code>)
 See also:
 * {{msg-mw|Newestpages-ns-header}}',
-	'newestpages-limitlinks' => '* $1 is a list like "10 | 20 | 30 | 50 |100 | 150"',
+	'newestpages-limitlinks' => 'Parameters:
+* $1 - a list of links (pipe-separated), like "10 | 20 | 30 | 50 | 100 | 150"',
 	'newestpages-namespace' => '{{Identical|Namespace}}',
 	'newestpages-none' => 'Used if the query result is empty.',
 	'newestpages-ns-header' => 'Parameters
