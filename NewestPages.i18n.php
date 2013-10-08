@@ -1753,6 +1753,7 @@ $messages['ug-latn'] = array(
 /** Ukrainian (українська)
  * @author A1
  * @author Steve.rusyn
+ * @author SteveR
  * @author Ата
  * @author Тест
  */
