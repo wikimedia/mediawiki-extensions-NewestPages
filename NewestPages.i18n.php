@@ -1117,6 +1117,7 @@ $messages['mn'] = array(
 
 /** Marathi (मराठी)
  * @author Kaustubh
+ * @author V.narsikar
  */
 $messages['mr'] = array(
 	'newestpages' => 'नवीनतम पाने',
@@ -1124,7 +1125,7 @@ $messages['mr'] = array(
 	'newestpages-header' => "'''हे पान विकिवर वाढविण्यात आलेल्या शेवटच्या $1 पानांची यादी देते.'''", # Fuzzy
 	'newestpages-limitlinks' => '$1 पर्यंतची पाने दाखवा',
 	'newestpages-namespace' => 'नामविश्व:',
-	'newestpages-none' => 'नोंदी सापडल्या नाहीत.',
+	'newestpages-none' => 'प्रविष्टी सापडल्या नाहीत.',
 	'newestpages-ns-header' => "'''हे पान $2 नामविश्वातील $1 नवीनतम पानांची यादी देते.'''", # Fuzzy
 	'newestpages-showing' => '$1 नवीनतम पानांची यादी:', # Fuzzy
 	'newestpages-submit' => 'जा',
