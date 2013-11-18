@@ -389,10 +389,11 @@ $messages['de'] = array(
 );
 
 /** Zazaki (Zazaki)
+ * @author Marmase
  * @author Mirzali
  */
 $messages['diq'] = array(
-	'newestpages-namespace' => 'Cayê namey:',
+	'newestpages-namespace' => 'Heruna naman:',
 	'newestpages-submit' => 'Şo',
 );
 
