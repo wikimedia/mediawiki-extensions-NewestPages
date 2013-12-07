@@ -331,14 +331,14 @@ $messages['ckb'] = array(
 	'newestpages-submit' => 'بڕۆ',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  */
 $messages['cs'] = array(
 	'newestpages-namespace' => 'Jmenný prostor:',
 	'newestpages-submit' => 'Jít na',
 );
 
-/** Church Slavic (словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
+/** Church Slavic (словѣньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */
 $messages['cu'] = array(
