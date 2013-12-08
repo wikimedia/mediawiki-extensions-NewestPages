@@ -315,6 +315,7 @@ $messages['ca'] = array(
  */
 $messages['ce'] = array(
 	'newestpages' => 'Керла агӀонаш',
+	'newestpages-none' => 'ДӀаяздарш цакарий.',
 	'newestpages-submit' => 'Кхочушдé',
 );
 
