@@ -79,6 +79,11 @@ $specialPageAliases['eo'] = array(
 	'NewestPages' => array( 'Plej_novaj_paĝoj' ),
 );
 
+/** Spanish (español) */
+$specialPageAliases['es'] = array(
+	'NewestPages' => array( 'Páginas_más_nuevas' ),
+);
+
 /** Persian (فارسی) */
 $specialPageAliases['fa'] = array(
 	'NewestPages' => array( 'تازه‌ترین_صفحه‌ها' ),
