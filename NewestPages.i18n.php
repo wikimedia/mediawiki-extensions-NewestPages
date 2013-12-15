@@ -364,10 +364,21 @@ $messages['cy'] = array(
 );
 
 /** Danish (dansk)
+ * @author Christian List
  * @author Jon Harald Søby
  */
 $messages['da'] = array(
+	'newestpages' => 'Nyeste sider',
+	'newestpages-desc' => 'Viser de [[Special:NewestPages|seneste X sider]] tilføjet til wikien',
+	'newestpages-header' => "'''Denne side viser {{PLURAL:$1|den nyeste side|de $1 nyeste sider}} på wikien.'''",
+	'newestpages-limitlinks' => 'Vis op til $1 sider',
 	'newestpages-namespace' => 'Navnerum:',
+	'newestpages-none' => 'Der blev ikke fundet nogen.',
+	'newestpages-ns-header' => "'''Denne side viser {{PLURAL:$1|den nyeste side|de $1 nyeste sider}} i $2 navnerummet.'''",
+	'newestpages-showing' => 'Liste over {{PLURAL:$1|den nyeste side|de $1 nyeste sider}}:',
+	'newestpages-submit' => 'Vis',
+	'newestpages-showredir' => 'Vis omdirigeringssider',
+	'newestpages-hideredir' => 'Skjul omdirigeringssider',
 );
 
 /** German (Deutsch)
