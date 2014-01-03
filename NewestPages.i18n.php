@@ -1475,12 +1475,12 @@ $messages['roa-tara'] = array(
 $messages['ru'] = array(
 	'newestpages' => 'Новые страницы',
 	'newestpages-desc' => 'Показывает [[Special:NewestPages|последние X страниц]] добавленных в вики',
-	'newestpages-header' => "'''Эта страница {{PLURAL:$1|является новейшей|входит в список $1 новейших страниц}} этой вики.'''",
+	'newestpages-header' => "'''Эта страница {{PLURAL:$1|1=является новейшей|входит в список $1 новейших страниц}} этой вики.'''", # Fuzzy
 	'newestpages-limitlinks' => 'Показывать до $1 страниц',
 	'newestpages-namespace' => 'Пространство имён:',
 	'newestpages-none' => 'Не найдено записей.',
-	'newestpages-ns-header' => "'''Эта страница {{PLURAL:$1|является новейшей в пространстве имён|входит в список $1 новейших страниц пространства имён}} $2.'''",
-	'newestpages-showing' => 'Список {{PLURAL:$1|$1 новейшей страницы|$1 новейших страниц|$1 новейших страниц}}:',
+	'newestpages-ns-header' => "'''Эта страница {{PLURAL:$1|1=является новейшей в пространстве имён|входит в список $1 новейших страниц пространства имён}} $2.'''", # Fuzzy
+	'newestpages-showing' => 'Список {{PLURAL:$1|$1 новейшей страницы|$1 новейших страниц|$1 новейших страниц}}:', # Fuzzy
 	'newestpages-submit' => 'Выполнить',
 	'newestpages-showredir' => 'Показывать страницы-перенаправления',
 	'newestpages-hideredir' => 'Скрыть страницы-перенаправления',
@@ -1526,12 +1526,12 @@ $messages['sk'] = array(
 $messages['sr-ec'] = array(
 	'newestpages' => 'Најновије странице',
 	'newestpages-desc' => 'Показује [[Special:NewestPages|последњих X страница]] додатих викију',
-	'newestpages-header' => "'''Ово је списак {{PLURAL:$1|са најновијом страном|$1 најновијих страна}} на овој Вики.'''",
+	'newestpages-header' => "'''Ово је списак {{PLURAL:$1|1=са најновијом страном|$1 најновијих страна}} на овој Вики.'''", # Fuzzy
 	'newestpages-limitlinks' => 'Прикажи $1 страница',
 	'newestpages-namespace' => 'Именски простор:',
 	'newestpages-none' => 'Није ништа пронађено.',
-	'newestpages-ns-header' => "'''Ово је списак {{PLURAL:$1|са најновијом страном|$1 најновијих страна}} на у именском простору $2.'''",
-	'newestpages-showing' => 'Списак {{PLURAL:$1|најновије стране|$1 најновијих страна}}:',
+	'newestpages-ns-header' => "'''Ово је списак {{PLURAL:$1|1=са најновијом страном|$1 најновијих страна}} на у именском простору $2.'''", # Fuzzy
+	'newestpages-showing' => 'Списак {{PLURAL:$1|1=најновије стране|$1 најновијих страна}}:', # Fuzzy
 	'newestpages-submit' => 'Иди',
 	'newestpages-showredir' => 'Прикажи странице преусмерења',
 	'newestpages-hideredir' => 'Сакриј странице преусмерења',
@@ -1545,12 +1545,12 @@ $messages['sr-ec'] = array(
 $messages['sr-el'] = array(
 	'newestpages' => 'Najnovije stranice',
 	'newestpages-desc' => 'Pokazuje [[Special:NewestPages|zadnjih X članaka]] dodatih Vikiju',
-	'newestpages-header' => "'''Ovo je spisak {{PLURAL:$1|sa najnovijom stranom|$1 najnovijih strana}} na ovoj Viki.'''",
+	'newestpages-header' => "'''Ovo je spisak {{PLURAL:$1|1=sa najnovijom stranom|$1 najnovijih strana}} na ovoj Viki.'''", # Fuzzy
 	'newestpages-limitlinks' => 'Prikaži $1 stranica',
 	'newestpages-namespace' => 'Imenski prostor:',
 	'newestpages-none' => 'Nije ništa pronađeno.',
-	'newestpages-ns-header' => "'''Ovo je spisak {{PLURAL:$1|sa najnovijom stranom|$1 najnovijih strana}} na u imenskom prostoru $2.'''",
-	'newestpages-showing' => 'Spisak {{PLURAL:$1|najnovije strane|$1 najnovijih strana}}:',
+	'newestpages-ns-header' => "'''Ovo je spisak {{PLURAL:$1|1=sa najnovijom stranom|$1 najnovijih strana}} na u imenskom prostoru $2.'''", # Fuzzy
+	'newestpages-showing' => 'Spisak {{PLURAL:$1|1=najnovije strane|$1 najnovijih strana}}:', # Fuzzy
 	'newestpages-submit' => 'Idi',
 	'newestpages-showredir' => 'Prikaži stranice preusmerenja',
 	'newestpages-hideredir' => 'Sakrij stranice preusmerenja',
@@ -1766,6 +1766,7 @@ $messages['ug-latn'] = array(
 
 /** Ukrainian (українська)
  * @author A1
+ * @author Andriykopanytsia
  * @author Steve.rusyn
  * @author SteveR
  * @author Ата
@@ -1774,12 +1775,12 @@ $messages['ug-latn'] = array(
 $messages['uk'] = array(
 	'newestpages' => 'Нові сторінки',
 	'newestpages-desc' => 'Показує [[Special:NewestPages|останні X сторінок]] доданих у вікі',
-	'newestpages-header' => "'''На цій сторінці показується {{PLURAL:$1|найновіша сторінка|список із $1 найновіших сторінок}} у вікі.'''",
+	'newestpages-header' => "'''На цій сторінці показується {{PLURAL:$1|1=найновіша сторінка|список із $1 найновіших сторінок}} у вікі.'''",
 	'newestpages-limitlinks' => 'Показати до $1 сторінок',
 	'newestpages-namespace' => 'Простір назв:',
 	'newestpages-none' => 'Записів не знайдено.',
-	'newestpages-ns-header' => "'''На цій сторінці показується {{PLURAL:$1|найновіша сторінка|список із $1 найновіших сторінок}} у просторі $2.'''",
-	'newestpages-showing' => '{{PLURAL:$1|Найновіша сторінка|Список із $1 найновіших сторінок}}:',
+	'newestpages-ns-header' => "'''На цій сторінці показується {{PLURAL:$1|1=найновіша сторінка|список із $1 найновіших сторінок}} у просторі $2.'''",
+	'newestpages-showing' => '{{PLURAL:$1|1=Найновіша сторінка|Список із $1 найновіших сторінок}}:',
 	'newestpages-submit' => 'Перейти',
 	'newestpages-showredir' => 'Показати перенаправлення сторінок',
 	'newestpages-hideredir' => 'Приховати перенаправлення сторінок',
