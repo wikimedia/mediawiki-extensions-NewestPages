@@ -436,7 +436,7 @@ $messages['ee'] = array(
 	'newestpages-header' => "'''Axa sia fia {{PLURAL:$1|axa yeyeawu|axa $1 yeyeawowu}} le wiki la dzi'''",
 	'newestpages-limitlinks' => 'Fia axawo ƒe xexlẽme vaseɖe $1',
 	'newestpages-none' => 'Womekpɔ nuŋɔ̃ŋlɔ̃wo aɖeke o.',
-	'newestpages-showing' => 'Wofia {{PLURAL: $1|axa yeyetɔwu|axa $1 yeyewutɔwo}}:',
+	'newestpages-showing' => 'Wofia {{PLURAL:$1|axa yeyetɔwu|axa $1 yeyewutɔwo}}:',
 	'newestpages-submit' => 'Yi',
 );
 
@@ -1012,7 +1012,7 @@ $messages['la'] = array(
 $messages['lb'] = array(
 	'newestpages' => 'Neiste Säiten',
 	'newestpages-desc' => 'Weist déi [[Special:NewestPages|läscht X Säiten]] déi op enger Wiki opgemaach goufen',
-	'newestpages-header' => "'''Op dëser Säit {{Plural:$1|steet déi neiste Säit|stinn déi $1 neiste Säite}} vun dëser Wiki.'''",
+	'newestpages-header' => "'''Op dëser Säit {{PLURAL:$1|steet déi neiste Säit|stinn déi $1 neiste Säite}} vun dëser Wiki.'''",
 	'newestpages-limitlinks' => 'Weis bis zu $1 Säiten',
 	'newestpages-namespace' => 'Nummraum:',
 	'newestpages-none' => 'Näischt fonnt.',
