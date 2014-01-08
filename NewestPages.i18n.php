@@ -981,8 +981,8 @@ $messages['ksh'] = array(
 	'newestpages-ns-header' => "'''Di Sigg he list {{PLURAL:de neuste Sigg|de $1 neuste Sigge|kein neu Sigge}} em Appachtemang $2 op.'''",
 	'newestpages-showing' => 'Zeich {{PLURAL:de neuste Sigg|de $1 neuste Sigge|kein neu Sigge}}:',
 	'newestpages-submit' => 'Lohß Jonn!',
-	'newestpages-showredir' => 'Zeich Ömleidunge',
-	'newestpages-hideredir' => 'Lohß Ömleidunge fott',
+	'newestpages-showredir' => 'Zeisch Ömleidongssigge aan',
+	'newestpages-hideredir' => 'Lohß Ömleidonge fott',
 );
 
 /** Kurdish (Latin script) (Kurdî (latînî)‎)
@@ -1470,17 +1470,18 @@ $messages['roa-tara'] = array(
 );
 
 /** Russian (русский)
+ * @author Kaganer
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
 	'newestpages' => 'Новые страницы',
 	'newestpages-desc' => 'Показывает [[Special:NewestPages|последние X страниц]] добавленных в вики',
-	'newestpages-header' => "'''Эта страница {{PLURAL:$1|1=является новейшей|входит в список $1 новейших страниц}} этой вики.'''", # Fuzzy
+	'newestpages-header' => "'''Эта страница содержит список {{PLURAL:$1|$1 новейшей страницы|$1 новейших страниц}} этой вики.'''",
 	'newestpages-limitlinks' => 'Показывать до $1 страниц',
 	'newestpages-namespace' => 'Пространство имён:',
 	'newestpages-none' => 'Не найдено записей.',
-	'newestpages-ns-header' => "'''Эта страница {{PLURAL:$1|1=является новейшей в пространстве имён|входит в список $1 новейших страниц пространства имён}} $2.'''", # Fuzzy
-	'newestpages-showing' => 'Список {{PLURAL:$1|$1 новейшей страницы|$1 новейших страниц|$1 новейших страниц}}:', # Fuzzy
+	'newestpages-ns-header' => "'''Эта страница содержит список {{PLURAL:$1|$1 новейшей страницы|$1 новейших страниц}} в пространстве имён «$2».'''",
+	'newestpages-showing' => 'Список {{PLURAL:$1|$1 новейшей страницы|$1 новейших страниц}}:',
 	'newestpages-submit' => 'Выполнить',
 	'newestpages-showredir' => 'Показывать страницы-перенаправления',
 	'newestpages-hideredir' => 'Скрыть страницы-перенаправления',
