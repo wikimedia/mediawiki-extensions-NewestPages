@@ -405,7 +405,7 @@ $messages['de'] = array(
  * @author Mirzali
  */
 $messages['diq'] = array(
-	'newestpages-namespace' => 'Heruna naman:',
+	'newestpages-namespace' => 'Heruna nameyan:',
 	'newestpages-submit' => 'Şo',
 );
 
