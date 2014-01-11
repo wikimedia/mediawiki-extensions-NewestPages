@@ -67,7 +67,7 @@ class NewestPages extends IncludableSpecialPage {
 		if( $count > 0 ) {
 			# Make list
 			if( !$this->mIncluding )
-				
+
 				$wgOut->addWikiMsg( 'newestpages-showing', $wgLang->formatNum($count) );
 			$wgOut->addHTML( "<ol>" );
 			foreach ( $res as $row ) {
@@ -125,13 +125,11 @@ class NewestPages extends IncludableSpecialPage {
 	}
 
 	function makeListItem( $row ) {
-		global $wgUser;
 		$title = Title::makeTitleSafe( $row->page_namespace, $row->page_title );
 		if( !is_null( $title ) ) {
-			$skin = $wgUser->getSkin();
 			$link = $row->page_is_redirect
-					? '<span class="allpagesredirect">' . $skin->makeKnownLinkObj( $title ) . '</span>'
-					: $skin->makeKnownLinkObj( $title );
+					? '<span class="allpagesredirect">' . Linker::makeKnownLinkObj( $title ) . '</span>'
+					: Linker::makeKnownLinkObj( $title );
 			return( "<li>{$link}</li>\n" );
 		} else {
 			return( "<!-- Invalid title " . htmlspecialchars( $row->page_title ) . " in namespace " . htmlspecialchars( $row->page_namespace ) . " -->\n" );
@@ -158,8 +156,6 @@ class NewestPages extends IncludableSpecialPage {
 	}
 
 	function makeSelfLink( $label, $oname = false, $oval = false ) {
-		global $wgUser;
-		$skin = $wgUser->getSkin();
 		$self = $this->getTitle();
 		$attr['limit'] = $this->limit;
 		$attr['namespace'] = $this->namespace;
@@ -169,7 +165,7 @@ class NewestPages extends IncludableSpecialPage {
 			$attr[$oname] = $oval;
 		foreach( $attr as $aname => $aval )
 			$attribs[] = "{$aname}={$aval}";
-		return $skin->makeKnownLinkObj( $self, $label, implode( '&', $attribs ) );
+		return Linker::makeKnownLinkObj( $self, $label, implode( '&', $attribs ) );
 	}
 
 	function makeNamespaceForm() {
