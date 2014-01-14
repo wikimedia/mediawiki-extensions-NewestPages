@@ -523,14 +523,18 @@ $messages['eu'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Armin1392
  * @author Mjbmr
  * @author Vahid
  */
 $messages['fa'] = array(
 	'newestpages' => 'جدیدترین صفحه‌ها',
 	'newestpages-desc' => 'نمایش [[Special:NewestPages|آخرین X صفحهٔ]] افزوده شده به ویکی',
+	'newestpages-limitlinks' => 'نمایش تا صفحات $1',
 	'newestpages-namespace' => 'فضای نام:',
 	'newestpages-submit' => 'برو',
+	'newestpages-showredir' => 'نمایش تغییر جهت صفحات',
+	'newestpages-hideredir' => 'پنهان کردن تغییر جهت صفحات',
 );
 
 /** Finnish (suomi)
