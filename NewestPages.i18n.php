@@ -1525,6 +1525,7 @@ $messages['sk'] = array(
 );
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
+ * @author Milicevic01
  * @author Nikola Smolenski
  * @author Rancher
  * @author Sasa Stefanovic
@@ -1534,12 +1535,12 @@ $messages['sk'] = array(
 $messages['sr-ec'] = array(
 	'newestpages' => 'Најновије странице',
 	'newestpages-desc' => 'Показује [[Special:NewestPages|последњих X страница]] додатих викију',
-	'newestpages-header' => "'''Ово је списак {{PLURAL:$1|1=са најновијом страном|$1 најновијих страна}} на овој Вики.'''", # Fuzzy
+	'newestpages-header' => "'''Ово је списак {{PLURAL:$1|са најновијом страном|$1 најновијих страна}} на овом викију.'''",
 	'newestpages-limitlinks' => 'Прикажи $1 страница',
 	'newestpages-namespace' => 'Именски простор:',
 	'newestpages-none' => 'Није ништа пронађено.',
-	'newestpages-ns-header' => "'''Ово је списак {{PLURAL:$1|1=са најновијом страном|$1 најновијих страна}} на у именском простору $2.'''", # Fuzzy
-	'newestpages-showing' => 'Списак {{PLURAL:$1|1=најновије стране|$1 најновијих страна}}:', # Fuzzy
+	'newestpages-ns-header' => "'''Ово је списак {{PLURAL:$1|са најновијом страном|$1 најновијих страна}} у именском простору $2.'''",
+	'newestpages-showing' => 'Списак {{PLURAL:$1|најновије стране|$1 најновијих страна}}:',
 	'newestpages-submit' => 'Иди',
 	'newestpages-showredir' => 'Прикажи странице преусмерења',
 	'newestpages-hideredir' => 'Сакриј странице преусмерења',
@@ -1548,17 +1549,18 @@ $messages['sr-ec'] = array(
 /** Serbian (Latin script) (srpski (latinica)‎)
  * @author Liangent
  * @author Michaello
+ * @author Milicevic01
  * @author Sasa Stefanovic
  */
 $messages['sr-el'] = array(
 	'newestpages' => 'Najnovije stranice',
 	'newestpages-desc' => 'Pokazuje [[Special:NewestPages|zadnjih X članaka]] dodatih Vikiju',
-	'newestpages-header' => "'''Ovo je spisak {{PLURAL:$1|1=sa najnovijom stranom|$1 najnovijih strana}} na ovoj Viki.'''", # Fuzzy
+	'newestpages-header' => "'''Ovo je spisak {{PLURAL:$1|sa najnovijom stranom|$1 najnovijih strana}} na ovom vikiju.'''",
 	'newestpages-limitlinks' => 'Prikaži $1 stranica',
 	'newestpages-namespace' => 'Imenski prostor:',
 	'newestpages-none' => 'Nije ništa pronađeno.',
-	'newestpages-ns-header' => "'''Ovo je spisak {{PLURAL:$1|1=sa najnovijom stranom|$1 najnovijih strana}} na u imenskom prostoru $2.'''", # Fuzzy
-	'newestpages-showing' => 'Spisak {{PLURAL:$1|1=najnovije strane|$1 najnovijih strana}}:', # Fuzzy
+	'newestpages-ns-header' => "'''Ovo je spisak {{PLURAL:$1|sa najnovijom stranom|$1 najnovijih strana}} u imenskom prostoru $2.'''",
+	'newestpages-showing' => 'Spisak {{PLURAL:$1|najnovije strane|$1 najnovijih strana}}:',
 	'newestpages-submit' => 'Idi',
 	'newestpages-showredir' => 'Prikaži stranice preusmerenja',
 	'newestpages-hideredir' => 'Sakrij stranice preusmerenja',
