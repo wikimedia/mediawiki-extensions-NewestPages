@@ -530,6 +530,7 @@ $messages['eu'] = array(
 $messages['fa'] = array(
 	'newestpages' => 'جدیدترین صفحه‌ها',
 	'newestpages-desc' => 'نمایش [[Special:NewestPages|آخرین X صفحهٔ]] افزوده شده به ویکی',
+	'newestpages-header' => "'''این صفحه {{PLURAL:$1|جدیدترین صفحه|$1 جدیدترین صفحات}}  در ویکی فهرست می‌کند.'''",
 	'newestpages-limitlinks' => 'نمایش تا صفحات $1',
 	'newestpages-namespace' => 'فضای نام:',
 	'newestpages-none' => 'هیچ ورودی پیدا نشد.',
