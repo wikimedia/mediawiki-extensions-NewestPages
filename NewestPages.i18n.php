@@ -965,9 +965,10 @@ $messages['ko'] = array(
 
 /** Krio (Krio)
  * @author Jose77
+ * @author Protostar
  */
 $messages['kri'] = array(
-	'newestpages-submit' => 'Go to am',
+	'newestpages-submit' => 'Go',
 );
 
 /** Kinaray-a (Kinaray-a)
