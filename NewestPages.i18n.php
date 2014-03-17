@@ -1132,10 +1132,11 @@ $messages['ml'] = array(
 
 /** Mongolian (монгол)
  * @author Chinneeb
+ * @author MongolWiki
  */
 $messages['mn'] = array(
-	'newestpages-namespace' => 'Нэрний зай:',
-	'newestpages-submit' => 'Явах',
+	'newestpages-namespace' => 'Хуудсын төрөл:',
+	'newestpages-submit' => 'гүйцэтгэ',
 );
 
 /** Marathi (मराठी)
