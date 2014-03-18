@@ -524,6 +524,7 @@ $messages['eu'] = array(
 
 /** Persian (فارسی)
  * @author Armin1392
+ * @author Ebraminio
  * @author Mjbmr
  * @author Vahid
  */
@@ -538,7 +539,7 @@ $messages['fa'] = array(
 	'newestpages-showing' => 'فهرست کردن {{PLURAL:$1|جدیدترین صفحه|$1 جدیدتزین صفحات}}:',
 	'newestpages-submit' => 'برو',
 	'newestpages-showredir' => 'نمایش تغییر جهت صفحات',
-	'newestpages-hideredir' => 'پنهان کردن تغییر جهت صفحات',
+	'newestpages-hideredir' => 'پنهان‌کردن تغییر جهت صفحات',
 );
 
 /** Finnish (suomi)
