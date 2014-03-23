@@ -512,14 +512,15 @@ $messages['et'] = array(
 
 /** Basque (euskara)
  * @author An13sa
+ * @author Xabier Armendaritz
  * @author පසිඳු කාවින්ද
  */
 $messages['eu'] = array(
 	'newestpages' => 'Orrialde berrienak',
 	'newestpages-namespace' => 'Izen-tartea:',
 	'newestpages-submit' => 'Joan',
-	'newestpages-showredir' => 'Erakutsi birzuzenketa orrialdeak',
-	'newestpages-hideredir' => 'Ezkutatu birzuzenketa orrialdeak',
+	'newestpages-showredir' => 'Erakutsi birbideratze orriak',
+	'newestpages-hideredir' => 'Ezkutatu birbideratze orriak',
 );
 
 /** Persian (فارسی)
