@@ -1,0 +1,18 @@
+{
+    "@metadata": {
+        "authors": [
+            "Consta",
+            "Crazymadlover",
+            "Glavkos",
+            "ZaDiak"
+        ]
+    },
+    "newestpages": "Νεώτερες σελίδες",
+    "newestpages-limitlinks": "Εμφάνιση μέχρι και $1 σελίδες",
+    "newestpages-namespace": "Ονοματοχώρος:",
+    "newestpages-none": "Δεν βρέθηκαν καθόλου καταχωρήσεις.",
+    "newestpages-showing": "Καταγραφή {{PLURAL:$1|νεότερης σελίδας|$1 νεότερων σελίδων}}:",
+    "newestpages-submit": "Πηγαίνετε",
+    "newestpages-showredir": "Εμφάνιση σελίδων ανακατεύθυνσης",
+    "newestpages-hideredir": "Απόκρυψη σελίδων ανακατεύθυνσης"
+}

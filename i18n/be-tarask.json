@@ -1,0 +1,20 @@
+{
+    "@metadata": {
+        "authors": [
+            "EugeneZelenko",
+            "Jim-by",
+            "Red Winged Duck"
+        ]
+    },
+    "newestpages": "Новыя старонкі",
+    "newestpages-desc": "Адлюстроўвае [[Special:NewestPages|апошнія X старонак]], дададзеных у {{GRAMMAR:месны|{{SITENAME}}}}",
+    "newestpages-header": "'''Гэтая старонка паказвае $1 {{PLURAL:$1|новую старонку|новыя старонкі|новых старонак}} {{GRAMMAR:родны|{{SITENAME}}}}.'''",
+    "newestpages-limitlinks": "Паказваць да $1 {{PLURAL:$1|старонкі|старонак|старонак}}",
+    "newestpages-namespace": "Прастора назваў:",
+    "newestpages-none": "Запісаў ня знойдзена.",
+    "newestpages-ns-header": "'''Гэтая старонка паказвае $1 {{PLURAL:$1|новую старонку ў|новыя старонкі ў|новых старонак у}} прасторы назваў $2.'''",
+    "newestpages-showing": "Сьпіс $1 {{PLURAL:$1|новай старонкі|новых старонак|новых старонак}}:",
+    "newestpages-submit": "Паказаць",
+    "newestpages-showredir": "Паказаць старонкі перанакіраваньняў",
+    "newestpages-hideredir": "Схаваць старонкі перанакіраваньняў"
+}

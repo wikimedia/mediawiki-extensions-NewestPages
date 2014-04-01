@@ -1,0 +1,18 @@
+{
+    "@metadata": {
+        "authors": [
+            "Purodha"
+        ]
+    },
+    "newestpages": "Neuste Sigge",
+    "newestpages-desc": "Zeich de [[Special:NewestPages|neuste X Sigge]] em Wiki.",
+    "newestpages-header": "'''Di Sigg he list {{PLURAL:$1|de neuste Sigg|de $1 neuste Sigge|kein neu Sigge}} em Wiki op.'''",
+    "newestpages-limitlinks": "Zeich {{PLURAL:ein Sigg|bes op $1 Sigge|kein Sigg}}:",
+    "newestpages-namespace": "Appachtemang:",
+    "newestpages-none": "Keine Enndraach jefonge.",
+    "newestpages-ns-header": "'''Di Sigg he list {{PLURAL:de neuste Sigg|de $1 neuste Sigge|kein neu Sigge}} em Appachtemang $2 op.'''",
+    "newestpages-showing": "Zeich {{PLURAL:de neuste Sigg|de $1 neuste Sigge|kein neu Sigge}}:",
+    "newestpages-submit": "Lohß Jonn!",
+    "newestpages-showredir": "Zeisch Ömleidongssigge aan",
+    "newestpages-hideredir": "Lohß Ömleidonge fott"
+}

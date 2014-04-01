@@ -1,0 +1,19 @@
+{
+    "@metadata": {
+        "authors": [
+            "Crt",
+            "Niklas Laxström"
+        ]
+    },
+    "newestpages": "Uusimmat sivut",
+    "newestpages-desc": "Näyttää halutun määrän [[Special:NewestPages|viimeisimmistä luoduista sivuista]] wikiin.",
+    "newestpages-header": "'''Tällä sivulla on luettelo {{PLURAL:$1|uusimmasta sivusta|$1 uusimmasta sivusta}} tässä wikissä.'''",
+    "newestpages-limitlinks": "Näytä enintään $1 sivua",
+    "newestpages-namespace": "Nimiavaruus:",
+    "newestpages-none": "Ei uusia sivuja.",
+    "newestpages-ns-header": "'''Tällä sivulla on luettelo {{PLURAL:$1|uusimmasta sivusta|$1 uusimmasta sivusta}} nimiavaruudessa $2.'''",
+    "newestpages-showing": "Näytetään {{PLURAL:$1|uusin sivu|$1 uusinta sivua}}:",
+    "newestpages-submit": "Hae",
+    "newestpages-showredir": "Näytä ohjaukset",
+    "newestpages-hideredir": "Piilota ohjaukset"
+}

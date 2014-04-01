@@ -1,0 +1,20 @@
+{
+    "@metadata": {
+        "authors": [
+            "Karduelis",
+            "Srhat",
+            "Vito Genovese"
+        ]
+    },
+    "newestpages": "En yeni sayfalar",
+    "newestpages-desc": "Vikiye eklenen [[Special:NewestPages|son X sayfayı]] gösterir",
+    "newestpages-header": "'''Bu sayfa, vikideki {{PLURAL:$1|en yeni sayfayı|en yeni $1 sayfayı}} listelemektedir.'''",
+    "newestpages-limitlinks": "$1 sayfaya kadar göster",
+    "newestpages-namespace": "Ad alanı:",
+    "newestpages-none": "Girdi bulunamadı.",
+    "newestpages-ns-header": "'''Bu sayfa, $2 isim alanındaki {{PLURAL:$1|en yeni sayfayı|en yeni $1 sayfayı}} listelemektedir.'''",
+    "newestpages-showing": "{{PLURAL:$1|En yeni sayfa|En yeni $1 sayfa}} listeleniyor:",
+    "newestpages-submit": "Git",
+    "newestpages-showredir": "Yönlendirilmiş sayfaları gör",
+    "newestpages-hideredir": "Gizli yönlendirme sayfaları"
+}

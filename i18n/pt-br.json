@@ -1,0 +1,19 @@
+{
+    "@metadata": {
+        "authors": [
+            "Eduardo.mps",
+            "Waldir"
+        ]
+    },
+    "newestpages": "Páginas mais recentes",
+    "newestpages-desc": "Mostra as [[Special:NewestPages|últimas X páginas]] adicionadas ao wiki",
+    "newestpages-header": "'''Esta página lista {{PLURAL:$1|a página mais recente|as $1 páginas mais recentes}} deste wiki.'''",
+    "newestpages-limitlinks": "Exibir até $1 páginas",
+    "newestpages-namespace": "Espaço nominal:",
+    "newestpages-none": "Não foram encontrados resultados.",
+    "newestpages-ns-header": "'''Esta página lista {{PLURAL:$1|a página mais recente|as $1 páginas mais recentes}} do espaço nominal $2.'''",
+    "newestpages-showing": "Listando {{PLURAL:$1|a página mais recente|as $1 páginas mais recentes}}:",
+    "newestpages-submit": "Ir",
+    "newestpages-showredir": "Exibir redirecionamentos",
+    "newestpages-hideredir": "Ocultar redirecionamentos"
+}

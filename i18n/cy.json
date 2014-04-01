@@ -1,0 +1,18 @@
+{
+    "@metadata": {
+        "authors": [
+            "Lloffiwr"
+        ]
+    },
+    "newestpages": "Tudalennau newydd diweddaraf",
+    "newestpages-desc": "Yn dangos y [[Special:NewestPages|llwyth diweddaraf o dudalennau newydd]] 'u gosodwyd ar y wici",
+    "newestpages-header": "'''Dyma restr o'r {{PLURAL:$1||dudalen|$1 dudalen|$1 tudalen|$1 thudalen|$1 tudalen}} newydd diweddaraf ar y wici.'''",
+    "newestpages-limitlinks": "Dangos hyd at $1 o dudalennau",
+    "newestpages-namespace": "Parth:",
+    "newestpages-none": "Ni chafwyd unrhyw dudalennau newydd.",
+    "newestpages-ns-header": "'''Rhestrir yma y(r) {{PLURAL:$1||dudalen|$1 dudalen|$1 tudalen|$1 thudalen|$1 tudalen}} newydd diweddaraf yn y parth $2.'''",
+    "newestpages-showing": "Yn rhestru'r {{PLURAL:$1||dudalen|$1 dudalen|$1 tudalen|$1 thudalen|$1 tudalen}} newydd diweddaraf:",
+    "newestpages-submit": "Eler",
+    "newestpages-showredir": "Dangos tudalennau ailgyfeirio",
+    "newestpages-hideredir": "Cuddio tudalennau ailgyfeirio"
+}

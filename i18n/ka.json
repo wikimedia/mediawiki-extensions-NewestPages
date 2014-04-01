@@ -1,0 +1,17 @@
+{
+    "@metadata": {
+        "authors": [
+            "BRUTE",
+            "David1010",
+            "Malafaya"
+        ]
+    },
+    "newestpages": "უახლესი გვერდები",
+    "newestpages-namespace": "სახელთა სივრცე:",
+    "newestpages-none": "ჩანაწერები ვერ მოიძებნა.",
+    "newestpages-ns-header": "'''ეს გვერდი {{PLURAL:$1|უახლესია სახელთა სივრცეში|$1 უახლესია სახელთა სივრცეში}} $2.'''",
+    "newestpages-showing": "{{PLURAL:$1|უახლესი გვერდის|$1 უახლესი გვერდის}} სია:",
+    "newestpages-submit": "სტატია",
+    "newestpages-showredir": "გადამისამართების გვერდების ჩვენება",
+    "newestpages-hideredir": "გადამისამართებული გვერდების დამალვა"
+}

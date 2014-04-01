@@ -1,0 +1,18 @@
+{
+    "@metadata": {
+        "authors": [
+            "Michawiki"
+        ]
+    },
+    "newestpages": "Najnowše strony",
+    "newestpages-desc": "Pokazuje [[Special:NewestPages|poslednich X stronow]], kotrež je so wikiju přidało",
+    "newestpages-header": "Tuta strona nalistuje {{PLURAL:$1|najnowšu stronu|$1 najnowšej stronje|$1 najnowše strony|$1 najnowšich stronow}} tutoho wikija.'''",
+    "newestpages-limitlinks": "Do $1 stronow pokazać",
+    "newestpages-namespace": "Mjenowy rum",
+    "newestpages-none": "Žane zapiski namakane.",
+    "newestpages-ns-header": "'''Tuta strona nalistuje {{PLURAL:$1|najnowšu stronu|$1 najnowšej stronje|$1 najnowše strony|$1 najnowšich stronow}} z mjenoweho ruma $2.'''",
+    "newestpages-showing": "{{PLURAL:$1|najnowša strona|$1 najnowšej stronje|$1 najnowše strony|$1 najnowšich stronow}}:",
+    "newestpages-submit": "Pytać",
+    "newestpages-showredir": "Daleposrědkowanske strony pokazać",
+    "newestpages-hideredir": "Dalesposrědkowanske strony schować"
+}

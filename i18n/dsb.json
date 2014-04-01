@@ -1,0 +1,19 @@
+{
+    "@metadata": {
+        "authors": [
+            "Michawiki",
+            "Nepl1"
+        ]
+    },
+    "newestpages": "Nejnowše boki",
+    "newestpages-desc": "Pokazujo [[Special:NewestPages|nejnowšych X bokow]] wikija",
+    "newestpages-header": "Toś ten bok nalicujo {{PLURAL:$1|nejnowšy bok|$1 nejnowšej boka|$1 nejnowše boki|$1 nejnowšych bokow}} na toś tom wikiju.'''",
+    "newestpages-limitlinks": "Pokaž {{PLURAL:$1|bok|boka|boki}}",
+    "newestpages-namespace": "Mjenjowy rum",
+    "newestpages-none": "Žedne zapise njejsu se namakali.",
+    "newestpages-ns-header": "Toś ten bok nalicujo {{PLURAL:$1|nejnowšy bok|$1 nejnowšej boka|$1 nejnowše boki|$1 nejnowšych bokow}} w mjenjowem rumje $2.'''",
+    "newestpages-showing": "{{PLURAL:$1|nejnowšy bok|$1 nejnowšej boka|$1 nejnowše boki|$1 nejnowšych bokow}}:",
+    "newestpages-submit": "Pytaś",
+    "newestpages-showredir": "Pśesměrowanja pokazaś",
+    "newestpages-hideredir": "Pśesměrowanja schowaś"
+}

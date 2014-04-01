@@ -1,0 +1,22 @@
+{
+    "@metadata": {
+        "authors": [
+            "Jon Harald Søby",
+            "Purodha",
+            "Shirayuki",
+            "Siebrand",
+            "The Evil IP address"
+        ]
+    },
+    "newestpages": "{{doc-special|NewestPages|unlisted=1}}",
+    "newestpages-desc": "{{desc|name=Newest Pages|url=http://www.mediawiki.org/wiki/Extension:Newest_Pages}}",
+    "newestpages-header": "Parameters\n* $1 - limit of number of pages (value of <code>$wgNewestPagesLimit</code>)\nSee also:\n* {{msg-mw|Newestpages-ns-header}}",
+    "newestpages-limitlinks": "Parameters:\n* $1 - a list of links (pipe-separated), like \"10 | 20 | 30 | 50 | 100 | 150\"",
+    "newestpages-namespace": "{{Identical|Namespace}}",
+    "newestpages-none": "Used if the query result is empty.",
+    "newestpages-ns-header": "Parameters\n* $1 - limit of number of pages (value of <code>$wgNewestPagesLimit</code>)\n* $2 - namespace name\nSee also:\n* {{msg-mw|Newestpages-header}}",
+    "newestpages-showing": "This message is followed by the list of newest pages. Parameters:\n* $1 - number of pages",
+    "newestpages-submit": "{{Identical|Go}}",
+    "newestpages-showredir": "Used as link text.\n\nSee also:\n* {{msg-mw|Newestpages-hideredir}}",
+    "newestpages-hideredir": "Used as link text.\n\nSee also:\n* {{msg-mw|Newestpages-showredir}}"
+}

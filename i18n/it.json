@@ -1,0 +1,19 @@
+{
+    "@metadata": {
+        "authors": [
+            "BrokenArrow",
+            "Darth Kule"
+        ]
+    },
+    "newestpages": "Pagine più recenti",
+    "newestpages-desc": "Mostra le [[Special:NewestPages|ultime X pagine]] aggiunte alla wiki",
+    "newestpages-header": "'''In questa pagina {{PLURAL:$1|viene elencata la pagina creata|vengono elencate le $1 pagine create}} più di recente nel sito.'''",
+    "newestpages-limitlinks": "Mostra fino a $1 pagine",
+    "newestpages-namespace": "Namespace:",
+    "newestpages-none": "Nessuna pagina trovata.",
+    "newestpages-ns-header": "'''In questa pagina {{PLURAL:$1|viene elencata la pagina creata|vengono elencate le $1 pagine create}} più di recente nel namespace $2.'''",
+    "newestpages-showing": "Elenco {{PLURAL:$1|della pagina creata|delle $1 pagine create}} più di recente:",
+    "newestpages-submit": "Vai",
+    "newestpages-showredir": "Mostra i redirect",
+    "newestpages-hideredir": "Nascondi i redirect"
+}

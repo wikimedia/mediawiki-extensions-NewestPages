@@ -1,0 +1,20 @@
+{
+    "@metadata": {
+        "authors": [
+            "Harald Khan",
+            "Jon Harald Søby",
+            "Njardarlogar"
+        ]
+    },
+    "newestpages": "Nyaste sider",
+    "newestpages-desc": "Viser dei [[Special:NewestPages|X siste sidene]] som er lagt til på wikien",
+    "newestpages-header": "'''Denne sida listar opp {{PLURAL:$1|den nyaste sida|dei $1 nyaste sidene}} på denne wikien.'''",
+    "newestpages-limitlinks": "Vis opptil $1 sider",
+    "newestpages-namespace": "Namnerom:",
+    "newestpages-none": "Fann ingenting.",
+    "newestpages-ns-header": "'''Denne sida listar opp {{PLURAL:$1|den nyaste sida|dei $1 nyaste sidene}} i namnerommet $2.'''",
+    "newestpages-showing": "Listar opp {{PLURAL:$1|den nyaste sida|dei $1 nyaste sidene}}:",
+    "newestpages-submit": "Gå",
+    "newestpages-showredir": "Vis omdirigeringar",
+    "newestpages-hideredir": "Gøym omdirigeringar"
+}

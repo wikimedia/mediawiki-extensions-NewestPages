@@ -1,0 +1,19 @@
+{
+    "@metadata": {
+        "authors": [
+            "Malafaya",
+            "Smeira"
+        ]
+    },
+    "newestpages": "Pads nulikün",
+    "newestpages-desc": "Jonön [[Special:NewestPages|padis lätik X]] vüke at peläükölis",
+    "newestpages-header": "'''Su pad at {{PLURAL:$1|palisedon pad nulikün|palisedons pads nulikün $1}} vüka at.'''",
+    "newestpages-limitlinks": "Jonön padis jü $1",
+    "newestpages-namespace": "Nemaspad:",
+    "newestpages-none": "Pads nonik petuvons.",
+    "newestpages-ns-header": "'''Su pad at {{PLURAL:$1|palisedon pad nulikün|palisedons pads nulikün $1}} nemaspada: $2.'''",
+    "newestpages-showing": "{{PLURAL:$1|Pad nulikün palisedon|Pads nulikün $1 palisedons}}:",
+    "newestpages-submit": "Ledunolöd",
+    "newestpages-showredir": "Jonön lüodükömapadis",
+    "newestpages-hideredir": "Klänedön lüodükömapadis"
+}

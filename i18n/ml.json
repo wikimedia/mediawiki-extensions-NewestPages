@@ -1,0 +1,19 @@
+{
+    "@metadata": {
+        "authors": [
+            "Praveenp",
+            "Shijualex"
+        ]
+    },
+    "newestpages": "ഏറ്റവും പുതിയ താളുകൾ",
+    "newestpages-desc": "വിക്കിയിലേക്കു [[Special:NewestPages|അവസാനമായി ചേർക്കപ്പെട്ട X താളുകൾ]] പ്രദർശിപ്പിക്കുന്നു.",
+    "newestpages-header": "'''വിക്കിയിലെ ഏറ്റവും {{PLURAL:$1|പുതിയ താൾ|പുതിയ $1 താളുകൾ}} ഈ താളിൽ പ്രദർശിപ്പിച്ചിരിക്കുന്നു.'''",
+    "newestpages-limitlinks": "$1 താളുകൾ വരെ പ്രദർശിപ്പിക്കുന്നു",
+    "newestpages-namespace": "നാമമേഖല:",
+    "newestpages-none": "എൻ‌ട്രികൾ ഒന്നും കണ്ടില്ല.",
+    "newestpages-ns-header": "ഈ താൾ $2 നാമമേഖലയിൽ പുതുതായി സൃഷ്ടിക്കപ്പെട്ട {{PLURAL:$1|ഒരു താൾ|$1 താളുകൾ}} പ്രദർശിപ്പിക്കുന്നു.'''",
+    "newestpages-showing": "ഏറ്റവും പുതിയ {{PLURAL:$1|താൾ|$1 താളുകൾ}} പ്രദർശിപ്പിക്കുന്നു:",
+    "newestpages-submit": "പോകൂ",
+    "newestpages-showredir": "തിരിച്ചുവിടൽ താളുകൾ പ്രദർശിപ്പിക്കുക",
+    "newestpages-hideredir": "തിരിച്ചുവിടൽ താളുകൾ മറയ്ക്കുക"
+}

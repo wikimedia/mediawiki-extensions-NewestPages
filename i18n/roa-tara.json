@@ -1,0 +1,18 @@
+{
+    "@metadata": {
+        "authors": [
+            "Joetaras"
+        ]
+    },
+    "newestpages": "Pàggene cchiù nuève",
+    "newestpages-desc": "Fà vedè le [[Special:NewestPages|urteme X pàggene]] aggiunde a sta uicchi",
+    "newestpages-header": "'''Sta pàgene elenghe {{PLURAL:$1|'a pàgena cchiù nove|le $1 pàggene cchiù nuève}} sus a sta uicchi.'''",
+    "newestpages-limitlinks": "Fà vedè 'nzigne a $1 pàggene",
+    "newestpages-namespace": "Namespace:",
+    "newestpages-none": "Nisciuna vôsce acchiate.",
+    "newestpages-ns-header": "'''Sta pàgene elenghe {{PLURAL:$1|'a pàgena cchiù nove|le $1 pàggene cchiù nuève}} jndr'à 'u namespace $2.'''",
+    "newestpages-showing": "Elenghe de {{PLURAL:$1|'a pàgena cchiù nove|le $1 pàggene cchiù nuève}}:",
+    "newestpages-submit": "Veje",
+    "newestpages-showredir": "Fà vedè le pàggene de redirezionamende",
+    "newestpages-hideredir": "Scunne le pàggene de le redirezionaminde"
+}

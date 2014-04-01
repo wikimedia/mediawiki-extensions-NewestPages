@@ -1,0 +1,19 @@
+{
+    "@metadata": {
+        "authors": [
+            "Kaganer",
+            "Александр Сигачёв"
+        ]
+    },
+    "newestpages": "Новые страницы",
+    "newestpages-desc": "Показывает [[Special:NewestPages|последние X страниц]] добавленных в вики",
+    "newestpages-header": "'''Эта страница содержит список {{PLURAL:$1|$1 новейшей страницы|$1 новейших страниц}} этой вики.'''",
+    "newestpages-limitlinks": "Показывать до $1 страниц",
+    "newestpages-namespace": "Пространство имён:",
+    "newestpages-none": "Не найдено записей.",
+    "newestpages-ns-header": "'''Эта страница содержит список {{PLURAL:$1|$1 новейшей страницы|$1 новейших страниц}} в пространстве имён «$2».'''",
+    "newestpages-showing": "Список {{PLURAL:$1|$1 новейшей страницы|$1 новейших страниц}}:",
+    "newestpages-submit": "Выполнить",
+    "newestpages-showredir": "Показывать страницы-перенаправления",
+    "newestpages-hideredir": "Скрыть страницы-перенаправления"
+}

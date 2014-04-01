@@ -1,0 +1,19 @@
+{
+    "@metadata": {
+        "authors": [
+            "Grondin",
+            "Urhixidur"
+        ]
+    },
+    "newestpages": "Pages les plus récentes",
+    "newestpages-desc": "Affiche les [[Special:NewestPages|dernières pages]] ajoutées au wiki.",
+    "newestpages-header": "'''Cette page liste {{PLURAL:$1|la page la plus récente|les $1 pages les plus récentes}} sur le wiki.'''",
+    "newestpages-limitlinks": "Afficher jusqu’à $1 pages",
+    "newestpages-namespace": "Espace Wiki :",
+    "newestpages-none": "Aucune page n’a été trouvée",
+    "newestpages-ns-header": "'''Cette page liste {{PLURAL:$1|la page la plus récente|les $1 pages les plus récentes}} dans l’espace $2.'''",
+    "newestpages-showing": "Affichage {{PLURAL:$1|de la page la plus récente|des $1 pages les plus récentes}} :",
+    "newestpages-submit": "Lancer",
+    "newestpages-showredir": "Afficher les pages de redirection.",
+    "newestpages-hideredir": "Cacher les pages de redirection."
+}

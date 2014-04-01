@@ -1,0 +1,20 @@
+{
+    "@metadata": {
+        "authors": [
+            "M.M.S.",
+            "Najami",
+            "Sannab"
+        ]
+    },
+    "newestpages": "Nyaste sidor",
+    "newestpages-desc": "Visar de [[Special:NewestPages|senaste X sidorna]] som lagts till i wikin",
+    "newestpages-header": "'''Denna sida listar {{PLURAL:$1|den nyaste sidan|de $1 nyaste sidorna}} på wikin.'''",
+    "newestpages-limitlinks": "Visa upp till $1 sidor",
+    "newestpages-namespace": "Namnrymd:",
+    "newestpages-none": "Inga entréer hittades.",
+    "newestpages-ns-header": "'''Denna sida listar {{PLURAL:$1|den nyaste sidan|de $1 nyaste sidorna}} i namnrymden $2.'''",
+    "newestpages-showing": "Listar {{PLURAL:$1|den nyaste sidan|de $1 nyaste sidorna}}:",
+    "newestpages-submit": "Gå",
+    "newestpages-showredir": "Visa omdirigerings sidor",
+    "newestpages-hideredir": "Dölj omdirigerings sidor"
+}

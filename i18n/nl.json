@@ -1,0 +1,19 @@
+{
+    "@metadata": {
+        "authors": [
+            "SPQRobin",
+            "Siebrand"
+        ]
+    },
+    "newestpages": "Nieuwe pagina's",
+    "newestpages-desc": "De [[Special:NewestPages|laatste X nieuwe pagina's]] in de wiki",
+    "newestpages-header": "'''Op deze pagina {{PLURAL:$1|staat de meest recent aangemaakte pagina|staan de $1 meest recent aangemaakte pagina's}} van deze wiki.'''",
+    "newestpages-limitlinks": "Geeft maximaal $1 pagina's weer",
+    "newestpages-namespace": "Naamruimte:",
+    "newestpages-none": "Geen resultaten.",
+    "newestpages-ns-header": "'''Deze pagina geeft de {{PLURAL:$1|de meest recent aangemaakte pagina|de $1 meest recent aangemaakte pagina's}} weer in de naamruimte $2.'''",
+    "newestpages-showing": "De {{PLURAL:$1|meest recent aangemaakte pagina wordt|$1 meest recent aangemaakte pagina's worden}} weergegeven:",
+    "newestpages-submit": "OK",
+    "newestpages-showredir": "Doorverwijzingen weergeven",
+    "newestpages-hideredir": "Doorverwijzingen verbergen"
+}

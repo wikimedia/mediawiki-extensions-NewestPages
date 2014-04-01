@@ -1,0 +1,18 @@
+{
+    "@metadata": {
+        "authors": [
+            "Anakmalaysia"
+        ]
+    },
+    "newestpages": "Halaman terbaru",
+    "newestpages-desc": "Memaparkan [[Special:NewestPages|X halaman terbaru]] yang ditambahkan pada wiki",
+    "newestpages-header": "'''Halaman ini menyenaraikan {{PLURAL:$1|halaman terbaru|$1 halaman terbaru}} di wiki ini.'''",
+    "newestpages-limitlinks": "Paparkan sebanyak $1 halaman",
+    "newestpages-namespace": "Ruang nama:",
+    "newestpages-none": "Tiada entri dijumpai.",
+    "newestpages-ns-header": "'''Halaman ini menyenaraikan {{PLURAL:$1|halaman terbaru|$1 halaman terbaru}} di ruang nama $2.'''",
+    "newestpages-showing": "Menyenaraikan {{PLURAL:$1|halaman terbaru|$1 halaman terbaru}}:",
+    "newestpages-submit": "Pergi",
+    "newestpages-showredir": "Paparkan halaman lencongan",
+    "newestpages-hideredir": "Sorokkan halaman lencongan"
+}

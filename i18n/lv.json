@@ -1,0 +1,18 @@
+{
+    "@metadata": {
+        "authors": [
+            "GreenZeb"
+        ]
+    },
+    "newestpages": "Jaunākās lapas",
+    "newestpages-desc": "Rāda [[Special:NewestPages|pēdējās X lapas]], kas pievienotas Vikipēidjā",
+    "newestpages-header": "Šajā lapā ir {{PLURAL:$1|parādīta viki jaunākā lapa| parādītas viki $1 jaunākās lapas}}.'''",
+    "newestpages-limitlinks": "Rādīt līdz $1 lapām",
+    "newestpages-namespace": "Vārdtelpa:",
+    "newestpages-none": "Netika atrasts neviens ieraksts.",
+    "newestpages-ns-header": "Šajā lapā ir {{PLURAL:$1|parādīta jaunākā lapa| parādītas $1 jaunākās lapas}} $2 vārdtelpā.'''",
+    "newestpages-showing": "Rāda {{PLURAL:$1|jaunāko lapu|$1 jaunākās lapas}}:",
+    "newestpages-submit": "Atlasīt",
+    "newestpages-showredir": "Parādīt pāradresācijas",
+    "newestpages-hideredir": "Paslēpt pāradresācijas"
+}
