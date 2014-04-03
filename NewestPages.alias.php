@@ -279,6 +279,11 @@ $specialPageAliases['sq'] = array(
 	'NewestPages' => array( 'FaqetMëTëReja' ),
 );
 
+/** Serbian (Cyrillic script) (српски (ћирилица)‎) */
+$specialPageAliases['sr-ec'] = array(
+	'NewestPages' => array( 'НајновијаСтраница' ),
+);
+
 /** Swedish (svenska) */
 $specialPageAliases['sv'] = array(
 	'NewestPages' => array( 'Nyaste_sidor' ),
