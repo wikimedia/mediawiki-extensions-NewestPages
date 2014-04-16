@@ -1,21 +1,21 @@
 {
-    "@metadata": {
-        "authors": [
-            "Liangent",
-            "Michaello",
-            "Milicevic01",
-            "Sasa Stefanovic"
-        ]
-    },
-    "newestpages": "Najnovije stranice",
-    "newestpages-desc": "Pokazuje [[Special:NewestPages|zadnjih X članaka]] dodatih Vikiju",
-    "newestpages-header": "'''Ovo je spisak {{PLURAL:$1|sa najnovijom stranom|$1 najnovijih strana}} na ovom vikiju.'''",
-    "newestpages-limitlinks": "Prikaži $1 stranica",
-    "newestpages-namespace": "Imenski prostor:",
-    "newestpages-none": "Nije ništa pronađeno.",
-    "newestpages-ns-header": "'''Ovo je spisak {{PLURAL:$1|sa najnovijom stranom|$1 najnovijih strana}} u imenskom prostoru $2.'''",
-    "newestpages-showing": "Spisak {{PLURAL:$1|najnovije strane|$1 najnovijih strana}}:",
-    "newestpages-submit": "Idi",
-    "newestpages-showredir": "Prikaži stranice preusmerenja",
-    "newestpages-hideredir": "Sakrij stranice preusmerenja"
+	"@metadata": {
+		"authors": [
+			"Liangent",
+			"Michaello",
+			"Milicevic01",
+			"Sasa Stefanovic"
+		]
+	},
+	"newestpages": "Najnovije stranice",
+	"newestpages-desc": "Pokazuje [[Special:NewestPages|zadnjih X članaka]] dodatih Vikiju",
+	"newestpages-header": "'''Ovo je spisak {{PLURAL:$1|sa najnovijom stranom|$1 najnovijih strana}} na ovom vikiju.'''",
+	"newestpages-limitlinks": "Prikaži $1 stranica",
+	"newestpages-namespace": "Imenski prostor:",
+	"newestpages-none": "Nije ništa pronađeno.",
+	"newestpages-ns-header": "'''Ovo je spisak {{PLURAL:$1|sa najnovijom stranom|$1 najnovijih strana}} u imenskom prostoru $2.'''",
+	"newestpages-showing": "Spisak {{PLURAL:$1|najnovije strane|$1 najnovijih strana}}:",
+	"newestpages-submit": "Idi",
+	"newestpages-showredir": "Prikaži stranice preusmerenja",
+	"newestpages-hideredir": "Sakrij stranice preusmerenja"
 }

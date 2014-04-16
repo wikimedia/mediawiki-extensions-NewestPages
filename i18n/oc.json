@@ -1,18 +1,18 @@
 {
-    "@metadata": {
-        "authors": [
-            "Cedric31"
-        ]
-    },
-    "newestpages": "Paginas mai recentas",
-    "newestpages-desc": "Aficha las [[Special:NewestPages|darrièras paginas]] apondudas al wiki.",
-    "newestpages-header": "'''Aquesta pagina lista {{PLURAL:$1|la pagina mai recenta|las $1 paginas mai recentas}} sul wiki.'''",
-    "newestpages-limitlinks": "Afichar fins a $1 paginas",
-    "newestpages-namespace": "Espaci de nom :",
-    "newestpages-none": "Cap de pagina es pas estada trobada",
-    "newestpages-ns-header": "'''Aquesta pagina lista {{PLURAL:$1|la pagina mai recenta|las $1 paginas mai recentas}} dins l’espaci $2.'''",
-    "newestpages-showing": "Afichatge {{PLURAL:$1|de la pagina mai recenta|de las $1 paginas mai recentas}} :",
-    "newestpages-submit": "Amodar",
-    "newestpages-showredir": "Afichar las paginas de redireccion.",
-    "newestpages-hideredir": "Amagar las paginas de redireccion."
+	"@metadata": {
+		"authors": [
+			"Cedric31"
+		]
+	},
+	"newestpages": "Paginas mai recentas",
+	"newestpages-desc": "Aficha las [[Special:NewestPages|darrièras paginas]] apondudas al wiki.",
+	"newestpages-header": "'''Aquesta pagina lista {{PLURAL:$1|la pagina mai recenta|las $1 paginas mai recentas}} sul wiki.'''",
+	"newestpages-limitlinks": "Afichar fins a $1 paginas",
+	"newestpages-namespace": "Espaci de nom :",
+	"newestpages-none": "Cap de pagina es pas estada trobada",
+	"newestpages-ns-header": "'''Aquesta pagina lista {{PLURAL:$1|la pagina mai recenta|las $1 paginas mai recentas}} dins l’espaci $2.'''",
+	"newestpages-showing": "Afichatge {{PLURAL:$1|de la pagina mai recenta|de las $1 paginas mai recentas}} :",
+	"newestpages-submit": "Amodar",
+	"newestpages-showredir": "Afichar las paginas de redireccion.",
+	"newestpages-hideredir": "Amagar las paginas de redireccion."
 }

@@ -1,16 +1,16 @@
 {
-    "@metadata": {
-        "authors": [
-            "Игорь Бродский"
-        ]
-    },
-    "newestpages": "Kaikiš udembad lehtpoled",
-    "newestpages-desc": "Ozutab [[Special:NewestPages|jäl'gmäižed X lehtpol't]], kudambad om ližatud wikihe.",
-    "newestpages-header": "'''Nece lehtpol' ozutab wikin {{PLURAL:$1|jäl'gmäine lehtpol'|$1 jäl'gmäšt lehtpol't}}.'''",
-    "newestpages-limitlinks": "Ozutada $1-ha lehtpol'hesai",
-    "newestpages-namespace": "Nimiavaruz:",
-    "newestpages-none": "Ei löudand kirjutesid.",
-    "newestpages-submit": "Mäne",
-    "newestpages-showredir": "Ozutada läbikosketusiden lehtpoled",
-    "newestpages-hideredir": "Peitta läbikosketusiden lehtpoled"
+	"@metadata": {
+		"authors": [
+			"Игорь Бродский"
+		]
+	},
+	"newestpages": "Kaikiš udembad lehtpoled",
+	"newestpages-desc": "Ozutab [[Special:NewestPages|jäl'gmäižed X lehtpol't]], kudambad om ližatud wikihe.",
+	"newestpages-header": "'''Nece lehtpol' ozutab wikin {{PLURAL:$1|jäl'gmäine lehtpol'|$1 jäl'gmäšt lehtpol't}}.'''",
+	"newestpages-limitlinks": "Ozutada $1-ha lehtpol'hesai",
+	"newestpages-namespace": "Nimiavaruz:",
+	"newestpages-none": "Ei löudand kirjutesid.",
+	"newestpages-submit": "Mäne",
+	"newestpages-showredir": "Ozutada läbikosketusiden lehtpoled",
+	"newestpages-hideredir": "Peitta läbikosketusiden lehtpoled"
 }

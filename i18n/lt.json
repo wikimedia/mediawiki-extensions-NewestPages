@@ -1,18 +1,18 @@
 {
-    "@metadata": {
-        "authors": [
-            "Hugo.arg"
-        ]
-    },
-    "newestpages": "Naujausi puslapiai",
-    "newestpages-desc": "Rodo [[Special:NewestPages|paskutiniuosius X puslapius]], pridėtus į wiki",
-    "newestpages-header": "'''Šis puslapis rikiuoja $1 naujausius šios wiki puslapius.'''",
-    "newestpages-limitlinks": "Rodyti iki $1 puslapių",
-    "newestpages-namespace": "Vardų sritis:",
-    "newestpages-none": "Reikšmių nerasta.",
-    "newestpages-ns-header": "'''Šis puslapis rikiuoja $1 naujausius puslapius $2 vardų srityje.'''",
-    "newestpages-showing": "Rikiuojami $1 naujausi puslapiai:",
-    "newestpages-submit": "Eiti",
-    "newestpages-showredir": "Rodyti peradresavimų puslapius",
-    "newestpages-hideredir": "Slėpti peradresavimų puslapius"
+	"@metadata": {
+		"authors": [
+			"Hugo.arg"
+		]
+	},
+	"newestpages": "Naujausi puslapiai",
+	"newestpages-desc": "Rodo [[Special:NewestPages|paskutiniuosius X puslapius]], pridėtus į wiki",
+	"newestpages-header": "'''Šis puslapis rikiuoja $1 naujausius šios wiki puslapius.'''",
+	"newestpages-limitlinks": "Rodyti iki $1 puslapių",
+	"newestpages-namespace": "Vardų sritis:",
+	"newestpages-none": "Reikšmių nerasta.",
+	"newestpages-ns-header": "'''Šis puslapis rikiuoja $1 naujausius puslapius $2 vardų srityje.'''",
+	"newestpages-showing": "Rikiuojami $1 naujausi puslapiai:",
+	"newestpages-submit": "Eiti",
+	"newestpages-showredir": "Rodyti peradresavimų puslapius",
+	"newestpages-hideredir": "Slėpti peradresavimų puslapius"
 }

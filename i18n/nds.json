@@ -1,18 +1,18 @@
 {
-    "@metadata": {
-        "authors": [
-            "Slomox"
-        ]
-    },
-    "newestpages": "Ne’este Sieden",
-    "newestpages-desc": "Wiest de [[Special:NewestPages|lesten X ne’en Sieden]] op dat Wiki",
-    "newestpages-header": "'''Disse Sied wiest de {{PLURAL:$1|ne’este Sied|$1 ne’esten Sieden}} op dat Wiki.'''",
-    "newestpages-limitlinks": "$1 Sieden wiesen",
-    "newestpages-namespace": "Naamruum:",
-    "newestpages-none": "Nix funnen",
-    "newestpages-ns-header": "'''Disse Sied wiest de {{PLURAL:$1|ne’este Sied|$1 ne’esten Sieden}} in’n Naamruum $2.'''",
-    "newestpages-showing": "{{PLURAL:$1|Ne’este Sied|$1 ne’este Sieden}} wiesen:",
-    "newestpages-submit": "Los",
-    "newestpages-showredir": "Wiederleiden wiesen",
-    "newestpages-hideredir": "Wiederleiden nich wiesen"
+	"@metadata": {
+		"authors": [
+			"Slomox"
+		]
+	},
+	"newestpages": "Ne’este Sieden",
+	"newestpages-desc": "Wiest de [[Special:NewestPages|lesten X ne’en Sieden]] op dat Wiki",
+	"newestpages-header": "'''Disse Sied wiest de {{PLURAL:$1|ne’este Sied|$1 ne’esten Sieden}} op dat Wiki.'''",
+	"newestpages-limitlinks": "$1 Sieden wiesen",
+	"newestpages-namespace": "Naamruum:",
+	"newestpages-none": "Nix funnen",
+	"newestpages-ns-header": "'''Disse Sied wiest de {{PLURAL:$1|ne’este Sied|$1 ne’esten Sieden}} in’n Naamruum $2.'''",
+	"newestpages-showing": "{{PLURAL:$1|Ne’este Sied|$1 ne’este Sieden}} wiesen:",
+	"newestpages-submit": "Los",
+	"newestpages-showredir": "Wiederleiden wiesen",
+	"newestpages-hideredir": "Wiederleiden nich wiesen"
 }

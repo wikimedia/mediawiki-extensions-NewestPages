@@ -1,20 +1,20 @@
 {
-    "@metadata": {
-        "authors": [
-            "Dani",
-            "Enbéká",
-            "Glanthor Reviol"
-        ]
-    },
-    "newestpages": "Legújabb lapok",
-    "newestpages-desc": "Megmutatja az [[Special:NewestPages|utolsó X lapot]] a wikin",
-    "newestpages-header": "'''Ezen az oldalon a wiki {{PLURAL:$1||$1}} legújabb lapja látható.'''",
-    "newestpages-limitlinks": "$1 oldal megjelenítése",
-    "newestpages-namespace": "Névtér:",
-    "newestpages-none": "Nincsenek találatok.",
-    "newestpages-ns-header": "'''Ez az oldal a wiki {{PLURAL:$1||$1}} legújabb lapját listázza a(z) $2 névtérben.'''",
-    "newestpages-showing": "{{PLURAL:$1|Legújabb|$1 legújabb}} lap listázása:",
-    "newestpages-submit": "Megjelenítés",
-    "newestpages-showredir": "Átirányítások mutatása",
-    "newestpages-hideredir": "Átirányítások elrejtése"
+	"@metadata": {
+		"authors": [
+			"Dani",
+			"Enbéká",
+			"Glanthor Reviol"
+		]
+	},
+	"newestpages": "Legújabb lapok",
+	"newestpages-desc": "Megmutatja az [[Special:NewestPages|utolsó X lapot]] a wikin",
+	"newestpages-header": "'''Ezen az oldalon a wiki {{PLURAL:$1||$1}} legújabb lapja látható.'''",
+	"newestpages-limitlinks": "$1 oldal megjelenítése",
+	"newestpages-namespace": "Névtér:",
+	"newestpages-none": "Nincsenek találatok.",
+	"newestpages-ns-header": "'''Ez az oldal a wiki {{PLURAL:$1||$1}} legújabb lapját listázza a(z) $2 névtérben.'''",
+	"newestpages-showing": "{{PLURAL:$1|Legújabb|$1 legújabb}} lap listázása:",
+	"newestpages-submit": "Megjelenítés",
+	"newestpages-showredir": "Átirányítások mutatása",
+	"newestpages-hideredir": "Átirányítások elrejtése"
 }

@@ -1,18 +1,18 @@
 {
-    "@metadata": {
-        "authors": [
-            "Helix84"
-        ]
-    },
-    "newestpages": "Najnovšie stránky",
-    "newestpages-desc": "Zobrazuje [[Special:NewestPages|posledných X stránok]] pridaných na wiki",
-    "newestpages-header": "'''Toto je {{PLURAL:$1|najnovšia stránka|zoznam $1 najnovších stránok}} na wiki.'''",
-    "newestpages-limitlinks": "Zobraziť najviac $1 stránok",
-    "newestpages-namespace": "Menný priestor:",
-    "newestpages-none": "Neboli nájdené žiadne záznamy.",
-    "newestpages-ns-header": "'''Toto je {{PLURAL:$1|najnovšia stránka|zoznam $1 najnovších stránok}} v mennom priestore $2.'''",
-    "newestpages-showing": "{{PLURAL:$1|najnovšia stránka|Zoznam $1 najnovších stránok}}:",
-    "newestpages-submit": "Vykonať",
-    "newestpages-showredir": "Zobraziť presmerovacie stránky",
-    "newestpages-hideredir": "Skryť presmerovacie stránky"
+	"@metadata": {
+		"authors": [
+			"Helix84"
+		]
+	},
+	"newestpages": "Najnovšie stránky",
+	"newestpages-desc": "Zobrazuje [[Special:NewestPages|posledných X stránok]] pridaných na wiki",
+	"newestpages-header": "'''Toto je {{PLURAL:$1|najnovšia stránka|zoznam $1 najnovších stránok}} na wiki.'''",
+	"newestpages-limitlinks": "Zobraziť najviac $1 stránok",
+	"newestpages-namespace": "Menný priestor:",
+	"newestpages-none": "Neboli nájdené žiadne záznamy.",
+	"newestpages-ns-header": "'''Toto je {{PLURAL:$1|najnovšia stránka|zoznam $1 najnovších stránok}} v mennom priestore $2.'''",
+	"newestpages-showing": "{{PLURAL:$1|najnovšia stránka|Zoznam $1 najnovších stránok}}:",
+	"newestpages-submit": "Vykonať",
+	"newestpages-showredir": "Zobraziť presmerovacie stránky",
+	"newestpages-hideredir": "Skryť presmerovacie stránky"
 }

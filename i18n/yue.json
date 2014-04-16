@@ -1,19 +1,19 @@
 {
-    "@metadata": {
-        "authors": [
-            "Hillgentleman",
-            "Shinjiman"
-        ]
-    },
-    "newestpages": "新頁",
-    "newestpages-desc": "顯示[[Special:NewestPages|最近X版]]到個wiki度",
-    "newestpages-header": "'''呢度列舉成個維基入面最新 $1 頁。'''",
-    "newestpages-limitlinks": "攤開頂龍 $1 版",
-    "newestpages-namespace": "空間名:",
-    "newestpages-none": "乜都揾唔到。",
-    "newestpages-ns-header": "'''呢度列舉$2 空間名裏面最新 $1 篇文。'''",
-    "newestpages-showing": "攤開最新$1 篇文：",
-    "newestpages-submit": "去",
-    "newestpages-showredir": "攤開啲跳轉頁",
-    "newestpages-hideredir": "摺埋啲跳轉頁"
+	"@metadata": {
+		"authors": [
+			"Hillgentleman",
+			"Shinjiman"
+		]
+	},
+	"newestpages": "新頁",
+	"newestpages-desc": "顯示[[Special:NewestPages|最近X版]]到個wiki度",
+	"newestpages-header": "'''呢度列舉成個維基入面最新 $1 頁。'''",
+	"newestpages-limitlinks": "攤開頂龍 $1 版",
+	"newestpages-namespace": "空間名:",
+	"newestpages-none": "乜都揾唔到。",
+	"newestpages-ns-header": "'''呢度列舉$2 空間名裏面最新 $1 篇文。'''",
+	"newestpages-showing": "攤開最新$1 篇文：",
+	"newestpages-submit": "去",
+	"newestpages-showredir": "攤開啲跳轉頁",
+	"newestpages-hideredir": "摺埋啲跳轉頁"
 }

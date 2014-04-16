@@ -1,19 +1,19 @@
 {
-    "@metadata": {
-        "authors": [
-            "Ghaly",
-            "Meno25"
-        ]
-    },
-    "newestpages": "أجدد الصفحات",
-    "newestpages-desc": "يعرض [[Special:NewestPages|آخر صفحات]] تمت إضافتها إلى الويكي",
-    "newestpages-header": "'''الصفحة دى بتعرض {{PLURAL:$1|صفحة|أجدد $1 صفحة}} فى الويكى.'''",
-    "newestpages-limitlinks": "اعرض حتى $1 صفحة",
-    "newestpages-namespace": "النطاق:",
-    "newestpages-none": "لم يتم العثور على مدخلات.",
-    "newestpages-ns-header": "'''الصفحة دى بتعرض أجدد {{PLURAL:$1|صفحة|$1 صفحة}} فى النيمسبيس $2.'''",
-    "newestpages-showing": "عرض {{PLURAL:$1|الصفحة|الصفحات $1}} الأجدد:",
-    "newestpages-submit": "اذهب",
-    "newestpages-showredir": "عرض صفحات التحويل",
-    "newestpages-hideredir": "إخفاء صفحات التحويل"
+	"@metadata": {
+		"authors": [
+			"Ghaly",
+			"Meno25"
+		]
+	},
+	"newestpages": "أجدد الصفحات",
+	"newestpages-desc": "يعرض [[Special:NewestPages|آخر صفحات]] تمت إضافتها إلى الويكي",
+	"newestpages-header": "'''الصفحة دى بتعرض {{PLURAL:$1|صفحة|أجدد $1 صفحة}} فى الويكى.'''",
+	"newestpages-limitlinks": "اعرض حتى $1 صفحة",
+	"newestpages-namespace": "النطاق:",
+	"newestpages-none": "لم يتم العثور على مدخلات.",
+	"newestpages-ns-header": "'''الصفحة دى بتعرض أجدد {{PLURAL:$1|صفحة|$1 صفحة}} فى النيمسبيس $2.'''",
+	"newestpages-showing": "عرض {{PLURAL:$1|الصفحة|الصفحات $1}} الأجدد:",
+	"newestpages-submit": "اذهب",
+	"newestpages-showredir": "عرض صفحات التحويل",
+	"newestpages-hideredir": "إخفاء صفحات التحويل"
 }

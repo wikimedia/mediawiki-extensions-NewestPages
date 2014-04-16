@@ -1,14 +1,14 @@
 {
-    "@metadata": {
-        "authors": [
-            "Natsubee"
-        ]
-    },
-    "newestpages": "Axa siwo le yeye wu",
-    "newestpages-desc": "Efia [[Special:NewestPages|axa X susuewo]] siwo woda ɖe wiki la dzi",
-    "newestpages-header": "'''Axa sia fia {{PLURAL:$1|axa yeyeawu|axa $1 yeyeawowu}} le wiki la dzi'''",
-    "newestpages-limitlinks": "Fia axawo ƒe xexlẽme vaseɖe $1",
-    "newestpages-none": "Womekpɔ nuŋɔ̃ŋlɔ̃wo aɖeke o.",
-    "newestpages-showing": "Wofia {{PLURAL:$1|axa yeyetɔwu|axa $1 yeyewutɔwo}}:",
-    "newestpages-submit": "Yi"
+	"@metadata": {
+		"authors": [
+			"Natsubee"
+		]
+	},
+	"newestpages": "Axa siwo le yeye wu",
+	"newestpages-desc": "Efia [[Special:NewestPages|axa X susuewo]] siwo woda ɖe wiki la dzi",
+	"newestpages-header": "'''Axa sia fia {{PLURAL:$1|axa yeyeawu|axa $1 yeyeawowu}} le wiki la dzi'''",
+	"newestpages-limitlinks": "Fia axawo ƒe xexlẽme vaseɖe $1",
+	"newestpages-none": "Womekpɔ nuŋɔ̃ŋlɔ̃wo aɖeke o.",
+	"newestpages-showing": "Wofia {{PLURAL:$1|axa yeyetɔwu|axa $1 yeyewutɔwo}}:",
+	"newestpages-submit": "Yi"
 }

@@ -1,20 +1,20 @@
 {
-    "@metadata": {
-        "authors": [
-            "Fohanno",
-            "Fulup",
-            "Y-M D"
-        ]
-    },
-    "newestpages": "Pajennoù nevesañ",
-    "newestpages-desc": "Diskouez a ra an [[Special:NewestPages|X pajenn ziwezhañ]] bet ouzhpennet war ar wiki.",
-    "newestpages-header": "'''Rollañ a ra ar bajenn-mañ {{PLURAL:$1|pajenn nevesañ|$1 pajenn nevesañ}} ar wiki.'''",
-    "newestpages-limitlinks": "Diskouez betek $1 pajenn",
-    "newestpages-namespace": "Esaouenn anv :",
-    "newestpages-none": "Pajenn ebet kavet.",
-    "newestpages-ns-header": "'''Rollañ a ra ar bajenn-mañ ar {{PLURAL:$1|bajenn nevesañ|$1 pajenn nevesañ}} en esaouenn anv $2.'''",
-    "newestpages-showing": "Rollañ {{PLURAL:$1|diouzh ar bajenn nevesañ|diouzh ar $1 pajenn nevesañ}} :",
-    "newestpages-submit": "Mont",
-    "newestpages-showredir": "Diskouez ar pajennoù adkas",
-    "newestpages-hideredir": "Kuzhat ar pajennoù adkas"
+	"@metadata": {
+		"authors": [
+			"Fohanno",
+			"Fulup",
+			"Y-M D"
+		]
+	},
+	"newestpages": "Pajennoù nevesañ",
+	"newestpages-desc": "Diskouez a ra an [[Special:NewestPages|X pajenn ziwezhañ]] bet ouzhpennet war ar wiki.",
+	"newestpages-header": "'''Rollañ a ra ar bajenn-mañ {{PLURAL:$1|pajenn nevesañ|$1 pajenn nevesañ}} ar wiki.'''",
+	"newestpages-limitlinks": "Diskouez betek $1 pajenn",
+	"newestpages-namespace": "Esaouenn anv :",
+	"newestpages-none": "Pajenn ebet kavet.",
+	"newestpages-ns-header": "'''Rollañ a ra ar bajenn-mañ ar {{PLURAL:$1|bajenn nevesañ|$1 pajenn nevesañ}} en esaouenn anv $2.'''",
+	"newestpages-showing": "Rollañ {{PLURAL:$1|diouzh ar bajenn nevesañ|diouzh ar $1 pajenn nevesañ}} :",
+	"newestpages-submit": "Mont",
+	"newestpages-showredir": "Diskouez ar pajennoù adkas",
+	"newestpages-hideredir": "Kuzhat ar pajennoù adkas"
 }

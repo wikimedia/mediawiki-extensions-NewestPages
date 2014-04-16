@@ -1,14 +1,14 @@
 {
-    "@metadata": {
-        "authors": [
-            "Wikitanvir"
-        ]
-    },
-    "newestpages": "নতুনতম পাতাসমূহ",
-    "newestpages-limitlinks": "$1টি পর্যন্ত পাতা দেখাও",
-    "newestpages-namespace": "নামস্থান:",
-    "newestpages-none": "কোনো সংযোজন খুঁজে পাওয়া যায়নি।",
-    "newestpages-submit": "চলো",
-    "newestpages-showredir": "পুনর্নির্দেশ পাতাগুলো দেখাও",
-    "newestpages-hideredir": "পুনর্নির্দেশ পাতাগুলো লুকাও"
+	"@metadata": {
+		"authors": [
+			"Wikitanvir"
+		]
+	},
+	"newestpages": "নতুনতম পাতাসমূহ",
+	"newestpages-limitlinks": "$1টি পর্যন্ত পাতা দেখাও",
+	"newestpages-namespace": "নামস্থান:",
+	"newestpages-none": "কোনো সংযোজন খুঁজে পাওয়া যায়নি।",
+	"newestpages-submit": "চলো",
+	"newestpages-showredir": "পুনর্নির্দেশ পাতাগুলো দেখাও",
+	"newestpages-hideredir": "পুনর্নির্দেশ পাতাগুলো লুকাও"
 }

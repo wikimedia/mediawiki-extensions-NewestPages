@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Basharh"
-        ]
-    },
-    "newestpages-namespace": "ܚܩܠܐ:",
-    "newestpages-submit": "ܙܠ",
-    "newestpages-showredir": "ܚܘܝ ܦܐܬܬ̈ܐ ܕܨܘܝܒܐ",
-    "newestpages-hideredir": "ܛܫܝ ܦܐܬܬ̈ܐ ܕܨܘܝܒܐ"
+	"@metadata": {
+		"authors": [
+			"Basharh"
+		]
+	},
+	"newestpages-namespace": "ܚܩܠܐ:",
+	"newestpages-submit": "ܙܠ",
+	"newestpages-showredir": "ܚܘܝ ܦܐܬܬ̈ܐ ܕܨܘܝܒܐ",
+	"newestpages-hideredir": "ܛܫܝ ܦܐܬܬ̈ܐ ܕܨܘܝܒܐ"
 }

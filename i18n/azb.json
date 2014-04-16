@@ -1,18 +1,18 @@
 {
-    "@metadata": {
-        "authors": [
-            "Mousa"
-        ]
-    },
-    "newestpages": "ان یئنی صحیفه‌لر",
-    "newestpages-desc": "بو ویکی‌یه آرتیریلمیش [[Special:NewestPages|سون X صحیفه]]‌نی گؤسترر",
-    "newestpages-header": "'''بو صحیفه‌ده ویکی‌نین یئنی {{PLURAL:$1|صحیفه|$1 صحیفه}}‌سی لیست اولونور.'''",
-    "newestpages-limitlinks": "$1 صحیفه‌یه کیمی گؤستر",
-    "newestpages-namespace": "آد فضاسی:",
-    "newestpages-none": "هئچ بیر گیردی تاپیلانمادی.",
-    "newestpages-ns-header": "'''بو صحیفه‌ده $2 آد فضاسینین یئنی {{PLURAL:$1|صحیفه|$1 صحیفه}}‌سی لیست اولونور.'''",
-    "newestpages-showing": "یئنی {{PLURAL:$1|صحیفه|$1 صحیفه}} لیستی:",
-    "newestpages-submit": "گئت",
-    "newestpages-showredir": "یول‌لاندیرما صحیفه‌لرینی گؤستر",
-    "newestpages-hideredir": "یول‌لاندیرما صحیفه‌لرینی گیزلت"
+	"@metadata": {
+		"authors": [
+			"Mousa"
+		]
+	},
+	"newestpages": "ان یئنی صحیفه‌لر",
+	"newestpages-desc": "بو ویکی‌یه آرتیریلمیش [[Special:NewestPages|سون X صحیفه]]‌نی گؤسترر",
+	"newestpages-header": "'''بو صحیفه‌ده ویکی‌نین یئنی {{PLURAL:$1|صحیفه|$1 صحیفه}}‌سی لیست اولونور.'''",
+	"newestpages-limitlinks": "$1 صحیفه‌یه کیمی گؤستر",
+	"newestpages-namespace": "آد فضاسی:",
+	"newestpages-none": "هئچ بیر گیردی تاپیلانمادی.",
+	"newestpages-ns-header": "'''بو صحیفه‌ده $2 آد فضاسینین یئنی {{PLURAL:$1|صحیفه|$1 صحیفه}}‌سی لیست اولونور.'''",
+	"newestpages-showing": "یئنی {{PLURAL:$1|صحیفه|$1 صحیفه}} لیستی:",
+	"newestpages-submit": "گئت",
+	"newestpages-showredir": "یول‌لاندیرما صحیفه‌لرینی گؤستر",
+	"newestpages-hideredir": "یول‌لاندیرما صحیفه‌لرینی گیزلت"
 }

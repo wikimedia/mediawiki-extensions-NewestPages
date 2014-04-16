@@ -1,18 +1,18 @@
 {
-    "@metadata": {
-        "authors": [
-            "Als-Holder"
-        ]
-    },
-    "newestpages": "Nejschti Syte",
-    "newestpages-desc": "Zeigt di [[Special:NewestPages|nejschte X Syte]] vum Wiki",
-    "newestpages-header": "'''Die Syte lischtet di {{PLURAL:$1|nejscht Syte|$1 nejschte Syte}} vu däm Wiki uf.'''",
-    "newestpages-limitlinks": "Zeig $1 Syte",
-    "newestpages-namespace": "Namensruum:",
-    "newestpages-none": "Kei Yytrag gfunde.",
-    "newestpages-ns-header": "'''Die Syte lischtet di {{PLURAL:$1|nejscht Syten|$1 nejschte Syten}} im Namensruum $2 uf.'''",
-    "newestpages-showing": "Di {{PLURAL:$1|nejscht Syte|$1 nejschte Syte}}:",
-    "newestpages-submit": "Sueche",
-    "newestpages-showredir": "Wyterleitigssyten aazeige",
-    "newestpages-hideredir": "Wyterleitigssyten uusblände"
+	"@metadata": {
+		"authors": [
+			"Als-Holder"
+		]
+	},
+	"newestpages": "Nejschti Syte",
+	"newestpages-desc": "Zeigt di [[Special:NewestPages|nejschte X Syte]] vum Wiki",
+	"newestpages-header": "'''Die Syte lischtet di {{PLURAL:$1|nejscht Syte|$1 nejschte Syte}} vu däm Wiki uf.'''",
+	"newestpages-limitlinks": "Zeig $1 Syte",
+	"newestpages-namespace": "Namensruum:",
+	"newestpages-none": "Kei Yytrag gfunde.",
+	"newestpages-ns-header": "'''Die Syte lischtet di {{PLURAL:$1|nejscht Syten|$1 nejschte Syten}} im Namensruum $2 uf.'''",
+	"newestpages-showing": "Di {{PLURAL:$1|nejscht Syte|$1 nejschte Syte}}:",
+	"newestpages-submit": "Sueche",
+	"newestpages-showredir": "Wyterleitigssyten aazeige",
+	"newestpages-hideredir": "Wyterleitigssyten uusblände"
 }

@@ -1,18 +1,18 @@
 {
-    "@metadata": {
-        "authors": [
-            "Candalua"
-        ]
-    },
-    "newestpages": "Pagine piassè nove",
-    "newestpages-desc": "Mostra le [[Special:NewestPages|ultime X pagine]] zontà a la wiki",
-    "newestpages-header": "'''Sta pagina la elenca {{PLURAL:$1|la pagina piassè nova|le $1 pagine piassè nove}} su sta wiki.'''",
-    "newestpages-limitlinks": "Mostra fin a $1 pagine",
-    "newestpages-namespace": "Namespace:",
-    "newestpages-none": "No xe stà catà nissuna pagina.",
-    "newestpages-ns-header": "'''Sta pagina la elenca {{PLURAL:$1|la pagina piassè nova|le $1 pagine piassè nove}} nel namespace $2.'''",
-    "newestpages-showing": "Elenco de {{PLURAL:$1|la pagina piassè nova|le $1 pagine piassè nove}}:",
-    "newestpages-submit": "Và",
-    "newestpages-showredir": "Mostra i redirect",
-    "newestpages-hideredir": "Scondi i redirect"
+	"@metadata": {
+		"authors": [
+			"Candalua"
+		]
+	},
+	"newestpages": "Pagine piassè nove",
+	"newestpages-desc": "Mostra le [[Special:NewestPages|ultime X pagine]] zontà a la wiki",
+	"newestpages-header": "'''Sta pagina la elenca {{PLURAL:$1|la pagina piassè nova|le $1 pagine piassè nove}} su sta wiki.'''",
+	"newestpages-limitlinks": "Mostra fin a $1 pagine",
+	"newestpages-namespace": "Namespace:",
+	"newestpages-none": "No xe stà catà nissuna pagina.",
+	"newestpages-ns-header": "'''Sta pagina la elenca {{PLURAL:$1|la pagina piassè nova|le $1 pagine piassè nove}} nel namespace $2.'''",
+	"newestpages-showing": "Elenco de {{PLURAL:$1|la pagina piassè nova|le $1 pagine piassè nove}}:",
+	"newestpages-submit": "Và",
+	"newestpages-showredir": "Mostra i redirect",
+	"newestpages-hideredir": "Scondi i redirect"
 }

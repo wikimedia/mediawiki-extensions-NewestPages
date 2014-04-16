@@ -1,18 +1,18 @@
 {
-    "@metadata": {
-        "authors": [
-            "Chrisportelli"
-        ]
-    },
-    "newestpages": "Paġni l-aktar riċenti",
-    "newestpages-desc": "Turi l-[[Special:NewestPages|aħħar X paġna]] miżjuda fuq il-wiki.",
-    "newestpages-header": "'''Din il-paġna turi l-aktar {{PLURAL:$1|paġna riċenti|$1 paġna riċenti}} fuq il-wiki.'''",
-    "newestpages-limitlinks": "Uri sa $1 paġna",
-    "newestpages-namespace": "Spazju tal-isem:",
-    "newestpages-none": "Ma nstabet l-ebda paġna.",
-    "newestpages-ns-header": "'''Din il-paġna telenka l-aktar {{PLURAL:$1|paġna riċenti|$1 paġna riċenti}} fl-ispazju tal-isem $2.'''",
-    "newestpages-showing": "Lista tal-{{PLURAL:$1|paġna|$1 paġna}} l-aktar riċenti:",
-    "newestpages-submit": "Mur",
-    "newestpages-showredir": "Uri r-riindirizzi",
-    "newestpages-hideredir": "Aħbi r-riindirizzi"
+	"@metadata": {
+		"authors": [
+			"Chrisportelli"
+		]
+	},
+	"newestpages": "Paġni l-aktar riċenti",
+	"newestpages-desc": "Turi l-[[Special:NewestPages|aħħar X paġna]] miżjuda fuq il-wiki.",
+	"newestpages-header": "'''Din il-paġna turi l-aktar {{PLURAL:$1|paġna riċenti|$1 paġna riċenti}} fuq il-wiki.'''",
+	"newestpages-limitlinks": "Uri sa $1 paġna",
+	"newestpages-namespace": "Spazju tal-isem:",
+	"newestpages-none": "Ma nstabet l-ebda paġna.",
+	"newestpages-ns-header": "'''Din il-paġna telenka l-aktar {{PLURAL:$1|paġna riċenti|$1 paġna riċenti}} fl-ispazju tal-isem $2.'''",
+	"newestpages-showing": "Lista tal-{{PLURAL:$1|paġna|$1 paġna}} l-aktar riċenti:",
+	"newestpages-submit": "Mur",
+	"newestpages-showredir": "Uri r-riindirizzi",
+	"newestpages-hideredir": "Aħbi r-riindirizzi"
 }

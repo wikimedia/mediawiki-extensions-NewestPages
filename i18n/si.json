@@ -1,14 +1,14 @@
 {
-    "@metadata": {
-        "authors": [
-            "පසිඳු කාවින්ද"
-        ]
-    },
-    "newestpages": "නවතම පිටු",
-    "newestpages-limitlinks": "පිටු $1 දක්වා පෙන්වන්න",
-    "newestpages-namespace": "නාමඅවකාශය:",
-    "newestpages-none": "ඇතුලත් කිරීම් හමු නොවුණි.",
-    "newestpages-submit": "යන්න",
-    "newestpages-showredir": "යළියොමු පිටු පෙන්වන්න",
-    "newestpages-hideredir": "යළියොමු පිටු සඟවන්න"
+	"@metadata": {
+		"authors": [
+			"පසිඳු කාවින්ද"
+		]
+	},
+	"newestpages": "නවතම පිටු",
+	"newestpages-limitlinks": "පිටු $1 දක්වා පෙන්වන්න",
+	"newestpages-namespace": "නාමඅවකාශය:",
+	"newestpages-none": "ඇතුලත් කිරීම් හමු නොවුණි.",
+	"newestpages-submit": "යන්න",
+	"newestpages-showredir": "යළියොමු පිටු පෙන්වන්න",
+	"newestpages-hideredir": "යළියොමු පිටු සඟවන්න"
 }

@@ -1,18 +1,18 @@
 {
-    "@metadata": {
-        "authors": [
-            "AnakngAraw"
-        ]
-    },
-    "newestpages": "Pinakabagong mga pahina",
-    "newestpages-desc": "Nagpapakita ng [[Special:NewestPages|huling X mga pahina]]ng naidagdag sa wiki",
-    "newestpages-header": "'''Nagtatala ang pahinang ito ng {{PLURAL:$1|pinakabagong pahina|$1 pinakabagong mga pahina}} sa ibabaw ng wiki.'''",
-    "newestpages-limitlinks": "Magpakita ng hanggang sa $1 mga pahina",
-    "newestpages-namespace": "Espasyo ng pangalan:",
-    "newestpages-none": "Walang natagpuang mga entrado/ipinasok.",
-    "newestpages-ns-header": "'''Nagtatala ang pahinang ito ng {{PLURAL:$1|pinakabagong pahina|$1 pinakabagong mga pahina}} sa loob ng $2 espasyo ng pangalan.'''",
-    "newestpages-showing": "Itinatala ang {{PLURAL:$1|pinakabagong pahina|$1 pinakabagong mga pahina}}:",
-    "newestpages-submit": "Gawin na",
-    "newestpages-showredir": "Ipakita ang mga pahina ipinanuto/muling itinuro",
-    "newestpages-hideredir": "Itago ang mga pahinang ipinanuto/muling itinuro"
+	"@metadata": {
+		"authors": [
+			"AnakngAraw"
+		]
+	},
+	"newestpages": "Pinakabagong mga pahina",
+	"newestpages-desc": "Nagpapakita ng [[Special:NewestPages|huling X mga pahina]]ng naidagdag sa wiki",
+	"newestpages-header": "'''Nagtatala ang pahinang ito ng {{PLURAL:$1|pinakabagong pahina|$1 pinakabagong mga pahina}} sa ibabaw ng wiki.'''",
+	"newestpages-limitlinks": "Magpakita ng hanggang sa $1 mga pahina",
+	"newestpages-namespace": "Espasyo ng pangalan:",
+	"newestpages-none": "Walang natagpuang mga entrado/ipinasok.",
+	"newestpages-ns-header": "'''Nagtatala ang pahinang ito ng {{PLURAL:$1|pinakabagong pahina|$1 pinakabagong mga pahina}} sa loob ng $2 espasyo ng pangalan.'''",
+	"newestpages-showing": "Itinatala ang {{PLURAL:$1|pinakabagong pahina|$1 pinakabagong mga pahina}}:",
+	"newestpages-submit": "Gawin na",
+	"newestpages-showredir": "Ipakita ang mga pahina ipinanuto/muling itinuro",
+	"newestpages-hideredir": "Itago ang mga pahinang ipinanuto/muling itinuro"
 }

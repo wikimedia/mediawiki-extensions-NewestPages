@@ -1,18 +1,18 @@
 {
-    "@metadata": {
-        "authors": [
-            "CERminator"
-        ]
-    },
-    "newestpages": "Najnovije stranice",
-    "newestpages-desc": "Prikazuje [[Special:NewestPages|zadnjih X stranica]] dodanih na wiki",
-    "newestpages-header": "'''Ova stranica prikazuje {{PLURAL:$1|najnoviju stranicu|$1 najnovije stranice|$1 najnovijih stranica}} na wikiju.'''",
-    "newestpages-limitlinks": "Prikaži do $1 stranica",
-    "newestpages-namespace": "Imenski prostor:",
-    "newestpages-none": "Nije pronađeno ništa.",
-    "newestpages-ns-header": "'''Ova stranica prikazuje {{PLURAL:$1|najnoviju stranicu|$1 najnovije stranice|$1 najnovijih stranica}} u imenskom prostoru $2.'''",
-    "newestpages-showing": "Prikazuje {{PLURAL:$1|najnoviju stranicu|$1 najnovije stranice|$1 najnovijih stranica}}:",
-    "newestpages-submit": "Idi",
-    "newestpages-showredir": "Prikaži stranice preusmjeravanja",
-    "newestpages-hideredir": "Sakrij stranice preusmjerenja"
+	"@metadata": {
+		"authors": [
+			"CERminator"
+		]
+	},
+	"newestpages": "Najnovije stranice",
+	"newestpages-desc": "Prikazuje [[Special:NewestPages|zadnjih X stranica]] dodanih na wiki",
+	"newestpages-header": "'''Ova stranica prikazuje {{PLURAL:$1|najnoviju stranicu|$1 najnovije stranice|$1 najnovijih stranica}} na wikiju.'''",
+	"newestpages-limitlinks": "Prikaži do $1 stranica",
+	"newestpages-namespace": "Imenski prostor:",
+	"newestpages-none": "Nije pronađeno ništa.",
+	"newestpages-ns-header": "'''Ova stranica prikazuje {{PLURAL:$1|najnoviju stranicu|$1 najnovije stranice|$1 najnovijih stranica}} u imenskom prostoru $2.'''",
+	"newestpages-showing": "Prikazuje {{PLURAL:$1|najnoviju stranicu|$1 najnovije stranice|$1 najnovijih stranica}}:",
+	"newestpages-submit": "Idi",
+	"newestpages-showredir": "Prikaži stranice preusmjeravanja",
+	"newestpages-hideredir": "Sakrij stranice preusmjerenja"
 }

@@ -1,23 +1,23 @@
 {
-    "@metadata": {
-        "authors": [
-            "Milicevic01",
-            "Nikola Smolenski",
-            "Rancher",
-            "Sasa Stefanovic",
-            "Жељко Тодоровић",
-            "Михајло Анђелковић"
-        ]
-    },
-    "newestpages": "Најновије странице",
-    "newestpages-desc": "Показује [[Special:NewestPages|последњих X страница]] додатих викију",
-    "newestpages-header": "'''Ово је списак {{PLURAL:$1|са најновијом страном|$1 најновијих страна}} на овом викију.'''",
-    "newestpages-limitlinks": "Прикажи $1 страница",
-    "newestpages-namespace": "Именски простор:",
-    "newestpages-none": "Није ништа пронађено.",
-    "newestpages-ns-header": "'''Ово је списак {{PLURAL:$1|са најновијом страном|$1 најновијих страна}} у именском простору $2.'''",
-    "newestpages-showing": "Списак {{PLURAL:$1|најновије стране|$1 најновијих страна}}:",
-    "newestpages-submit": "Иди",
-    "newestpages-showredir": "Прикажи странице преусмерења",
-    "newestpages-hideredir": "Сакриј странице преусмерења"
+	"@metadata": {
+		"authors": [
+			"Milicevic01",
+			"Nikola Smolenski",
+			"Rancher",
+			"Sasa Stefanovic",
+			"Жељко Тодоровић",
+			"Михајло Анђелковић"
+		]
+	},
+	"newestpages": "Најновије странице",
+	"newestpages-desc": "Показује [[Special:NewestPages|последњих X страница]] додатих викију",
+	"newestpages-header": "'''Ово је списак {{PLURAL:$1|са најновијом страном|$1 најновијих страна}} на овом викију.'''",
+	"newestpages-limitlinks": "Прикажи $1 страница",
+	"newestpages-namespace": "Именски простор:",
+	"newestpages-none": "Није ништа пронађено.",
+	"newestpages-ns-header": "'''Ово је списак {{PLURAL:$1|са најновијом страном|$1 најновијих страна}} у именском простору $2.'''",
+	"newestpages-showing": "Списак {{PLURAL:$1|најновије стране|$1 најновијих страна}}:",
+	"newestpages-submit": "Иди",
+	"newestpages-showredir": "Прикажи странице преусмерења",
+	"newestpages-hideredir": "Сакриј странице преусмерења"
 }

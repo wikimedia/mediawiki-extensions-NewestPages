@@ -1,20 +1,20 @@
 {
-    "@metadata": {
-        "authors": [
-            "Kghbln",
-            "Markus Klatt",
-            "Raimond Spekking"
-        ]
-    },
-    "newestpages": "Neueste Seiten",
-    "newestpages-desc": "Ergänzt eine [[Special:NewestPages|Spezialseite]] zur Anzeige einer festzulegenden Anzahl neuer Seiten",
-    "newestpages-header": "'''Diese Seite listet die {{PLURAL:$1|neueste Seite|$1 neuesten Seiten}} dieses Wikis auf.'''",
-    "newestpages-limitlinks": "Zeige $1 Seiten",
-    "newestpages-namespace": "Namensraum:",
-    "newestpages-none": "Kein Eintrag gefunden.",
-    "newestpages-ns-header": "'''Diese Seite listet die {{PLURAL:$1|neueste Seite|$1 neuesten Seiten}} im Namensraum $2 auf.'''",
-    "newestpages-showing": "Die {{PLURAL:$1|neueste Seite|$1 neuesten Seiten}}:",
-    "newestpages-submit": "Suchen",
-    "newestpages-showredir": "Weiterleitungsseiten anzeigen",
-    "newestpages-hideredir": "Weiterleitungsseiten ausblenden"
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Markus Klatt",
+			"Raimond Spekking"
+		]
+	},
+	"newestpages": "Neueste Seiten",
+	"newestpages-desc": "Ergänzt eine [[Special:NewestPages|Spezialseite]] zur Anzeige einer festzulegenden Anzahl neuer Seiten",
+	"newestpages-header": "'''Diese Seite listet die {{PLURAL:$1|neueste Seite|$1 neuesten Seiten}} dieses Wikis auf.'''",
+	"newestpages-limitlinks": "Zeige $1 Seiten",
+	"newestpages-namespace": "Namensraum:",
+	"newestpages-none": "Kein Eintrag gefunden.",
+	"newestpages-ns-header": "'''Diese Seite listet die {{PLURAL:$1|neueste Seite|$1 neuesten Seiten}} im Namensraum $2 auf.'''",
+	"newestpages-showing": "Die {{PLURAL:$1|neueste Seite|$1 neuesten Seiten}}:",
+	"newestpages-submit": "Suchen",
+	"newestpages-showredir": "Weiterleitungsseiten anzeigen",
+	"newestpages-hideredir": "Weiterleitungsseiten ausblenden"
 }

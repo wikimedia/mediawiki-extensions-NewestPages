@@ -1,13 +1,13 @@
 {
-    "@metadata": {
-        "authors": [
-            "Dalibor Bosits",
-            "Herr Mlinka"
-        ]
-    },
-    "newestpages": "Najnovije stranice",
-    "newestpages-namespace": "Imenski prostor:",
-    "newestpages-submit": "Kreni",
-    "newestpages-showredir": "Prikaži preusmjerene stranice",
-    "newestpages-hideredir": "Sakrij preusmjerene stranice"
+	"@metadata": {
+		"authors": [
+			"Dalibor Bosits",
+			"Herr Mlinka"
+		]
+	},
+	"newestpages": "Najnovije stranice",
+	"newestpages-namespace": "Imenski prostor:",
+	"newestpages-submit": "Kreni",
+	"newestpages-showredir": "Prikaži preusmjerene stranice",
+	"newestpages-hideredir": "Sakrij preusmjerene stranice"
 }
