@@ -314,6 +314,11 @@ $specialPageAliases['tr'] = array(
 	'NewestPages' => array( 'EnYeniSayfalar' ),
 );
 
+/** Ukrainian (українська) */
+$specialPageAliases['uk'] = array(
+	'NewestPages' => array( 'Найновіші_сторінки' ),
+);
+
 /** vèneto (vèneto) */
 $specialPageAliases['vec'] = array(
 	'NewestPages' => array( 'PaginePiNove' ),
