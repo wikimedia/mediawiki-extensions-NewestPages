@@ -13,9 +13,9 @@
 
 class NewestPages extends IncludableSpecialPage {
 
-	var $limit = null;
-	var $namespace = null;
-	var $redirects = null;
+	public $limit = null;
+	public $namespace = null;
+	public $redirects = null;
 
 	public function __construct() {
 		parent::__construct( 'NewestPages', '', true, false, 'default', true );
