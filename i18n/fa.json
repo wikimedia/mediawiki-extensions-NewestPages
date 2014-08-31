@@ -4,10 +4,11 @@
 			"Armin1392",
 			"Ebraminio",
 			"Mjbmr",
-			"Vahid"
+			"Vahid",
+			"Alirezaaa"
 		]
 	},
-	"newestpages": "جدیدترین صفحه‌ها",
+	"newestpages": "تازه‌ترین صفحات",
 	"newestpages-desc": "نمایش [[Special:NewestPages|آخرین X صفحهٔ]] افزوده شده به ویکی",
 	"newestpages-header": "'''این صفحه {{PLURAL:$1|جدیدترین صفحه|$1 جدیدترین صفحات}}  در ویکی فهرست می‌کند.'''",
 	"newestpages-limitlinks": "نمایش تا صفحات $1",
