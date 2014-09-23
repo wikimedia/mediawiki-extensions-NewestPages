@@ -319,7 +319,7 @@ $specialPageAliases['uk'] = array(
 	'NewestPages' => array( 'Найновіші_сторінки' ),
 );
 
-/** vèneto (vèneto) */
+/** Venetian (vèneto) */
 $specialPageAliases['vec'] = array(
 	'NewestPages' => array( 'PaginePiNove' ),
 );
