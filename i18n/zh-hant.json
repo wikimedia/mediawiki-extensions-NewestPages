@@ -9,7 +9,7 @@
 	},
 	"newestpages": "最新頁面",
 	"newestpages-desc": "顯示[[Special:NewestPages|最近 X 個頁面]]到 wiki 中",
-	"newestpages-header": "'''本頁面列出了本維基$1最新的頁面。'''",
+	"newestpages-header": "'''本頁面列出了本 wiki $1最新的頁面。'''",
 	"newestpages-limitlinks": "顯示 $1 個頁面",
 	"newestpages-namespace": "命名空間：",
 	"newestpages-none": "沒找到頁面。",
