@@ -1,6 +1,7 @@
 <?php
-if ( ! defined( 'MEDIAWIKI' ) )
-    die();
+if ( !defined( 'MEDIAWIKI' ) ) {
+	die();
+}
 
 /**
  * Special page to show the last X pages added to the wiki
@@ -14,19 +15,18 @@ if ( ! defined( 'MEDIAWIKI' ) )
  */
 
 $wgExtensionCredits['specialpage'][] = array(
-	'path'           => __FILE__,
-	'name'           => 'Newest Pages',
-	'version'        => '1.10.0',
-	'author'         => 'Rob Church',
-	'url'            => 'https://www.mediawiki.org/wiki/Extension:Newest_Pages',
+	'path' => __FILE__,
+	'name' => 'Newest Pages',
+	'version' => '1.10.1',
+	'author' => 'Rob Church',
+	'url' => 'https://www.mediawiki.org/wiki/Extension:Newest_Pages',
 	'descriptionmsg' => 'newestpages-desc',
 );
 
 $wgNewestPagesLimit = 50;
 
-$dir = dirname(__FILE__) . '/';
 $wgMessagesDirs['NewestPages'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['NewestPages'] = $dir . 'NewestPages.i18n.php';
-$wgExtensionMessagesFiles['NewestPagesAlias'] = $dir . 'NewestPages.alias.php';
-$wgAutoloadClasses['NewestPages'] = $dir . 'NewestPages.page.php';
+$wgExtensionMessagesFiles['NewestPages'] = __DIR__ . '/NewestPages.i18n.php';
+$wgExtensionMessagesFiles['NewestPagesAlias'] = __DIR__ . '/NewestPages.alias.php';
+$wgAutoloadClasses['NewestPages'] = __DIR__ . '/NewestPages.page.php';
 $wgSpecialPages['NewestPages'] = 'NewestPages';

@@ -55,7 +55,8 @@ class NewestPages extends IncludableSpecialPage {
 			$this->setHeaders();
 			$limit = $wgLang->formatNum( $this->limit );
 			if( $this->namespace > 0 ) {
-				$wgOut->addWikiMsg( 'newestpages-ns-header', $limit, $wgContLang->getFormattedNsText( $this->namespace ) );
+				$wgOut->addWikiMsg( 'newestpages-ns-header', $limit,
+					$wgContLang->getFormattedNsText( $this->namespace ) );
 			} else {
 				$wgOut->addWikiMsg( 'newestpages-header', $limit );
 			}
@@ -133,9 +134,10 @@ class NewestPages extends IncludableSpecialPage {
 			$link = $row->page_is_redirect
 					? '<span class="allpagesredirect">' . Linker::linkKnown( $title ) . '</span>'
 					: Linker::linkKnown( $title );
-			return( "<li>{$link}</li>\n" );
+			return "<li>{$link}</li>\n";
 		} else {
-			return( "<!-- Invalid title " . htmlspecialchars( $row->page_title ) . " in namespace " . htmlspecialchars( $row->page_namespace ) . " -->\n" );
+			return "<!-- Invalid title " . htmlspecialchars( $row->page_title ) .
+				" in namespace " . htmlspecialchars( $row->page_namespace ) . " -->\n";
 		}
 	}
 
@@ -151,11 +153,13 @@ class NewestPages extends IncludableSpecialPage {
 				$links[] = (string)$limit;
 			}
 		}
-		return( $this->msg( 'newestpages-limitlinks' )->rawParams( $wgLang->pipeList( $links ) )->escaped() );
+		return $this->msg( 'newestpages-limitlinks' )->rawParams(
+				$wgLang->pipeList( $links ) )->escaped();
 	}
 
 	function makeRedirectToggle() {
-		$label = $this->msg( $this->redirects ? 'newestpages-hideredir' : 'newestpages-showredir' )->escaped();
+		$label = $this->msg(
+				$this->redirects ? 'newestpages-hideredir' : 'newestpages-showredir'  )->escaped();
 		return $this->makeSelfLink( $label, 'redirects', (int)!$this->redirects );
 	}
 
@@ -178,7 +182,8 @@ class NewestPages extends IncludableSpecialPage {
 
 	function makeNamespaceForm() {
 		$self = $this->getPageTitle();
-		$form  = Xml::openElement( 'form', array( 'method' => 'post', 'action' => $self->getLocalUrl() ) );
+		$form = Xml::openElement(
+				'form', array( 'method' => 'post', 'action' => $self->getLocalUrl() ) );
 		$form .= Xml::label( $this->msg( 'newestpages-namespace' )->text(), 'namespace' ) . '&#160;';
 		$form .= Html::namespaceSelector( array(
 			'selected' => $this->namespace,
@@ -193,5 +198,9 @@ class NewestPages extends IncludableSpecialPage {
 		$form .= Html::Hidden( 'redirects', $this->redirects );
 		$form .= Xml::submitButton( $this->msg( 'newestpages-submit' )->text() ) . '</form>';
 		return $form;
+	}
+
+	protected function getGroupName() {
+		return 'changes';
 	}
 }
