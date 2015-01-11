@@ -191,7 +191,7 @@ $specialPageAliases['lad'] = array(
 
 /** Luxembourgish (Lëtzebuergesch) */
 $specialPageAliases['lb'] = array(
-	'NewestPages' => array( 'Neiste_Säiten' ),
+	'NewestPages' => array( 'Neist_Säiten' ),
 );
 
 /** Macedonian (македонски) */
