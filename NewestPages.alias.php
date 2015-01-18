@@ -319,6 +319,11 @@ $specialPageAliases['uk'] = array(
 	'NewestPages' => array( 'Найновіші_сторінки' ),
 );
 
+/** Urdu (اردو) */
+$specialPageAliases['ur'] = array(
+	'NewestPages' => array( 'نئے_صفحات' ),
+);
+
 /** Venetian (vèneto) */
 $specialPageAliases['vec'] = array(
 	'NewestPages' => array( 'PaginePiNove' ),
