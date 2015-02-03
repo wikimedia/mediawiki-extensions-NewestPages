@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chase me ladies, I'm the Cavalry"
+		]
+	},
+	"newestpages": "Newest pages",
+	"newestpages-desc": "Shows the [[Special:NewestPages|last X pages]] added to the wiki",
+	"newestpages-header": "'''This page lists the {{PLURAL:$1|newest page|$1 newest pages}} on the wiki.'''",
+	"newestpages-limitlinks": "Show up to $1 pages",
+	"newestpages-namespace": "Namespace:",
+	"newestpages-none": "No entries were found.",
+	"newestpages-ns-header": "'''This page lists the {{PLURAL:$1|newest page|$1 newest pages}} in the $2 namespace.'''",
+	"newestpages-showing": "Listing {{PLURAL:$1|newest page|$1 newest pages}}:",
+	"newestpages-submit": "Go",
+	"newestpages-showredir": "Show redirect pages",
+	"newestpages-hideredir": "Hide redirect pages"
+}
