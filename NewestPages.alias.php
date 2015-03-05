@@ -281,7 +281,7 @@ $specialPageAliases['sq'] = array(
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎) */
 $specialPageAliases['sr-ec'] = array(
-	'NewestPages' => array( 'НајновијаСтраница' ),
+	'NewestPages' => array( 'НајновијеСтранице', 'НајновијаСтраница' ),
 );
 
 /** Swedish (svenska) */
