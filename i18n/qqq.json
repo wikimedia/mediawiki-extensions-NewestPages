@@ -5,11 +5,12 @@
 			"Purodha",
 			"Shirayuki",
 			"Siebrand",
-			"The Evil IP address"
+			"The Evil IP address",
+			"Umherirrender"
 		]
 	},
 	"newestpages": "{{doc-special|NewestPages|unlisted=1}}",
-	"newestpages-desc": "{{desc|name=Newest Pages|url=http://www.mediawiki.org/wiki/Extension:Newest_Pages}}",
+	"newestpages-desc": "{{desc|name=Newest Pages|url=https://www.mediawiki.org/wiki/Extension:Newest_Pages}}",
 	"newestpages-header": "Parameters\n* $1 - limit of number of pages (value of <code>$wgNewestPagesLimit</code>)\nSee also:\n* {{msg-mw|Newestpages-ns-header}}",
 	"newestpages-limitlinks": "Parameters:\n* $1 - a list of links (pipe-separated), like \"10 | 20 | 30 | 50 | 100 | 150\"",
 	"newestpages-namespace": "{{Identical|Namespace}}",
