@@ -34,6 +34,11 @@ $specialPageAliases['bg'] = array(
 	'NewestPages' => array( 'Най-нови_страници' ),
 );
 
+/** Western Balochi (بلوچی رخشانی) */
+$specialPageAliases['bgn'] = array(
+	'NewestPages' => array( 'تازه_گین_تاکذیمان' ),
+);
+
 /** Banjar (Bahasa Banjar) */
 $specialPageAliases['bjn'] = array(
 	'NewestPages' => array( 'Tungkaran_tahanyar' ),
