@@ -124,6 +124,11 @@ $specialPageAliases['he'] = array(
 	'NewestPages' => array( 'דפים_חדשים_ביותר' ),
 );
 
+/** Hindi (हिन्दी) */
+$specialPageAliases['hi'] = array(
+	'NewestPages' => array( 'नवीनतम_पृष्ठ' ),
+);
+
 /** Croatian (hrvatski) */
 $specialPageAliases['hr'] = array(
 	'NewestPages' => array( 'Najnovije_stranice' ),
