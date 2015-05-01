@@ -7,5 +7,6 @@
 	"newestpages": "تر ټولو نوي مخونه",
 	"newestpages-limitlinks": "تر $1 پورې مخونه ښکاره کړی",
 	"newestpages-namespace": "نوم-تشيال:",
-	"newestpages-submit": "ورځه"
+	"newestpages-submit": "ورځه",
+	"newestpages-hideredir": "مخ گرځونې مخونه پټول"
 }
