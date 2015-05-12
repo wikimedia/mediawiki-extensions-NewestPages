@@ -24,7 +24,7 @@ $specialPageAliases['ar'] = array(
 	'NewestPages' => array( 'أجدد_الصفحات' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $specialPageAliases['arz'] = array(
 	'NewestPages' => array( 'اجدد_الصفح' ),
 );
@@ -104,7 +104,7 @@ $specialPageAliases['fr'] = array(
 	'NewestPages' => array( 'Pages_les_plus_récentes', 'PagesLesPlusRécentes' ),
 );
 
-/** Franco-Provençal (arpetan) */
+/** Arpitan (arpetan) */
 $specialPageAliases['frp'] = array(
 	'NewestPages' => array( 'Pâges_les_ples_novèles', 'PâgesLesPlesNovèles' ),
 );
