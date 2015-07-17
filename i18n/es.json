@@ -4,7 +4,8 @@
 			"Baiji",
 			"Crazymadlover",
 			"Imre",
-			"Jatrobat"
+			"Jatrobat",
+			"Macofe"
 		]
 	},
 	"newestpages": "Páginas más recientes",
@@ -13,7 +14,7 @@
 	"newestpages-limitlinks": "Mostrar hasta $1 páginas",
 	"newestpages-namespace": "Espacio de nombres:",
 	"newestpages-none": "Ninguna entrada fue encontrada.",
-	"newestpages-ns-header": "'''esta página lista las {{PLURAL:$1|página más nueva|$1 páginas más nuevas}} en el nombre de espacio $2.'''",
+	"newestpages-ns-header": "'''Esta página lista {{PLURAL:$1|la página más nueva|las $1 páginas más nuevas}} en el espacio de nombres $2.'''",
 	"newestpages-showing": "Listando {{PLURAL:$1|la página más nueva|$1 Las páginas más nuevas}}:",
 	"newestpages-submit": "Ir",
 	"newestpages-showredir": "Mostrar página de redirección",
