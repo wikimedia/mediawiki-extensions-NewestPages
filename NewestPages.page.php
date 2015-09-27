@@ -28,6 +28,9 @@ class NewestPages extends IncludableSpecialPage {
 		$this->decipherParams( $par );
 		$this->setOptions( $wgRequest );
 
+		// Load style for class="allpagesredirect"
+		$wgOut->addModuleStyles( 'mediawiki.special' );
+
 		$dbr = wfGetDB( DB_SLAVE );
 
 		$conds = array();
