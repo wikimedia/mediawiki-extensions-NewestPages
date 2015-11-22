@@ -17,7 +17,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'Newest Pages',
-	'version' => '1.10.1',
+	'version' => '1.20',
 	'author' => 'Rob Church',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Newest_Pages',
 	'descriptionmsg' => 'newestpages-desc',
@@ -26,7 +26,6 @@ $wgExtensionCredits['specialpage'][] = array(
 $wgNewestPagesLimit = 50;
 
 $wgMessagesDirs['NewestPages'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['NewestPages'] = __DIR__ . '/NewestPages.i18n.php';
 $wgExtensionMessagesFiles['NewestPagesAlias'] = __DIR__ . '/NewestPages.alias.php';
 $wgAutoloadClasses['NewestPages'] = __DIR__ . '/NewestPages.page.php';
 $wgSpecialPages['NewestPages'] = 'NewestPages';
