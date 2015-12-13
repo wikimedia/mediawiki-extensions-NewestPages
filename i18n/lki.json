@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hosseinblue",
+			"Lakzon"
+		]
+	},
+	"newestpages": " تازه ترین وةڵگةل",
+	"newestpages-desc": "نمایش [[Special:NewestPages|آخرین X صفحهٔ]] افزوده شده به ویکی",
+	"newestpages-header": "'''این صفحه {{PLURAL:$1|جدیدترین صفحه|$1 جدیدترین صفحات}}  در ویکی فهرست می‌کند.'''",
+	"newestpages-limitlinks": "نمایش تا صفحات $1",
+	"newestpages-namespace": "فضای نام:",
+	"newestpages-none": "هیچ ورودی پیدا نشد.",
+	"newestpages-ns-header": "'''این صفحه،{{PLURAL:$1|جدیدترین صفحه|$1 جدیدترین صفحات}} را در فضای نام $2 فهرست می‌کند.'''",
+	"newestpages-showing": "فهرست کردن {{PLURAL:$1|جدیدترین صفحه|$1 جدیدتزین صفحات}}:",
+	"newestpages-submit": "بِچۆ",
+	"newestpages-showredir": "نمایش تغییر جهت صفحات",
+	"newestpages-hideredir": "پنهان کردن تغییر جهت صفحات"
+}
