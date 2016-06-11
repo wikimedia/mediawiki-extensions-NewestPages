@@ -13,7 +13,7 @@
 	"newestpages-header": "'''Esta página lista {{PLURAL:$1|la página más nueva|las $1 páginas más nuevas}} en el wiki.'''",
 	"newestpages-limitlinks": "Mostrar hasta $1 páginas",
 	"newestpages-namespace": "Espacio de nombres:",
-	"newestpages-none": "Ninguna entrada fue encontrada.",
+	"newestpages-none": "No se encontraron entradas.",
 	"newestpages-ns-header": "'''Esta página lista {{PLURAL:$1|la página más nueva|las $1 páginas más nuevas}} en el espacio de nombres $2.'''",
 	"newestpages-showing": "Listando {{PLURAL:$1|la página más nueva|las $1 páginas más nuevas}}:",
 	"newestpages-submit": "Ir",
