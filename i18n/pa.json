@@ -1,8 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gman124"
+			"Gman124",
+			"Tow"
 		]
 	},
-	"newestpages": "ਨਵੇਂ ਲੇਖ"
+	"newestpages": "ਨਵੇਂ ਲੇਖ",
+	"newestpages-limitlinks": "$1 ਸਫਿਆੰ ਤੱਕ ਵਿਖਾਓ",
+	"newestpages-showing": "{{PLURAL:$1|ਨਵੇੰ ਸਫੇ|$1 ਨਵੇੰ ਸਫਿਆੰ}} ਦੀ ਸੂਚੀ:",
+	"newestpages-submit": "ਜਾਓ",
+	"newestpages-hideredir": "ਮੋੜ ਸਫੇ ਲੁਕਾਓ"
 }
