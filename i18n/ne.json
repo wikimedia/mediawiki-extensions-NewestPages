@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"RajeshPandey",
-			"बिप्लब आनन्द"
+			"बिप्लब आनन्द",
+			"राम प्रसाद जोशी"
 		]
 	},
 	"newestpages": "नयाँ पृष्ठहरू",
@@ -10,6 +11,6 @@
 	"newestpages-namespace": "नामस्थान:",
 	"newestpages-none": "कुनैपनि प्रविष्ठि पाइएन।",
 	"newestpages-submit": "जाउ",
-	"newestpages-showredir": "अनुप्रेषित पृष्ठसभ देखाबी",
+	"newestpages-showredir": "अनुप्रेषित पृष्ठहरू देखाउनुहोस्",
 	"newestpages-hideredir": "रिडाइरेक्ट पृष्ठहरू लुकाउ"
 }
