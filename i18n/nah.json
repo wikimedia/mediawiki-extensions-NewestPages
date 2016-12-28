@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fluence"
+			"Fluence",
+			"Akapochtli"
 		]
 	},
-	"newestpages": "Yancuīc zāzaniltin",
+	"newestpages": "Yancuic tlahcuilolamameh",
 	"newestpages-desc": "Tiquinttāz in [[Special:NewestPages|xōcoyōc X zāzaniltin]] huiquipan",
 	"newestpages-header": "'''Nicān, in achi yancuīc ahmo {{PLURAL:$1|occē|occequīntīn $1}} zāzanilli huiquipan.'''",
 	"newestpages-limitlinks": "Xiquintta huehca ōmpa $1 zāzaniltin",
