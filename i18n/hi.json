@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kaustubh"
+			"Kaustubh",
+			"Sfic"
 		]
 	},
 	"newestpages": "नवीनतम पन्ने",
@@ -11,7 +12,7 @@
 	"newestpages-namespace": "नामस्थान:",
 	"newestpages-none": "एन्ट्री मिली नहीं।",
 	"newestpages-ns-header": "'''यह पृष्ठ $2 नामस्थानमें बनायें $1 नवीनतम पन्नोंकी सूची दर्शाता हैं।'''",
-	"newestpages-showing": "$1 नवीनतम पन्नोंकी सूची:",
+	"newestpages-showing": "{{PLURAL:$1|नए पन्ने|$1 नए पन्नों}} की सूची:",
 	"newestpages-submit": "जायें",
 	"newestpages-showredir": "अनुप्रेषित पन्ने दर्शायें",
 	"newestpages-hideredir": "अनुप्रेषित पन्ने छुपायें"
