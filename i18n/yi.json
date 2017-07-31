@@ -1,8 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"පසිඳු කාවින්ද"
+			"පසිඳු කාවින්ද",
+			"פוילישער"
 		]
 	},
-	"newestpages-submit": "גיין"
+	"newestpages": "נייעסטע בלעטער",
+	"newestpages-namespace": "נאָמענטייל:",
+	"newestpages-submit": "גיין",
+	"newestpages-showredir": "ווייזן ווייטערפֿירונג־בלעטער",
+	"newestpages-hideredir": "באהאלטן ווייטערפֿירונג־בלעטער"
 }
