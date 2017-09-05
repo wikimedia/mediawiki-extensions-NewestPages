@@ -6,6 +6,9 @@
 		]
 	},
 	"newestpages": "נייעסטע בלעטער",
+	"newestpages-desc": "ווייזט די [[Special:NewestPages|לעצטע בלעטער]] צוגעלייגט צו דער וויקי",
+	"newestpages-header": "'''דער בלאט איז א רשימה פון {{PLURAL:$1|דעם נייעסטן בלאט|$1 די נייעסטע בלעטער}} אויף דער וויקי.'''",
+	"newestpages-limitlinks": "ווייזט ביז $1 בלעטער",
 	"newestpages-namespace": "נאָמענטייל:",
 	"newestpages-submit": "גיין",
 	"newestpages-showredir": "ווייזן ווייטערפֿירונג־בלעטער",
