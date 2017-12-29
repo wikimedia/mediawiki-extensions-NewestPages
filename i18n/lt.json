@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hugo.arg"
+			"Hugo.arg",
+			"Manvydasz"
 		]
 	},
 	"newestpages": "Naujausi puslapiai",
@@ -11,7 +12,7 @@
 	"newestpages-namespace": "Vardų sritis:",
 	"newestpages-none": "Reikšmių nerasta.",
 	"newestpages-ns-header": "'''Šis puslapis rikiuoja $1 naujausius puslapius $2 vardų srityje.'''",
-	"newestpages-showing": "Rikiuojami $1 naujausi puslapiai:",
+	"newestpages-showing": "Rikiuojami {{PLURAL:$1|naujausias puslapis|$1 naujausi puslapiai|$1 naujausių puslapių}}:",
 	"newestpages-submit": "Eiti",
 	"newestpages-showredir": "Rodyti peradresavimų puslapius",
 	"newestpages-hideredir": "Slėpti peradresavimų puslapius"
