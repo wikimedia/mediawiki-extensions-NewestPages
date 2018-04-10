@@ -68,7 +68,7 @@ class NewestPages extends IncludableSpecialPage {
 			} else {
 				$out->addWikiMsg( 'newestpages-header', $limit );
 			}
-			$out->addHTML( $this->makeNamespaceForm() );
+			$this->makeNamespaceForm();
 			$out->addHTML( '<p>' . $this->makeLimitLinks() );
 			$out->addHTML( '<br />' . $this->makeRedirectToggle() . '</p>' );
 		}
@@ -192,22 +192,29 @@ class NewestPages extends IncludableSpecialPage {
 
 	function makeNamespaceForm() {
 		$self = $this->getPageTitle();
-		$form = Xml::openElement(
-				'form', array( 'method' => 'post', 'action' => $self->getLocalURL() ) );
-		$form .= Xml::label( $this->msg( 'newestpages-namespace' )->text(), 'namespace' ) . '&#160;';
-		$form .= Html::namespaceSelector( array(
-			'selected' => $this->namespace,
-			'all' => 'all',
-			'label' => null,
-		), array(
-			'name' => 'namespace',
-			'id' => 'namespace',
-			'class' => 'namespaceselector',
-		) );
-		$form .= Html::hidden( 'limit', $this->limit );
-		$form .= Html::hidden( 'redirects', $this->redirects );
-		$form .= Xml::submitButton( $this->msg( 'newestpages-submit' )->text() ) . '</form>';
-		return $form;
+		$formDescriptor = [
+			'namespace' => [
+				'type' => 'namespaceselect',
+				'name' => 'namespace',
+				'id' => 'namespace',
+				'label' =>  $this->msg( 'newestpages-namespace' )->text(),
+				'all' => 'all',
+				'value' => $this->namespace,
+			]
+		];
+
+		$htmlForm = HTMLForm::factory( 'ooui', $formDescriptor, $this->getContext() );
+		$htmlForm
+			->addHiddenField( 'limit', $this->limit )
+			->addHiddenField( 'redirects', $this->redirects )
+			->setMethod( 'post' )
+			->setAction( $self->getLocalURL() )
+			->setSubmitText( $this->msg( 'newestpages-submit' )->text() )
+			->setWrapperLegend( Null )
+			->prepareForm()
+			->displayForm( false );
+
+		 return true;
 	}
 
 	protected function getGroupName() {
