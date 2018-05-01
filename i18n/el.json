@@ -5,13 +5,17 @@
 			"Crazymadlover",
 			"Glavkos",
 			"ZaDiak",
-			"Protnet"
+			"Protnet",
+			"Nikosgranturismogt"
 		]
 	},
 	"newestpages": "Νεότερες σελίδες",
+	"newestpages-desc": "Εμφανίζει τις [[Special:NewestPages|τελευταίες X σελίδες]] που έχουν προστεθεί στο βίκι",
+	"newestpages-header": "'''Αυτή η σελίδα καταλογίζει τις {{PLURAL:$1|νεότερη σελίδα|$1 νεότερες σελίδες}} στο βίκι.'''",
 	"newestpages-limitlinks": "Εμφάνιση μέχρι και $1 σελίδες",
 	"newestpages-namespace": "Ονοματοχώρος:",
 	"newestpages-none": "Δεν βρέθηκαν καθόλου καταχωρήσεις.",
+	"newestpages-ns-header": "'''Αυτή η σελίδα καταλογίζει τις {{PLURAL:$1|νεότερη σελίδα|$1 νεότερες σελίδες}} στον ονοματοχώρο $2.'''",
 	"newestpages-showing": "Καταγραφή {{PLURAL:$1|νεότερης σελίδας|$1 νεότερων σελίδων}}:",
 	"newestpages-submit": "Πηγαίνετε",
 	"newestpages-showredir": "Εμφάνιση σελίδων ανακατεύθυνσης",
