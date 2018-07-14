@@ -197,7 +197,7 @@ class NewestPages extends IncludableSpecialPage {
 				'type' => 'namespaceselect',
 				'name' => 'namespace',
 				'id' => 'namespace',
-				'label' =>  $this->msg( 'newestpages-namespace' )->text(),
+				'label' => $this->msg( 'newestpages-namespace' )->text(),
 				'all' => 'all',
 				'value' => $this->namespace,
 			]

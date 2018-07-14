@@ -8,7 +8,6 @@
 		<exclude name="MediaWiki.Commenting.LicenseComment.InvalidLicenseTag" />
 		<exclude name="MediaWiki.Files.ClassMatchesFilename.NotMatch" />
 		<exclude name="Squiz.Scope.MethodScope.Missing" />
-		<exclude name="Squiz.WhiteSpace.OperatorSpacing.SpacingAfter" />
 	</rule>
 	<file>.</file>
 	<arg name="extensions" value="php,php5,inc"/>
