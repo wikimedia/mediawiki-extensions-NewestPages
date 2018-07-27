@@ -207,8 +207,7 @@ class NewestPages extends IncludableSpecialPage {
 		$htmlForm
 			->addHiddenField( 'limit', $this->limit )
 			->addHiddenField( 'redirects', $this->redirects )
-			->setMethod( 'post' )
-			->setAction( $self->getLocalURL() )
+			->setMethod( 'get' )
 			->setSubmitText( $this->msg( 'newestpages-submit' )->text() )
 			->setWrapperLegend( null )
 			->prepareForm()
