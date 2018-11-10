@@ -6,18 +6,19 @@
 			"Rancher",
 			"Sasa Stefanovic",
 			"Жељко Тодоровић",
-			"Михајло Анђелковић"
+			"Михајло Анђелковић",
+			"BadDog"
 		]
 	},
 	"newestpages": "Најновије странице",
-	"newestpages-desc": "Показује [[Special:NewestPages|последњих X страница]] додатих викију",
-	"newestpages-header": "'''Ово је списак {{PLURAL:$1|са најновијом страном|$1 најновијих страна}} на овом викију.'''",
-	"newestpages-limitlinks": "Прикажи $1 страница",
+	"newestpages-desc": "Приказује [[Special:NewestPages|последњих X страница]] додатих викију",
+	"newestpages-header": "'''Ова страница наводи {{PLURAL:$1|најновију страницу|$1 најновије странице|$1 најновијих страница}} на викију.'''",
+	"newestpages-limitlinks": "Прикажи до $1 страница",
 	"newestpages-namespace": "Именски простор:",
-	"newestpages-none": "Није ништа пронађено.",
-	"newestpages-ns-header": "'''Ово је списак {{PLURAL:$1|са најновијом страном|$1 најновијих страна}} у именском простору $2.'''",
-	"newestpages-showing": "Списак {{PLURAL:$1|најновије стране|$1 најновијих страна}}:",
+	"newestpages-none": "Уноси нису пронађени.",
+	"newestpages-ns-header": "'''Ова страница наводи {{PLURAL:$1|најновију страницу|$1 најновије странице|$1 најновијих страница}} у именском простору $2.'''",
+	"newestpages-showing": "Списак наводи {{PLURAL:$1|најновију страницу|$1 најновије странице|$1 најновијих страница}}:",
 	"newestpages-submit": "Иди",
-	"newestpages-showredir": "Прикажи странице преусмерења",
-	"newestpages-hideredir": "Сакриј странице преусмерења"
+	"newestpages-showredir": "Прикажи преусмеравања",
+	"newestpages-hideredir": "Сакриј преусмеравања"
 }
