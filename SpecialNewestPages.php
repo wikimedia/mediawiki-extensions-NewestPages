@@ -93,7 +93,7 @@ class SpecialNewestPages extends IncludableSpecialPage {
 	/**
 	 * @param WebRequest $req
 	 */
-	private function setOptions( &$req ) {
+	private function setOptions( WebRequest $req ) {
 		global $wgNewestPagesLimit;
 		if ( !isset( $this->limit ) ) {
 			$this->limit = $this->sanitiseLimit( $req->getInt( 'limit', $wgNewestPagesLimit ) );
