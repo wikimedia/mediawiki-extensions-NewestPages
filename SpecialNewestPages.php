@@ -97,9 +97,9 @@ class SpecialNewestPages extends IncludableSpecialPage {
 	 * @param WebRequest $req
 	 */
 	private function setOptions( WebRequest $req ) {
-		global $wgNewestPagesLimit;
+		$newestPagesLimit = $this->getConfig()->get( 'NewestPagesLimit' );
 		if ( !isset( $this->limit ) ) {
-			$this->limit = $this->sanitiseLimit( $req->getInt( 'limit', $wgNewestPagesLimit ) );
+			$this->limit = $this->sanitiseLimit( $req->getInt( 'limit', $newestPagesLimit ) );
 		}
 		if ( !isset( $this->namespace ) ) {
 			$this->namespace = $this->extractNamespace( $req->getVal( 'namespace', -1 ) );
