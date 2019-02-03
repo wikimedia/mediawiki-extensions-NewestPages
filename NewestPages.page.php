@@ -11,6 +11,8 @@
  * @license GNU General Public Licence 2.0
  */
 
+use MediaWiki\MediaWikiServices;
+
 class NewestPages extends IncludableSpecialPage {
 
 	public $limit = null;
@@ -22,7 +24,7 @@ class NewestPages extends IncludableSpecialPage {
 	}
 
 	public function execute( $par ) {
-		global $wgContLang;
+		$language = MediaWikiServices::getInstance()->getContentLanguage();
 
 		$out = $this->getOutput();
 		$request = $this->getRequest();
@@ -64,7 +66,7 @@ class NewestPages extends IncludableSpecialPage {
 			$limit = $this->getLanguage()->formatNum( $this->limit );
 			if ( $this->namespace > 0 ) {
 				$out->addWikiMsg( 'newestpages-ns-header', $limit,
-					$wgContLang->getFormattedNsText( $this->namespace ) );
+					$language->getFormattedNsText( $this->namespace ) );
 			} else {
 				$out->addWikiMsg( 'newestpages-header', $limit );
 			}
@@ -122,11 +124,11 @@ class NewestPages extends IncludableSpecialPage {
 	}
 
 	function extractNamespace( $namespace ) {
-		global $wgContLang;
+		$language = MediaWikiServices::getInstance()->getContentLanguage();
 		if ( is_numeric( $namespace ) ) {
 			return $namespace;
-		} elseif ( $wgContLang->getNsIndex( $namespace ) !== false ) {
-			return $wgContLang->getNsIndex( $namespace );
+		} elseif ( $language->getNsIndex( $namespace ) !== false ) {
+			return $language->getNsIndex( $namespace );
 		} elseif ( $namespace == '-' ) {
 			return NS_MAIN;
 		} else {
