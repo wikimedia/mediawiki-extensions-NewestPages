@@ -8,7 +8,7 @@
  * @ingroup Extensions
  * @author Rob Church <robchur@gmail.com>
  * @copyright © 2006 Rob Church
- * @license GNU General Public Licence 2.0
+ * @license GPL-2.0-or-later
  */
 
 use MediaWiki\MediaWikiServices;
