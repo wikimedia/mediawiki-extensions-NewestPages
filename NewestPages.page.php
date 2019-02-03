@@ -143,10 +143,11 @@ class NewestPages extends IncludableSpecialPage {
 
 	function makeListItem( $row ) {
 		$title = Title::makeTitleSafe( $row->page_namespace, $row->page_title );
+		$linkRenderer = $this->getLinkRenderer();
 		if ( !is_null( $title ) ) {
 			$link = $row->page_is_redirect
-					? '<span class="allpagesredirect">' . Linker::linkKnown( $title ) . '</span>'
-					: Linker::linkKnown( $title );
+					? '<span class="allpagesredirect">' . $linkRenderer->makeKnownLink( $title ) . '</span>'
+					: $linkRenderer->makeKnownLink( $title );
 			return "<li>{$link}</li>\n";
 		} else {
 			return "<!-- Invalid title " . htmlspecialchars( $row->page_title ) .
@@ -171,11 +172,12 @@ class NewestPages extends IncludableSpecialPage {
 
 	function makeRedirectToggle() {
 		$label = $this->msg(
-				$this->redirects ? 'newestpages-hideredir' : 'newestpages-showredir' )->escaped();
+				$this->redirects ? 'newestpages-hideredir' : 'newestpages-showredir' )->text();
 		return $this->makeSelfLink( $label, 'redirects', (int)!$this->redirects );
 	}
 
 	function makeSelfLink( $label, $oname = false, $oval = false ) {
+		$linkRenderer = $this->getLinkRenderer();
 		$self = $this->getPageTitle();
 		$attr = [];
 		$attr['limit'] = $this->limit;
@@ -189,7 +191,7 @@ class NewestPages extends IncludableSpecialPage {
 			$attr[$oname] = $oval;
 		}
 
-		return Linker::linkKnown( $self, $label, [], $attr );
+		return $linkRenderer->makeKnownLink( $self, $label, [], $attr );
 	}
 
 	function makeNamespaceForm() {
