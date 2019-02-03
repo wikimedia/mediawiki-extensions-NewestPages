@@ -64,7 +64,7 @@ class SpecialNewestPages extends IncludableSpecialPage {
 		$count = $dbr->numRows( $res );
 
 		# Don't show the navigation if we're including the page
-		if ( !$this->mIncluding ) {
+		if ( !$this->including() ) {
 			$this->setHeaders();
 			$limit = $this->getLanguage()->formatNum( $this->limit );
 			if ( $this->namespace > 0 ) {
@@ -80,7 +80,7 @@ class SpecialNewestPages extends IncludableSpecialPage {
 
 		if ( $count > 0 ) {
 			# Make list
-			if ( !$this->mIncluding ) {
+			if ( !$this->including() ) {
 				$out->addWikiMsg( 'newestpages-showing', $this->getLanguage()->formatNum( $count ) );
 			}
 			$out->addHTML( '<ol>' );
