@@ -15,9 +15,9 @@ use MediaWiki\MediaWikiServices;
 
 class SpecialNewestPages extends IncludableSpecialPage {
 
-	public $limit = null;
-	public $namespace = null;
-	public $redirects = null;
+	private $limit = null;
+	private $namespace = null;
+	private $redirects = null;
 
 	public function __construct() {
 		parent::__construct( 'NewestPages', '', true, false, 'default', true );
@@ -93,7 +93,7 @@ class SpecialNewestPages extends IncludableSpecialPage {
 	/**
 	 * @param WebRequest $req
 	 */
-	function setOptions( &$req ) {
+	private function setOptions( &$req ) {
 		global $wgNewestPagesLimit;
 		if ( !isset( $this->limit ) ) {
 			$this->limit = $this->sanitiseLimit( $req->getInt( 'limit', $wgNewestPagesLimit ) );
@@ -106,11 +106,11 @@ class SpecialNewestPages extends IncludableSpecialPage {
 		}
 	}
 
-	function sanitiseLimit( $limit ) {
+	private function sanitiseLimit( $limit ) {
 		return min( (int)$limit, 5000 );
 	}
 
-	function decipherParams( $par ) {
+	private function decipherParams( $par ) {
 		if ( $par ) {
 			$bits = explode( '/', $par );
 			foreach ( $bits as $bit ) {
@@ -123,7 +123,7 @@ class SpecialNewestPages extends IncludableSpecialPage {
 		}
 	}
 
-	function extractNamespace( $namespace ) {
+	private function extractNamespace( $namespace ) {
 		$language = MediaWikiServices::getInstance()->getContentLanguage();
 		if ( is_numeric( $namespace ) ) {
 			return $namespace;
@@ -136,12 +136,12 @@ class SpecialNewestPages extends IncludableSpecialPage {
 		}
 	}
 
-	function getNsFragment() {
+	private function getNsFragment() {
 		$this->namespace = (int)$this->namespace;
 		return $this->namespace > -1 ? "page_namespace = {$this->namespace}" : 'page_namespace != 8';
 	}
 
-	function makeListItem( $row ) {
+	private function makeListItem( $row ) {
 		$title = Title::makeTitleSafe( $row->page_namespace, $row->page_title );
 		$linkRenderer = $this->getLinkRenderer();
 		if ( !is_null( $title ) ) {
@@ -155,7 +155,7 @@ class SpecialNewestPages extends IncludableSpecialPage {
 		}
 	}
 
-	function makeLimitLinks() {
+	private function makeLimitLinks() {
 		$lang = $this->getLanguage();
 		$limits = [ 10, 20, 30, 50, 100, 150 ];
 		$links = [];
@@ -170,13 +170,13 @@ class SpecialNewestPages extends IncludableSpecialPage {
 				$lang->pipeList( $links ) )->escaped();
 	}
 
-	function makeRedirectToggle() {
+	private function makeRedirectToggle() {
 		$label = $this->msg(
 				$this->redirects ? 'newestpages-hideredir' : 'newestpages-showredir' )->text();
 		return $this->makeSelfLink( $label, 'redirects', (int)!$this->redirects );
 	}
 
-	function makeSelfLink( $label, $oname = false, $oval = false ) {
+	private function makeSelfLink( $label, $oname = false, $oval = false ) {
 		$linkRenderer = $this->getLinkRenderer();
 		$self = $this->getPageTitle();
 		$attr = [];
@@ -194,7 +194,7 @@ class SpecialNewestPages extends IncludableSpecialPage {
 		return $linkRenderer->makeKnownLink( $self, $label, [], $attr );
 	}
 
-	function makeNamespaceForm() {
+	private function makeNamespaceForm() {
 		$self = $this->getPageTitle();
 		$formDescriptor = [
 			'namespace' => [
