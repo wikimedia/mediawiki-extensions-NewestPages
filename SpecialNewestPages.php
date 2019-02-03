@@ -23,6 +23,9 @@ class SpecialNewestPages extends IncludableSpecialPage {
 		parent::__construct( 'NewestPages', '', true, false, 'default', true );
 	}
 
+	/**
+	 * @inheritDoc
+	 */
 	public function execute( $par ) {
 		$language = MediaWikiServices::getInstance()->getContentLanguage();
 
@@ -220,6 +223,9 @@ class SpecialNewestPages extends IncludableSpecialPage {
 		 return true;
 	}
 
+	/**
+	 * @inheritDoc
+	 */
 	protected function getGroupName() {
 		return 'changes';
 	}
