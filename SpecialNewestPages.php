@@ -13,7 +13,7 @@
 
 use MediaWiki\MediaWikiServices;
 
-class NewestPages extends IncludableSpecialPage {
+class SpecialNewestPages extends IncludableSpecialPage {
 
 	public $limit = null;
 	public $namespace = null;
