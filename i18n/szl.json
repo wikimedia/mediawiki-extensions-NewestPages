@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Uostofchuodnego"
+		]
+	},
+	"newestpages": "Nojnowsze strōny",
+	"newestpages-desc": "Pokazuje [[Special:NewestPages|ôstatnie X strōn]] dodanych do tyj wiki",
+	"newestpages-header": "'''Ta strōna pokazuje {{PLURAL:$1|nojnowszõ strōnã|$1 nojnowsze strōny|$1 nojnowszych strōn}} na tyj wiki.'''",
+	"newestpages-limitlinks": "Pokŏż do $1 strōn",
+	"newestpages-namespace": "Przestrzyń mian:",
+	"newestpages-none": "Żŏdne wpisy niy były znojdziōne.",
+	"newestpages-ns-header": "'''Ta strōna pokazuje {{PLURAL:$1|nojnowszõ strōnã|$1 nojnowsze strōny|$1 nojnowszych strōn}} we przestrzyni mian „$2”.'''",
+	"newestpages-showing": "Pokazowanie {{PLURAL:$1|nojnowszyj strōny|$1 nojnowszych strōn}}:",
+	"newestpages-submit": "Pokŏż",
+	"newestpages-showredir": "Pokŏż pōnkniyńcia",
+	"newestpages-hideredir": "Skryj pōnkniyńcia"
+}
