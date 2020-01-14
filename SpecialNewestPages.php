@@ -147,7 +147,7 @@ class SpecialNewestPages extends IncludableSpecialPage {
 	private function makeListItem( $row ) {
 		$title = Title::makeTitleSafe( $row->page_namespace, $row->page_title );
 		$linkRenderer = $this->getLinkRenderer();
-		if ( !is_null( $title ) ) {
+		if ( $title !== null ) {
 			$link = $row->page_is_redirect
 					? '<span class="allpagesredirect">' . $linkRenderer->makeKnownLink( $title ) . '</span>'
 					: $linkRenderer->makeKnownLink( $title );
