@@ -1,17 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Candalua"
+			"Candalua",
+			"Fierodelveneto"
 		]
 	},
-	"newestpages": "Pagine piassè nove",
-	"newestpages-desc": "Mostra le [[Special:NewestPages|ultime X pagine]] zontà a la wiki",
-	"newestpages-header": "'''Sta pagina la elenca {{PLURAL:$1|la pagina piassè nova|le $1 pagine piassè nove}} su sta wiki.'''",
-	"newestpages-limitlinks": "Mostra fin a $1 pagine",
+	"newestpages": "Pajine pì nove",
+	"newestpages-desc": "Mostra łe [[Special:NewestPages|ultime X pajine]] xontae a ła wiki",
+	"newestpages-header": "'''Sta pajina ła ełenca {{PLURAL:$1|ła pajina pì nova|łe $1 pajine pì nove}} in sta wiki.'''",
+	"newestpages-limitlinks": "Mostra fin a $1 pajine",
 	"newestpages-namespace": "Namespace:",
-	"newestpages-none": "No xe stà catà nissuna pagina.",
-	"newestpages-ns-header": "'''Sta pagina la elenca {{PLURAL:$1|la pagina piassè nova|le $1 pagine piassè nove}} nel namespace $2.'''",
-	"newestpages-showing": "Elenco de {{PLURAL:$1|la pagina piassè nova|le $1 pagine piassè nove}}:",
+	"newestpages-none": "No ła xé stà catà nisuna pajina.",
+	"newestpages-ns-header": "'''Sta pajina ła ełenca {{PLURAL:$1|ła pajina pì nova|le $1 pajine pì nove}} n'tel namespace $2.'''",
+	"newestpages-showing": "Lista de {{PLURAL:$1|la pajina pì nova|le $1 pajine pì nove}}:",
 	"newestpages-submit": "Và",
 	"newestpages-showredir": "Mostra i redirect",
 	"newestpages-hideredir": "Scondi i redirect"
