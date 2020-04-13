@@ -2,17 +2,18 @@
 	"@metadata": {
 		"authors": [
 			"Candalua",
+			"Conky77",
 			"Fierodelveneto"
 		]
 	},
 	"newestpages": "Pajine pì nove",
 	"newestpages-desc": "Mostra łe [[Special:NewestPages|ultime X pajine]] xontae a ła wiki",
-	"newestpages-header": "'''Sta pajina ła ełenca {{PLURAL:$1|ła pajina pì nova|łe $1 pajine pì nove}} in sta wiki.'''",
+	"newestpages-header": "'''Sta pàjina ła ełenca {{PLURAL:$1|ła pàjina pì nova|łe $1 pàjine pì nove}} in sta wiki.'''",
 	"newestpages-limitlinks": "Mostra fin a $1 pajine",
 	"newestpages-namespace": "Namespace:",
-	"newestpages-none": "No ła xé stà catà nisuna pajina.",
-	"newestpages-ns-header": "'''Sta pajina ła ełenca {{PLURAL:$1|ła pajina pì nova|le $1 pajine pì nove}} n'tel namespace $2.'''",
-	"newestpages-showing": "Lista de {{PLURAL:$1|la pajina pì nova|le $1 pajine pì nove}}:",
+	"newestpages-none": "No xé stà catà nisuna pàjina.",
+	"newestpages-ns-header": "'''Sta pàjina ła ełenca {{PLURAL:$1|ła pàjina pì nova|le $1 pàjine pì nove}} n'tel namespace $2.'''",
+	"newestpages-showing": "Lista de {{PLURAL:$1|la pàjina pì nova|le $1 pàjine pì nove}}:",
 	"newestpages-submit": "Và",
 	"newestpages-showredir": "Mostra i redirect",
 	"newestpages-hideredir": "Scondi i redirect"

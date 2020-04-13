@@ -7,7 +7,7 @@
 		]
 	},
 	"newestpages": "Neueste Seiten",
-	"newestpages-desc": "Ergänzt eine [[Special:NewestPages|Spezialseite]] zur Anzeige einer festzulegenden Anzahl neuer Seiten",
+	"newestpages-desc": "Erweitert das Wiki um eine [[Special:NewestPages|Spezialseite]] zur Anzeige einer Anzahl neuer Seiten",
 	"newestpages-header": "'''Diese Seite listet die {{PLURAL:$1|neueste Seite|$1 neuesten Seiten}} dieses Wikis auf.'''",
 	"newestpages-limitlinks": "Zeige $1 Seiten",
 	"newestpages-namespace": "Namensraum:",
