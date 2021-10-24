@@ -15,8 +15,13 @@ use MediaWiki\MediaWikiServices;
 
 class SpecialNewestPages extends IncludableSpecialPage {
 
+	/** @var int|null */
 	private $limit = null;
+
+	/** @var int|null */
 	private $namespace = null;
+
+	/** @var bool|null */
 	private $redirects = null;
 
 	public function __construct() {
@@ -98,18 +103,22 @@ class SpecialNewestPages extends IncludableSpecialPage {
 	 */
 	private function setOptions( WebRequest $req ) {
 		$newestPagesLimit = $this->getConfig()->get( 'NewestPagesLimit' );
-		if ( !isset( $this->limit ) ) {
+		if ( $this->limit === null ) {
 			$this->limit = $this->sanitiseLimit( $req->getInt( 'limit', $newestPagesLimit ) );
 		}
-		if ( !isset( $this->namespace ) ) {
+		if ( $this->namespace === null ) {
 			$this->namespace = $this->extractNamespace( $req->getVal( 'namespace', -1 ) );
 		}
-		if ( !isset( $this->redirects ) ) {
+		if ( $this->redirects === null ) {
 			$this->redirects = (bool)$req->getInt( 'redirects', 1 );
 		}
 	}
 
-	private function sanitiseLimit( $limit ) {
+	/**
+	 * @param int|string $limit
+	 * @return int
+	 */
+	private function sanitiseLimit( $limit ): int {
 		return min( (int)$limit, 5000 );
 	}
 
@@ -126,13 +135,17 @@ class SpecialNewestPages extends IncludableSpecialPage {
 		}
 	}
 
-	private function extractNamespace( $namespace ) {
+	/**
+	 * @param int|string $namespace
+	 * @return int
+	 */
+	private function extractNamespace( $namespace ): int {
 		$language = MediaWikiServices::getInstance()->getContentLanguage();
 		if ( is_numeric( $namespace ) ) {
-			return $namespace;
+			return (int)$namespace;
 		} elseif ( $language->getNsIndex( $namespace ) !== false ) {
 			return $language->getNsIndex( $namespace );
-		} elseif ( $namespace == '-' ) {
+		} elseif ( $namespace === '-' ) {
 			return NS_MAIN;
 		} else {
 			return -1;
@@ -140,7 +153,6 @@ class SpecialNewestPages extends IncludableSpecialPage {
 	}
 
 	private function getNsFragment() {
-		$this->namespace = (int)$this->namespace;
 		return $this->namespace > -1 ? "page_namespace = {$this->namespace}" : 'page_namespace != 8';
 	}
 
@@ -163,7 +175,7 @@ class SpecialNewestPages extends IncludableSpecialPage {
 		$limits = [ 10, 20, 30, 50, 100, 150 ];
 		$links = [];
 		foreach ( $limits as $limit ) {
-			if ( $limit != $this->limit ) {
+			if ( $limit !== $this->limit ) {
 				$links[] = $this->makeSelfLink( $lang->formatNum( $limit ), 'limit', $limit );
 			} else {
 				$links[] = (string)$limit;
