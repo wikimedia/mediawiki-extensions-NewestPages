@@ -11,8 +11,6 @@
  * @license GPL-2.0-or-later
  */
 
-use MediaWiki\MediaWikiServices;
-
 class SpecialNewestPages extends IncludableSpecialPage {
 
 	/** @var int|null */
@@ -32,8 +30,6 @@ class SpecialNewestPages extends IncludableSpecialPage {
 	 * @inheritDoc
 	 */
 	public function execute( $par ) {
-		$language = MediaWikiServices::getInstance()->getContentLanguage();
-
 		$out = $this->getOutput();
 		$request = $this->getRequest();
 
@@ -74,7 +70,7 @@ class SpecialNewestPages extends IncludableSpecialPage {
 			$limit = $this->getLanguage()->formatNum( $this->limit );
 			if ( $this->namespace > 0 ) {
 				$out->addWikiMsg( 'newestpages-ns-header', $limit,
-					$language->getFormattedNsText( $this->namespace ) );
+					$this->getContentLanguage()->getFormattedNsText( $this->namespace ) );
 			} else {
 				$out->addWikiMsg( 'newestpages-header', $limit );
 			}
@@ -140,16 +136,17 @@ class SpecialNewestPages extends IncludableSpecialPage {
 	 * @return int
 	 */
 	private function extractNamespace( $namespace ): int {
-		$language = MediaWikiServices::getInstance()->getContentLanguage();
 		if ( is_numeric( $namespace ) ) {
 			return (int)$namespace;
-		} elseif ( $language->getNsIndex( $namespace ) !== false ) {
-			return $language->getNsIndex( $namespace );
-		} elseif ( $namespace === '-' ) {
-			return NS_MAIN;
-		} else {
-			return -1;
 		}
+		$namespaceFromString = $this->getContentLanguage()->getNsIndex( $namespace );
+		if ( $namespaceFromString !== false ) {
+			return $namespaceFromString;
+		}
+		if ( $namespace === '-' ) {
+			return NS_MAIN;
+		}
+		return -1;
 	}
 
 	private function getNsFragment() {
