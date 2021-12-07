@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ajeje Brazorf"
+		]
+	},
+	"newestpages": "Pàggini novi",
+	"newestpages-desc": "Ammustra li [[Special:NewestPages|ùrtimi X pàggini]] agghiunciuri ô wiki",
+	"newestpages-namespace": "Namespace:",
+	"newestpages-showredir": "Ammustra li rimanni",
+	"newestpages-hideredir": "Ammuccia li rimanni"
+}

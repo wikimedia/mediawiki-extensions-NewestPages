@@ -5,12 +5,13 @@
 			"Crazymadlover",
 			"Imre",
 			"Jatrobat",
-			"Macofe"
+			"Macofe",
+			"Jakeukalane"
 		]
 	},
 	"newestpages": "Páginas más recientes",
 	"newestpages-desc": "Muestra las [[Special:NewestPages|últimas X páginas]] agregadas al wiki",
-	"newestpages-header": "'''Esta página lista {{PLURAL:$1|la página más nueva|las $1 páginas más nuevas}} en el wiki.'''",
+	"newestpages-header": "'''Esta página lista {{PLURAL:$1|la página más nueva|las $1 páginas más nuevas}} en la wiki.'''",
 	"newestpages-limitlinks": "Mostrar hasta $1 páginas",
 	"newestpages-namespace": "Espacio de nombres:",
 	"newestpages-none": "No se encontraron entradas.",
