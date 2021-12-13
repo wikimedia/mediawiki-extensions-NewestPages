@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Gott wisst",
-			"Wōdenhelm"
+			"Wōdenhelm",
+			"Heahwrita"
 		]
 	},
 	"newestpages": "Nīwoste trametas",
-	"newestpages-showing": "Ātellende $1 nīwoste trametas:",
+	"newestpages-showing": "{{PLURAL:$1|Se niwosta tramet|Þa niwostan $1 trameta}}:",
 	"newestpages-submit": "Gān"
 }

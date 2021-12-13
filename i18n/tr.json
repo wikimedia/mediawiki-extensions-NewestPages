@@ -4,7 +4,8 @@
 			"BaRaN6161 TURK",
 			"Karduelis",
 			"Srhat",
-			"Vito Genovese"
+			"Vito Genovese",
+			"MuratTheTurkish"
 		]
 	},
 	"newestpages": "En yeni sayfalar",
@@ -13,7 +14,7 @@
 	"newestpages-limitlinks": "$1 sayfaya kadar göster",
 	"newestpages-namespace": "Ad alanı:",
 	"newestpages-none": "Girdisi bulunamadı.",
-	"newestpages-ns-header": "'''Bu sayfa, $2 isim alanındaki {{PLURAL:$1|en yeni sayfayı|en yeni $1 sayfayı}} listelemektedir.'''",
+	"newestpages-ns-header": "'''Bu sayfa, $2 ad alanındaki {{PLURAL:$1|en yeni sayfayı|en yeni $1 sayfayı}} listelemektedir.'''",
 	"newestpages-showing": "{{PLURAL:$1|En yeni sayfa|En yeni $1 sayfa}} listeleniyor:",
 	"newestpages-submit": "Git",
 	"newestpages-showredir": "Yönlendirme sayfalarını göster",

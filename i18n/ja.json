@@ -3,10 +3,11 @@
 		"authors": [
 			"Fryed-peach",
 			"Shirayuki",
-			"青子守歌"
+			"青子守歌",
+			"What here area team"
 		]
 	},
-	"newestpages": "新規作成されたページ",
+	"newestpages": "最も新しいページ",
 	"newestpages-desc": "ウィキに追加された[[Special:NewestPages|最新の X 件のページ]]を表示する",
 	"newestpages-header": "'''このページでは、ウィキ内の{{PLURAL:$1|最新のページを表示|最新の $1 件のページ}}を列挙しています。'''",
 	"newestpages-limitlinks": "$1 件のページを表示する",
