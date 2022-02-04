@@ -62,7 +62,7 @@ class SpecialNewestPages extends IncludableSpecialPage {
 				'OFFSET' => '0',
 			]
 		);
-		$count = $dbr->numRows( $res );
+		$count = $res->numRows();
 
 		# Don't show the navigation if we're including the page
 		if ( !$this->including() ) {
