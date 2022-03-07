@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Meno25",
-			"OsamaK"
+			"OsamaK",
+			"Hubaishan"
 		]
 	},
-	"newestpages": "أجدد الصفحات",
+	"newestpages": "أحدث الصفحات",
 	"newestpages-desc": "يعرض [[Special:NewestPages|آخر صفحات]] تمت إضافتها إلى الويكي",
 	"newestpages-header": "'''هذه الصفحة تعرض أحدث {{PLURAL:$1||صفحة|صفحتين|$1 صفحات|$1 صفحة}} في الويكي.'''",
 	"newestpages-limitlinks": "اعرض حتى $1 صفحة",
