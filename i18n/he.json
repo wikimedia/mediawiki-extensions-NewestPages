@@ -2,17 +2,18 @@
 	"@metadata": {
 		"authors": [
 			"Agbad",
+			"Amire80",
 			"Rotemliss",
 			"YaronSh"
 		]
 	},
 	"newestpages": "דפים אחרונים",
 	"newestpages-desc": "הצגת [[Special:Newestpage|X הדפים האחרונים]] שנוספו לאתר",
-	"newestpages-header": "'''דף זה כולל רשימה של {{PLURAL:$1|הדף החדש ביותר שנוסף|$1 הדפים החדשים ביותר שנוספו}} לוויקי.'''",
+	"newestpages-header": "'''דף זה מציג {{PLURAL:$1|את הדף החדש ביותר שנוסף|רשימה של $1 הדפים החדשים ביותר שנוספו}} לוויקי.'''",
 	"newestpages-limitlinks": "הצגת $1 דפים לכל היותר",
 	"newestpages-namespace": "מרחב שם:",
 	"newestpages-none": "לא נמצאו רשומות.",
-	"newestpages-ns-header": "'''דף זה כולל רשימה של {{PLURAL:$1|הדף החדש ביותר שנוסף|$1 הדפים האחרונים שנוספו}} במרחב השם $2.'''",
+	"newestpages-ns-header": "'''הדף הזה מציג {{PLURAL:$1|את הדף החדש ביותר שנוסף|רשימה של $1 הדפים האחרונים שנוספו}} במרחב השם $2.'''",
 	"newestpages-showing": "הצגת {{PLURAL:$1|הדף החדש ביותר|$1 הדפים החדשים ביותר}}:",
 	"newestpages-submit": "הצגה",
 	"newestpages-showredir": "הצגת דפי הפניה",
