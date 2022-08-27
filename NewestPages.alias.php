@@ -288,7 +288,7 @@ $specialPageAliases['sq'] = [
 	'NewestPages' => [ 'FaqetMëTëReja' ],
 ];
 
-/** Serbian (Cyrillic script) (српски (ћирилица)‎) */
+/** Serbian (Cyrillic script) (српски (ћирилица)) */
 $specialPageAliases['sr-ec'] = [
 	'NewestPages' => [ 'НајновијеСтранице', 'НајновијаСтраница' ],
 ];
@@ -348,12 +348,12 @@ $specialPageAliases['yi'] = [
 	'NewestPages' => [ 'נייעסטע_בלעטער' ],
 ];
 
-/** Simplified Chinese (中文（简体）‎) */
+/** Simplified Chinese (中文（简体）) */
 $specialPageAliases['zh-hans'] = [
 	'NewestPages' => [ '最新页面' ],
 ];
 
-/** Traditional Chinese (中文（繁體）‎) */
+/** Traditional Chinese (中文（繁體）) */
 $specialPageAliases['zh-hant'] = [
 	'NewestPages' => [ '最新頁面' ],
 ];
