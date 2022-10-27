@@ -106,7 +106,7 @@ class SpecialNewestPages extends IncludableSpecialPage {
 			$this->namespace = $this->extractNamespace( $req->getVal( 'namespace', -1 ) );
 		}
 		if ( $this->redirects === null ) {
-			$this->redirects = (bool)$req->getInt( 'redirects', 1 );
+			$this->redirects = $req->getBool( 'redirects', true );
 		}
 	}
 
