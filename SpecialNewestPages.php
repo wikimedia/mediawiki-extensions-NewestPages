@@ -154,17 +154,12 @@ class SpecialNewestPages extends IncludableSpecialPage {
 	}
 
 	private function makeListItem( $row ) {
-		$title = Title::makeTitleSafe( $row->page_namespace, $row->page_title );
-		$linkRenderer = $this->getLinkRenderer();
-		if ( $title !== null ) {
-			$link = $row->page_is_redirect
-					? '<span class="allpagesredirect">' . $linkRenderer->makeKnownLink( $title ) . '</span>'
-					: $linkRenderer->makeKnownLink( $title );
-			return "<li>{$link}</li>\n";
-		} else {
-			return "<!-- Invalid title " . htmlspecialchars( $row->page_title ) .
-				" in namespace " . htmlspecialchars( $row->page_namespace ) . " -->\n";
+		$title = Title::newFromRow( $row );
+		$link = $this->getLinkRenderer()->makeKnownLink( $title );
+		if ( $title->isRedirect() ) {
+			$link = '<span class="allpagesredirect">' . $link . '</span>';
 		}
+		return "<li>{$link}</li>\n";
 	}
 
 	private function makeLimitLinks() {
