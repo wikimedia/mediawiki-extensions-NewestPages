@@ -58,7 +58,7 @@ class SpecialNewestPages extends IncludableSpecialPage {
 			__METHOD__,
 			[
 				'ORDER BY' => 'page_id DESC',
-				'LIMIT' => "{$this->limit}",
+				'LIMIT' => $this->limit,
 				'OFFSET' => '0',
 			]
 		);
@@ -159,7 +159,7 @@ class SpecialNewestPages extends IncludableSpecialPage {
 		if ( $title->isRedirect() ) {
 			$link = '<span class="allpagesredirect">' . $link . '</span>';
 		}
-		return "<li>{$link}</li>\n";
+		return "<li>$link</li>\n";
 	}
 
 	private function makeLimitLinks() {
