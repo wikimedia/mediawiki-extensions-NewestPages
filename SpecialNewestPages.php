@@ -118,6 +118,9 @@ class SpecialNewestPages extends IncludableSpecialPage {
 		return min( (int)$limit, 5000 );
 	}
 
+	/**
+	 * @param string|null $par
+	 */
 	private function decipherParams( $par ) {
 		if ( $par ) {
 			$bits = explode( '/', $par );
@@ -149,10 +152,17 @@ class SpecialNewestPages extends IncludableSpecialPage {
 		return -1;
 	}
 
+	/**
+	 * @return string
+	 */
 	private function getNsFragment() {
 		return $this->namespace > -1 ? "page_namespace = {$this->namespace}" : 'page_namespace != 8';
 	}
 
+	/**
+	 * @param stdClass $row
+	 * @return string HTML
+	 */
 	private function makeListItem( $row ) {
 		$title = Title::newFromRow( $row );
 		$link = $this->getLinkRenderer()->makeKnownLink( $title );
@@ -162,6 +172,9 @@ class SpecialNewestPages extends IncludableSpecialPage {
 		return "<li>$link</li>\n";
 	}
 
+	/**
+	 * @return string HTML
+	 */
 	private function makeLimitLinks() {
 		$lang = $this->getLanguage();
 		$limits = [ 10, 20, 30, 50, 100, 150 ];
@@ -177,12 +190,21 @@ class SpecialNewestPages extends IncludableSpecialPage {
 				$lang->pipeList( $links ) )->escaped();
 	}
 
+	/**
+	 * @return string HTML
+	 */
 	private function makeRedirectToggle() {
 		$label = $this->msg(
 				$this->redirects ? 'newestpages-hideredir' : 'newestpages-showredir' )->text();
 		return $this->makeSelfLink( $label, 'redirects', (int)!$this->redirects );
 	}
 
+	/**
+	 * @param string $label
+	 * @param string|false $oname
+	 * @param mixed|false $oval
+	 * @return string HTML
+	 */
 	private function makeSelfLink( $label, $oname = false, $oval = false ) {
 		$linkRenderer = $this->getLinkRenderer();
 		$self = $this->getPageTitle();
@@ -201,6 +223,9 @@ class SpecialNewestPages extends IncludableSpecialPage {
 		return $linkRenderer->makeKnownLink( $self, $label, [], $attr );
 	}
 
+	/**
+	 * @return true
+	 */
 	private function makeNamespaceForm() {
 		$self = $this->getPageTitle();
 		$formDescriptor = [
