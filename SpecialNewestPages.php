@@ -181,7 +181,7 @@ class SpecialNewestPages extends IncludableSpecialPage {
 		$links = [];
 		foreach ( $limits as $limit ) {
 			if ( $limit !== $this->limit ) {
-				$links[] = $this->makeSelfLink( $lang->formatNum( $limit ), 'limit', $limit );
+				$links[] = $this->makeSelfLink( $lang->formatNum( $limit ), [ 'limit' => $limit ] );
 			} else {
 				$links[] = (string)$limit;
 			}
@@ -196,29 +196,22 @@ class SpecialNewestPages extends IncludableSpecialPage {
 	private function makeRedirectToggle() {
 		$label = $this->msg(
 				$this->redirects ? 'newestpages-hideredir' : 'newestpages-showredir' )->text();
-		return $this->makeSelfLink( $label, 'redirects', (int)!$this->redirects );
+		return $this->makeSelfLink( $label, [ 'redirects' => (int)!$this->redirects ] );
 	}
 
 	/**
 	 * @param string $label
-	 * @param string|false $oname
-	 * @param mixed|false $oval
+	 * @param array $attr Additional attributes for the link
 	 * @return string HTML
 	 */
-	private function makeSelfLink( $label, $oname = false, $oval = false ) {
+	private function makeSelfLink( $label, array $attr ) {
 		$linkRenderer = $this->getLinkRenderer();
 		$self = $this->getPageTitle();
-		$attr = [];
-		$attr['limit'] = $this->limit;
-		$attr['namespace'] = $this->namespace;
-
-		if ( !$this->redirects ) {
-			$attr['redirects'] = 0;
-		}
-
-		if ( $oname ) {
-			$attr[$oname] = $oval;
-		}
+		$attr = array_merge( [
+			'limit' => $this->limit,
+			'namespace' => $this->namespace,
+			'redirects' => $this->redirects ? null : 0,
+		], $attr );
 
 		return $linkRenderer->makeKnownLink( $self, $label, [], $attr );
 	}
