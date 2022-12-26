@@ -8,14 +8,14 @@
 		]
 	},
 	"newestpages": "Najnovije stranice",
-	"newestpages-desc": "Pokazuje [[Special:NewestPages|zadnjih X članaka]] dodatih Vikiju",
-	"newestpages-header": "'''Ovo je spisak {{PLURAL:$1|sa najnovijom stranom|$1 najnovijih strana}} na ovom vikiju.'''",
-	"newestpages-limitlinks": "Prikaži $1 stranica",
+	"newestpages-desc": "Prikazuje [[Special:NewestPages|poslednjih X stranica]] dodatih vikiju",
+	"newestpages-header": "'''Ova stranica navodi {{PLURAL:$1|najnoviju stranicu|$1 najnovije stranice|$1 najnovijih stranica}} na vikiju.'''",
+	"newestpages-limitlinks": "Prikaži do $1 stranica",
 	"newestpages-namespace": "Imenski prostor:",
-	"newestpages-none": "Nije ništa pronađeno.",
-	"newestpages-ns-header": "'''Ovo je spisak {{PLURAL:$1|sa najnovijom stranom|$1 najnovijih strana}} u imenskom prostoru $2.'''",
-	"newestpages-showing": "Spisak {{PLURAL:$1|najnovije strane|$1 najnovijih strana}}:",
+	"newestpages-none": "Unosi nisu pronađeni.",
+	"newestpages-ns-header": "'''Ova stranica navodi {{PLURAL:$1|najnoviju stranicu|$1 najnovije stranice|$1 najnovijih stranica}} u imenskom prostoru $2.'''",
+	"newestpages-showing": "Spisak navodi {{PLURAL:$1|najnoviju stranicu|$1 najnovije stranice|$1 najnovijih stranica}}:",
 	"newestpages-submit": "Idi",
-	"newestpages-showredir": "Prikaži stranice preusmerenja",
-	"newestpages-hideredir": "Sakrij stranice preusmerenja"
+	"newestpages-showredir": "Prikaži preusmeravanja",
+	"newestpages-hideredir": "Sakrij preusmeravanja"
 }
