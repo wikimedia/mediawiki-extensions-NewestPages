@@ -4,6 +4,15 @@
 			"Eleassar"
 		]
 	},
+	"newestpages": "Najnovejše strani",
+	"newestpages-desc": "Prikazuje [[Special:NewestPages|zadnjih X strani]], dodanih v viki",
+	"newestpages-header": "'''Na tej strani {{PLURAL:$1|je navedena najnovejša stran|sta navedeni najnovejši strani|so navedene $1 najnovejše strani|je navedenih $1 najnovejših strani}} v vikiju.'''",
+	"newestpages-limitlinks": "Prikaži do $1 strani",
 	"newestpages-namespace": "Imenski prostor:",
-	"newestpages-submit": "Pojdi"
+	"newestpages-none": "Najdena ni bila nobena stran.",
+	"newestpages-ns-header": "'''Na tej strani {{PLURAL:$1|je navedena najnovejša stran|sta navedeni najnovejši strani|so navedene $1 najnovejše strani|je navedenih $1 najnovejših strani}} v imenskem prostoru $2.'''",
+	"newestpages-showing": "{{PLURAL:$1|Najnovejša stran|Najnovejši strani|Najnovejše strani}}:",
+	"newestpages-submit": "Pojdi",
+	"newestpages-showredir": "Prikaži preusmeritvene strani",
+	"newestpages-hideredir": "Skrij preusmeritvene strani"
 }
