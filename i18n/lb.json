@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Les Meloures",
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
 	"newestpages": "Neiste Säiten",
-	"newestpages-desc": "Weist déi [[Special:NewestPages|läscht X Säiten]] déi op enger Wiki opgemaach goufen",
+	"newestpages-desc": "Weist déi [[Special:NewestPages|läscht X Säiten]], déi op enger Wiki opgemaach goufen",
 	"newestpages-header": "'''Op dëser Säit {{PLURAL:$1|steet déi neiste Säit|stinn déi $1 neiste Säite}} vun der Wiki.'''",
 	"newestpages-limitlinks": "Weis bis zu $1 Säiten",
 	"newestpages-namespace": "Nummraum:",
