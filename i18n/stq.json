@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Murma174",
 			"Pyt"
 		]
 	},
@@ -11,7 +12,7 @@
 	"newestpages-none": "Naan Iendraach fuunen.",
 	"newestpages-ns-header": "'''Disse Siede liestet {{PLURAL:$1|ju $1 näiste Siede|do $1 näiste Sieden}} in dän Noomensruum $2 ap.'''",
 	"newestpages-showing": "{{PLURAL:$1|Ju näiste Siede|Do $1 näiste Sieden}}:",
-	"newestpages-submit": "Säike (1)",
+	"newestpages-submit": "Säike",
 	"newestpages-showredir": "Wiederlaitengssieden anwiese",
 	"newestpages-hideredir": "Wiederlaitengssieden ferstopje."
 }
