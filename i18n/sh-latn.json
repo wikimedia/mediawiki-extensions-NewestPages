@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"newestpages": "Najnovije stranice",
+	"newestpages-desc": "Prikazuje [[Special:NewestPages|poslednjih X stranica]] dodatih vikiju",
+	"newestpages-header": "'''Ova stranica navodi {{PLURAL:$1|najnoviju stranicu|$1 najnovije stranice|$1 najnovijih stranica}} na vikiju.'''",
+	"newestpages-limitlinks": "Prikaži do $1 stranica",
+	"newestpages-namespace": "Imenski prostor:",
+	"newestpages-none": "Nije pronađeno ništa.",
+	"newestpages-ns-header": "'''Ova stranica navodi {{PLURAL:$1|najnoviju stranicu|$1 najnovije stranice|$1 najnovijih stranica}} u imenskom prostoru $2.'''",
+	"newestpages-showing": "Prikazuje {{PLURAL:$1|najnoviju stranicu|$1 najnovije stranice|$1 najnovijih stranica}}:"
+}
