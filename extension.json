@@ -9,13 +9,18 @@
 	"descriptionmsg": "newestpages-desc",
 	"type": "specialpage",
 	"requires": {
-		"MediaWiki": ">= 1.36.0"
+		"MediaWiki": ">= 1.40"
 	},
 	"config": {
 		"NewestPagesLimit": 50
 	},
 	"SpecialPages": {
-		"NewestPages": "SpecialNewestPages"
+		"NewestPages": {
+			"class": "SpecialNewestPages",
+			"services": [
+				"DBLoadBalancerFactory"
+			]
+		}
 	},
 	"MessagesDirs": {
 		"NewestPages": [

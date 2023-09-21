@@ -11,6 +11,8 @@
  * @license GPL-2.0-or-later
  */
 
+use Wikimedia\Rdbms\IConnectionProvider;
+
 class SpecialNewestPages extends IncludableSpecialPage {
 
 	/** @var int|null */
@@ -22,8 +24,17 @@ class SpecialNewestPages extends IncludableSpecialPage {
 	/** @var bool|null */
 	private $redirects = null;
 
-	public function __construct() {
+	/** @var IConnectionProvider */
+	private $dbProvider;
+
+	/**
+	 * @param IConnectionProvider $dbProvider
+	 */
+	public function __construct(
+		IConnectionProvider $dbProvider
+	) {
 		parent::__construct( 'NewestPages' );
+		$this->dbProvider = $dbProvider;
 	}
 
 	/**
@@ -40,7 +51,7 @@ class SpecialNewestPages extends IncludableSpecialPage {
 		// Load style for class="allpagesredirect"
 		$out->addModuleStyles( 'mediawiki.special' );
 
-		$dbr = wfGetDB( DB_REPLICA );
+		$dbr = $this->dbProvider->getReplicaDatabase();
 
 		$conds = [];
 		$conds[] = $this->getNsFragment();
