@@ -293,6 +293,11 @@ $specialPageAliases['sr-ec'] = [
 	'NewestPages' => [ 'НајновијеСтранице', 'НајновијаСтраница' ],
 ];
 
+/** Serbian (Latin script) (srpski (latinica)) */
+$specialPageAliases['sr-el'] = [
+	'NewestPages' => [ 'NajnovijeStranice', 'NajnovijaStranica' ],
+];
+
 /** Swedish (svenska) */
 $specialPageAliases['sv'] = [
 	'NewestPages' => [ 'Nyaste_sidor' ],
