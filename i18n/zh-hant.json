@@ -14,7 +14,7 @@
 	"newestpages-limitlinks": "顯示 $1 個頁面",
 	"newestpages-namespace": "命名空間：",
 	"newestpages-none": "沒找到頁面。",
-	"newestpages-ns-header": "'''本頁面列出了$2名字空間中$1最新的頁面。'''",
+	"newestpages-ns-header": "'''本頁面列出了 $2 命名空間中 $1 個最新的頁面。'''",
 	"newestpages-showing": "正列出$1最新的頁面：",
 	"newestpages-submit": "提交",
 	"newestpages-showredir": "顯示重新導向頁面",
