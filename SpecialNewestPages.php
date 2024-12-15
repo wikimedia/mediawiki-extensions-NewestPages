@@ -102,7 +102,7 @@ class SpecialNewestPages extends IncludableSpecialPage {
 	private function setOptions( WebRequest $req ): void {
 		$newestPagesLimit = $this->getConfig()->get( 'NewestPagesLimit' );
 		if ( $this->limit === null ) {
-			$this->limit = $this->sanitiseLimit( $req->getInt( 'limit', $newestPagesLimit ) );
+			$this->setLimit( $req->getInt( 'limit', $newestPagesLimit ) );
 		}
 		if ( $this->namespace === null ) {
 			$this->namespace = $this->extractNamespace( $req->getVal( 'namespace', -1 ) );
@@ -112,11 +112,14 @@ class SpecialNewestPages extends IncludableSpecialPage {
 		}
 	}
 
-	/**
-	 * @param int|string $limit
-	 */
-	private function sanitiseLimit( $limit ): int {
-		return min( (int)$limit, 5000 );
+	private function setLimit( int $limit ): void {
+		if ( $limit < 0 ) {
+			$limit = 0;
+		}
+		if ( $limit > 5000 ) {
+			$limit = 5000;
+		}
+		$this->limit = $limit;
 	}
 
 	private function decipherParams( ?string $par ): void {
@@ -124,7 +127,7 @@ class SpecialNewestPages extends IncludableSpecialPage {
 			$bits = explode( '/', $par );
 			foreach ( $bits as $bit ) {
 				if ( is_numeric( $bit ) ) {
-					$this->limit = $this->sanitiseLimit( $bit );
+					$this->setLimit( (int)$bit );
 				} else {
 					$this->namespace = $this->extractNamespace( $bit );
 				}
