@@ -9,7 +9,7 @@
 	"descriptionmsg": "newestpages-desc",
 	"type": "specialpage",
 	"requires": {
-		"MediaWiki": ">= 1.40"
+		"MediaWiki": ">= 1.42"
 	},
 	"config": {
 		"NewestPagesLimit": 50

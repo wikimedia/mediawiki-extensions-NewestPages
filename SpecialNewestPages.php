@@ -11,6 +11,10 @@
  * @license GPL-2.0-or-later
  */
 
+use MediaWiki\HTMLForm\HTMLForm;
+use MediaWiki\Request\WebRequest;
+use MediaWiki\SpecialPage\IncludableSpecialPage;
+use MediaWiki\Title\Title;
 use Wikimedia\Rdbms\IConnectionProvider;
 
 class SpecialNewestPages extends IncludableSpecialPage {
