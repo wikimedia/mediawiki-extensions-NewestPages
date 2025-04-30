@@ -5,7 +5,7 @@
 			"아라"
 		]
 	},
-	"newestpages": "최근 문서",
+	"newestpages": "최신 문서 목록",
 	"newestpages-desc": "위키에 추가한 [[Special:NewestPages|최근 문서 X개]]를 봅니다",
 	"newestpages-header": "'''이 문서는 위키에 {{PLURAL:$1|최근 문서|최근 문서 $1개}}를 나타냅니다.'''",
 	"newestpages-limitlinks": "문서 $1개를 봅니다",
