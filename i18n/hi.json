@@ -2,18 +2,19 @@
 	"@metadata": {
 		"authors": [
 			"Kaustubh",
+			"Saurmandal",
 			"Sfic"
 		]
 	},
-	"newestpages": "नवीनतम पन्ने",
-	"newestpages-desc": "विकिपर बनाये गये [[Special:NewestPages|आखिरी X पन्ने]] दर्शाता हैं",
-	"newestpages-header": "'''यह पृष्ठ विकिपर बनाये गये आखिरी $1 पन्नोंकी सूची दर्शाता हैं।'''",
-	"newestpages-limitlinks": "$1 तक पन्ने दर्शायें",
+	"newestpages": "नवीनतम पृष्ठ",
+	"newestpages-desc": "विकि पर जोड़े गए [[Special:NewestPages|अंतिम X पृष्ठ]] दर्शाता है",
+	"newestpages-header": "'''इस पृष्ठ पर विकि  {{PLURAL:$1|का नवीनतम पृष्ठ दिखाया जाता है|के नवीनतम $1 पृष्ठ दिखाए जाते हैं}}।'''",
+	"newestpages-limitlinks": "अधिकतम $1 पृष्ठ दर्शाएँ",
 	"newestpages-namespace": "नामस्थान:",
-	"newestpages-none": "एन्ट्री मिली नहीं।",
-	"newestpages-ns-header": "'''यह पृष्ठ $2 नामस्थानमें बनायें $1 नवीनतम पन्नोंकी सूची दर्शाता हैं।'''",
-	"newestpages-showing": "{{PLURAL:$1|नए पन्ने|$1 नए पन्नों}} की सूची:",
-	"newestpages-submit": "जायें",
-	"newestpages-showredir": "अनुप्रेषित पन्ने दर्शायें",
-	"newestpages-hideredir": "अनुप्रेषित पन्ने छुपायें"
+	"newestpages-none": "कोई भी प्रविष्टि नहीं मिली।",
+	"newestpages-ns-header": "'''इस पृष्ठ पर $2 नामस्थान {{PLURAL:$1|का नवीनतम पृष्ठ दिखाया जाता है|के नवीनतम $1 पृष्ठ दिखाए जाते हैं}}।'''",
+	"newestpages-showing": "नए {{PLURAL:$1|पृष्ठ|पृष्ठों}} की सूची:",
+	"newestpages-submit": "जाएँ",
+	"newestpages-showredir": "अनुप्रेषण पृष्ठ दिखाएँ",
+	"newestpages-hideredir": "अनुप्रेषण पृष्ठ छिपाएँ"
 }
