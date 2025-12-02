@@ -353,6 +353,11 @@ $specialPageAliases['yi'] = [
 	'NewestPages' => [ 'נייעסטע_בלעטער' ],
 ];
 
+/** Chinese (中文) */
+$specialPageAliases['zh'] = [
+	'NewestPages' => [ 'NewestPages' ],
+];
+
 /** Simplified Chinese (中文（简体）) */
 $specialPageAliases['zh-hans'] = [
 	'NewestPages' => [ '最新页面' ],
