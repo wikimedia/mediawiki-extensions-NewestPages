@@ -22,13 +22,11 @@ class SpecialNewestPages extends IncludableSpecialPage {
 	private ?int $limit = null;
 	private ?int $namespace = null;
 	private ?bool $redirects = null;
-	private IConnectionProvider $dbProvider;
 
 	public function __construct(
-		IConnectionProvider $dbProvider
+		private readonly IConnectionProvider $dbProvider,
 	) {
 		parent::__construct( 'NewestPages' );
-		$this->dbProvider = $dbProvider;
 	}
 
 	/**
