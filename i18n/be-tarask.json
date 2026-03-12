@@ -3,11 +3,12 @@
 		"authors": [
 			"EugeneZelenko",
 			"Jim-by",
-			"Red Winged Duck"
+			"Red Winged Duck",
+			"Ucukor"
 		]
 	},
 	"newestpages": "Новыя старонкі",
-	"newestpages-desc": "Адлюстроўвае [[Special:NewestPages|апошнія X старонак]], дададзеных у {{GRAMMAR:месны|{{SITENAME}}}}",
+	"newestpages-desc": "Паказвае [[Special:NewestPages|апошнія X старонак]], дададзеных у {{GRAMMAR:месны|{{SITENAME}}}}",
 	"newestpages-header": "'''Гэтая старонка паказвае $1 {{PLURAL:$1|новую старонку|новыя старонкі|новых старонак}} {{GRAMMAR:родны|{{SITENAME}}}}.'''",
 	"newestpages-limitlinks": "Паказваць да $1 {{PLURAL:$1|старонкі|старонак|старонак}}",
 	"newestpages-namespace": "Прастора назваў:",
