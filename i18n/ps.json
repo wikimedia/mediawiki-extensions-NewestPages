@@ -1,12 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"باران"
 		]
 	},
 	"newestpages": "تر ټولو نوي مخونه",
+	"newestpages-desc": "مېډياويکي ته ورگډ شوي [[Special:NewestPages|وروستي اېکس مخونه]] ښيي.",
+	"newestpages-header": "دا مخ په ويکي کې '''{{PLURAL:$1|تر ټولو نوی مخ|$1 تر ټولو نوي مخونه}} لړليکوي.'''",
 	"newestpages-limitlinks": "تر $1 پورې مخونه ښکاره کړی",
 	"newestpages-namespace": "نوم‌تشيال:",
+	"newestpages-none": "هېڅ ننوتنې ونه موندل شوې.",
+	"newestpages-ns-header": "دا مخ په $2 نوم‌تشيال کې '''{{PLURAL:$1|تر ټولو نوی مخ|$1 تر ټولو نوي مخونه}} لړليکوي.'''",
+	"newestpages-showing": "'''{{PLURAL:$1|تر ټولو نوی مخ|$1 تر ټولو نوي مخونه}} لړليکول''':",
 	"newestpages-submit": "ورځه",
+	"newestpages-showredir": "مخگرځ مخونه ښودل",
 	"newestpages-hideredir": "مخ گرځونې مخونه پټول"
 }
